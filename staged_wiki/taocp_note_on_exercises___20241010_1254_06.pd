@@ -1,0 +1,38 @@
+%title taocp_note_on_exercises
+%date 2024-10-10 12:54
+%%visits: 7
+
+#  taocp_note_on_exercises
+- DO THE EXERCISES! This is a math book.
+
+#  rating
+00 easy, takes a moment to do
+10 small recall, takes a minute
+20 average application problem, 15-20 minutes
+30 moderate difficulty, can take 2 hours
+40 hard, is a term project level
+50 maybe impossible, A research problem at the time, write up answer for publication.
+
+This scale is logarithmic
+
+M := Math required
+
+HM := Higher math required
+
+M, and HM do not imply difficulty
+
+$\nabla$ := Recommended :~ MUST DO OTHERWISE THE EARTH EXPLODES
+
+Note that non-$\nabla \neq$ ~ Don't bother.
+The earth might explode if you leave it out so you probably should do as many as you can.
+
+You should work the questions for the length of time recommended at least before you check the solutions.
+But if it is reasonable to check the solutions in interest of time or utility, then do check the solutions.
+You should be able to answer that problem clearly and closely related problems.
+
+
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[taocp_vol_1_ed_2___20241010_125139|taocp_vol_1_ed_2]]

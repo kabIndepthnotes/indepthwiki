@@ -1,0 +1,34 @@
+# escape_sequences
+
+<!-- visits: 9 -->
+
+# escape_sequences
+
+~~~{.c .numberLines}
+\a // Alert(bell)
+\b // Backspace - moves cursor back
+\n // New line
+\t // Horizontal tab
+\v // Vertical tab
+\\ // backslash
+\? // Question mark (rarely used)
+\' // single quote
+\" // Double quote
+~~~
+
+
+# numeric escape sequences
+These are used when we want to go beyond the current escape sequences and represent any character.
+
+octal escape sequences:= at most three digits, e.g. `\33` or `\033`
+
+hexadecimal escape sequences:= cannot exceed an unsigned character e.g. `\x1b`
+
+Note that the escape sequence only ends when it reaches the first non-hex/octal character.
+`"Z\xfcrich"` gives us `"Zurich"` but`"\xfcber"` could catch `"[\xcbe]r"` as `r` is the only non-hex character.
+Most compilers would reject `\xcbe` as the range is `\x0 - \xff`
+
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[index|Zettelkasten]]

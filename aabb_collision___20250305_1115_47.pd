@@ -1,0 +1,5 @@
+# aabb collision
+
+Aligned Axis Bounded Box.
+
+Simply see if the 2 boxes are intersecting.

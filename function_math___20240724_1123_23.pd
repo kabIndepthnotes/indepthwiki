@@ -1,0 +1,32 @@
+# function math
+
+<!-- visits: 5 -->
+
+## introduction
+This is some sort of mapping, used to add rigour to math, such as addition, subtraction. Among many other things that I hope to document in the future.
+
+## intuition
+A map, from the domain to the range.
+
+## rigour
+injective:= one-to-one := if $f(x_1) = f(x_2) \implies x_1 = x_2$. This intuitively means that each input maps to a unique output.
+
+surjective:= onto := If for $f: A \rightarrow B ,  \forall y \in B, \exists x \in A : y = f(x)$f is a surjection. AKA Let $f:X \rightarrow Y$. We say $f$ is *surjective* if for all $y \in Y$, there exists $x \in X$ such that $y=f(x)$. This intuitively means that for every possible output there is some input that is sent to it.
+
+bijective := invertible := injective and surjective.
+
+natural domain:= This is an informal term to describe a domain that is natural. That is to say for what domain is the function well defined, so no division by 0 or no logs of negatives or negative of sqrts
+
+## exam clinic
+
+## resources
+[[set___11_06_2022__090230149]] TODO
+
+tags
+[math](math___20250311_0922_50.pd)
+
+
+#  Backlinks
+    - [[computational_method___20241013_184605|computational_method]]
+    - [[function___11_06_2022__09023056|Backlinks]]
+    - [[index|Zettelkasten]]

@@ -1,0 +1,26 @@
+# itos_lemma
+
+<!-- visits: 2 -->
+
+#  itos_lemma
+ito's lemma is just the chain rule for stochastic integrals.
+
+If $X: dX_t = \mu_t dt + \sigma_t d W_t , X_0 = x_0$. With $\mu_t = \mu(t,X_t)$ and $\sigma_t = \sigma(t,X_t)$.
+
+And $Y : Y_t = f(t,X_t)$ where $f$ is smooth and $f:[0,T] \times \mathbb{R} \to  \mathbb{R}$.
+
+Further easy way to remember: $dY_t = \partial_t f dt + \partial_x f d X_t + \frac{1}{2} \frac{\partial ^2f}{\partial x^2} (dX_t)^2$ where $(dt)^2 = 0$ $dt dW_t = 0$ and $\left( dW_t \right) ^2 = dt$
+
+#  ito's lemma for multi-dimensions
+
+Suppose $dX_t = \mu dt + \sigma^{(1)}_tdW_t^{(1)} + \sigma_t ^{(2)} dW_t^{(2)}$ and $dY_t = \alpha dt + \beta^{(1)}_tdW_t^{(1)} + \beta_t ^{(2)} dW_t^{(2)}$, Where $W^{(1)}$ and $W^{(2)}$ are independant Brownian motions.
+
+Let $Z_t = f(t,X_t,Y_t)$ for some smooth $f$.
+
+Then $dZ_t= \partial_t f dt + \partial_x f d X_t + \partial_y f dY_t + \frac{1}{2} \partial_{xx} f(dX_t) ^2 + \frac{1}{2} \partial_{y y } f(d Y_t)^2 + \partial_{xy} f dX_t dY_t$.
+
+Where $\left( dt \right) ^2 = dt dW_t^{(i)} = dW_t^{(1)} dW_t^{(2)} = 0$ and $\left( dW_t^{(i)} \right) ^2 = dt$ (think of this as a second order taylor expansion, especially $dW_t^{(2)}$.
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[stochastic_integral___20240424_141119|stochastic_integral]]

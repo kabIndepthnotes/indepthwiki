@@ -1,0 +1,22 @@
+# efficient=
+## introduction==
+%%visits: 5
+So the variation and the amount of information we can get from a parameter is dependant on the efficiency. The more variance, or fisher_information, the less efficient the end variable is.
+## intuition==
+## rigour==
+efficiency:= $eff(\hat{\theta}_n) = \frac{1}{I_n(\theta) var(\hat{\theta})}$
+
+efficient:= if $eff(\hat{\theta}_n)$ = 1 then we say that the estimator is efficient.
+
+assymptotically efficient:= if $\lim_{n \to \infty} eff(\hat{\theta}) = 1$ then the estimator is asymptotically efficient.
+
+## exam clinic==
+## examples and non-examples==
+## resources==
+[[Fisher_information]]
+[[variance]]
+{{file:../figures/screenshot_20211216_102027.png}}
+tags :math:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

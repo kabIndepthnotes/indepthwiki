@@ -1,0 +1,22 @@
+# dithering
+
+<!-- visits: 4 -->
+
+#  dithering
+dithering:= Overlaying a repeating pattern of disconnected pixels of one color over an image.
+
+Dithering is used for creating artificial colors, adding texture, or tapering clusters into each other.
+
+#  properties
+The lighter color pops out more.
+The recognising of the patterns is important, in a small space, dithering can seem like detail of the artwork or noise (which would be bad) instead of a fixed pattern.
+
+#  uses
+It makes new artificial colors
+It allows tapering of clusters. Keep tapering clusters short as you don't want to make a new cluster.
+[pixel_art](pixel_art___20250319_1215_29.pd):
+
+[art](art___20250312_1407_25.pd)[flashcard](flashcard___20250324_0938_53.pd):
+
+#  Backlinks
+    - [[index|Zettelkasten]]

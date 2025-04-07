@@ -1,0 +1,29 @@
+# algorithm
+
+<!-- visits: 39 -->
+
+#  algorithm
+
+#  features of an algorithm
+1. finite: Must terminate after $n< \infty$ steps.
+2. Definiteness: Each step must be precisely defined.
+3. Input: If you think of a function, then the algorithm should take an input., eg 2 positive integers in the euclidean algorithm
+4. Output: It should evaluate to an answer
+5. Effectiveness: Each step must be computable.
+
+#  How do I get effectiveness?
+TODO
+"""
+
+
+[taocp](taocp___20250317_1141_16.pd)
+
+#  effectiveness
+"This means that all of the operations to be performed in the algortithm must be sufficiently basic that they can in principle be done exactly and in a finite length of time by a man using pencil and paper."
+
+
+#  related
+[[computational_method___20241013_184605|computational_method]]
+
+#  Backlinks
+    - [[index|Zettelkasten]]

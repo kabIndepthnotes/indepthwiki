@@ -1,0 +1,3 @@
+TODO
+
+	'4,$s/foo/bar/g' # sed from the 4th line onwarded from the 4th line onwards

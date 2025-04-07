@@ -1,0 +1,13 @@
+%title github_ssh
+%date 2025-01-14 09:53
+%%visits: 1
+
+#  github_ssh
+~~~{.c .numberLines}
+	ssh-keygen -t ed25519 -C "your_email@example.com"
+~~~
+
+~~~{.c .numberLines}
+	ssh-add ~/.ssh/nameofkey
+~~~
+

@@ -1,0 +1,128 @@
+# sheet_music
+
+# note values
+This is a quarter note, played for 1 beat
+
+~~~{.latex .numberLines}
+\begin{lilypond}
+\relative {
+  \time 3/4
+  c1
+}
+\end{lilypond}
+~~~
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{ff/lily-24368be6-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+
+This is a half note, played for 2 beats
+
+~~~{.latex .numberLines}
+\begin{lilypond}
+\relative {
+  \time 3/4
+  c2
+}
+\end{lilypond}
+~~~
+
+\input{lily_out/20250328_1011_22/stdin.tex}
+
+\input{lily_out/20250328_1006_11/stdin.tex}
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{d9/lily-f8c17e03-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{d9/lily-f8c17e03-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+
+
+
+This is a dotted half note, played for 3 beats
+
+~~~{.latex .numberLines}
+\begin{lilypond}
+\relative {
+  \time 3/4
+  c2.
+}
+\end{lilypond}
+~~~
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{37/lily-cd98439e-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+
+This is a whole note, played for 4 beats
+
+~~~{.latex .numberLines}
+\begin{lilypond}
+\relative {
+  \time 3/4
+  c4
+}
+\end{lilypond}
+~~~
+
+
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{fb/lily-f12aa403-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}

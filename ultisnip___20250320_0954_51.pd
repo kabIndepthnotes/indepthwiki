@@ -1,0 +1,7 @@
+# ultisnip
+
+
+A - auto
+i - in-word, if the word is a suffix I still expand
+w - expand if word is next to non-word chars, but not in-word
+b - beginning of a line $\implies$ expanding

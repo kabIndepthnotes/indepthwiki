@@ -1,0 +1,85 @@
+# computational_method
+
+<!-- visits: 55 -->
+This is a rigourous definition of an algorithm using set theory.
+
+computational method := A quadruple, $\left( Q,I,\Omega, f \right)$ in which $Q$ is a set containing subsets $I$ and $\Omega$.
+And f is a [function](function_math___20240724_1123_23.pd) $Q \to Q$.
+$f$ should leave $\Omega$ pointwise fixed ($f(q) = q \forall q \in \Omega$)
+
+computational method :~ the quadruple $(Q,I,\Omega, f)$ is intended to represent respectively the states of the computation ($Q$), the input ($I$), the output($\Omega$), and the computational rule ($f$).
+
+\definecolor{c1}{RGB}{255, 0, 0}
+\definecolor{c2}{RGB}{0, 0, 255}
+\definecolor{c3}{RGB}{255, 165, 0}
+\definecolor{c4}{RGB}{75, 0, 130}
+\definecolor{c5}{RGB}{220, 220, 0}
+\definecolor{c6}{RGB}{238, 130, 238}
+\definecolor{c7}{RGB}{0, 128, 0}
+\definecolor{c8}{RGB}{100,100,100}
+\definecolor{c9}{RGB}{45,177,93}
+\definecolor{default}{RGB}{10,20,20}
+\color{default}
+
+$$
+\color{default}\left(
+\color{c1} Q
+\color{default},
+\color{c2}I
+\color{default},
+\color{c3}\Omega
+\color{default},
+\color{c4}f
+\color{default}\right)
+$$
+
+\color{c1} \text{The computation,}<!--Q-->
+\color{c2} \text{the input,}<!--I-->
+\color{c3} \text{the output}<!--\Omega-->
+\color{default} \text{and}
+\color{c4} \text{the computational rule.}<!--f-->
+\color{default}
+
+pointwise fixed:= $f(q)$ should equal $q$ for all $q \in \Omega$
+
+#  The set $I$
+Each $x \in I$ defines a computational sequence, $x_0,x_1,x_2,\ldots,$ with $x_0 = x$ and $f(x_k) = x_{k+1}$ for $k \ge 0$
+
+A computational sequence is said to terminate in $k$ steps if $k$ is the smallest integer for which $x_k$ is in $\Omega$, and is said to produce output $x_k$ from $x$ (Recall the pointwise property of $\Omega$)
+
+#  What are the specific rigourous conditions required for a computational method to become an algorithm?
+If $\forall x \in I$ the computational method terminates, then it is an algorithm.
+
+# How do we force effectiveness?
+We essentially turn the states of the algorithm (blocks in the flowchart) to be words, and we want the words to be as short as possible.
+If we wish to restrict the notation of algorithm so that only elementary operations are involved, we can place restrictions on the quadruple of the computational method, $Q, I, \Omega$ and $f$, for example as follows:
+
+Let $A$ be a finite set of letters, and let $A^{*}$ be the set of all strings on $A$, or $A^{*}$ is words.
+(i.e., the set of all ordered sequences $x_1x_2\ldots x_n$, where $n \ge 0$ and $x_j$ is in $A$ for $1 \le j \le n$).
+The idea is to encode the states of the computation, $Q$, so that they are represented by strings of $A^{*}$.
+Now let $N$ be a nonnegative integer and let $Q$ be the set of all $\left( \sigma, j \right)$, where $\sigma \in A^{*}$ and $j$ is an integer, $0\le j \le N$;
+Let $I$ be the subset of $Q$ with $j=0$ ($j = 0$ represents that this is the starting state) and let $\Omega$ be the subset with $j = N$ which shows the ending state.
+If $\theta$ and $\sigma$ are strings in $A^{*}$, we say that $\theta$ occurs in $\sigma$ if $\sigma$ has the form $\alpha \theta \omega$ for strings $\alpha$ and $\omega$. To reiterate, $\sigma = \alpha \theta \omega$.
+To complete our definition, let $f$ be a function of the following type, defined by the strings $\theta_j,\phi_j$ and the integers $a_j$, $b_j$ for $0 \le j \le N$:
+
+$f(\sigma,j) = \left( \sigma,a_j \right)$ if $\theta _j$ does not occur in $\sigma$;	:~ you carry the state of computation to another step number.
+
+$f(\sigma,j) = \left( \alpha \phi \omega ,b_j \right)$ if $\alpha$ is the shortest possible string for which $\sigma = \alpha \theta _j \omega$; $\theta_j$ does occur in $\sigma$
+
+$f(\sigma,N) = (\sigma,N)$
+"""
+
+We need the states of computation to be ordered.
+
+#  examples
+[[the_euclidean_algorithm___11_06_2022__090230167#rigour]] TODO
+
+tags
+[taocp](taocp___20250317_1141_16.pd)
+
+[algorithm](algorithm___20250317_1152_12.pd)
+
+#  Backlinks
+    - [[diary/2024-10-13|diary/2024-10-13]]
+    - [[index|Zettelkasten]]
+    - [[the_euclidean_algorithm___11_06_2022__090230167|Steps]]

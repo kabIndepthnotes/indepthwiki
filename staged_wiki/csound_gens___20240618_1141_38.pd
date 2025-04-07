@@ -1,0 +1,18 @@
+# csound_gens
+
+<!-- visits: 6 -->
+
+#  csound_gens
+These are mathematical programs used to compute a wavetable.
+
+#  GEN5, GEN7, GEN9, GEN10, GEN20
+GEN1 uses a prerecorded soundfile that the user can give.
+GEN5, GEN7 use exponential curves or straight lines
+GEN9, GEN10 use weighted sums of sine waves
+GEN20 uses standard window functions, like hamming window.
+GEN21 computes tables with probability density functions
+
+:__csound:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

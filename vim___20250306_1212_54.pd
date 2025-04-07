@@ -1,0 +1,11 @@
+
+
+
+
+# troubleshooting with vim no vimrc
+	vim -u NONE
+
+# errors
+:lopen
+
+$\e^{\pi}$

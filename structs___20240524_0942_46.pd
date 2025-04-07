@@ -1,0 +1,83 @@
+# structs
+
+<!-- visits: 7 -->
+
+#  structs 
+A struct is the closest thing to a object you have in c.
+
+`rot->state := (*rot).state`
+
+from w3 schools
+
+~~~{.c .numberLines}
+// Create a structure called myStructure
+struct myStructure {
+  int myNum;
+  char myLetter;
+};
+
+int main() {
+  // Create a structure variable of myStructure called s1
+  struct myStructure s1;
+
+  // Assign values to members of s1
+  s1.myNum = 13;
+  s1.myLetter = 'B';
+
+  // Print values
+  printf("My number: %d\n", s1.myNum);
+  printf("My letter: %c\n", s1.myLetter);
+
+  return 0;
+}
+~~~
+
+alternatively from st
+
+~~~{.c .numberLines}
+typedef struct {
+	int mode;
+	int type;
+	int snap;
+	/*
+	 * Selection variables:
+	 * nb – normalized coordinates of the beginning of the selection
+	 * ne – normalized coordinates of the end of the selection
+	 * ob – original coordinates of the beginning of the selection
+	 * oe – original coordinates of the end of the selection
+	 */
+	struct {
+		int x, y;
+	} nb, ne, ob, oe;
+
+	int alt;
+} Selection;
+
+int
+main(void)
+{
+	sel.mode = SEL_IDLE;
+	sel.ob.x = -1;
+	tsetdirt(sel.nb.y, sel.ne.y);
+}
+~~~
+
+A struct is creating new datatypes, like how a string is a collection of letters.
+
+look at this example
+
+~~~{.c .numberLines}
+typedef struct Player {
+    Vector2 position;
+    float speed;
+    bool canJump;
+} Cloud;
+~~~
+
+This code is defining what a Player is and then initializing a variable with datatype Player, called cloud
+
+[c](c___20250304_1142_20.pd)
+
+#  Backlinks 
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

@@ -1,0 +1,17 @@
+# color
+
+
+hsv, hsb := hue saturation and value (or brightness)
+cymk := cyan magenta yello and key, this is additive color
+
+Hue can be thought of as where in the color wheel you are.
+Red is at $0^{\cdot}$ ... green is at $180^{\cdot}$ ... red again at $360^{\cdot}$.
+
+In [grafx2](grafx2___20250305_1449_44.pd), hsv are all represented as 8-bit integers (their value goes from 0-255).
+
+
+- [color_ramp](color_ramp___20250304_1601_55.pd)
+- [making_colors](making_colors___20250304_1628_27.pd)
+- [color_saturation_types](color_saturation_types___20250305_1500_19.pd)
+
+[game_dev_curriculum](game_dev_curriculum___20250303_1135_02.pd)

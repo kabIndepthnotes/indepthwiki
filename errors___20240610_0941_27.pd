@@ -1,0 +1,13 @@
+# errors
+
+<!-- visits: 4 -->
+
+#  errors
+
+#  off by one error
+off by one error :~ using `i <= n` instead of `i < n` or vice versa
+[c](c___20250304_1142_20.pd)
+
+#  Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

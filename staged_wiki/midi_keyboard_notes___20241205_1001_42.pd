@@ -1,0 +1,16 @@
+# midi_keyboard_notes
+
+<!-- visits: 3 -->
+
+#  midi_keyboard_notes
+
+sudo apt install ubuntustudio-audio linux-lowlatency
+
+a2jmidid
+
+
+systemctl --user stop pipewire.socket pipewire.service pulseaudio.socket pulseaudio.service
+
+systemctl --user start pulseaudio.socket pulseaudio.service  pipewire.socket pipewire.service
+
+Turns out there is something wrong with either my old mk-928 keyboard or the midi audio interface.

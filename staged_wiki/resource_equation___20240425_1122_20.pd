@@ -1,0 +1,17 @@
+%title resource_equation
+%date 2024-04-25 11:22
+%%visits: 2
+
+#  resource_equation
+$t - 1 + b - 1 + e = n - 1$
+$t$:= treatments
+$b$:= blocks
+$e$:= error estimate
+$n$:= number of units
+
+This is used for seeing if we have used too much or too little resources to try and answer the question.
+#  tags
+:__design_of_experiments:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

@@ -1,0 +1,54 @@
+# variable
+% visits: 15
+
+# declaration
+declaration :~ described for the benefit of the compiler.
+
+declaration := specificy a variable type and name.
+
+# assignment
+give a variable a value, this is different than a initialisation.
+[operator](operator___20240603_1153_38.pd# assignment operator)
+
+
+# initialisation
+This is specifically something that happens when a statement is being declared.
+The `=` in `int i = 0` is not the assignment operator, they are $2$ different things.
+TODO expand upon this.
+
+#  local variable
+local variable:~ a variable defined in a scope like within a function
+
+local variables cannot be accessed outside the function it is defined
+
+#  automatic variable
+Automatic Storage Duration:= Automatic extent:= The portion of program execution during which storage of the variable exists. It gets allocated and deallocated automatically.
+
+Block scope:= The portion of the program text where the variable can be referenced.
+
+
+in [c99](c99___20250312_1237_53.pd) as you can declare a variable pretty much declare a variable whenever, the scope only starts when the variable is declared, allowing for very small scopes.
+
+#static local variables
+
+## A static local variable has a what kind of storage duration?
+It has a static storage duration.
+This means it has a permanent storage location.
+
+It is hidden from other functions but retains its value for use in another call of the same function.
+
+#  global variables
+global variables have [[variable___20240731_101253#A static local variable has a what kind of storage duration?|static storage duration]] and file scope.
+
+#  Scope
+When a declaration inside a block names an identifier that's already visible, the new declaration temporarily "hides" the old one and the indentifier takes on a new meaning. At the end of the block the identifier regains its old meaning.
+
+#  What is the difference between parameters and local variables?
+They both have automatic sotrage duration and block scope.
+The only difference is that the parameter is initalised automatically in a function call.
+
+[external_variable](external_variable___20241024_1412_57.pd)
+
+#  Backlinks
+    - [[function_c___20240724_112352|function_c]]
+    - [[index|Zettelkasten]]

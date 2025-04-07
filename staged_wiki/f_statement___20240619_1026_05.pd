@@ -1,0 +1,24 @@
+# f_statement
+
+<!-- visits: 8 -->
+
+#  f_statement, syntax
+This is involved with the lookup table
+The syntax is `f number loadtime table-size GEN-Routine p1 ... pn ; comment`
+
+for example a 16 point sinewave is
+
+
+f  number  loadtime  tsize  gen  ps
+f  111     16        10     1    ;   A  Sine  wave
+
+
+This get takes 16 equidistant points on a sine wave and by doing so it makes a discrete sine wave.
+
+#  dummy f
+This allows you to insert silence into the composition
+
+:__csound:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

@@ -1,0 +1,17 @@
+# color_ramp
+
+
+# color ramp
+ramp := a series of colors that transition, generally in brightness or luminousity
+
+straight ramp := a ramp where only lighntess changes, like a monochromatic paletter with no hue shifting. Rarely used
+
+# luminosity ramp
+luminosity ramp := where brightness is replaced by percieved brightness.
+
+see [luminosity_of_color](luminosity_of_color___20250304_1559_49.pd)
+
+An increase in red is much more noticable than an increase in blue. There is an associated set of colors.
+
+# How to build a ramp
+

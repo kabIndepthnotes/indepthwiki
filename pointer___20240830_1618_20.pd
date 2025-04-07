@@ -1,0 +1,87 @@
+# pointers
+
+<!-- visits: 35 -->
+
+# pointers, what are they and what does memory look like?
+Pointers store addresses of variables.
+You can think of memory as a long table with 2 columns.
+
+| address | opcode     | # explaination (not found in memory)  |
+|---------|------------|---------------------------------------|
+| 01      | "hi"       | # variable at address 01 storing "hi" |
+| 02      | 21         | # variable at address 02 storing 21   |
+| 02      | address 02 | # this is a pointer, address 02       |
+
+Pointer variables store the address of other variables, which can then be accessed, modified, freed etc.
+
+Because the range of values a pointer can take differs from the range of values an integer can take, we need the new kind of variable, pointer variables.
+
+To declare a pointer variable, we have to precede the name with an asterisk
+
+~~~{.c .numberLines}
+int *p; // points to objects of type int
+~~~
+
+In the above, int is the referenced type.
+
+~~~{.c .numberLines}
+int i, *p = &i; // legal
+~~~
+
+# What does the address operator do?
+`*` ~= `&`$^{-1}$
+see: [[operator___20240603_115338#address operator|address operator]]
+
+~~~{.c .numberLines}
+int i, j, *p, *q;
+
+p = &i;
+
+q = p; // both q and p point to i.
+*q = *p; // the value that p points to is copied to the object that q points to.
+~~~
+
+# uninitialised pointers
+
+~~~{.c .numberLines}
+int *p;
+printf("%d", *p); // undefined behaviour
+
+*p = 1 // attempts to modify an abitrary mem address
+~~~
+
+# difference between `q = p` and `*q = *p`
+
+- `*q = *p` := Copy the value that `p` points to into the object that `q` points to. The [indirection operator](operator___20240603_1153_38.pd)  is used here.
+- `q = p` := when both are pointers, `q = p` is setting `q` as an alias for `p`. What is stored in `p` (an address) is now stored in `q`.
+-
+
+# pointers as arguments in a function
+- Much easier to change the value of a file scope variable
+- If we want to have a pointer argument but not change it in a function (i.e. we want the function to not have a side effect) we put `const` in front of it. e.g. `void f(const int *p);`
+
+~~~{.c .numberLines}
+void
+f(const int *p)
+{
+	*p = 0; /* compiler will throw error */
+}
+~~~
+
+# what is the difference between an address and a pointer?
+Consider a computer whose memory is divided into words rather than bytes.
+For sake of argument, suppose a word has $36$ bits.
+When memory is divided into words, each word has an address.
+But a variable doesn't fall perfectly into $1$ word all the time.
+e.g. a character might be $9$ bits.
+But the character needs a pointer, which may hold an address and the offset.
+
+# pointers as return values
+- TODO
+[c](c___20250304_1142_20.pd)
+
+see also [link_between_pointers_and_array](link_between_pointers_and_array___20250331_1147_06.pd)
+
+# Backlinks
+    - [[function_c___20240724_112352|function_c]]
+    - [[index|Zettelkasten]]

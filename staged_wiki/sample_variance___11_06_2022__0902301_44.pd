@@ -1,0 +1,23 @@
+# sample_variance=
+## introduction==
+%%visits: 2
+## intuition==
+## rigour==
+Show that $\frac{(n-1)S^2}{\sigma ^2}$
+
+{{file::~/vimwiki/math/diary/screenshot_20211020_092924.png}}
+
+Chapter 4. Theory of estimation.
+
+Find a property of a population with samples.
+
+there is an [[estimator]] which is usually and used in many places as $S^2$ 
+## exam clinic==
+The [[z-test]] is used when variance is known, but not when known we use the varance
+## examples and non-examples==
+## resources==
+[[variance]]
+tags :math:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

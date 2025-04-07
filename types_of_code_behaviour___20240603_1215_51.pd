@@ -1,0 +1,18 @@
+# types_of_code_behaviour
+
+
+<!-- visits: 3 -->
+
+# implementation_defined_behaviour
+Some CPUs perform addition in different ways, therefore in order for c to be efficient it left some behaviour undefined, which the compiler is required to document.
+
+# undefined behaviour
+undefined behaviour should be avoided at all costs 99.99% of the time.
+There isn't a predictable way the code will run.
+
+
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

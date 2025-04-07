@@ -1,0 +1,62 @@
+# for_loop
+
+<!-- visits: 3 -->
+
+#  for_loop
+`for(initalise, test, update)`
+
+~~~{.c .numberLines}
+for (expr1; expr2; expr3) {
+body;
+}
+~~~
+
+Is (almost always) equivalent to
+
+~~~{.c .numberLines}
+expr1;
+while (expr2)
+{
+body;
+expr3;
+}
+~~~
+
+the edge case is that technically `expr3` is not in the compound statement.
+
+# non-example of while loop equivelancy
+For loops are slightly different to while loops as expr3 is run every iteration.
+
+~~~{.c .numberLines}
+n = 0;
+while (n < 10) { // infinite loop
+	continue;
+	n++
+}
+~~~
+
+Is not equivalent to.
+
+~~~{.c .numberLines}
+for (n = 0; n < 10; n++){ // not an infinite loop
+	continue;
+}
+~~~
+
+omitting expressions in the for loop is legal.
+`for(;;)` is an infinite loop and is valid
+`for(;i < 0;)` is equivalent to `while(i < 0)`
+
+
+`for(int i; i < n; i++){ }`
+in [c99](c99___20250312_1237_53.pd) the i variable cannot be accessed outside the for loop.
+
+#  comma operator in the for loop
+Also see the [[operator___20240603_115338#comma operator|comma operator]]
+
+
+#  Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]
+    - [[jump_statements___20240610_101043|jump_statements]]
+    - [[operator___20240603_115338|operators]]

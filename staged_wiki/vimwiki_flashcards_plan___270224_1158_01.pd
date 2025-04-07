@@ -1,0 +1,38 @@
+# vimwiki_flashcards_plan
+
+<!-- visits: 6 -->
+
+get a list of names of files
+add new files to a text file
+add number of times reviewed to the file
+add the ease number to the file
+
+#  reviewing cards
+print lines with "=" or "%%=" or have a definition "*:="
+upon recollection, print all lines.
+Add 1 to the number of times reviewed.
+If the card is easy, add 1 to the ease.
+If the card is hard, minus 1 to the ease.
+
+
+- have an option for how many cards you want to study instead of ease formula
+
+Have the option to review special cards such as cards:
+	- with high review but low ease (review/ease number)
+	- with review 0 (unreviewed cards)
+	- with specific tags in them (math, game dev, music, art)
+
+
+grep -Rnlw "/home/kab/Documents/vimwiki/" -e "[c](c___20250304_1142_20.pd)" | shuf
+grep "^=.*=$" /home/kab/Documents/vimwiki/operators___20240603_115338.wiki #replace with each file iteratively
+grep -o ".*:=" operators___20240603_115338.wiki
+grep -o ".*:-" operators___20240603_115338.wiki
+grep -o ".*:~" operators___20240603_115338.wiki
+
+# await input
+
+cat #cat the file
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

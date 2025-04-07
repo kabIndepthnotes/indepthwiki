@@ -1,0 +1,41 @@
+# type_conversions
+
+<!-- visits: 2 -->
+
+#  type_conversions
+
+##  what are explicit conversions?
+Explicity conversions are typecasts in C.
+`(int)`
+
+##  What are implicit conversions?
+When you do `10/10.0f` the first ten is converted implicitly into a float.
+
+##  Usual arithmetic conversions
+This is for most binary operators.
+narrower:~ a variable that takes less bytes to store.
+The narrower variable often gets promoted to a "wider" variable, to match the size of the other operand.
+
+e.g. Integral promotions := a character or short integer gets converted to type int.
+[c89](c89___20250312_1239_51.pd)
+
+# Implicit conversions in [c99](c99___20250312_1237_53.pd)
+
+##  Integer conversion rank  in [c99](c99___20250312_1237_53.pd)
+1. `long long int, unsigned long long int`
+2. `long int, unsigned long long`
+3. `int, unsigned int`
+4. `short, unsigned short int`
+5. `char, signed char, unsigned char`
+6. `_Bool`
+
+Ignoring extended int and enumerated types.
+#  integer and integral promotions
+Integer promotions:= anything less than int gets converted to int, or failing that unsigned int.
+
+See page 146 in c programming a modern approach if you want the rule for usual arithmetic conversions
+
+
+#  Backlinks
+    - [[function_c___20240724_112352|function_c]]
+    - [[index|Zettelkasten]]

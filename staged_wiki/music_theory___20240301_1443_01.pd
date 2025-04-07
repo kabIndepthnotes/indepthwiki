@@ -1,0 +1,177 @@
+# music_theory
+
+<!-- visits: 12 -->
+
+#  music_theory
+
+# - Types of chord:
+    - Major,
+    - Minor
+    - Diminished *
+    - Augmented *
+* these are linking chords for major and minors.
+
+chords and notes and rhythms and melodies.
+
+#  notes
+Higher vibrations are higher pitch and vice versa.
+There are 12 notes.
+There are mathematical equations as to why these notes work.
+An octave higher is twice as fast.
+
+##  Keys ==
+Keys are notes that work together.
+There are 7 notes in major and minor keys.
+Key is like the home set, but scale is the notes that are played e.g. for solos.
+Blues is written in E major.
+Blues solos E blues scale of E pentatonic minor scale.
+
+##  Major Keys ==
+use the [[circle_of_fifths___20240322_103317|circle_of_fifths]] to remember major and relative minor chords.
+
+Whole Whole half Whole Whole Whole half
+Each note can be said as a degree, the first note is 1st degree and last is 7th degree.
+
+You should know the letter of the note as well as the degree it is in the scale.
+
+C major
+C D E F G A B
+
+Db major
+Db Eb F Gb Ab Bb C
+
+D major
+D E F# G A B C#
+
+Eb major
+Eb F G Ab Bb C D
+
+E major
+E F# G# A B C# D#
+
+F major
+F G A Bb C D E
+
+Gb Major
+
+G major
+G A B C D E F#
+
+Ab major
+
+
+A major.
+ABC#DEF#G#
+
+Bb major
+
+B major
+B C# D# E F# G# A#
+
+
+##  Practice
+- [ ]
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_125504.png}}
+
+#  Chords
+Any combination of notes in a scale make a chord.
+The following is a triad.
+Play a note in the scale, skip a note and play a note, skip a note and play a note.
+Root, 3rd, 5th.
+Major triads, play root, then the 4th note after and then the 3rd note after.
+
+A major chord is root, 4 semitones and 3 semitones.
+A minor chord is root, 3 semitones and 4 semitones.
+The relative Minor of a major scale, you move your hand 3 semitones down and play the same notes but starting on that note.
+root 2 1 2 2 2 1 2 2
+
+0 2 2 1 2 2 2 2 1
+
+#  minor keys
+You can construct minor scales, from major scales.
+If you take the c major scale, move it three semitones down and play the c major scale but starting at a, you get the a natural minor scale.
+
+##  Practice
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_130253.png}}
+
+#  Number system
+The triads in a scale are.
+Major Minor Minor Major Major Minor.
+Which are.
+I i ii IV V vi.
+I V vi IV can work well in keys.
+
+The number system helps you play the progression in any key.
+
+##  Practice
+Practice making chord progressions in different keys.
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_130954.png}}
+
+#  Inversions
+You can move the chords notes to other places.
+CEG -> EGC
+This can allow small movements in notes to create something more put together.
+
+Inversions can change the flavour of a chord.
+
+##  Practice
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_131402.png}}
+
+#  Melody
+This is what you want to sing along to.
+You want to use notes that are in the chord progression but also in the scale.
+Tension:= Notes that are not in the chord
+Stability:= Notes that are in the chord
+You want to end on a Stable note.
+
+You can remove the 4th and 7th degree to have a more stable set of melody notes.
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_132002.png}}
+
+#  Rhythm
+This is the timing of music.
+There is usually 4 beats to a measure.
+Whole notes are 4 beats.
+quarter notes are 1 beat.
+1 2 3 4
+To describe half notes you say
+1 & 2 & 3 & 4
+To describe 16th notes you say
+1 e & a 2 e & a 3 e & a 4
+
+#  Curriculum
+- rhythm
+
+##  Practice
+{{file:~/Documents/vimwiki/figures/screenshot_20240219_132543.png}}
+
+#  Bass clef: lines and spaces of sheet music
+All Cows Eat Grass describe the notes in spaces.
+Great Britain Doesn't Fight America.
+
+#  Beaming, where can it be used
+This is the part of a note that are connected by a beam.
+Only notes with tails can be beamed, not quarter notes but eigths etc.
+They are used to see the main beats of a bar.
+
+#  Dynamics
+fff+ even louder but not usually seen
+fff:= Fortississimo
+ff:= fortissimo
+f:= forte loud
+mf:= mezzo-forte, half loud
+mp:= mezzo-piano, half quiet.
+p:= piano, quiet
+pp:= pianissimo, even quieter
+ppp:= pianississimo, very quiet
+crescendo:= gradually get louder.
+decrescendo/diminuendo:= gradually get quieter.
+
+fp:= forte immediately dropping to piano
+sf:= sforzato, sfz:= sforzando - give a push on a note as you play it https://www.youtube.com/watch?v=fE0RbPsC9uE
+sfp:= sforzando piano - force a note and then immediately to piano.
+Applies to every note after the notation, regardless of line or bar.
+
+[music](music___20250312_1742_01.pd)_theory:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

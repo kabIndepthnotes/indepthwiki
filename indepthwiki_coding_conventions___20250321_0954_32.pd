@@ -1,0 +1,11 @@
+# indepthwiki_coding_conventions
+
+- files should contain `[a-z_0-9]`, meaning only lowercase english letters, underscores and decimal digits.
+- all files should be singular, for example coding_convention rather than coding_conventions as to allow you to write. This is a (coding_convention) and theese are (coding_convention)s, for most but not all cases.
+[indepthwiki_coding_conventions](indepthwiki_coding_conventions___20250321_0954_32.pd)
+- files should not be longer than 80 lines
+
+~~~{.c .numberLines}
+printf() for
+~~~
+

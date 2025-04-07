@@ -1,0 +1,28 @@
+# external_variables
+
+<!-- visits: 10 -->
+
+#  external variables
+external variables have static storage duration and file scope.
+
+static storage duration := This is the same as if it was declared with the `static` keyword.
+
+file scope := It is visible from the point of declaration to the end of the file.
+
+#  how do you declare a variable without defining it?
+- By doing this, `extern int i;`
+- `int i;` defines a variable and declares it.
+
+#  rigourously speaking, what is defining a variable?
+- defining a variable allocates space for it.
+
+#  pros and cons
+- If we change the external variable, we will need to check how that change affects every other function in that file. e.g. if the variable's type has changed, it would be easier if it was a parameter than a external variable.
+- If the external variable is assigned an incorrect value, it is harder to find the guilty function. Think of trying to solve a murder committed at a crowded party-there is no easy way to narrow the list of suspects.
+- Functions become less reusable as they would need the external variable to be carried with them.
+
+# Tags
+[c](c___20250304_1142_20.pd)
+
+#  Backlinks
+    - [[variable___20240731_101253|variable]]

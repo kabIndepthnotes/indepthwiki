@@ -1,0 +1,34 @@
+# statement
+
+
+"A statement is a command to be executed when the program runs" -- [c_programming_a_modern_approach___20250305_1200_46.pd](c_programming_a_modern_approach___20250305_1200_46.pd___20250307_1000_55.pd)
+
+# non-example of a statement
+include directives are not calculated at runtime, they are manipulated at a different step.
+
+# types of statement
+
+## expression statement
+
+$:~$ building math formulas
+
+A statement that has an operator in it.
+
+## compound statement
+Anything within `{}`
+
+## selection statement
+
+## iterative statement
+
+## jump statement
+
+- function call
+- return statement
+- for, while statements
+- if statement
+
+# Credit
+https://sillycodes.com/statements-in-c-language-different/
+
+ $e^{\pi}$

@@ -1,0 +1,44 @@
+# c
+
+
+# introduction
+
+# history
+c was originally made to help re-build unix for a different computer.
+This was when portability was noted as a great aspect of the programming language.
+[unix_philosophy](unix_philosophy___20250305_1226_42.pd)
+
+You have to be small and efficient when making an operating system, and therefore C is considered the perfect language for that job.
+
+C was based on Algol.
+
+# underlying philosophy features
+
+## low-level
+Close to assembly language in terms of size and speed.
+Access to bytes and addresses.
+
+## permissive
+It allows you to do more than what other programming languages will allow, such as `a[i++]+=5`.
+You can do things like `for(;;)` to do an infinite while loop.
+
+# strengths
+
+- efficient
+- portable
+- power :~ large data types and operators allowing for lots of ability for a few lines of code
+- flexible :~ allows exotic operations and has few restrictions, is able to be used in many situations
+- standard library (for lots of already written code)
+- integration with `*nix`
+
+# weaknesses
+- can be error prone
+- can be difficult to understand
+- can be difficult to change :~ large programs that are poorly designed make it hard to change
+
+[effective_use_of_c](effective_use_of_c___20250321_0952_11.pd)
+
+# contents
+TODO make automatically with grep `c___20250304_1142_20.pd`
+
+[statement](statement___20250307_0956_00.pd)

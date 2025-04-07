@@ -1,0 +1,24 @@
+# string_literals
+
+<!-- visits: 19 -->
+
+# splicing
+~~~{.c .numberLines}
+"This string is continued on the next line \
+because of the \\ sign. this is called splicing"
+~~~
+
+string are joined when adjacent.
+
+~~~{.c .numberLines}
+printf("When you come to a fork in the road, take it "
+"--Yogi Berra");
+~~~
+
+# How strings are stored
+strings are an [array](array___20240710_1404_29.pd) of [basic_data_types](basic_data_types___20240617_1419_52.pd).
+
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[index|Zettelkasten]]

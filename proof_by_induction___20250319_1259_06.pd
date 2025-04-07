@@ -1,0 +1,14 @@
+# proof_by_induction
+
+
+# 1. prove $P(1)$ is true.
+
+# 2. prove "if $P(1), P(2),\ldots, P(n)$ are true, then $P(n+1)$ is true".
+
+This can be considered an algorithmic proof procedure.
+
+[proof_by_induction_algorithm](proof_by_induction_algorithm___20250319_1305_39.pd)
+
+[toacp](taocp___20250317_1141_16.pd)
+[math](math___20250311_0922_50.pd)
+[discrete_math](discrete_math___20250319_1308_24.pd)

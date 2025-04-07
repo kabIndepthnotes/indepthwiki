@@ -1,0 +1,76 @@
+% array
+
+
+array:= A data structure containing a number of data values, of the same type.
+
+# Initialization
+
+~~~{.c .numberLines}
+int a[10] = {1, 2, 3, 4, 5, 6};
+/* inital value of a is {1, 2, 3, 4, 5, 6, 0, 0, 0, 0} */
+int a [10] = {0}; // all values in array are 0
+int a[10] = {};// WRONG
+int a[] = {1,2,3};// implicitly declaring int a[3], and the length is now fixed.
+~~~
+
+# designated initializers in [c99](c99___20250312_1237_53.pd)
+
+~~~{.c .numberLines}
+int a[15] = { [2] = 29. [9] = 7, [14] = 48}; // all non-designated (not 2, 9  or 14) indices have value 0.
+~~~
+
+The order of designators does not matter.
+
+~~~{.c .numberLines}
+int a[] = {4, 9, 1, 8, [0] = 5, 7} //becomes
+int a[] = {5, 7, 1, 8}
+~~~
+
+
+
+# 2-dimensional arrays
+2 dimensional arrays are stored in row-major order, so row 0 is stored first then row 1 etc.
+
+In initialisation you can omit the inner braces.
+
+in [c99](c99___20250312_1237_53.pd) you can use
+
+~~~{.c .numberLines}
+double ident [2][2] = {[0][0] = 1.0, [1][1] = 1.0};
+~~~
+
+
+you do not need the inner braces as the compiler can guess what you are trying to do, but it can make your code less clear
+
+~~~{.c .numberLines}
+int m[5][9] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+	1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+	1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1,
+	1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1,
+	1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1}
+~~~
+
+
+
+# variable length arrays [c99](c99___20250312_1237_53.pd)
+In [c99](c99___20250312_1237_53.pd) you can have the length of an array be computed at run time
+
+~~~{.c .numberLines}
+int a[3*j];
+~~~
+
+VLAs can be multi-dimensional, they can't have static storage duration and it can't have an initializer.
+
+# idiom for finding the length of an array
+TODO add to c_idioms
+
+~~~{.c .numberLines}
+sizeof(a) / sizeof(a[10]);
+~~~
+
+
+[c](c___20250304_1142_20.pd) [flashcard](flashcard___20250324_0938_53.pd)
+
+# Backlinks
+    - [[function_c___20240724_112352|function_c]]
+    - [[string_literals___20240923_120028|string_literals]]

@@ -1,0 +1,207 @@
+# vim_text_objects
+
+<!-- visits: 7 -->
+
+#  vim_text_objects
+
+vim-textobj-user
+targets-vim
+
+https://github.com/libclang-vim/vim-textobj-clang.git
+https://github.com/libclang-vim/libclang-vim.git
+https://github.com/chrisbra/matchit
+
+[a_z_text_objects](a_z_text_objects___20250327_1139_01.pd)
+
+WORD := a sequence of non-blank characters, seperated with whitespace. An empty line is considered a WORD.
+
+- aw, iw are trivial
+- aW, iW are a Word and inner Word
+- as, is :~ a sentence, inner sentence respectively
+- ap, ip :~ a paragraph text-object (a paragraph, inner paragraph)
+- a] := `a[` :~ a `[]` block
+- i] := `i[` :~ inner `[]` block
+- a( := a)
+- i) := i(
+- < and > text objects :~ for code in `<>`
+- t :~ a text object for a tag block (a html tag)
+- } := B :~ a text object for code in {}
+- ", ', \` :~ text object for quoted strings
+
+
+
+
+
+							*v_aw* *aw*
+aw			"a word", select [count] words (see |word|).
+			Leading or trailing white space is included, but not
+			counted.
+			When used in Visual linewise mode "aw" switches to
+			Visual characterwise mode.
+
+							*v_iw* *iw*
+iw			"inner word", select [count] words (see |word|).
+			White space between words is counted too.
+			When used in Visual linewise mode "iw" switches to
+			Visual characterwise mode.
+
+							*v_aW* *aW*
+aW			"a WORD", select [count] WORDs (see |WORD|).
+			Leading or trailing white space is included, but not
+			counted.
+			When used in Visual linewise mode "aW" switches to
+			Visual characterwise mode.
+
+   	  	  	                                                    	  	  	  	 *v_iW* *iW*
+iW 	  	  	 "inner WORD", select [count] WORDs (see |WORD|).
+   	  	  	 White space between words is counted too.
+   	  	  	 When used in Visual linewise mode "iW" switches to
+   	  	  	 Visual characterwise mode.
+
+							*v_as* *as*
+as			"a sentence", select [count] sentences (see
+			|sentence|).
+			When used in Visual mode it is made characterwise.
+
+							*v_is* *is*
+is			"inner sentence", select [count] sentences (see
+			|sentence|).
+			When used in Visual mode it is made characterwise.
+
+							*v_ap* *ap*
+ap			"a paragraph", select [count] paragraphs (see
+			|paragraph|).
+			Exception: a blank line (only containing white space)
+			is also a paragraph boundary.
+			When used in Visual mode it is made linewise.
+
+							*v_ip* *ip*
+ip			"inner paragraph", select [count] paragraphs (see
+			|paragraph|).
+			Exception: a blank line (only containing white space)
+			is also a paragraph boundary.
+			When used in Visual mode it is made linewise.
+
+a]						*v_a]* *v_a[* *a]* *a[*
+a[			"a [] block", select [count] '[' ']' blocks.  This
+			goes backwards to the [count] unclosed '[', and finds
+			the matching ']'.  The enclosed text is selected,
+			including the '[' and ']'.  The |cpo-M| option flag
+			is used to handle escaped brackets.
+			When used in Visual mode it is made characterwise.
+
+i]						*v_i]* *v_i[* *i]* *i[*
+i[			"inner [] block", select [count] '[' ']' blocks.  This
+			goes backwards to the [count] unclosed '[', and finds
+			the matching ']'.  The enclosed text is selected,
+			excluding the '[' and ']'.  It's an error to select an
+			empty inner block like "[]".  The |cpo-M| option flag
+			is used to handle escaped brackets.
+			When used in Visual mode it is made characterwise.
+
+a)							*v_a)* *a)* *a(*
+a(							*vab* *v_ab* *v_a(* *ab*
+ab			"a block", select [count] blocks, from "[count] [(" to
+			the matching ')', including the '(' and ')' (see
+			|[(|).  Does not include white space outside of the
+			parenthesis.  The |cpo-M| option flag is used to
+			handle escaped parenthesis.
+			When used in Visual mode it is made characterwise.
+
+i)							*v_i)* *i)* *i(*
+i(							*vib* *v_ib* *v_i(* *ib*
+ib			"inner block", select [count] blocks, from "[count] [("
+			to the matching ')', excluding the '(' and ')' (see
+			|[(|).  If the cursor is not inside a () block, then
+			find the next "(".  It's an error to select an empty
+			inner block like "()".  The |cpo-M| option flag
+			is used to handle escaped parenthesis.
+			When used in Visual mode it is made characterwise.
+
+a>						*v_a>* *v_a<* *a>* *a<*
+a<			"a <> block", select [count] <> blocks, from the
+			[count]'th unmatched '<' backwards to the matching
+			'>', including the '<' and '>'.  The |cpo-M| option flag
+			is used to handle escaped '<' and '>'.
+			When used in Visual mode it is made characterwise.
+
+i>						*v_i>* *v_i<* *i>* *i<*
+i<			"inner <> block", select [count] <> blocks, from
+			the [count]'th unmatched '<' backwards to the matching
+			'>', excluding the '<' and '>'.  It's an error to
+			select an empty inner block like "<>".  The |cpo-M|
+			option flag is used to handle escaped '<' and '>'.
+			When used in Visual mode it is made characterwise.
+
+						*v_at* *at*
+at			"a tag block", select [count] tag blocks, from the
+			[count]'th unmatched "<aaa>" backwards to the matching
+			"</aaa>", including the "<aaa>" and "</aaa>".
+			See |tag-blocks| about the details.
+			When used in Visual mode it is made characterwise.
+			Only available when compiled with the |+eval| feature.
+
+						*v_it* *it*
+it			"inner tag block", select [count] tag blocks, from the
+			[count]'th unmatched "<aaa>" backwards to the matching
+			"</aaa>", excluding the "<aaa>" and "</aaa>".
+			See |tag-blocks| about the details.
+			When used in Visual mode it is made characterwise.
+
+a}							*v_a}* *a}* *a{*
+a{							*v_aB* *v_a{* *aB*
+aB			"a Block", select [count] Blocks, from "[count] [{" to
+			the matching '}', including the '{' and '}' (see
+			|[{|).  The |cpo-M| option flag is used to handle
+			escaped braces.
+			When used in Visual mode it is made characterwise.
+
+i}							*v_i}* *i}* *i{*
+i{							*v_iB* *v_i{* *iB*
+iB			"inner Block", select [count] Blocks, from "[count] [{"
+			to the matching '}', excluding the '{' and '}' (see
+			|[{|).  It's an error to select an empty inner block
+			like "{}".  The |cpo-M| option flag is used to handle
+			escaped braces.
+			When used in Visual mode it is made characterwise.
+
+a"							*v_aquote* *aquote*
+a'							*v_a'* *a'*
+a`							*v_a`* *a`*
+			"a quoted string".  Selects the text from the previous
+			quote until the next quote.  The 'quoteescape' option
+			is used to skip escaped quotes.
+			Only works within one line.
+			When the cursor starts on a quote, Vim will figure out
+			which quote pairs form a string by searching from the
+			start of the line.
+			Any trailing white space is included, unless there is
+			none, then leading white space is included.
+			When used in Visual mode it is made characterwise.
+			Repeating this object in Visual mode another string is
+			included.  A count is currently not used.
+
+i"							*v_iquote* *iquote*
+i'							*v_i'* *i'*
+i`							*v_i`* *i`*
+			Like a", a' and a`, but exclude the quotes and
+			repeating won't extend the Visual selection.
+			Special case: With a count of 2 the quotes are
+			included, but no extra white space as with a"/a'/a`.
+
+visual mode text-objects
+	"dl"	delete character (alias: "x")		|dl|
+	"diw"	delete inner word			*diw*
+	"daw"	delete a word				*daw*
+	"diW"	delete inner WORD (see |WORD|)		*diW*
+	"daW"	delete a WORD (see |WORD|)		*daW*
+	"dgn"   delete the next search pattern match    *dgn*
+	"dd"	delete one line				|dd|
+	"dis"	delete inner sentence			*dis*
+	"das"	delete a sentence			*das*
+	"dib"	delete inner '(' ')' block		*dib*
+	"dab"	delete a '(' ')' block			*dab*
+	"dip"	delete inner paragraph			*dip*
+	"dap"	delete a paragraph			*dap*
+	"diB"	delete inner '{' '}' block		*diB*
+	"daB"	delete a '{' '}' block			*daB*

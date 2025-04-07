@@ -1,0 +1,19 @@
+# proof_by_induction_algorithm
+
+
+# Given a positive integer $n$ this algorithm will output a proof that $P(n)$ is true.
+
+1. prove P(1)
+set $k \leftarrow 1$, and, according to [proof_by_induction step 1](proof_by_induction___20250319_1259_06.pd), output a prof of $P(1)$
+
+2. k = n?
+If $k = n$, terminate the algorithm, we are done
+
+3. Prove P(K+1)
+output proof of "If all of $P(1),\ldots,P(k)$ are true, then $P(k+1)$ is true."
+Also output "We have already proved that $P(1),\ldots,P(k)$ are true, hence $P(K+1)$ is true"
+
+4. increase $k$ by $1$ and go to step `2`
+
+[algorithm](algorithm___20250317_1152_12.pd)
+[proof_by_induction](proof_by_induction___20250319_1259_06.pd)

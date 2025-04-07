@@ -1,0 +1,18 @@
+---
+mainfont: "CMU Sans Serif"
+# monofont: "Iosevka Term SS18"
+monofont: "DejaVuSansMono.ttf"
+# add line breaks in the code
+# add graphics for lilypond
+header-includes:
+ - \usepackage{fvextra}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+ - \usepackage{graphicx}
+ - \include{lily_out/}
+
+# thin margins
+geometry:
+  - top=15mm
+  - left=10mm
+  - heightrounded
+---

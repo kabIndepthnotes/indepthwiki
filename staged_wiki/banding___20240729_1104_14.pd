@@ -1,0 +1,26 @@
+# banding
+
+<!-- visits: 6 -->
+
+#  banding
+"When neighbor pixels end at the same x or y coordinate [e.g. a line] on the underlying grid, the grid immediately becomes more evident, the pixels are exposed and the apparent resolution becomes less fine"
+
+This is the most important pitfall to avoid in pixelart
+
+staircase banding:= often seen in [[anti_aliasing___20240704_092417|anti_aliasing]] attempts, this is when
+skip one banding:= TODO
+
+When the art is viewed from afar the effects of banding become much more apparent. Also, this means that lower resolution art doesn't have to worry about banding as much.
+
+When a 50/50 line is banded or [[anti_aliasing___20240704_092417|anti_aliased]] on both sides, you have a + . and that plus has 2 fights, the top and bottom cannot live together and the left and right cannot live together, so you have 2 options to kill the top or bottom pixels, or 2 options to kill the left and right pixels.
+
+[pixel_art](pixel_art___20250319_1215_29.pd):
+
+[art](art___20250312_1407_25.pd)[flashcard](flashcard___20250324_0938_53.pd):
+
+#  Credit
+TODO Max hervieux learning pixel art
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[noise___20240715_143538|noise]]

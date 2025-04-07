@@ -1,0 +1,102 @@
+# palette
+
+<!-- visits: 2 -->
+
+#  palette
+
+12 Definitions and theorems about color theory for logical non-artsy people.
+
+Color palette:
+#  Introduction
+So, you want to be the worlds best pixel artist, but don't know enough about color theory?
+Is you line art looking good, but then your actual coloring looking incoherent and lacking that JE NE SAIS QUOIS?
+I'm here to make that Je ne sais quois into the sweet science of color theory. [basically making undescribable quality more describable]
+Color theory is important in any art that uses color.
+And the lines between art and science is often blurred.
+There are usually methods for getting started with color, and this can be finalised to make things look good.
+The visual appeal is king.
+Let's jump into the infinite sea that is learning color theory.
+
+Note in my previous video I spoke about isometric art slightly wrong, please see this video by saultoons for the right version of iso art.
+
+Definitions and their uses.
+
+#  1. Color values. [show in grafx2]
+HSL is Hue saturation lightness, and RGB is Red Blue and Green.
+HSL works like this, You have the color wheel, and the rotation of the color is the the Hue value.
+0 is 0 degrees, and 255 is 360 degrees.
+Saturation is basically how much vibrant the color is. Consider pure red on the hue spectrum 0 saturation is a type of grey only with no visible sign of red, and 255 is pure red.
+Lightness is how much white light is in the color.
+0 is black, 255 is white.
+Rgb is pretty self explanatory, but remember we are dealing with light, not paint, so all colors combined give white not black.
+It is helpful to use both types of color, as at times the color needs to be saturated, brighter, or complemented, and at other times it needs to be neutralised, or hue shifted.
+
+#  2. Additive color (dealing with light) and Subtractive color (dealing with paint)
+Yellow+Blue makes White additively,
+Yellow+Blue makes Green subtractively.
+I find it hard to switch between the 2, and pigment color theory makes more sense than light color theory.
+It's called additive and subtractive, because with light you are adding wavelengths together, adding light to the color to make it more of it.
+But with Subtractive color, the reflective surface absorbs all colors but the colors it reflects, and therefore combining 2 colors is combining the colors that are absorbed, so less color can be reflected, hence subtractive.
+
+#  3. Monochromatic color. [show in grafx2]
+This is 1 hue, with only the saturation and lightness changing.
+This is helpful when you start filling in your line art with shading but not adding color just yet.
+
+#  4. Neutral color.[show in grafx2]
+A neutral color is one that is a color that is a shade of grey.
+This means it's hue is irrelevant as it's saturation is all the way down.
+Now your neutral color doesn't need to be a perfect neutral, it can be a purply grey, but it is usually somewhat cool.
+
+#  5. Neutralising a color[show in grafx2]
+Any color can be neutralised, this means that it can have a value of red green or blue added to it, that would make all rgb values in equal quantities.
+This is often used to make a complete palette, as a coloring is as much about making relative colors as it is making individual colors good.
+
+#  6.Analogous colors
+Analogous colors are colors that are within 90 degrees of each other in the color wheel.
+When you create a "ramp" or a bunch of colors you want to shade with, hue shifting to an analogous color might make the image more vibrant.
+
+#  7. Complementry
+Complementry colors are two colors 180 degrees away from each other on the color wheel.
+Complementry colors are good colors to start for neutralsing a color.
+
+#  8. Triad, a set of 3 colors equally spaced apart in the color wheel.
+Pick a color, go 85 points up or down in hue (remember that hue is a circle so you may have to wrap around)
+
+#  9. Secondary colors.
+These are two primary colors that are combined, usually via paint.
+#  10. Intermediate colors are like secondary colors but instead of adding equal parts primary, you add 2 parts of one primary and 1 part of another.
+For example a reddish orange.
+
+#  11. Warm colors are Yellow Red or Orange, and Cool colors are Blue.
+
+#  12. "Theorems" of color theory
+Values that are close together, cooler or less detailed bring less attention to the piece, and values that are high saturation, detailed or warm, bring more attention to them.
+
+Concluding remarks.
+Study great pixel artists on pixeljoint.
+
+- You are never going to fully understand color theory, but you just need to keep learning it
+- What is monochromatic color?	Color with 1 hue, and only saturation and lightness changed.
+- "Use values that are close together to give the design a calm appearance. Use values of pure hues as well as those of tints and shades to create movement.
+Use value contrasts to show texture and as an effective means of directing viewer attention in a composition." http://www.writedesignonline.com/resources/design/rules/color.html
+- neutral colors have "no color" intuitively speaking, which is to say equal parts of the primary colors. These are your white, greys and blacks.
+- "Analogous - colors that contain a common hue and are found next to each other on the color wheel" Analogous colors are types of the same colours but with slightly different hues. They are next to each other on the colour wheel.
+- Warm colors - suggest warmth and seem to move toward the viewer and appear closer, e.g., red and orange are the colors of fire.
+- Cool colors - calmer colours, make the works recede. e.g. blue and green for water and trees.
+- Complementary - colours on the opposite sides of the color spectrum. Red <-> Green, Yellow <-> purple, orange <-> blue
+- Intensity - #ff0000 Is the most intense red you can get. #ffffff is the least intense color.
+- Triad - A set of 3 colors equally spaced apart in the color wheel
+- Secondary - combination of 2 primary, Orange, Purple, Green. (paint)
+- Intermediate - A combination of a primary and secondary color. Red-Orange, Yellow-orange, Yellow-Green, Blue-Green, Blue-Purple, Red-Purple.
+- Split complements - One color is the main color, and it's split complements are the colors opposite on the color wheel += 30 degrees. A simple example, if you have red-orange, you can have Green and blue as split complementary colors.
+- Double complements - This is 2 adjacent hues and their oppossites. So (30degrees?) and then a half turn 180deg
+- Spatial effects - The further away things are the bluer they are, and the closer the more yellow
+- Detail draws the attention of the viewer
+- emphasis - What draws the attention of the viewer, known as dominant. The rest are subordinate.
+- Movement -
+- Neutral colors - " a neutralizer is basically any color that would, if blended with another, bring the result closer to 0 saturation. For example, a brown in an orange ramp - is 'more' neutral. Or a green in a magenta ramp, because for that ramp to approach green, it would have to cross neutral (or more neutral) tones." from jalonso in https://pixeljoint.com/forum/forum_posts.asp?TID=10695
+- How do you add and take away colors?
+- Dawnbringer "Some things you should be aware of is that the most important aspect/dimension of any color is its brightness. And the the color-channels acts vastly different in this respect: Green is roughly twice as bright as Red, and Red is about twice as bright as Blue. This means that adding +5 in Blue may not produce a noticable change but +5 in Green could be a huge leap. So consistently adding X in your ramps might not produce a smooth/uniform look. Also, aestethically, it can sometimes be better to avoid strictly linear ramps."
+
+#  Backlinks
+    - [[index|Zettelkasten]]

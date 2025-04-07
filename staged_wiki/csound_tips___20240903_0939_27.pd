@@ -1,0 +1,15 @@
+# csound_tips
+
+<!-- visits: 17 -->
+
+#  csound_tips
+for 133 bpm
+t	0	133
+
+#wave form
+ffmpeg.exe -i "filename.mp3" -lavfi showwavespic=split_channels=1:s=1024x800 waveform.png
+
+:Tab /\S\+/l0l2
+
+#  Backlinks
+    - [[index|Zettelkasten]]

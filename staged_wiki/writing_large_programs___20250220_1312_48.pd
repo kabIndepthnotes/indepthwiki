@@ -1,0 +1,12 @@
+# writing_large_programs
+
+<!-- visits: 9 -->
+
+#  writing_large_programs
+- header files contain code to be shared among source files.
+- files [[directive___20250220_131914#include directive|included]] are called the include files or header files.
+- `f.h` should contain the prototypes of functions that are shared, but not ones that are not shared.
+
+:__c_prog_a_modern_approach:
+
+TODO add c

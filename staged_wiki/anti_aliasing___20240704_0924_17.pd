@@ -1,0 +1,35 @@
+# anti_aliasing
+
+<!-- visits: 5 -->
+
+#  anti_aliasing, what is it?
+Adding pixels of an intermediaty color to the intersections of clusters.
+It blunts the edges.
+
+{{file:~/Documents/vimwiki/figures/screenshot_20240704_092612.png}}
+
+note, the anti-aliasing pixel does not form a [[cluster___20240619_095817|cluster]] in of itself, rather it blends two clusters boudaries.
+
+It is not good to simply trace the outline of a cluster, this is banding, and will make the sprite look blurred not smoothed.
+
+Using a neutraliser
+
+#  how to anti-alias a 1-2 line?
+{{file:~/Documents/vimwiki/figures/screenshot_20240708_115734.png}}
+
+#  The longer the step are, then what?
+The longer the steps, the longer the AA segments should be.
+If you were dealing with a triangle, the flatter it is the more AA segments it should have.
+
+AAing a 1-1 line or a 50/50 line is redundant.
+
+Never let AA become it's own apparent cluster.
+[pixel_art](pixel_art___20250319_1215_29.pd):[flashcard](flashcard___20250324_0938_53.pd):
+
+[art](art___20250312_1407_25.pd)[flashcard](flashcard___20250324_0938_53.pd):
+
+# Backlinks
+    - [[banding___20240729_110414|banding]]
+    - [[cluster___20240619_095817|cluster]]
+    - [[index|Zettelkasten]]
+    - [[noise___20240715_143538|noise]]

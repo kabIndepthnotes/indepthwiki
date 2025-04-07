@@ -1,0 +1,148 @@
+# operators
+TODO: break into seperate operators
+<!-- visits: 30 -->
+
+# operators (ALL INCLUDE PRECEDENCE AND ASSOCIATION)
+It is essential to master these.
+
+# Arithmetic operators
+- Arithmetic operators:~ mathematical addition, subtraction, multiplication and division.
+- REMEMBER that it is not exactly the same as maths, we need to remember datatypes.
+
+# unary + and -
+Forces the integer to be positive or negative respectively.
+
+~~~{.c .numberLines}
+int j = 5;
+int i = +j; /* redundant, but used to emphasize that a constant is positive */
+int i = -j;/* think (-1) * j */
+~~~
+
+# binary /
+
+# integer / 
+
+~~~{.c .numberLines}
+int i = 1;
+int j = 2;
+float k;
+x = i/j; // truncates, hence x = 0
+~~~
+
+`/ 0` is undefined.
+in [c89](c89___20250312_1239_51.pd) divsion with a -ve can be rounded up or down.
+in [c99](c99___20250312_1237_53.pd) division with a -ve is always rounded towards 0.
+
+# %, datatype acceptable, `% 0`, and `% -n` -ve numbers
+the modulus operator `%` only accepts integers.
+For floats see fmod.
+`% 0` is undefined.
+In [c89](c89___20250312_1239_51.pd) negative operands depend on the implementation.
+In [c99](c99___20250312_1237_53.pd) `i % j` has the same sign as `i`
+
+- Relational operators:~ greater than or less than
+- Logical operators:~ and, not, or, xor
+
+# operator precedence
+
+Highest: + - (unary)
+* / %
+Lowest: + - (binary)
+
+Operators like the binary operators are left associative (implied grouping is left first then right) `i - j - k` is equivalent to `(i - j) - k`
+In contrast, unary operators are right associative` - + i` is equivalent to `- (+)`
+
+# assignment_operator
+Assignment is an operator not a statement, it returns a value.
+Assigment is right associative.
+`i = j = k;` := `i = (j = k);`
+
+~~~{.c .numberLines}
+int i;
+i = 72.99f // (returns 72)
+~~~
+
+# compound assignment
+As seen before, however we say that `v += e` is NOT equivalant to `v = v + e`. Pay attention to how many times v is called. For example
+
+~~~{.c .numberLines}
+a[i++] += 2;
+// as opposed to
+a[i++] = a[i++] + 2;
+~~~
+
+This is due to order of precedence, as well as [[side_effects___20240603_130044|side_effects]].
+They are also right associative, and can be chained. `i += j += k;` := `i += (j += k);`
+
+# increment and decrement operators, prefix and postfix
+`++i`:~ increment i immediately
+`i++`:~ use the old value of `i` for now and increment later (not specified in the standard but safe to say after the next statement)
+
+~~~{.c .numberLines}
+i = 1
+printf("i is %d\n",++i); /* prints "i is 2" */
+printf("i is %d\n",i); /* prints "i is 2" */
+~~~
+
+and
+
+~~~{.c .numberLines}
+i = 1
+printf("i is %d\n",i++); /* prints "i is 1" */
+printf("i is %d\n",i); /* prints "i is 2" */
+~~~
+
+decrement is similar.
+
+postfix `++` and `--` have higher precedence than unary plus/minus
+
+#= relational operators precedence and association =
+relational operators (`<`, `>`, `<=`, `>=`) have a lower precedence to arithmetic and are left associative.
+WARN: `i < j < k`:= `(i < j) < k` where `(i < j) = 1 || 0;`
+What you may want is `i < j && j < k`
+
+#= equality operators precedence and association =
+`==` and `!=` have a lower precedence than relational operators and are left associative.
+
+#= logical operations and short-circuiting =
+`!` has the same precedence as unary plus and minus, and is right associative.
+Logical operations `&&` and `||` have lower precedence to than equality are left associative.
+
+Short-circuiting:= if with the first operand we know the outcome of the expression, then we do not compute the full expression.
+e.g. `(i != 0) && (j / i > 0)` when `i` is equal to zero the program knows that the expression will fail and therefore not compute the second expression.
+
+# conditional operator
+`expr1 ? expr2 : expr3`:~ if expr1 then expr2 else expr3
+
+# comma operator
+Allows us to execute multiple statements at once.
+for example in [for_loop](for_loop___20240610_0945_02.pd), in the first and third expressions
+It is left associative and has the lowest precedence of all operators.
+The first expression should have a side effect, otherwise is it pointless.
+
+[sizeof](sizeof___20241104_1535_02.pd)
+
+# address operator
+`&`:= the address of a variable in memory. Allows you to assign the address of an lvalue to a pointer.
+
+# Indirection operator
+`*`:= the value of the variable at the address. The pointer now becomes an alias for the variable. Also known as dereferencing.
+
+# left and right bitshift operator
+`<<` shifts the bits to the left.
+`& ` bitwise AND
+`| ` bitwise inclusive OR
+`^ ` bitwise XOR (exclusive OR)
+`<< ` left shift
+`>> ` right shift
+`~ ` bitwise NOT (ones' complement) (unary)
+
+# the right arrow selection operator (->)
+- produces an lvalue
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[for_loop___20240610_094502|for_loop]]
+    - [[index|Zettelkasten]]
+    - [[pointer___20240830_161820|pointers]]

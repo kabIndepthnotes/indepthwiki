@@ -1,0 +1,18 @@
+# csound_opcodes
+
+<!-- visits: 7 -->
+
+#  csound_opcodes
+
+#  oscil
+amp, frequency, function number of the waveshape template
+
+foscil
+buzz
+pluck
+grain
+loscil
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

@@ -1,0 +1,55 @@
+# ed
+
+<!-- visits: 5 -->
+
+#  ed
+https://www.youtube.com/watch?v=Zpdo6We-_e0
+
+
+	ed test.txt #ed is terse as it was cost effective as it was often printed on paper.
+
+	ed -p ":" /tmp/test.txt
+	# add verbose errors
+	:H
+	# ed in the 60s
+	# vi came around in the 70s
+	#ed has command mode and insert mode
+	:a
+	# append
+	This is line one.
+	.
+	# the period ends the insert
+	:,p
+	# is shorthand for
+	:1,$p
+	:a
+	This is line 2.
+	.
+	:,p
+	:,n
+	#will print line numbers
+	:n
+	# will print current line
+	:p
+	:i
+	#insert
+	:-1p
+	# print previous line
+	:4c
+	#changes line 4
+	:1d
+	#deletes line 1
+	:u
+	#undo the last command (only 1 life)
+	:2t0
+	#copy line 2 to 0
+	:1m2
+	#move line 1 to 2
+	:/This
+	#show lines with :/This
+	
+
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

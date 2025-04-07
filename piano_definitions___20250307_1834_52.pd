@@ -1,0 +1,30 @@
+# piano_definitions
+
+
+accent mark $:=$ command to play note louder
+accidental $:=$ Sharps, flats or naturals added to a piece and not in the key signature.
+accidental $:~$ despite the key, play this note differently
+allegro $:=$ Fast, lively tempo
+andante $:=$ Walking tempo
+arpeggio $:=$ The notes of a chord played one after another, going up or down
+bar line $:=$ The line which divides music into measures
+bass clef $:=$ Aka. F clef A symbol used to show lower notes and is usually on the bottom staff. Also known a
+blocked $:=$ The tones of a chord or interval played together
+broken $:=$ The tones of a chord or interval played individually
+c major chord $:=$ A three note chord built in 3rd above C, C-E-G
+c major scale $:=$ An eight-note scale C-D-E-F-G-A-B-C .
+c pentascale $:=$ Five noes stepping up from C-D-E-F-G
+can-can $:=$ A lively 19th century frend dance that features dance.
+chord $:=$ Three or more tones sounding together
+I or the number one chord $:=$ Three notes built up in 3rds from the tonic note.
+IV or the number four chord $:=$ Three notes built up in 3rds from the fourth note.
+V7 or the five-seven $:=$ A four-note chord built up in 3rds, TODO finish
+Chord symbol $:=$ 
+ $:=$ 
+ $:=$ 
+ $:=$ 
+ $:=$ 
+ $:=$ 
+
+
+Credit:

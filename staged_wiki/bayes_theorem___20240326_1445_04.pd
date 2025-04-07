@@ -1,0 +1,50 @@
+# bayes_theorem
+
+<!-- visits: 5 -->
+
+%% goes over the formula for bayes theorem, todo have it's applications, questions and links to other ideas. colorise.
+#  bayes_theorem
+$$\definecolor{c1}{RGB}{255, 0, 0}
+\definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}$$
+
+$$
+\color{c1} \pi (\theta | x)
+\color{default}=
+\frac{
+\color{c2} f(x | \theta)
+\color{c3}\pi_{\Theta}(\theta)}
+{\color{c4}\int_{\Theta}f(x|\theta)\pi_{\Theta}(\theta) d\theta} 
+\color{default}= \frac{f(x|\theta) \pi_{\Theta}(\theta)}{\pi_M(x)} \propto f(x | \theta) \pi_{\Theta}(\theta).
+$$
+
+$$
+\color{c1} \text{posterior distribution}
+$$
+
+$$
+\color{c2} \text{Likelihood function}
+$$
+
+$$
+\color{c3} \text{Prior distribution}
+$$
+
+$$
+\color{c4} \text{Marginalisation constant or marginal likelihood}
+$$
+
+
+$$
+\color{c1} \text{ an updated guess }
+\color{default} \text{ is equal to }
+\color{c2} \text{ the probability of the data given the parameter }
+\color{default} \text{ times the }
+\color{c3} \text{ best guess before the experiment }
+\color{c4} \text{ normalised }
+$$
+
+To remember, integrate the numerator with respect to \(\theta\)
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

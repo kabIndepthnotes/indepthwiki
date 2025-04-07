@@ -1,0 +1,48 @@
+# estimator=
+## introduction==
+%%visits: 3
+## intuition==
+$X_1,X_2,\ldots,X_n ~ N(\mu, \sigma ^2), \mu , \sigma ^2$ unknown.
+
+$\hat{\mu} = \frac{X_1+\ldots+X_n}{n}$
+
+$\hat{\simga ^2} = \frac{1}{n}\sum _{k=1}^{n} \left( x_i - \overline{x} \right) $ OR $\frac{1}{n}\sum _{k=1}^{n} \left( x_i - \overline{x} \right)$
+
+If mu is known for $\hat{\sigma ^2}$ you divide by n
+
+To discern between 2 unbiased estimator, the lower variance of an estimator is better.
+
+Efficiency:= Lower variance
+
+Relative Efficiency:= $\frac{var(X)}{var(Y)}$
+
+Mean_square_error:= $\mathbb{E}[(\hat{\theta} \theta)^2] = Var(\hat{\theta}) + Bias(\hat{theta}) ^2$
+
+An estimator with smalle MSE is better
+## rigour==
+{{file:../figures/screenshot_20211216_103835.png}}
+## exam clinic==
+## examples and non-examples==
+## resources==
+tags :math:
+$X_1,\ldots,Xn ~ N(\mu,\sigma^20$
+
+$\hat{\mu} = \frac{X_1,\ldots,Xn}{n} ~ N(\mu,\frac{\sigma^2}{n}$
+
+$\mathbb{P}(\left| \hat{\mu} - \mu \right| > \epsilon) = \mathbb{P}(|\frac{\sigma}{\sqrt{n} }Z|>\epsilon) = \mathbb{P}(Z < \frac{\sqrt{n}  \epsilon}{\sigma}) + \mathbb{P}(Z < \frac{\sqrt{n}  \epsilon}{\sigma} ) = 2(\psi(Z < \frac{-\epsilon \sqrt{n} }{\sigma} = 0$ as $n \to  \infty$
+
+Which becomes very small.
+
+convergence_in_probability:= The sequence of random variables $X_N$ converges in probability to a random variable X (or a constant if $\forall  \epsilon > 0, \mathbb{P}(|X_N - X| > \epsilon) \to 0$ as $n \to \infty$. E.g. $\hat{\mu_n} \to  \mu$ in probability
+
+{{file:../figures/screenshot_20211026_092149.png}}
+
+consistent:= If a sequence of estimates $\hat{\theta_n}$ of some parameter $\theta$ converges to the parameter $\theta$ in probability, we say that $\hat{\theta_n}$ is consistent. $\mathbb{P}(|\hat{\theta_n } - \theta| > \epsilon) \to 0$ as $n\to \infty$ for any $\epsilon > 0$
+
+Example of a :todo:
+
+$X_1,\ldots,X_n ~ Bernoulli(p), \mathbb{P}(heads) = p \in (0,1)$ 
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

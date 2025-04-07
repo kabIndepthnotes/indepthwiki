@@ -1,0 +1,25 @@
+# blender
+
+https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD
+
+# hotkeys
+g - move current selected object.
+gz, gz, gx - move in a specific axis
+g(middle click) - move with snapping to axis closest to mouse
+similar for s (scale), and and r (rotate).
+
+
+touchpad you can emulate 3 button mouse (edit... preferences)
+
+ctrl is incremental changes
+
+## movement
+- orbit middle click move
+- shift middle click pan
+- ctrl middle click zoom
+- numpad . or \` focus on object
+
+
+- view from camera
+
+

@@ -1,0 +1,60 @@
+# csound
+
+<!-- visits: 20 -->
+
+#  variables
+- setup only
+- i-rate variables (changed at the note rate)
+- k-rate variables (changed at the control signal rate)
+- a-rate variables (changed at the audio signal rate)
+
+#  Orchestra statements
+The syntax of a generic opcode is Output Opcode Arguments comment (optional)
+An orchestra statement is in the form "result action arguments"
+
+#  p-fields
+P-fields allow the score to change values to change the instrument
+
+#  Envelopes
+Toot 3 shows you how to use envelopes to control the loudness of the instrument
+
+#  can you make one note play?
+
+#  How does csound render? Line by line or all at once?
+It renders line by line, from top to bottom.
+
+#  advance statement
+This allows you to skip certain beats and plays the score from there
+
+	;advance  nomeaning  start  skip
+	a         0          0      10
+
+
+#  start statement
+You can reset the beat counter with
+
+	s 0
+
+
+
+#  section statement
+This resets the beat counter so that you can repeat a section without changing the start times p2
+
+#  carry, ramp and +
+. := copy the p-field of the one above
++ := p2 set to p2 + p3 of the above
+< := Linearly interpolate between points above and below
+
+#  global variables
+gi, gk, and ga rate variables
+
+	gacmb init 0
+
+
+#  what does an instrument i1.01 mean?
+
+
+[music](music___20250312_1742_01.pd):__csound:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

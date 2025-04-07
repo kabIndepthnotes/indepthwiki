@@ -1,0 +1,16 @@
+# filters
+
+<!-- visits: 4 -->
+
+#  filters
+lowpass, highpass, bandpass, bandreject
+
+Figure 1.44 A source signal (a) modified by the four basic filters: tone — a one-pole lowpass (b), atone — a one-pole highpass (c), reson — a two-pole bandpass (d) and areson — a two-pole bandreject (e).
+
+{{file:~/Documents/vimwiki/figures/image24.gif}}
+
+
+:__csound[music](music___20250312_1742_01.pd):
+
+#  Backlinks
+    - [[index|Zettelkasten]]

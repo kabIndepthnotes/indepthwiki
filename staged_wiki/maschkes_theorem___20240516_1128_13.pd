@@ -1,0 +1,27 @@
+# maschkes_theorem
+
+<!-- visits: 4 -->
+
+#  maschkes_theorem
+## introduction
+%% ==intuition
+## rigour
+##  What is Mascheke's theorem? Can you outline the proof? supppose $G$ is a finite group, and $V$ is a finite-dimensional (really just needs to be compact) representation of $G \to \mathbb{R}$ or $\mathbb{C}$. then
+every invariant subspace $W$ of $V$ has an invariant complement $W'$.
+
+#  proof
+suppose $\exists$ an invariant Hermitian product on $V$.
+Then Mascke's theorem follows from lemma $4.10$ and we take $W^{\perp}$.
+We need to find an invariant Hermitian product on $V$.
+We do this by averaging.
+Start with any Hermitian product on $V$, $\left< , \right>$ and take $\left< u, v \right>_{new} = \frac{1}{\left| G \right| } \sum _{g\in G}\left< g\cdot v , g\cdot w \right>$.
+We claim that this is a Hermitian product that is invariant under $G$
+
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[representation_theory_of_finite_groups___20240516_103432|representation_theory_of_finite_groups]]

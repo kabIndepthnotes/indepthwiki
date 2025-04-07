@@ -1,0 +1,22 @@
+# null_statement
+
+<!-- visits: 2 -->
+
+#  null_statement
+Just one semicolon with no instruction.
+Used in looping to not allow the loop to happen but no execution is needed in the body.
+
+~~~{.c .numberLines}
+// dummy example
+for (int i; i < 10; i++); // simply iterates through with no body.
+for (d = 2; d < n && n % d != 0; d++); // a more real-world example of the null statement use case
+~~~
+
+
+Another and pretty much the only other use case for null statemtents are when adding [jump_statements](jump_statements___20240610_1010_43.pd) labels in a [compound_statement](compound_statement___20240605_1151_46.pd)
+
+[c](c___20250304_1142_20.pd)
+
+#  Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

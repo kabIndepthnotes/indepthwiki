@@ -1,0 +1,18 @@
+# signal
+
+<!-- visits: 7 -->
+
+#  signal
+
+#  connecting a signal via code
+- call the `connect()` method
+
+~~~{.gd .numberLines}
+func _ready():
+	var timer = get_node("Timer")
+	# connect the timeout signal to the callback function `_on_timer_timout`
+	timer.timeout.connect(_on_timer_timeout)
+~~~
+
+
+:__godot:

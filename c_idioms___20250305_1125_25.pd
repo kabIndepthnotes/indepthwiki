@@ -1,0 +1,32 @@
+# c_idioms
+
+# scanf skip rest of the line
+
+~~~{.c .numberLines}
+while (getchar() != '\n')
+	;
+~~~
+
+# scanf skip blanks
+
+~~~{.c .numberLines}
+while ((ch = getchar()) == ' ')
+	;
+~~~
+
+# length of an array
+~~~{.c .numberLines}
+int len = sizeof(a)/sizeof(a[0]);
+~~~
+
+#  linked list traversal idiom 
+Visit nodes in a linked list, using a pointer variable `p` to keep track of the "current" node.
+
+~~~{.c .numberLines}
+for (p = first; p != NULL; p = p->next)
+~~~
+
+
+# credit
+[c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
+[c](c___20250304_1142_20.pd)

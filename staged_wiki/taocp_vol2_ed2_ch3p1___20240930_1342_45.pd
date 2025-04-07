@@ -1,0 +1,75 @@
+%title taocp_vol2_ed2_ch3p1
+%date 2024-09-30 13:42
+%%visits: 9
+
+#  taocp_vol2_ed2_ch3p1
+The art of computer programming volume 2 edition 2 chapter 3 point 1.
+
+#  q1. suppose that you wishto obtain a devimal digit at random, not using a computer. Which of the following methods would be suitable?
+#  1 a)
+The user would be primed not to select a number from the beginning or end.
+Is the telephone directories' first digit of each page uniformly distributed?
+The units digit is sufficiently "chaotic" in a telephone directory organised by name.
+The user might be primed to select a page in the middle however, and so that might skew the distribution.
+The user won't pick the first few pages as it doesn't seem "random enough"
+
+#  1 b)
+This does seem sufficiently chaotic.
+
+#  1 c)
+Suitable.
+
+#  1 d)
+Suitable.
+Though not as quickly reproducible.
+
+#  1 e)
+Suitable though not as quickly reproducible.
+
+#  1 f)
+Not suitable, as the distribution of numbers choses are not uniform enough.
+People chose 1 or 10 the most, then 3 or 7 as they seem like "random numbers"
+
+#  1 g)
+Not suitable, as the enemy might find out your desire and chose a non-random number.
+i.e. chose 1 all the time.
+
+#  1 h)
+This is sufficiently random, as long as the numbers assigned each race are random each time.
+
+#  2)
+$\frac{1}{10}^{1000000} \times $
+$(1,000,000 C 100,000) \times (900,000 C 100,000) \times \ldots \times (100,000 C 100,000)$
+
+$= \frac{1}{10^{1,000,000}} \times \frac{1,000,000!}{100,000! (900,000!)} \times \frac{900,000!}{100,000! (800,000!)} \times \ldots \times \frac{100,000!}{100,000! (0!)} $
+
+
+$= \frac{1}{10^{1,000,000}} \times \frac{1,000,000!}{1,000,000}$
+
+$\frac{999,999!}{10^{1,000,000}}$
+
+#  3)
+Look at K4 in the algorithm.
+3040504030
+
+#  4)
+In step K11, $X$ cannot be $0$ as in the previous step, $X$ must be positive:
+Either $X$ is set to be $X^2 + 99999$, which means that $X$ is always positive as it is squared then added a positive number, then added by $99999$ so it must be greater than $99,998$
+Or $X > 100000$ means in the next step $X - 99999$, $X$ is at least $1$.
+
+If $X$ could be $0$ then in step K12 we would get a division by $0$ error.
+$X(X-1) = 0 \times -1$
+$= 0$
+The step requires $\left\lfloor \frac{0}{10^{5}} \right\rfloor$ which is indeterminate.
+
+#  5)
+It can only provide 10-digit numbers.
+Because we are constrained to deterministic methods, we can know that one number leads to another, which leads to another.
+TODO
+
+#  6)
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[the_art_of_computer_programming___20240930_132131|the_art_of_computer_programming]]

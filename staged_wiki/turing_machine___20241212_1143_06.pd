@@ -1,0 +1,12 @@
+# turing_machine
+
+<!-- visits: 0 -->
+
+#  turing_machine
+This manipulates a strip of tape according to a table of rules.
+
+- infinite memory tape divided into discrete cells
+- each cell holds a symbol from a finite set of symbols (the alphabet)
+- It has a head that reads the current cell
+- dependant on the machines present state and the symbol read, the machine moves left or right, writes to the cell, or halts
+- There is a finite table that instructs the machine to make a move (move left or right, write to the cell, or halt)

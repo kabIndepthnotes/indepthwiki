@@ -1,0 +1,58 @@
+# major_minor_chords
+
+https://www.youtube.com/watch?v=06pyLmYs-1g
+
+c major chord :- c e g, intuitively all whites
+f major chord :- f a c, intuitively all whites
+g major chord :- g b d, intuitively all whites
+
+D major chord :- d f# a, intuitively white black white triangles (or just triangle)
+E major chord :- e g# b, intuitively white black white triangles (or just triangle)
+A major chord :- a c# e, intuitively white black white triangles (or just triangle)
+
+c# major chord :- c# f g#, intuitively black white black inverted triangles (or inv triangles)
+d# major chord :- d# g a#, intuitively black white black inverted triangles (or inv triangles)
+g# major chord :- g# c d#, intuitively black white black inverted triangles (or inv triangles)
+
+f# major chord :- f# a# c#, intuitively all flats (all black)
+
+b major chord :- b d# f#, intuitively white black black exception
+a# major chord :- a# d f, intuitively black white white exception
+
+trick for minor chords once you know major chords :- make the middle key down by a half step
+
+c minor chord :- c d# g, former whites now almost trig
+f minor chord :- f g# c, former whites now almost trig
+g minor chord :- g a# d, former whites now almost trig
+
+D minor chord :- d f a, former triangle now all whites
+E minor chord :- e g b, former triangle now all whites
+A minor chord :- a c e, former triangle now all whites
+
+c# minor chord :- c# e g# , former inv triangles now exceptions
+d# minor chord :- d# f# a#, former inv triangles now exceptions
+g# minor chord :- g# b d# , former inv triangles now exceptions
+
+f# minor chord :- f# a c#, former all black now black white black
+
+b minor chord :- b d f#, formerly exception now white white black
+a# minor chord :- a# c# f, formerly exception now black black white
+
+# order of circle of fifths
+c g d a e b g d a e b f
+
+c major chord :- c e g, intuitively all whites
+g major chord :- g b d, intuitively all whites
+d major chord :- d f# a, intuitively white black white triangles (or just triangle)
+
+a major chord :- a c# e, intuitively white black white triangles (or just triangle)
+e major chord :- e g# b, intuitively white black white triangles (or just triangle)
+b major chord :- b d# f#, intuitively white black black exception
+
+f# major chord :- f# a# c#, intuitively all flats (all black)
+c# major chord :- c# f g#, intuitively black white black inverted triangles (or inv triangles)
+g# major chord :- g# c d#, intuitively black white black inverted triangles (or inv triangles)
+
+d# major chord :- d# g a#, intuitively black white black inverted triangles (or inv triangles)
+a# major chord :- a# d f, intuitively black white white exception
+f major chord :- f a c, intuitively all whites

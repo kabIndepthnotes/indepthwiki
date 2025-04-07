@@ -1,0 +1,37 @@
+# linked_list
+
+
+# What is linked list ?
+
+Linked list is an linear data structure, which consists of a group of nodes in a sequence, which dynamic length.
+A linked list is where I store data in linear from.
+
+# Pros and cons
+- Pros:
+	1. Dynamically (during runtime and whenever you want) add and remove
+	2. Optimal insertion & deletion
+	3. Stack's & queues can be easily implemented
+	4. No memory wastage
+
+- Cons:
+	1. Memory usage due to address pointer
+	2. Slow traversal compared to arrays
+	3. No reverse traversal in singly linked list
+	4. No random access like hash maps
+
+# Types of linked list
+- singly linked list :- each node points to the next node and the last node points to `NULL`
+- doubly linked list :- each node points to the next node and previous node. Each node has 2 pointers.
+- circular linked link :- singly linked list but the last node points to the first node.
+- circular doubly linked list :~ circular linked list and doulble linked list combined.
+
+# Time complexity
+- Access: O(n)
+- Search: O(n)
+- Insert: O(1)
+- Remove: O(1)
+
+see [big_o_notation_cs](big_o_notation_cs___20250313_1129_34.pd)
+
+# other resources
+https://leetcode.com/discuss/post/1800120/become-master-in-linked-list-by-hi-malik-qvdr/

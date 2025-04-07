@@ -1,0 +1,16 @@
+%title fault_handler
+%date 2024-10-14 14:30
+%%visits: 5
+
+#  fault_handler
+Some fault handlers can be simple `for(;;);` or `while(1);` loops, so that the programmer can plug a debug module and debug it himself.
+
+#  generating a lightweight coredump
+https://embeddedartistry.com/blog/2021/01/11/hard-fault-debugging/
+
+- send the [[stack___20241014_160406|stack]]
+
+
+#  Backlinks
+    - [[embedded_system_bugs___20241014_141813|embedded_system_bugs]]
+    - [[index|Zettelkasten]]

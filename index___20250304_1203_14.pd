@@ -1,0 +1,90 @@
+# index
+
+
+
+	!my_linkify $(fzf) | xsel -b
+Defines are like this
+define := define meaning
+and not like this
+
+define:=
+
+[indepthwiki_coding_conventions](indepthwiki_coding_conventions___20250321_0954_32.pd)
+[game_dev_curriculum](game_dev_curriculum___20250303_1135_02.pd)
+test
+[grafx2_settings](grafx2_settings___20250303_1527_22.pd)
+[how_to_draw_a_head](how_to_draw_a_head___20250303_1545_59.pd)
+[test]()
+
+[resources](resources___20250303_1550_39.pd)
+
+[vim_variables](vim_variables___20250303_1006_31.pd)
+
+[aabb_collision](aabb_collision___20250305_1115_47.pd)
+[c_idioms](c_idioms___20250305_1125_25.pd)
+
+[c99](c99___20250312_1237_53.pd)
+[c89](c89___20250312_1239_51.pd)
+
+[slynyrd_comphrehensive_color_palette](slynyrd_comphrehensive_color_palette___20250305_1333_38.pd)
+
+[dual_grid_tileset](dual_grid_tileset___20250306_1023_19.pd)
+
+[rename](rename___20250306_1127_09.pd)
+[vim](vim___20250306_1212_54.pd)
+
+[piano_definitions](piano_definitions___20250307_1834_52.pd)
+
+[sed](sed___20250310_1127_06.pd)
+[c](c___20250304_1142_20.pd)
+[art](art___20250312_1407_25.pd)
+[linked_list](linked_list___20250313_1115_14.pd)
+[major_minor_chords](major_minor_chords___20250331_0932_23.pd)
+
+[music](music___20250312_1742_01.pd)
+[circle_of_fifths](circle_of_fifths___20250312_1742_15.pd)
+[chord](chord___20250312_1749_45.pd)
+[taocp](taocp___20250317_1141_16.pd)
+[taocp_vol_1_ed_2](taocp_vol_1_ed_2___20250317_1141_46.pd)
+[taocp_vol_1_ed_2_exercises](taocp_vol_1_ed_2_exercises___20250317_1142_13.pd)
+[algorithm](algorithm___20250317_1152_12.pd)
+
+[math](math___20250311_0922_50.pd)
+[pixel_art](pixel_art___20250319_1215_29.pd)
+
+[ultisnip](ultisnip___20250320_0954_51.pd)
+
+[game_programming](game_programming___20250324_1110_15.pd)
+
+$e^\pi$
+
+Make a gamedev course
+
+[lilypond](lilypond___20250325_1748_40.pd)
+[music](music___20250312_1742_01.pd)
+[sheet_music](sheet_music___20250326_1512_15.pd)
+[blender](blender___20250328_1130_30.pd)
+[legal](legal___20250328_1450_56.pd)
+
+mk
+ $\implies$
+
+patch < patchfile
+
+~~~{.ly .numberLines}
+\version "2.24.4"
+{
+  c' e' g' e'
+}
+~~~
+<!-- ![test3](figures/test3___20250328_1030_09.svg) -->
+<!-- ![test3](figures/test3___20250328_1030_09.svg) -->
+<!-- ![test3](figures/test3___20250328_1030_09.svg) -->
+<!-- ![test3](figures/test3___20250328_1030_09.svg) -->
+
+~~~{.c .numberLines}
+perf record a.out
+perf report
+~~~
+
+![test4](figures/test4___20250328_1034_59.svg)

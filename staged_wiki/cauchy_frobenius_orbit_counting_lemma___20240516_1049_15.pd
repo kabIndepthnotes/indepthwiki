@@ -1,0 +1,34 @@
+# cauchy_frobenius_orbit_counting_lemma
+
+<!-- visits: 4 -->
+
+$$\definecolor{c1}{RGB}{255, 0, 0} \definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}$$
+#  cauchy_frobenius_orbit_counting_lemma
+AKA burnside's lemma
+## introduction
+## intuition
+$$
+\color{c1} \#
+\color{c2}\text{ orbits }
+\color{default}
+\color{c3}\frac{1}{\left| G \right| } \sum _{g \in G}
+\color{c4}fix_x(g)
+$$
+
+$$
+\color{c2} \text{If you shuffle a deck of $n$ cards, }
+\color{c3} \text{on average }
+\color{c1} 1
+\color{c4} \text{ card will remain in it's original position.}
+$$
+
+If you shuffle a deck of $n$ cards, on average $1$ card will remain in it's original position.
+%% ==rigour
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[representation_theory_of_finite_groups___20240516_103432|representation_theory_of_finite_groups]]

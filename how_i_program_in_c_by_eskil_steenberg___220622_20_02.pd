@@ -1,0 +1,122 @@
+# how_i_program_in_c_by_Eskil_Steenberg
+
+<!-- visits: 5 -->
+
+- In the beginning you always want results, in the end you always want control. The bad reasons to use c are *good* reasons to use c.
+- See what you can do with the tools/resources you have rather then how to make xyz.
+- memory leaks are not difficult to solve once you get the hang of it.
+- use C89 for futureproof code.
+- readability is king, you spend more time reading your code then the compiler does.
+- stupid is smart.
+- have long variable names (and function names)
+- crashes are good: any errors need to crash early and as loud as possible. see the ;
+- Some definitions:
+    - `MY_DEFINE`
+    - `MyType`
+    - `my_function()`
+    - `my_variable`
+- spacing is super important, consider searching.
+- reuse names
+    - `array` := arrays
+    - `type` := enu
+    - `node` :=links to other node
+    - `entity` := generic networked thing
+    - `handle` := pointer to opaque data structure
+    - `func` := function pointer
+    - `internal` := function internal to a module
+    - `i`,`j`,`k` := indexes for for loop
+    - `count` := unsigned int
+    - `f` := float
+    - `vec` := vector
+    - `length`
+    - `found` := binary for an existence of something
+    - `next` :~ loosely-defined
+    - `previous` :~ losely-defined
+    - `list`
+- long functions that are sequential, not needing to jump between functions and files etc. is good.
+- write function names in this form:
+    - module_object_subject(); // this allows for all module functions to be seen, as well as all the functions regarding the object
+- modular programming in c is good
+- interface with headerfiles, don't make one header file for every c file, instead make a master external headerfile for the folder as well as internal headerfiles
+- You can do object orientation in c, in fact it is more realistic to what happens.
+- void pointers are like encapsulation
+- macros make it easy to shoot yourself in the foot, only do it when it is most sensible.
+    - for debugging, especially memory leaks, to review, and for packing data.
+    - __FILE__
+    - __LINE__
+
+#  Memory
+- If something exists, it exists somewhere.
+- memory :~ a very big array of bytes. (there is more to this, so see [[#memory cont]])
+- pointer :~ an integer referencing a byte.
+- datatype of a pointer matters.:
+    - `void *p;`
+    - `short short_pointer = *p; // returns something 4 bytes long`
+    - `int int_pointer = *p // returns something 8 bytes long`
+    - `short_pointer++; // adds 2 bytes = sizeof(short)`
+    - `int_pointer++; // adds 4 bytes = sizeof(int)`
+- sizeof is a cast, not a function:
+    - `double *a;`
+    - `a = malloc( (sizeof *a) );` is way better then
+    - `a = malloc( sizeof(float) )` note, this is typecasting
+- pointers and arrays are the same thing
+- you can use pointers as counters.
+- `uint i;`
+- `for(i=0;i < 10;i++)`
+-   `p[i] = 0`
+- is actually doing a multiplication under the hood, which is, `p + (sizeof *p) * i`
+#  structs
+- Structs:~ a sizeof and a bunch of offset types
+
+
+- Alignment will make things complicated
+- data needs to be stored on even numbers, the ordering matters. The compiler does this to be faster
+    - `typedef struct{`
+    - `uint32 a;`
+    - `uint8 b; }` this will take up 8 bytes. Size allocated will always be multiples of 4
+-
+#  memory cont
+- Each $4k$ block has read/write/execute flags
+- block addresses are virtualised
+- `realloc()`
+- watch out for this infamous bug:
+    - when you use an array beyond where it is supposed to be, it will still read/write as long as it is not beyond the current memory block!
+        - `{`
+        - `uint a[10],i;`
+        - `for (i = 0; i < 11; i++)`
+        - ` a[i] = 0;`
+        - `}`
+    - there is a windows application called gflags, which shows the bugs of this kind!
+- memory is ridiculously slow, and math is ridiculously fast!
+- linked lists are terrible for optimisation
+    - realloc:
+- bad
+- typedef struct{
+-   float width;
+-   float length;
+-   float area;
+- }
+- use setters and getters
+- TODO slide 37
+- stride :~ tells how big a piece of memory
+- stride allows for versitile functions.
+- Architecture :~ how to structure code, how to design it all.
+- pick primitives, such as tringles only for graphics.
+- Code a mountain.
+- an application should be small, like a house. Build a small house on a mountain
+- You should not be afraid of writing code!
+- Code you own doesn't age.
+- Fix it now:
+    - If you know your code should be different fix it now.
+    - Don't wait
+    - it won't be easier in the future
+    - no you won't get more time to do it later
+    - no it won't take too much time
+    - you will earn it back faster then you think
+- you can use pointers as unique ... TODO
+- eskil@obsession.se
+
+[c](c___20250304_1142_20.pd)
+
+#  Backlinks
+    - [[index|Zettelkasten]]

@@ -1,0 +1,125 @@
+# circle_of_fifths
+
+<!-- visits: 32 -->
+
+#  circle_of_fifths
+Order of sharps:
+FCGDAEB
+
+Order of flats (order of sharps in reverse):
+BEADGCF
+
+{{file:~/Documents/vimwiki/figures/screenshot_20240322_103635.png}}
+
+#  application
+Keys close to each other sound harmonious, chords far apart may seem more foreign.
+
+similar to color theory, there are triads used in music theory. [art](art___20250312_1407_25.pd)
+https://www.youtube.com/watch?v=62tIvfP9A2w
+
+- when playing the major keys forward, notice that the 4th note is different to the others (and the 7th)
+- When playing the major keys backwards, notice that the 6th note is different to the others (and the 2nd)
+
+#  Keys
+
+
+c   d   e   f   g   a   b
+g   a   b   c   d   e   f#
+d   e   f#  g   a   b   c#
+a   b   c#  d   e   f#  g#
+e   f#  g#  a   b   c#  d#
+b   c#  d#  e   f#  g#  a#
+f#  g#  a#  b   c#  d#  e#
+c#  d#  e#  f#  g#  a#  b# (notationally d_ (d flat))
+
+
+
+f   g   a   b_  c   d   e
+b_  c   d   e_  f   g   a
+e_  f   g   a_  b_  c   d
+a_  b_  c   d_  e_  f   g
+d_  e_  f   g_  a_  b_  c
+g_  a_  b_  c_  d_  e_  f
+c_  d_  e_  f_  g_  a_  b_
+
+
+#  Keys csound
+0 := c
+11 := b
+
+c, c#, d, d#, e, f, f#, g, g#, a, a#, b
+0, 1 , 2, 3 , 4, 5, 6 , 7, 8 , 9, 10, 11
+
+
+0   2   4   5   7   9   11
+7   9   11  0   2   4   6
+2   4   6   7   9   11  1
+9   11  1   2   4   6   8
+4   6   8   9   11  1   3
+11  1   3   4   6   8   10
+6   8   10  11  1   3   5
+1   3   5   6   8   10  0
+
+
+
+
+5   7   9   10  0   2   4
+10  0   2   3   5   7   9
+3   5   7   8   10  0   2
+8   10  0   1   3   5   7
+1   3   5   6   8   10  0
+6   8   10  11  1   3   5
+11  1   3   4   6   8   10
+
+
+#  Minors
+
+9   11  0   2   4   5   7
+4   6   7   9   11  0   2
+11  1   2   4   6   7   9
+6   8   9   11  1   2   4
+1   3   4   6   8   9   11
+8   10  11  1   3   4   6
+3   5   6   8   10  11  1
+10  0   1   3   5   6   8
+
+
+
+
+2   4   5   7   9   10  0
+7   9   10  0   2   3   5
+0   2   3   5   7   8   10
+5   7   8   10  0   1   3
+10  0   1   3   5   6   8
+3   5   6   8   10  11  1
+8   10  11  1   3   4   6
+
+
+
+#  flashcards
+
+C major	c   d   e   f   g   a   b
+g major	g   a   b   c   d   e   f#
+d major	d   e   f#  g   a   b   c#
+a major	a   b   c#  d   e   f#  g#
+e major	e   f#  g#  a   b   c#  d#
+b major	b   c#  d#  e   f#  g#  a#
+f# major	f#  g#  a#  b   c#  d#  e#
+c# major	c#  d#  e#  f#  g#  a#  b# (notationally d_ (d flat))
+f major	f   g   a   b_  c   d   e
+b major	b_  c   d   e_  f   g   a
+e flat major	e_  f   g   a_  b_  c   d
+a flat major	a_  b_  c   d_  e_  f   g
+d flat major	d_  e_  f   g_  a_  b_  c
+g flat major	g_  a_  b_  c_  d_  e_  f
+c flat major	c_  d_  e_  f_  g_  a_  b_
+
+
+# tags
+[music](music___20250312_1742_01.pd)_theory:
+
+
+#  Backlinks
+    - [[coloring_i_dont_get_it___20240621_112913|coloring_i_dont_get_it]]
+    - [[index|Zettelkasten]]
+    - [[music_theory___20240301_144301|music_theory]]

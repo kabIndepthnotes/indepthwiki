@@ -1,0 +1,23 @@
+# operating_system
+
+<!-- visits: 3 -->
+
+#  operating_system
+#  hardware
+- the memory
+- io devices
+- communication devices
+
+#  software
+- File systems
+- virtual memory
+- security
+
+Without an OS, every program that runs must need it's own bootloader, as well as interacting with the hardware.
+This is problem for multi-tasking etc.
+
+
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

@@ -1,0 +1,31 @@
+# equivalence_relation=
+## introduction==
+%%visits: 3
+## intuition==
+Equivalence relation are some relation on a [[set]] $G$ satisfying:
+    - Reflexive:= $\forall  g \in G, g ~ g$ 
+    - Symmetric:= $\forall  a,b \in G, a~b \implies b~a$
+    - Transitive:= $\forall a,b,c \in G, a ~ b, b~c \implies a~c$
+
+We can also have things like $a\implies b \implies c \implies a$ which makes them all equivalent.
+## rigour==
+## exam clinic==
+## examples==
+Examples of relations that are not equivalence_relation s
+
+Non examples of Reflexive
+
+$\left( \mathbb{R}, > \right)$
+
+Non examples of Symmetric 
+
+$\left( \mathbb{R}, \ge  \right)$
+
+Non examples of Transitive
+
+## resources==
+tags :math:
+
+
+#  Backlinks
+    - [[index|Zettelkasten]]

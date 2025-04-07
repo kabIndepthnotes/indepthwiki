@@ -1,0 +1,19 @@
+# line_art
+
+<!-- visits: 2 -->
+
+#  line_art
+
+#  Chapter 2: Lines
+When drawing a line, each segment (an unbroken straight line part) should get progressively bigger or smaller.
+
+even lines:= Each segment or [[cluster___20240619_095817|cluster]] is of the same length.
+
+There are gaps in even lines which may need anti-aliasing
+
+{{file:~/Documents/vimwiki/figures/screenshot_20240703_095147.png}}
+
+This figure shows that if we only use even lines there is a limited number of shapes we can show, especially between the vertical line, the n:1 line, and before and after the 1:1 line.
+
+#  Backlinks
+    - [[index|Zettelkasten]]

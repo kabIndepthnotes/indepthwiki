@@ -1,0 +1,7 @@
+# dafluffy_tilemap_infinite
+
+<!-- visits: 3 -->
+
+#  dafluffy_tilemap_infinite
+- chunks contain a list of tiles in it
+- world is a dictionary of chunks

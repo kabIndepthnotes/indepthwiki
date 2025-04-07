@@ -1,0 +1,26 @@
+# the_division_algorithm=
+
+%%visits: 4
+
+## introduction==
+## intuition==
+## rigour==
+## exam clinic==
+How many positive divisors of 15435 are multiples of $21$?
+    - $15435 = 5(3087)$
+    -       = $5\cdot 3^2 \cdot 7^{3}$
+    - Lemma 2.4 means that d is going to have the same prime divisors, but less or equal powers.
+Solve $52X \equiv 10$ mod 93
+We know that 52 is coprime to 93. Find the inverse with the bezouts lemma and you find the inverse, pre multiply. Or a quicker solution, if the gcd divides the number on the right, then you can just multiply to find the right answer.
+
+Let $d = gcd(a,m) , a,b \in \mathbb{Z}$. Then $$
+ax \equiv b \text{ mod m }
+$$ 
+proof that there is a solution in $\mathbb{Z}$ $\iff d|6$
+
+
+## resources==
+tags :math:introduction_to_number_theory:introduction_to_abstract_algebra:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

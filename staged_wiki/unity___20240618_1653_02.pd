@@ -1,0 +1,24 @@
+# unity
+
+<!-- visits: 2 -->
+
+#  unity
+
+Scene:~ a level
+Game object:~ Player, bullet etc
+
+#  urp
+urp is the universal rendering platform, it has more features but is not as supported
+
+#  the project folder
+Assets
+Packages
+
+Library
+Logs
+User Settings
+
+:__unity:
+
+#  Backlinks
+    - [[index|Zettelkasten]]

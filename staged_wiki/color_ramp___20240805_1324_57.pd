@@ -1,0 +1,28 @@
+# color_ramp
+
+<!-- visits: 17 -->
+
+#  color_ramp
+ramp:= a ramp is a transition from one color to another.
+straight ramp:= Only lightness changes, like a monochromatic palette with no hue shifting. Rarely used.
+luminosity ramp:= Sorting by luminosity, there is a formula but it is intuitively the percieved color brightness, not just the "value" component in hsv
+
+static ramp:= Only saturation changes.
+
+##  hue method
+Start at end points and transition around the color wheel
+Or start with colors you know you want in the piece and expand from there.
+
+#  luminousity method
+You go down in luminosity rather than hue.
+
+{{file:/media/veracrypt1/vimwiki/figures/luminous_ramp.png}}
+
+#  what is the color of the light source method
+This is where the lighter the colours get, the closer to the color of the light source they get.
+
+
+:__color_theory[pixel_art](pixel_art___20250319_1215_29.pd):
+
+#  Backlinks
+    - [[index|Zettelkasten]]

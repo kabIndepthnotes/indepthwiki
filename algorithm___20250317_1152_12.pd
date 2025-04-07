@@ -1,0 +1,9 @@
+# algorithm
+
+# algorithm
+# features of an algorithm
+1. finite:- Must terminate after $n < \infty$ steps
+2. Definiteness:- Each step should be precisely defined.
+3. Input:- The algorithm has $0$ or more inputs, e.g. 2 positive integers in the euclidean algorithm
+4. Effectiveness:- Each step must be solvable by someone with a piece of paper and a pencil. Each step should be computable. A non-example is solving an unsolved math problem.
+

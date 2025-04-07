@@ -1,0 +1,27 @@
+# lilypond
+
+~~~{.tex .numberLines}
+\begin{lilypond}[quote,fragment,staffsize=26]
+  c'4 d' e' f' g'2 g'
+\end{lilypond}
+~~~
+
+TODO make a filter for lilypond
+
+\begin{quote}
+{%
+\parindent 0pt
+\noindent
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input{8d/lily-a6f43473-systems.tex}%
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
+\end{quote}
+

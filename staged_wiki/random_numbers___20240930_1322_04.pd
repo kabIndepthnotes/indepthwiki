@@ -1,0 +1,31 @@
+# random_numbers
+
+<!-- visits: 15 -->
+
+#  random_numbers
+- In the computational sense, there is no such thing as a random number, rather we think of a sequence of random numbers.
+- A sequence of independent random numbers with a specified distribution.
+
+$$
+\definecolor{c1}{RGB}{255, 0, 0} \definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}
+$$
+
+$$
+\color{default} \text{A sequence of }
+\color{c1} \text{independent }
+\color{c2} \text{random }
+\color{default} \text{numbers with a }
+\color{c3} \text{specified distribution.}
+$$
+
+$$
+\color{c2} \text{Each number appeared by chance, }
+\color{c1} \text{having nothing to do with each other  }
+\color{c3} \text{and each number has a specified probability of falling in any given range of values.}
+$$
+#  tags
+:__discrete_math:__taocp:
+
+#  Backlinks
+    - [[index|Zettelkasten]]
+    - [[the_art_of_computer_programming___20240930_132131|the_art_of_computer_programming]]

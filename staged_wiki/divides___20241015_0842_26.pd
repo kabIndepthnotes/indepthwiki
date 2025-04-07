@@ -1,0 +1,12 @@
+# divides
+
+<!-- visits: 9 -->
+
+#  divides
+$a|b \implies b = an$
+
+## rigour
+divides:= Let $a$ and $b$ be two integers. We say that $b$ divides $a$ if there exists and integer  $q$ such that  $a=qb$. If $b$ divides  $a$, we write  $b|a$
+
+#  tags
+[math](math___20250311_0922_50.pd)

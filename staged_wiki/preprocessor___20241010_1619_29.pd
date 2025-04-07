@@ -1,0 +1,44 @@
+# preprocessor
+
+<!-- visits: 5 -->
+
+#  preprocessor
+- the preprocessor is a program itself.
+- can create confusing code
+
+preprocessing directives := commands that the preprocessor follows, usually beginning with `#`
+
+#  `#define`
+This defines a `macro`,
+
+#  `#include`
+Brings the contents of the header file into the program.
+
+#  does the preprocessor delete lines?
+No it just makes them blank.
+It also makes comments blank.
+
+#  why should I be cautious when using a preprocessor?
+When the preprocessor is run, the processed code might still have bugs in it, therefore if a macro bug is likely, then we should check the preprocessor output with `gcc -E`
+
+#  directives
+##  macro definitions
+`#define`, and `#undef` := removing a macro definition
+
+##  file inclusions
+the `#include directive`
+
+##  conditional compilation
+`#if`, `#ifdef`, `#ifndef`, `#elif`, `#else`, `#endif`.
+These allow code to be conditionally included or excluded.
+
+#  parameterized macros
+`#define identifier( x_1, x_2, ... , x_n) replacement-list`
+
+WARN: `#define f (a) b` is wrong because of the space after the left parenthesis, it will be taken as a simple macro.
+
+
+
+#  Backlinks
+    - [[compiling_and_linking___20240522_095735|preprocessor]]
+    - [[index|Zettelkasten]]

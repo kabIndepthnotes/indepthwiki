@@ -1,0 +1,10 @@
+%title ncr
+%date 2024-10-01 11:55
+%%visits: 7
+
+#  ncr
+aka binomial distribution.
+$nCr := \frac{n!}{r!(n-r)!}$
+
+#  Backlinks
+    - [[index|Zettelkasten]]
