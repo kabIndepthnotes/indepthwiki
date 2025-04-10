@@ -1,0 +1,63 @@
+# library_taocp_exercises
+
+<!-- visits: -->
+
+# 1.2.1
+3. The formula is not defined for $n=1$ as $\frac{1}{(n-1) \times n}$ will be $\frac{1}{0 \times 1}$ which is undefined.
+Because the iteration is not defined, (when we hav $1 \ldots 0$ do we do just $1$ or just $0$
+
+If we are to do induction, we have to start at $n=2$, but.
+$\frac{1}{1 \times 2} \stackrel{!}{=} \frac{3}{2} - \frac{1}{2}$
+$\text{ L.H.S } = \frac{1}{2}$ but
+$\text{ R.H.S } = 1$ CONTRADICTION.
+
+4.
+TODO we need base cases 3 and 4 for our proof.
+Recall, $\phi = \frac{1 + \sqrt{5} }{2}$
+
+W.T.S $\phi^{n -2} \le F_n$ where $F_n$ is the $n$th term in the [fibonnaci](fibonacci___20250319_1332_58.pd)  sequence.
+
+## base case
+For $n=1$, $F_1 = 1$ and $\phi^{1-2} = \frac{2}{1 + \sqrt{5} }$
+We know that the square root function is monotonic for numbers greater than $1$, and $\sqrt{4} = 2$,so $1+ \sqrt{5} > 1 + 2 = 3$.
+$\implies \phi^{-1} < 1$
+
+For $n=2$, $F_2 = 1$ and $\phi^{0} = 1$ and so we havee $\phi^{0} \le F_2$
+
+# assume true for $\forall j : 1 < j < n$ to prove true for $n$
+$F_n = F_{n-1} + F_{n-2}$.
+As we are dealing with all positive numbers, we have $\implies \phi^{n-3} + \phi^{n-4} \le F_n$.
+
+We need to show $\phi^{n-2} \le \phi^{n-3} + \phi^{n-4}$.
+
+Plug in the formula values.
+$\text{ LHS } = \frac{\left( 1 + \sqrt{5} \right)^{n-2}  }{2^{n-2}}$
+$\text{ RHS } = \frac{\left( 1 + \sqrt{5} \right)^{n-3}  }{2^{n-3}} + \frac{\left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-4}}$
+$= \frac{\left( 1 + \sqrt{5} \right)^{n-3}  }{2^{n-3}} + \frac{2 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-3}}$
+$= \frac{\left( 1 + \sqrt{5} \right)^{n-3}  + 2 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-3}}$
+$= \frac{2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-2}}$
+
+We only need to compare numerators, we WTS, $\left( 1 + \sqrt{5} \right)^{n-2} \le 2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqrt{5} \right)^{n-4}$
+
+$u := 1 + \sqrt{5}$
+
+$u^{n-2} \le 2 u^{n-3} + 4u^{n-4}$
+$\implies u^{2}u^{n-4} \le 2 u^{n-4} u + 4u^{n-4}$
+$\implies u^2 \le 2u + 4$
+We can now plug in the values.
+
+# 5. prove that every positve integer $> 2$ can be written as a product of primes.
+
+## base case
+$n=2$ we are done as $2$ is a prime.
+
+# assume true for $2 \le j < n$ to prove true for $n$
+For sake of contradiction, suppose that $n$ cannot be expressed as a product of primes.
+Why would this be the case?
+$n$ must have at least $2$ factors, as it is greater than 1, and itself.
+But it must have more factors, as if it only had $2$ factors than $n$ is prime and we are done.
+
+If it had a factor $a$, We must have that $a < n$, and therefore by our assumption $a$ can be expressed as a product of primes. so $n = a = p_1 \ldots p_n$.
+In fact, any factor has the property of being less than $n$ and therefore by our induction step we know it is expressed as a factor of primes.
+
+

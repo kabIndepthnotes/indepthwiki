@@ -1,0 +1,84 @@
+# mix
+
+<!-- visits: -->
+
+- Is supposed to work on a computer using base-2 or base-10
+
+# words
+
+## byte
+byte := the following
+- dependant on if we are using binary( $2^{6}$ or decimal $10^{2}$)
+- at least 64 distinct values
+- at most 100 distinct values
+- We have to assume both value limits could exist on either computer
+
+- Leave 2 adjacent bytes for the number $80$
+- 2 adjacent bytes can express the number $0$ through $4095$
+- 3 adjacent bytes can express the number $0$ through $262143$
+- 4 adjacent bytes can express the number $0$ through $16777215$
+- 5 adjacent bytes can express the number $0$ through $1073741824$
+- n adjacent bytes can express the number $0$ through $2^{6n}$
+
+word := five bytes plus a sign, and sign := 1 bit, plus or minus
+
+# registers
+There are $9$ registers in MIX.
+
+A-register := Accumulator is one word big, many uses, especially for arithmetic and operating on data
+
+X-register := Extension is one word big, extension on RHS of `rA`, used with `rA` to hold $10$ bytes of product or dividend, or infomation shifted to the right of `rA`.
+
+I-register := Index registers, `I1`, `I2`, `I3`, `I4`, `I5`, `I6` which each hold $2$ bytes and a sign. Mainly used for counting and referencing variable memory addresses.
+
+J-register := Jump register, holds $2$ bytes and the sign is always $+$. Always holds the address of the instruction preceding the jump instruction, primarily used with subroutines.
+
+# other features
+An overflow toggle, $1$ bit
+
+A comparison indicator, $3$ values, less, equal or greater
+
+memory, 4000 words of storage
+
+i/o devices, cards, tapes, etc
+
+# Partial fields of words
+The word is indexed as follows.
+
+| 0     | 1    | 2    | 3    | 4    | 5    |
+| ----- | ---- | ---- | ---- | ---- | ---- |
+| $\pm$ | Byte | Byte | Byte | Byte | Byte |
+
+(0:0) - the sign only
+(0:2) - the sign and the first 2 bytes
+(0:5) - the whole word
+(3:4) - the 3rd and 4th byte.
+
+(L:R) is denoted as $8L + R$ in the machine
+
+# instruction format
+| 0     | 1 | 2 | 3 | 4 | 5 |
+| ----- | - | - | - | - | - |
+| $\pm$ | A | A | I | F | C |
+
+instruction format `C` := the operation code telling what operation is to be performed. e.g. $C = operation. 8$ is the `LDA` operation.
+
+instruction format `F` := holds a modificaiton of the operation code, usually the field specification. e.g. $F = 11$ is the field (1:3).
+
+instruction format `I` := instruction specification, may be used to modify the address of an instruction. $I = 0 \implies$ no change. $I = i$ means we add the number in `rIi` to $\pm A A$. If the result has `M` being larger than 2 bytes, the value of `M` is undefined.
+
+instruction format `A` := $\pm A A$ is the address, note the sign is part of the address.
+
+Memory cell `M` := To access the memory of the computer
+
+# Notation
+To denote the instruction format in a human readable manner, we use.
+
+~~~{.mix .numberLines}
+OP ADDRESS, I(F)
+~~~
+
+Where `OP` is a symbolic name for the OP code.
+
+`ADDRESS` is the $\pm AA$ portion and `I`, `F` are the I- and F- fields respectively.
+

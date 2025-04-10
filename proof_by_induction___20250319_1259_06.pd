@@ -3,9 +3,15 @@
 
 # 1. prove $P(1)$ is true.
 
-# 2. prove "if $P(1), P(2),\ldots, P(n)$ are true, then $P(n+1)$ is true".
+# 2. prove "if $P(1), P(2),\ldots, P(n)$ are true, then $P(n+1)$ is true". This must be true $\forall n$
+This must be true $\forall n$, and this check is not part of the assumption
 
 This can be considered an algorithmic proof procedure.
+
+- The positive integers themselves are defined by induction, you have the number $1$, and the other numbers are defined from $n+1$
+
+# intuition
+
 
 [proof_by_induction_algorithm](proof_by_induction_algorithm___20250319_1305_39.pd)
 
