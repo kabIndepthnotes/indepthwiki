@@ -77,7 +77,35 @@ e.g. a character might be $9$ bits.
 But the character needs a pointer, which may hold an address and the offset.
 
 # pointers as return values
+
 - TODO
+
+~~~{.c .numberLines}
+int *max(int *a, int *b)
+{
+if (*a > *b)
+	return a;
+else
+	return b;
+}
+~~~
+
+`max` can return a pointer passed into it, but also a pointer to an external variable or to a local variable that is `static`.
+
+# Pitfall
+Never return a pointer to an automatic variable
+
+~~~{.c .numberLines}
+int *f(void)
+{
+	int i;
+	return &i; // i doesn't exist when f returns, so the pointer will be invalid
+}
+~~~
+
+- `void f(const int *p)` means that you cannot change the value at `p` but you can change the pointer (`p = &j;`)
+- `void f( int * const p)` means that you can change the value at `p` but you cannot change the pointer (`*p = 0;`)
+
 [c](c___20250304_1142_20.pd)
 
 see also [link_between_pointers_and_array](link_between_pointers_and_array___20250331_1147_06.pd)

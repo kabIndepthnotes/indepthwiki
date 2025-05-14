@@ -1,0 +1,9 @@
+# qutebrowser
+
+# only one tab
+
+- Because of [distraction](distraction___20250514_1452_51.pd) as well as memory problems
+
+`unbind <ctrl-t>`
+tabs.background = false
+tab only

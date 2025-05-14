@@ -82,3 +82,5 @@ Where `OP` is a symbolic name for the OP code.
 
 `ADDRESS` is the $\pm AA$ portion and `I`, `F` are the I- and F- fields respectively.
 
+# LDA
+- take the number at position R, and fill in from the right the numbers in the address until you reach L.

@@ -1,0 +1,19 @@
+# the_extended_euclidean_algorithm
+
+Given two positive integers $m$ and $n$, we find their greatest common divisor $d$ and two integers $a$ and $b$, such that $am + bn = d$.
+
+We compute the [gcd](gcd___11_06_2022__090230_58.pd) as well as finding integers that satisfy the [bezouts_lemma](bezouts_lemma___11_06_2022__09023_03.pd)
+
+1. [Initialise] Set $a' \leftarrow b \leftarrow 1, a \leftarrow b' \leftarrow 0, c \leftarrow m, d \leftarrow n$
+2. [Divide] Let $q,r$ be the quotient and remainder, respectively, of $c$ divided by $d$. $c = qd + r, 0 \le r < d$
+3. [Remainder zero?] If $r = 0$, we are done as $am + bn = d$
+4. [Recycle] Set $c \leftarrow d, d \leftarrow r, t \leftarrow a', a' \leftarrow a, a \leftarrow t - qa, t \leftarrow b', b' \leftarrow b, b \leftarrow t - qb$ Go to step `2`.
+
+TODO transclude code/the_extended_euclidean_algorithm.c here
+
+
+If we forget about $a,b,a',b'$ and use $m,n$ instead of $c,d$ we get the [euclidean_algorithm](euclidean_algorithm___11_06_2022__0902301_67.pd).
+
+# proving the_extended_euclidean_algorithm using [proof_by_induction](proof_by_induction___20250319_1259_06.pd)
+
+

@@ -1,0 +1,35 @@
+# introduction
+
+<!-- visits: 6 -->
+
+The gcd is the greatest common divisor.
+
+# intuition
+
+# rigour
+The gcd of a and b is the smallest possible integer of the form, au + bv
+
+Let $a,b$ be integers. If $d$ is another integer such that $d|a$ and $d|b$ we say that $d$ is a common divisor of $a$ and $b$. The max in the set $\left\{ d : d|a$ and $d|b \right\}$
+
+gcd is the largest positive positive, and $a$ and $b$ must be non-zero, since $gcd(0,0)$
+
+# examples
+
+# Exam Clinic
+
+Find $gcd(132,84)$.
+	- Factor tree? List common divisors? Euclidean algorithm is more economical for larger numbers.
+- use the [euclidean_algorithm](euclidean_algorithm___11_06_2022__0902301_67.pd)
+	- $132 = 1(84) + 48$
+	- $84 = 1(48) + 36$
+	- $48 = 36 + 12$
+	- $36 = 3(12) + 0$ gcd is $12$ as it is the last proper remainder.
+
+	To work out sets of solutions, it is much easier to divide everthing by a common factor and it must have the same solution (once multiplied back) to make them smaller and more manageable.
+
+
+tags :math:KY1S1:introduction_to_abstract_algebra:introduction_to_number_theory:
+
+#  Backlinks
+	- [[index|Zettelkasten]]
+	- [euclidean_algorithm](euclidean_algorithm___11_06_2022__0902301_67.pd)

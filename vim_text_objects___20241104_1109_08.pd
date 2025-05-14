@@ -205,3 +205,8 @@ visual mode text-objects
 	"dap"	delete a paragraph			*dap*
 	"diB"	delete inner '{' '}' block		*diB*
 	"daB"	delete a '{' '}' block			*daB*
+
+
+see also https://github.com/wellle/targets.vim/raw/refs/heads/master/cheatsheet.md
+
+
