@@ -1,0 +1,20 @@
+# contour_integral
+## introduction
+%%visits: 5
+This is a generalisation of [[integral]] on the "[[complex_number]] line". It allows us to calculate real integrals much easier then without them.
+
+Complex functions take $(x,y)$ and map them to $(x,y)$, so there are 4 dimensions to the integral, and the bounds are typically 2d shapes, hence visualising them are no longer thought about as a way to understand them.
+%% ==intuition
+%% ==rigour
+## exam clinic
+1. First thing to note is that if the function is [[holomorphic]] in all of the region, then the integral is 0.
+2. [[Cauchys_integral_formula]] or [[Cauchys_residue_theorem]], Goursats_theorem
+3. Parameterisations.
+
+Fundamental estimate would come last, it is really mainly used when making proofs
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

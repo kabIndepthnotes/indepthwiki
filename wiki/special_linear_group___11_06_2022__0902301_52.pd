@@ -1,0 +1,14 @@
+# special_linear_group
+## introduction
+%%visits: 2
+Non-Scaling matrices, all square matrices with determinant 1.
+## intuition
+## rigour
+$Z(SL(N,\mathbb{C})) \cong \mathbb{Z}_n$, as the centre must be a subset of $Z(GL(N,\mathbb{C})) \cong \mathbb{C}^{\times}$, now the determinant must be 1. So, $A = \lambda \mathbb{1}, \lambda \in \mathbb{C}^{\times} = det(A) = det(\lamda \mathbb{1}) = \lambda ^{n} = 1$ so it is the nth root of unity. We know that the roots of unity generate $\mathbb{Z}_n$. If the centre can only be real, then lambda is 1 if n is odd, and lambda is in a group $\{1,-1\} \cong \mathbb{Z}_2$
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

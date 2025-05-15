@@ -1,0 +1,14 @@
+# special_unitary_group
+## introduction
+%%visits: 2
+The form of special_unitary_groups are closely linked to pauli matrices.
+## intuition
+## rigour
+Let $A \in SU(2)$, then $a\mathbb{1} + i \hat{b} \cdot \hat{\sigma}$ where $\hat{b} = \begin{pmatrix} b_x \\ b_y \\ b_z \end{pmatrix} \in \mathbb{R}, \hat{\sigma} = \begin{pmatrix} \sigma_x \\ \sigma_y \\ \sigma_z \end{pmatrix}$ $\sigma_x = \begin{pmatrix} 0 &1 \\ 1 & 0 \end{pmatrix} $ these are the [[pauli_matrices]]
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

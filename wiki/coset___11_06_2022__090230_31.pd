@@ -1,0 +1,54 @@
+# coset
+## introduction
+%%visits: 3
+Define an equivalence relation ~ by:
+- $a~b \iff ba^{-1} \in H$
+
+The equivalence class of $a\in G$ under this equivalence relation:
+
+$\left[ a \right] \equiv \left\{ b \in G | b~a \right\}$, which is called right-coset
+$S_3 = \left< a,b \right>$ with $a^3 = e$, $b^2=e$, $b^2=e$, $ab=ba^2$
+
+Cosets, are disjoint, same number of elements and they together cover the main set. Aka they are equipartition.
+
+Two right cosets of G w.r.t $H \subset G$ are either disjoint or identical. 
+
+## intuition
+
+Cosets: can be defined without group theory
+
+Subsets : $H \subset G$ with an equivalence_relation
+
+Cosets:= $Y \subset X$ with $y_1~y_2 \forall y_1,y_2 \in Y$
+
+Suppose $Y_1,Y_2$ are both cosets of $(X,~)$.
+then either $y_1H = y_2H$ so they describe the same coset
+Or $y_2H\neq y_1H$ so they are not the same coset.
+Proof that all elements belong to a coset. :todo:
+$\sqcup yH = X$
+cosets make partitions
+proof :todo:
+
+What is a coset space?
+
+The set of all cosets
+
+Cosets are a sort of division, as they partition.
+## rigour
+## exam clinic
+when proving isomorphisms, think, are they the same elements, and do they have the same multiplication law.
+tags :math:
+
+What is a right coset space?
+consider different coset spaces:
+$\left[ x \right] =\left[ y \right]$ or $\left[ x \right] \cap \left[ y \right] = \Phi$
+
+And one way to denote a coset is in element-subgroup notation.
+
+$H \setminus G$
+
+
+Coset space, what is the equivalence_relation that 
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

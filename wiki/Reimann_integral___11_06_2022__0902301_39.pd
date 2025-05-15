@@ -1,0 +1,58 @@
+# introduction
+It took a long time to create the riemann integral, that it a mathematically rigourous method to find the anti-derivative or primative of a function. The riemann integral of a curve is the area underneath the curve.
+%%visits: 5
+
+What is the definition of the Rienmann Integral? The (Riemann) integral := The Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
+# diary
+:I've realied how bad I am at understanding the simple things, as I should be able to rewrite my whole wiki on the fundamental topics that are here. I see that my system has not been optimised.
+# intuition
+    - we consider two staircase functions (which is informally just a function that looks like stairs), namely, the $S^-$ and $S^+$. I think of these as an overestimation and an underestimation of the function, and what we do, is that we say as the approximations get closer and closer, they get closer to the real value of the integral.
+As when $\int^{a}_{b} S^{-}(x)dx \leq \int^{a}_{b} f(x) \leq \int^{a}_{b} S^{+}  $ the limits sandwich and become equal to the integral of f(x)
+    - It is an infinite sum that therefore approaches a value, we never know with infinity, but mathematically we say the sum approaches infinty
+    - $\int _U \int f(x,y) dx dy$ volume under graph f ,in analogy we have $ \int_U \subset \mathbb{R}^3 \int \int g(x,y,z) dx dy dz $  as a 4 dimensional volume under the graph bounded by the space $U \subset \mathbb{R}^{3}$
+    - def: $\int \int_U \int g(x,y,z) dx dy dz $ =  $\lim_{M,N,L \to \infty} \sum_{i,j,k = 0}^{M,N,L} g(x_i,y_j,z_k) \partial x_i \partial y_j \partial z_k$ 
+    - remark: $ {\int \int\int}_{U \subset \mathbb{R}^{3}} 1 dx dy dz $ is just the region U
+    - $\displaystyle{\iint_R f(x,y) \, dA}$ = $\displaystyle{\iint_R f(x,y) \, dy \, dx}$ if the region R permits
+    - $\int_a^b \int_c^d f(x,y) \, dy\, dx = \int_a^b \left ( \int_c^d f(x,y) \,dy
+\right ) dx.$
+
+- monotonicity theorem. Let $f,g \in \fancy{R}[a,b]:$ $f(x) \le g(x) (x \in [a,b]) \implies \int_{a}^{b} f(x)dx = \int_{a}^{b} g(x) dx$
+- 
+
+
+A fun idea for [[unbouned_integral]]s  is to think of them as [[improper_integral]]s but slipped on the $x=y$ axis
+
+# rigour
+We say that a function $f$ is Riemann integrable on an interval  $\left[ a,b \right], \left( a <b \right)$ and that it's Riemann integrable over $[a,b]$ equals  $\mathcal{I}:$  $$
+\int_{a}^b f(x) dx = \mathcal{I},
+$$ 
+
+if for every $\epsilon > 0$ there exists  $\delta > 0$ such that the following holds:
+
+for any $a = x_1 < x_2 < x_3 \ldots x_{n} < x_{n+1} = b$ with $$
+\underset{k=1,\ldots,n}{max}(x_{k+1} -x_k) \le \delta
+$$
+
+and any $\xi \in [xk,x_{k+1}]$, one has $$
+\left| \mathcal{I} - \sum _{k=1}^{n} f(\xi)(x_{k+1}-x_k) \right| \le \epsilon
+$$ 
+
+The (Riemann) integral :=The Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
+$\int \int_U \int g(x,y,z) dx dy dz $ =  $\lim_{M,N,L \to \infty} \sum_{i,j,k = 0}^{M,N,L} g(x_i,y_j,z_k) \partial x_i \partial y_j \partial z_k$
+# exam clinic
+Think, integrate the awkward line first.
+# examples
+tags :math:
+:todo:todo:calculus_2:calculus_1:real_analysis:
+
+{{file:../figures/screenshot_20211123_093755.png}}
+
+{{file:../figures/screenshot_20211123_100123.png}}
+
+{{file:../figures/screenshot_20211123_102245.png}}
+
+{{file:../figures/screenshot_20211216_144855.png}}
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

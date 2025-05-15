@@ -1,0 +1,33 @@
+## Uniform continuity
+Uniform continuity cannot depend on $x$, the order is different. Continuity depends on points, but in uniform_continuity the point has less power to due things, therefore x is chosen after a width is made (delta) and a height.
+%%visits: 2
+
+$\forall \epsilon > 0 \exists \delta_e >0$
+
+Non examples of uniform_continuity (but continuity)
+
+$f(x) = \frac{1}{x}$ on (0,1)
+
+In uniform_continuity, the graph cannot keep getting steeper.
+
+uniform_continuity that escapes to vertical infinity, or escape at a boundary.
+
+uniform_continuity:~ When the delta is not dependant on $x$
+
+# uniform_continuity
+## introduction
+## intuition
+## rigour
+## exam clinic
+## examples and non-examples
+example sinx 
+
+non-example $\frac{1}{x}$
+
+The asymptote at $x=0$ is what makes the function $y=\frac{1}{x}$ not be uniformly continuous
+## resources
+tags :math:real_analysis:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,22 @@
+# metric
+## introduction
+%%visits: 4
+The metric is a abstraction of a distant function using only sets. 
+## intuition
+Positivity:~ needs to be 0 if and only if equal arguments of the function. Needs to be positive.
+Symmetry:~ $d(x,y) = d(y,x)$
+Shortest distance :~ [[triangle_inequality]]
+
+We can say two metric_space s are equivalent if any sequences tend to the same number.
+## rigour
+{{file:../figures/screenshot_20220210_121315.png}}
+%% ==exam clinic
+## examples and non-examples
+The Euclidean metric, which will be referred to as the usual metric. 
+The discrete metric, which is one of the best tests for intuition.
+
+%% ==resources
+tags [math](math___20250311_0922_50.pd)__metric_spaces_and_topologies:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

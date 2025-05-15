@@ -1,0 +1,36 @@
+# boundedness_theorem
+## introduction
+%%visits: 3
+## intuition
+Suppose $f$ is unbounded. Then $\exists x_n \in [a,b], n= 1,2,3 \ldots : \left| f(x_n) \right|\to \infty$ as $n \to \infty$ (def on unbounded)
+
+By Bolzano-Weierstrass, $\exists x_n{_k} \to c \in [a,b]$ as $k \to \infty$. (the domain)
+
+$f$ is continous, so $f(x_{n_k}) \to f(c)$ as $k\to \infty$. (tends to a constant, by def)
+
+Contradiction with $\left| f(x_{n_k}) \right| \to \infty$
+
+Corollary of the boundedness_theorem, If $f \in C[a,\infty)$ and $\exists \lim_{x \to \infty} f(x)$ then $f$ is bounded.
+
+Proof. $f(x) \to A$ as $x \to \infty$: $$\forall \epsilon > 0 \exists a_0 \ge a: x\ge a_0 \implies \left| f(x) -A \right| < \epsilon$$
+
+Take $\epsilon = 1$: $$
+\exists a_0 \ge a: x \ge a_0 \implies \left| f(x) -A \right| < 1,
+
+\left| f(x) \right| = \left| f(x) - A + A \right| \le \left| f(x) - A \right| + \left| A \right| \le 1 + \left| A \right| \text{(triangle inequality)}
+$$ 
+$f$ is contious on all intervals greater than $a$ by def, so $f$ is continous on $\left[ a,a_0 \right] $ so by the boundedness_theorem: $\left| f(x) \right| \le M$ for $x \in \left[ a,a_0 \right]$. We conclude $\left| f(x) \right| \le \max\{m,1+|A|\}$
+
+boundedness_theorem requires continuity in a closed, bounded interval
+
+
+Intuitively this makes sense, however rigour is often a bit harder than intuition. The proof shows by contradiction that it is an extension on continuity
+## rigour
+boundedness_theorem:= If $f \in C[a,b]$, then $f$ is bounded
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,119 @@
+# convexity
+example, constant line is convex and concave
+%%visits: 3
+
+strictly concave if $f(\theta_{x_1} + (1-\theta)_{x_2}) < \theta f(x_1) + (1- \theta)f(x_2)$
+
+convex if $f(\theta_{x_1} + (1-\theta)_{x_2}) \ge  \theta f(x_1) + (1- \theta)f(x_2)$
+
+Convexity:= convex downward:= Let $f \in C(a,b)$ $f$ is called *convex* on $(a,b)$, if for any $x_1,x_2 \in (a,b)$ and for any $\theta \in (0,1)$ we have $$
+f(\theta_{x_1} + (1-\theta)_{x_2}) \le \theta f(x_1) + (1- \theta)f(x_2)
+$$
+
+$f$ is called *concave* on $(a,b)$ if $(-f)$ is convex on $\triangle$
+
+properties of convex functions
+    - they are cts
+    - Lipschitz_continous in a compact interval
+    - $f''$ monotonicity
+
+If $f'' >0$ then you are convex
+
+{{file:../figures/screenshot_20211027_111701.png}}
+
+
+{{file:../figures/screenshot_20211027_094814.png}}
+
+For any 2 points in the interval, The graph between two points is always less than a straight line between the two points.
+
+concave is the same but for the function $-f$
+
+point_of_inflection:= If $f$ is convex on $(x_0 - \delta, x_0)$ and concave on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
+
+also
+
+point_of_inflection:= If $f$ is concave on $(x_0 - \delta, x_0)$ and convex on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
+
+{{file:../figures/screenshot_20211027_100349.png}}
+
+
+Let $f$ be twice differentiable on $(a,b)$.
+    - If $f''(x) > 0$ on $(a,b)$,then $f$ is convex on $(a,b)$
+    - If $f''(x) < 0$ on $(a,b)$ then $f$ is concave on $(a,b)$
+    
+{{file:../figures/screenshot_20211027_100738.png}}
+
+If $f''(x) > 0$ on $(a,b)$,then $f$ is convex on $(a,b)$ Proof:
+
+Let $x_1,x_2 \in (a,b)$ with $x_1 \neq x_2$. Define $g \in C[0,1]$
+
+$g(\theta) = f(\theta_{x_1} + (1-\theta)_{x_2}) - \theta f(x_1) - (1- \theta)f(x_2), \theta \in [0,1]$
+
+we want to show $g \le 0$ as this will prove convexity. Direct calculation: $g(0) = g(1) = 0$ and $$
+g''(\theta) = (x_1-x_2)^2f''(\thetax_1 + (1-\theta)x_2)
+$$ 
+
+suppose for contraition sake, $g>0$ somwhere on $[0,1]$
+
+Maximum theorem: $g$ attains its (positive) maximum at $\theta_0 \in (0,1)$
+Fermats_Theorem $\implies$ $g'(\theta_0) = 0$ By our assumption, $g''(\theta_0) >0$ so it is a local minimum. So $\theta_0$ is a local minimum and local maximum of $g$. Only possible if $g = constant$ but then $g'' = 0$ and $g'=0$ which is a contradiction.
+
+
+***
+## exam clinic
+Suppose every week z take home a salary, $S_n$, so. $$
+\sum _{k=1}^{10} S_n = 100
+$$ 
+
+Suppose  get a bonus 
+
+so $S_n \to  S_n^2$
+
+$\frac{1}{10}\sum _{k=1}^{10} S_n \le  \frac{1}{10}\sum _{k=1}^{10} S_n^2$
+
+
+Suppose I present an investment portfolio. Each year my revenue is $R(n)$ at week $n$ Sps. $\sum _{k=1}^{S_2} R(n) = 10^{10}$ usually If $R(n) \mapsto R(n)^{\frac{3}{4}}$ What is the best case scenario for $\sum _{k=1}^{S_2}R(n)^{\frac{3}{4}}$
+
+Wts $\sum _{k=1}^{S_2} X_n$
+
+We know $\sum _{k=1}^{S_2}= 10^{10}$
+
+Example
+
+F is convex
+
+Youngs inequality = for $A,B \ge 0, p,q$st $\frac{1}{p} + \frac{1}{q} = 1$
+
+$AB \le  \frac{A^{p}}{p} + \frac{B^{q}}{q}$ 
+
+Chose a,b so $e^{a} = A^{p}, e^{b} = B^{q}$
+
+$AB = f^{\frac{a}{p}} + \frac{e^{b}}{q}$
+
+sps I need to sum $\left| \sum _{n=1}^{\infty} a_n b_n \right| $ which is oscillatory 
+
+sps $(a_1\ldots,a_n)$ and $(b_1,\ldots,b_n)$ 
+
+and 
+
+we know that $\left| \sum _{n=1}^{\infty} a_n b_n \right|  \le \left( \sum _{k=1}^{K} \left| a_k \right|^2 \right)\left( \sum _{k=1}^{K} \left| b_k \right|^2 \right)$ which is not as 
+
+
+Sps i want to compute the area of infinite boxes
+
+$\sum _{k=1}^{\infty} \left| l \times h \right|$ 
+
+If $\sum _{k=1}^{\infty} |l|^{4} = 1$ and $\sum _{k=1}^{\infty} |h| = 1$
+
+Then $\sum _{k=1}^{\infty} \left| l \times h \right| \le 1$ 
+
+## examples and non-examples
+$y=x^2$
+## resources
+tags :math:
+
+
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

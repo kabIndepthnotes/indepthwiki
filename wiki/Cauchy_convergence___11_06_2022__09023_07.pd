@@ -1,0 +1,26 @@
+$\definecolor{c1}{RGB}{255, 0, 0} \definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}$
+# introduction
+%%visits: 5
+Cauchy [[convergence]] is helpful when you can't exacly prove convergence directly. It helps to have it in your head so that you can easily use it to solve difficult problems.
+# diary
+# intuition
+Sequence converges if and only if it is a cauchy sequence that converges
+
+# rigour
+## Every convergent Sequence is a Cauchy sequence
+
+let $s_n$ be a convergent sequence with limit $a$ then there exists an $n_0$ such that $\left| s_n - 1 \right| < \frac{1}{2}\epsilon$ for all $n \ge n_0$
+
+
+Now
+$\left| s_m - s_n \right| = \left| s_m - l + l - s_n \right| = \color{c1} \left| s_m - l + l - s_n \right| \le \left| s_m - l \right| + \left| l - s_n \right| = \left| s_m - l \right| + \left| s_n - l \right|$ 
+
+The $\color{c1} \text{triangle inequality}$
+
+So, if $m,n \ge n_0$, we have $\left| s_m - l \right| < \frac{1}{2} \epsilon$,$\left| s_n - l \right| < \frac{1}{2} \epsilon$ and hence $\left| s_m - s_n \right| < \epsilon \square$
+# examples
+tags :math:sequences_and_series:real_analysis:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

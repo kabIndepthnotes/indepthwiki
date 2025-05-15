@@ -1,0 +1,15 @@
+# Euler_criterion
+## introduction
+%%visits: 4
+## intuition
+## rigour
+Let $b \in \mathbb{Z}$ which is coprime to p. Then 
+    - b is a quadratic_residue mod p $\\iff b^{\frac{p-1}{2}} \equiv 1$
+    - b is a quadratic_non_residue mod p $\\iff b^{\frac{p-1}{2}} \equiv -1$
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,13 @@
+# transclusion
+
+## why do I need transclusion?
+So that landing page zettels can be of more use that forcing you to link to other zettels.
+It avoids redundancy and repeating.
+
+## example of transclusion
+
+``` {.include}
+pointer___20240830_1618_20.pd
+```
+
+[backlinks](backlinks___20250513_1105_42.pd)

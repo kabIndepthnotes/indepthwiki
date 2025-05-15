@@ -1,0 +1,16 @@
+# homotopic
+## introduction
+%%visits: 3
+This is when 2 loops can be moved into each other continously meaning there are no [[pole]]s that will be passed through etc.
+%% ==intuition
+## rigour
+consequence. {{file:~/Documents/vimwiki/figures/screenshot_20220415_155308.png}}
+
+definition. {{file:~/Documents/vimwiki/figures/screenshot_20220415_155334.png}}
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

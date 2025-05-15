@@ -1,0 +1,34 @@
+%title godot___11_06_2022__08555545
+%date 2025-02-14 11:54
+%%visits: 17
+
+#  godot 
+tiling
+    - How do I make a tilemap to make tiling a lot easier?
+        - You can add them all to scenes and then select all to convert to a tileset. Then use the tilemap node.
+
+#  a game is a _ of _ 
+A game is a tree of nodes, that group together in scenes.
+They communicate using signals.
+
+#  signals 
+Nodes emit signals when some event occurs.
+This feature allows you to make nodes communicate without hard-wiring them in code.
+
+#  oop 
+- We do not have to strictly adhere to the oop philosophy
+- We recommend dismissing architectural code patterns when making games with Godot, such as Model-View-Controller (MVC) or Entity-Relationship diagrams.
+- A singleton is a globally accessible object
+
+#  gdscript 
+- is an imperative lang :~ tell computer how to do what it should do. non-example is regex, which tells it what to do.
+- https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_languages.html#gdscript
+- By convention, Godot's virtual functions, that is to say, built-in functions you can override to communicate with the engine, start with an underscore.
+
+#  pros 
+- Able to test a play separately to everything else.
+
+#  tags 
+:__programming:__godot:
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,19 @@
+# jensens_inequality
+
+%%visits: 2
+if $f$ is convex
+
+f(average) $\le$ Average(f)
+
+$f(\sum _{k=1}^{n} x_k) \le \sum _{k=1}^{n} f(x_k)$
+
+We can average this, every case of the function is less than, so if we sum each then divide by n, then we still have the same inequality.
+
+f(g) + m(t-g) <= f(t)
+
+"If I score better every test last year, then my average will always be better than last year"
+
+jensens_inequality:= if f is convex, f(average) $\le$ Average(f)
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

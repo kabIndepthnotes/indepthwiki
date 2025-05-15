@@ -1,0 +1,20 @@
+# linear_diophantine_equation
+## introduction
+%%visits: 2
+Diophantine equations :~ Polynomial equations with integer coefficients, we seek integer solutions, $ax + by = c$
+## intuition
+Let $a,b,c$ be integers, with $a$ and $b$ not both $0$, and let $d=gcd(a,b)$. The equation $ax+by=$... :todo:
+Now finding all solutions has a link to a line, specifically the rise over run, is the adding of x and take away of y :todo:
+## rigour
+## exam clinic
+Fnd all integer solutions (or explain why there are no integer solutions)  to the equation $$
+52x + 93y = 7
+$$
+    - Steps, find gcd(52,93)
+    - If $gcd|7$
+    - Use the [[Bezouts_lemma]] and multiply the equation by 7.
+## resources
+tags :math:introduction_to_abstract_algebra:introduction_to_number_theory:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

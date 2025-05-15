@@ -1,0 +1,20 @@
+:math:
+$\sum _{k=0}^{\infty} c_k (x-a)^k $
+%%visits: 2
+# taylor's_series
+## introduction
+## intuition
+Error term can be written as $\frac{f^{(n+1)}(c}{(n+1)!}$
+## rigour
+## exam clinic
+Remember standard expansions and then algebraically manipulate them to solve your equation.
+
+So the general gist is to use a taylor expansion you already know of, and combine them accordingly. And to know when to stop (which just comes from practise I heard, plus it tends to 0 so anything that is bigger then x^2 in this case is going to go to zero) 
+{{file:../figures/screenshot_20211202_125837.png}}
+## examples and non-examples
+## resources
+tags :math:calculus_1:calculus_2:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

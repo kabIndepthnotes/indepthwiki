@@ -1,0 +1,89 @@
+# link_between_pointers_and_array
+"The name of an array can be used as a pointer to the first element in the array"
+
+- `a+i` := `&a[i]`
+- `*(a+i)` := `a[i]`
+
+# pointer arithmetic
+- there are 3 and only 3 pointer arithmetics
+
+# adding an integer to a pointer
+
+~~~{.c .numberLines}
+int *p;
+int j = 5;
+
+int a[] = {/* populate */}
+
+p = &a[2];
+/* p + 3 will point to a[5] */
+
+p += 4;
+/* p points to a[6] */
+~~~
+
+# subtracting an integer to a pointer
+This is similar to adding an integer.
+
+~~~{.c .numberLines}
+int *p;
+int j = 5;
+
+int a[] = {/* populate */}
+
+p = &a[12];
+/* p - 3 will point to a[9] */
+
+p -= 4;
+/* p points to a[8] */
+~~~
+
+# difference between 2 pointers
+- this evaluates to the distance (in unit array element) between pointers.
+- the $2$ pointers must be of the same array.
+
+~~~{.c .numberLines}
+p = &a[5];
+q = &a[7];
+
+i = q - p; /* evaluates to 2  */
+i = p - q; /* evaluates to -2 */
+~~~
+
+# array processing with pointers
+
+~~~{.c .numberLines}
+#define N 10
+
+int a[N], sum, *p;
+
+sum = 0;
+for (p = &a[0]; p < &a[N]; p++) {
+	sum += *p;
+}
+~~~
+
+- it is valid to do `&a[N]` even though it cannot be dereferenced. The address exists but the value doesn't
+
+# `*p++` or combining * and ++ [operators](operator___20240603_1153_38.pd)
+- `*p++` := `*(p++)` := Value of `*p` before increment; increment `p` later
+- `(*p)++`           := Value of `*p` before increment; increment `*p` later
+- `*++p` := `*(++p)` := Increment `p` first; Value of `*p` after increment
+- `++*p` := `++(*p)` := Increment `*p` first; Value of `*p` after increment
+
+Use cases for this is creating a stack function, see [c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
+
+# Array name == pointer
+
+~~~{.c .numberLines}
+for (p = a; p < a; p++)
+{
+	sum += *p;
+}
+~~~
+
+# comparing pointers
+
+
+# tags
+[c](c___20250304_1142_20.pd)

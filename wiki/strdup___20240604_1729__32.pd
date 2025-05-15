@@ -1,0 +1,13 @@
+TODO%title strdup
+%date 2024-06-04 17:29
+%%visits: 2
+
+# strdup
+
+The strdup() function allocates sufficient memory for a copy of the string s, does the copy, and returns a pointer to it. The pointer may subsequently be used as an argument to the function free(3).
+
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

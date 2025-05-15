@@ -1,0 +1,98 @@
+$$\definecolor{c1}{RGB}{255, 0, 0} \definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}$$
+# probability_distribution
+%%visits: 2
+## introduction
+the probability_distribution function maps a set to the interval $[0,1]$
+## intuition
+A Cumulative distribution near $-\infty$ the function is zero. And near $\infty$ is 1. Which makes sense as it is a summation of probabilities, which is positive. 
+
+It is Also strictly increasing, again, since it is a summation of probabilities, which is positive.
+
+It is also right continuous, see figure below, as the value at the discrete point is defined.
+
+
+{{file:./screenshot_20210930_141201.png}}
+
+
+
+## rigour
+A probability_distribution must obey the following laws.
+    - $\lim_{x \to -\infty} F(x) = 0$
+    - $\lim_{x \to \infty} F(x) = 1$
+    - $F$ is monotone increasing;
+    - $F$ is right continuous, $\lim_{y+ \to x} F(y) = F(x)$ Think of the discrete case.
+
+$F_X(x) = \int_{0}^{\infty} f(x) dx$ 
+
+## exam clinic
+ What is the cumulative distribution function of a positive random variable $X$ that has probability density function $f(x)=4xe^{−2x}$, for $x>0$.
+    - Integration by parts, $\int_{0}^{\infty}4xe^{-2x} dx = -2xe^{-2x} - e^{-2x}$ 
+
+What is the formula for the pdf of a binomial distribution?
+    - $X ~ Bin(n,p)$ $\mathbb{P}(X=x) = \begin{pmatrix} n \\ x \end{pmatrix} p^{x} (1-q)^{n-x}$
+    - Where $nCr = \frac{n!}{r!\left( n-r \right) !}$
+## probability_density_function
+A probability density function $f$ is defined by the three properties it has
+    - $\mathbb{P}(a<f<b) = \int_{a}^{b}f(x)dx$
+    - $\forall x$ in the domain, $f(x) \ge 0$
+    - $\int_{-\infty}^{\infty} = 1$
+## resources
+tags :math:
+
+$X ~ Bin(n,p)$ 
+$$
+\color{c4}\mathbb{P}(X=x) = 
+\color{c1} \begin{pmatrix} n \\ x \end{pmatrix}
+\color{c2}p^{x}
+\color{c3}(1-q)^{n-x}
+$$
+$$
+\color{c4}\text{The chance that an event occurs exactly x times is }
+\color{c2} \text{the chance of the event occurring x times
+}\color{c3} \text{with the chance of the event not occurring any other time
+}\color{c1} \text{while considering all combinations where the events could occur.
+}\color{default}
+$$
+
+# marginal
+
+marginal distribution:= $\sum _{x_1,x_2,x_3,x_4\ldots x_n} \mathbb{P}(x_1=y_1,\ldots,x_{k-1} = y_{k-1},x_{k} = y_{k})$ :~ Summing over all possible values of the remaining r.v.s
+With the joint distribution we can compute the marginals, but with the marginals, we can't say much (unless independent).
+When we compute independence, we assume the existence of a mulitvariate [[../probability_distribution|probability_distribution]]
+
+What is covariance?
+\(cov(X,Y) = \mathbb{E}(XY) - \mathbb{E}(X) \mathbb{E}(Y)\)    
+$cov(X,Y) = \mathbb{E}[(X-\mathbb{E}(X))(Y-\mathbb{E}(Y))]$
+
+\(f_{Y}(y) = f_{X}(g^{-1}(y))\frac{d}{d y} g^{-1}\) 
+
+$corr(X,Y) = \frac{cov(X,Y)}{\sqrt{Var(X)Var(Y)} }$
+
+Cauchy-Schwarz Inequality
+$\forall X,Y \left| Corr(X,Y) \right| \le 1$
+
+# Conditional Expectation
+$\mathbb{E}(h(X)|Y=y) = \inth(x) f_{X|Y}(x|y) dx$
+
+$f_{X|Y}(x|y) = \frac{f_{X|Y}(x|y)}{f_{Y}(y)}$
+
+Independence  $\implies$  Covariance $= 0$
+
+# Exam Clinic
+$f(x) = \frac{1}{\pi}\frac{1}{1+(x-\theta)} ; -\infty<x<\infty$
+
+\(\int_{-\infty}^{\infty} \frac{1}{1+y^2}\)
+
+
+$\int \frac{2y}{1+y^2}$
+
+$t = 1 + y^2$
+
+$\frac{dt}{dy} 2y$
+
+$= \frac{dt}{t} = \log (t)$
+
+tags: :probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

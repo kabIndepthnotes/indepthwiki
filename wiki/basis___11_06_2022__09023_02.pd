@@ -1,0 +1,19 @@
+# basis
+## introduction
+%%visits: 5
+A basis is the combination of span linear independence
+
+We require that solving solutions to [[differential_equation]]s and similarly [[recurrence_relation]]s requires us to try a basis of possible solutions.
+
+## intuition
+A basis is in a sense a coordinate system. Allows component wise things
+
+We need the basis to be linearly independent so that there is only one way to represent a vector with our basis
+## rigour
+$e_1,e_2,e_3$ are the standard basis $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix},\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix},\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$ 
+## exam clinic
+## resources
+tags [math](math___20250311_0922_50.pd)__linear_algebra_1:__linear_algebra_2:__introduction_to_dynamical_systems:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

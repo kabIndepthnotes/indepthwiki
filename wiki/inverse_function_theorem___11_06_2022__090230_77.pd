@@ -1,0 +1,30 @@
+%title inverse_function_theorem___11_06_2022__09023077
+%date 2024-12-16 16:09
+%%visits: 4
+
+#  inverse_function_theorem___11_06_2022__09023077 
+
+Let $ \infty < \alpha < \beta < \infty$. If $ f: \left( \alpha , \beta \right) \to \mathbb{R}$ is continously differentiable and $ f ' (x_0) \neq 0$ for some $ x_0 \in (\alpha, \beta)$, then $f$ is invertible in a neighbourhood of $ x_0 $ and $ f ^{-1}    $ is a differentiable function such that 
+\[
+(f^{-1})'(y_0) = \frac{1}{f'(x_0)}
+\]
+where $ y_0 = f(x_0)$
+
+If f is continous and injective in a neighbourhood of $x_0$ then this formula also works
+
+# inverse_function_theorem
+## introduction
+$(f^-1)'(y_0) = \frac{1}{f'(f^-1(y_0))}$
+## intuition
+If f is continous and injective in a neighbourhood of $x_0$ then this formula also works
+## rigour
+Let $ \infty < \alpha < \beta < \infty$. If $ f: \left( \alpha , \beta \right) \to \mathbb{R}$ is continously differentiable and $ f ' (x_0) \neq 0$ for some $ x_0 \in (\alpha, \beta)$, then $f$ is invertible in a neighbourhood of $ x_0 $ and $ f ^{-1}    $ is a differentiable function such that \[
+(f^{-1})'(y_0) = \frac{1}{f'(x_0)}
+\]
+where $ y_0 = f(x_0)$
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==resources
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,48 @@
+# set
+## introduction
+%%visits: 2
+A set is a collection of unordered mathematical objects, for example numbers, vectors, groups.
+Set theory is a very important field in most of maths. It has been around for a long time, and is a really good way to think about things. Other fundamental mathematical ideas such as a [[function]], all count on rigorously understanding what a set really is. 
+## open set
+Let $\epsilon > 0$ and $x \in \mathbb{R}$. $(x-\epsilon, x +\epsilon)$ is an  $\epsilon$-neighbourhood of $x$.  $x \in A$ is an interior point of  $A$, if  $A$ contains some neighbourhood of x.
+*Intuition.* Interior points are like saying neighbourhood points
+
+If all points are interior, the set is open, and a set $B$ is closed if its compliment is open. We can't just say a set is closed if all points are not interior, because then what is the empty set? The maths community all decided that this definition of closed fits in nicely with most edge cases, and for open and closed to be mutually exclusive, the definiton of B is just a bit better.
+
+Open set:~ An open set describe all numbers in a range that are not including the boundary points. It is of the form $x = (a,b)$, is a set that does not have a lowest number that you can describe, however, the numbers cannot surpass b, or be lower than a. It can be a tiny bit larger than $a$, like $a+0.000000001$, but not $a$. 
+
+Closed set:~ A closed set looks just like an open set, only the boundary points are included.
+
+[[closed_set]]
+
+## rigour
+Intervals: for $a <b$ 
+    - $(a,b)$ = $\left\{ x: a < x < b \right\}$ open
+    - $[a,b]$ = $\left\{ x: a \le  x \le  b \right\}$ closed
+    - Sets that are not open or closed are called semi-intervals
+
+$\varnothing$ := the empty set := the set with no elements
+
+$2^{\Omega}$ := The power set, a set of all subsets of $\Omega$
+
+Singleton := a set with only one element
+
+Countably infinite set := Anything that has a bijection to $\mathbb{N}$.
+
+infimum := The greatest lowerbound
+
+supremum := The lowest upperbound
+
+Completeness axiom: every set of real numbers that is bounded above has a supremum and every set bounded below has an infimum
+
+countable := If there is a one to one map between A and $\mathbb{N}$, it is countable, otherwise it is uncountable.
+
+## resources
+
+Logicomix is a book that has a lot about set theory and biographies on the people that worked on it. It is a very light read as it is a comic book, so I really enjoyed it! 
+
+tags :math:introduction_to_abstract_algebra:metric_spaces_and_topology:probability_and_statistics_2:calculus_1:calculus_2:real_analysis:
+
+#  Backlinks 
+    - [[function_math___20240724_112323|function_math]]
+    - [[index|Zettelkasten]]

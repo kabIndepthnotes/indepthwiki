@@ -1,0 +1,38 @@
+# improper_integral
+## introduction
+%%visits: 2
+## intuition
+
+absolute convergence implies convergence, but the other way round is not true. why? Because oscillatory diminishment is a big factor in convergence. 
+
+## rigour
+Case to infinity: Let $f:[a,\infty) \to \mathbb{R}, f \in \fancy{R}[a,b], \forall b > a,$ one has $\int_{a}^{\infty}f(x)dx := \lim_{b \to \infty} \int_{a}^{b}f(x)dx$
+
+
+Case to -infinity: Let $f:(-\infty,b] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a> b,$ one has $\int_{-\infty}^{b}f(x)dx := \lim_{a \to -\infty} \int_{a}^{b}f(x)dx$
+
+Now to consider the case of from $-\infty$ to $\infty$ we have to combine the two definitions, but doing so carefully. 
+
+Case from -infinity to infinity: Let $f:(-\infty,\infty] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a< b,$ one has $\int_{-\infty}^{\infty}f(x)dx :=\lim_{b \to \infty} \int_{0}^{b} f(x)dx +  \lim_{a \to -\infty} \int_{a}^{0}f(x)dx$
+
+$\int_{a}^{\infty}f(x)dx$ converges absolutely if $\int_{a}^{\infty}\left| f(x) \right| dx$ converges
+
+If two improper_integrals converge, then their sums also converge.
+
+Let $f$ and $g$ be continuous on $[a,\infty)$ st (i) the integral $\int_{a}^{x}f(t)dt$ is bounded and (ii) is continuously differentiable as $f(x)\to \infty$ as $x\to \infty$ and is monotone then the integral. $\int_{a}^{\infty}$ converges
+
+
+absolute converge imples 
+
+## Integral test
+$\sum _{k=1}^{\infty} f(k)$ converges $\iff \int_{a}^{\infty}f(x)dx$ converges and the value can be estimated by $\int_{1}^{\infty}f(x) dx \le \sum _{k=1}^{\infty} f(k) \le \int_{0}^{\infty}f(x) dx$
+
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,32 @@
+# random_variable
+## introduction
+%%visits: 2
+Think of random_variables in terms of samples.
+A random variable is a function who's value is based on a random event. 
+## intuition
+Let $X$ be a random variable that is based on the outcomes of a coin flip. We know that the two possiblilties are heads or tails, but we don't know when either are going to come. The sample space, is which throw we measure. Each throw is unique (say the 72nd throw) and so makes a [[set]].
+
+# Change of Variables
+The theorem of change of variables is. If $Y = g(X)$ is cts if $X$ is continuous, and an RV if X is, with probability density function $F_{Y}(y) = F_{x}\left( g^{-1} (y) \right) \cdot \left| \frac{d}{d y} g^{-1}(y) \right|$
+
+A random variable is a function that maps an event to a observation. e.g. An event is the coin flip, and the observation is heads or tails.
+
+estimators expected values should give the true result.
+
+There is a jacobian matrix used to find the change of variable in the multivariate_distribution.
+
+# Change of variables
+
+let $\hat{Y} = g(X)$ be a multivariate_distribution, then $f_y(y_1, \ldots , y_n) = f_x(g^{-1}(y_1,\ldots , y_n) \left| J_{g^{-1}} \right|$ where $|J_{g^{-1}}|$ is the determinant of the Jacobian.
+
+$J_h = \begin{pmatrix} \frac{\partial F_1}{\partial x_1}& \ldots & \frac{\partial h_1}{\partial x_n} \\ \frac{\partial f_n}{\partial x_1} & \ldots & \frac{\partial f_n}{\partial x_n}   \end{pmatrix}$ 
+
+## X|Y
+## rigour
+## exam clinic
+## resources
+[[expectation]]
+tags :math:probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

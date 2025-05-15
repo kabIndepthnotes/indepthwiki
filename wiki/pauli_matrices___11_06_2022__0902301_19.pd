@@ -1,0 +1,19 @@
+# pauli_matrices
+## introduction
+%%visits: 2
+## intuition
+- Properties:
+    - Traceless
+    - Self-adjoint
+    - $\sigma_x \sigma_y = i \sigma_z$
+    - $\sigma_z\sigma_x = i \sigma_y$
+    - $\sigma_i \sigma_j = -\sigma_j \sigma_i$
+    - $\sigma_i^2 = \mathbb{1}$
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

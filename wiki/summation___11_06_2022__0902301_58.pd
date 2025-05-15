@@ -1,0 +1,53 @@
+**Definitions**:
+
+%%visits: 2
+$$\sum\limits_{r=1}^{n} a^r = \frac{a-a^{n+1}}{1-a} $$
+
+$$\sum\limits_{j=-k}^{n} f(j)= \sum\limits_{m=0} ^{n+k}f(m-k)$$
+
+$$\sum_{k=1}^{n} = n$$ and $$\sum_{k=1}^{n} k = \frac{1}{2} n (n+1)$$
+
+
+
+
+**Intuitions/notes**:
+
+Proof of $$\sum\limits_{r=1}^{n} a^r = \frac{a-a^{n+1}}{1-a} $$
+
+$$\sum\limits_{r=1}^{n} a^r = a^1 +a^2 +a^3 +a^4 + ... a^n  $$ (1) 
+multiply by $$a^r $$we get : $$a^r\sum\limits_{r=1}^{n} a^r = a^2 +a^3 +a^4 + ... a^{n+1}  $$ (this is so we can take away and cancel all the terms) (2)
+(1) - (2) =  $$(1-a^r) \sum\limits_{r=1}^{n} a^r = a - a^{n+1}$$
+$$\therefore\sum\limits_{r=1}^{n} a^r = \frac{a-a^{n+1}}{1-a} $$
+
+Proof of $$\sum\limits_{j=-k}^{n} f(j)= \sum\limits_{m=0} ^{n+k}f(m-k)$$
+
+$$\sum\limits_{j=-k}^{n} f(j)= f(-k)+f(-k+1)+f(-k+2) ... +f(n)$$
+
+$$\sum\limits_{m=0} ^{n+k}f(m-k) = f(-k) + f(-k+1) ... f(n +k-k)$$
+
+Double sum multiplication proof![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSpirituality%2FuyfpBRjd6p.png?alt=media&token=fad289e8-697b-4cd9-bfa1-c333761e55ad)
+
+![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSpirituality%2FcgpohK_OPc.png?alt=media&token=c769fe57-3e82-4ac1-8ec2-24c058fe534b)
+
+any dummy variable symbol can be used, and also, the terms can be shifted when appropriate, as long as the dummy variable "counts" exactly as much as it should, and you take away as follows $$\sum_{n=1}^{k} k -1 = \sum_{n=0}^{k-1} k$$ but understand why it is $$k$$ and not $$k-2$$
+
+
+**Releated Properties and Theorems**:
+
+ [linearity]([[principle of linearity]]) is something you have a more precise definition for now. and sums are linear. This is what you have been doing since Alevels, where If input is scaled, ouput is scaled
+The sum of inputs is the sum of outputs. 
+
+When thinking of double sums, you have good intuition from for loops in programming. 
+
+
+z
+
+**Examples**:
+
+**[[study [[journal]]]]** [[April 10th, 2021]] I don't think basics should be called basics, as it feels like it puts them down as beginner things, but the pros just practise the basics again, and again, so it is more core things. Here is a 2.Screw up story (lessons I learned), So I tried to figure out the answer to this $$\int \int | y - x| dx dy$$ by squaring it and doing a easy double sum, but I didn't do the basic double sum properly, which is page 2 or 3 in [[Linear Algebra and Geometry (LAG)]], ouch! Learn the core well, and keep drilling them!
+
+
+tags: :probability_and_statistics_2:linear_algebra_1:linear_algebra_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

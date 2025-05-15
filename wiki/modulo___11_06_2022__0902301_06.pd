@@ -1,0 +1,65 @@
+# modulo
+# congruence
+%%visits: 2
+## introduction
+## intuition
+modulo is an [[equivalence_relation]]
+
+The difference between a residue class and a congruence class is that residue class elements are numbers, but congruent classes are not numbers.
+
+Arithmetic of modulo
+
+$[a]_m + [b]_m = [a+b]_m$
+
+$[a]_m [b]_m = [ab]_m$ 
+
+$\mathbb{Z}_m$ is a ring 
+## rigour
+modulo:= Let $m$ be a non-zero integer, and let $a,b \in \mathbb{Z}$. We say that $a$ is *congruent to* $b$ modulo $m$, if $m|(a-b)$ We write this as $a\equiv b (mod m)$ where m is the modulus.
+congruence class:= $\left[ a \right] _{m} = \left\{ b \in \mathbb{Z}: b \equiv a (mod ) \right\} $
+residue system:= Let $m$ be a positive integer. A set $\left\{ x_1,x_2,\ldots x_r \right\}$ is called a *complete residue system modulo* m, if for ever integer y there is exactly one $x_i$ such that $y \equiv x_i (mod m)$
+set of congruence classes:= ring of integers:= For a positive integer m, we let $\mathbb{Z}_{m}$ denote the set of congruence classes modulo $m$, also called ring of integer modulo m. $\mathbb{Z}_{3} = \left\{ [0]_3 ,[1]_3 ,[2]_3 \right\}$ 
+## exam clinic
+$\left[ 2 \right] _{3} = \left\{ 3k+2, k \in \mathbb{Z} \right\} = \left\{ 2,5,-1,7 \ldots \right\}$ ==resources
+residue class for m=4 is $\left\{ 0,1,2,3 \right\} $ or $\left\{ 1,2,3,4 \right\} $ in fact any set of the form $\left\{ n,n+1,n+2,n+3 \right\}$ where $n \in \mathbb{Z}$
+
+1. Solve $48x \equiv 71 mod 85$
+
+Luckily, to find an inverse of 48 is easy, since gcd of the two are 1. $85(13) - 48(23) = 1$
+
+$\implies(-23)48 \equiv 1$
+$\implies(-23)48x \equiv -23(71)$ mod 85
+$\implies -23(71)$ mod 85
+
+1. Solve equations in $\mathbb{Z}_m$ by brute force if $m=p^{n}$ 
+
+for $f(x) = a_0 + a_1x + .. a_n x^{n}$ with $a_j \in \mathbb{Z}$, solve $f(x) \equiv 0$ mod m
+
+Remark $[f]_m(x) = [a_0]_m + [a_1]_m x + \ldots + [a_n]_m x^{n}$
+
+![](screenshot_20211006_104105.png)
+
+2. Solve $x^2 + 1 \equiv 0$ mod 5, 
+
+Use $\mathbb{Z}_5 = \left\{ \left[ -2 \right] _{5} , \left[ -1 \right] _{5}, \left[ 0 \right] _{5} , \left[ 1 \right] _{5}, \left[ 2 \right] _{5}\right\} $ to take advantage of the squaring. of X
+
+1. Solve $x^2 \equiv 4$ mod 15
+
+We know $x^2 \equiv 4$ mod 15 $\iff x^2 \equiv 4$ mod 3 and $x^2 \equiv 4$ mod 5. Which decomposes the problem quickly, however, we need the [[chinese_remainder_theorem]].
+
+This is $-1$ mod 3 or $-2$ mod 5. Which creates 4 different permutations
+
+# exam clinic
+arithmetic modulo n
+
+Let $a,b,m,n \in \mathbb{Z}, m,n \ge 1$. Prove that the system of congruences $$
+x \equiv a \text{ mod m}
+x \equiv b \text{ mod n}
+$$ 
+has solutions $\iff \gcd (m,n) | a-b$  If a solution exists, h
+
+tags :math:introduction_to_number_theory:introduction_to_abstract_algebra:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

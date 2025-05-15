@@ -1,0 +1,14 @@
+# 4_colour_theorem
+## introduction
+%%visits: 7
+This is a the first theorem that used a computer to solve. It states that certain graphs can always be coloured with 4 colours, such a map.
+%% ==intuition
+## rigour
+The [[chromatic_number]] of a loopless planar_graph is at most 4.
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)__discrete_mathematics:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

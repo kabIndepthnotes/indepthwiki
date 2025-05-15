@@ -1,0 +1,21 @@
+# linear_regression
+## introduction
+%%visits: 2
+## intuition
+Think back to the idea of forming a line from a set of points. Now the word "linear" does not mean straight line, but rather, linearity in terms of vectors.
+
+So how does the graph come from the equation, $Y_i = \beta_0+\beta_1X_i$ (I have set the $\phi$ function to be the trivial map in this case) Now the parameters, $\beta_0, \beta_1$ are the y-intercept and slope respectively
+
+{{file:../figures/screenshot_20220131_121356.png}}
+
+Now any "x" on the graph are mere data points
+
+%% ==rigour
+## exam clinic
+{{file:../figures/screenshot_20220118_122016.png}} This was a mistake in my intuition, I thought that the three types of cars would become the basis functions,$\phi$, which can encode in them the required things.
+%% ==examples and non-examples
+%% ==resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

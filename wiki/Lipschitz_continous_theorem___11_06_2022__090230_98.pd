@@ -1,0 +1,9 @@
+# Lipschitz_continous_theorem
+$f: A \to \mathbb{R}$ is called Lipschitz_continous on A if $\exists C >0$ such that $$
+%%visits: 5
+\forall x_1,x_1 \in A : \left| f(x_1) - f(x_2) \right|  \le X\left| x_1-x_2 \right| 
+$$
+If $f$ has a bounded derivative, then $f$ is Lipschitz_continous.
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

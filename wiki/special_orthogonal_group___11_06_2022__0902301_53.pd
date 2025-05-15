@@ -1,0 +1,24 @@
+# special_orthogonal_group
+## introduction
+%%visits: 2
+The structure of the special_orthogonal_group is called a sphere with diametrically opposed points being equal. This is basically saying that the poles are equal and you can move the poles around anywhere you want it too. 
+
+This is not in Euclidean space. (! :todo: check if true)
+## intuition
+If $N$ is odd then $O(N) \cong \mathbb{Z}_2 \times SO(N)$
+
+This is geometrically a [[rotation_matrix]], but the "diametrically opposed" points mean that they are mirrored.
+
+$SO(3)$ is structurally a funny shape. It is not a shape in Euclidean space. And it can be shown as matrices in the form $\begin{pmatrix} 1 &0&0\\0 & \cos \theta & \sin \theta \\ 0 & -\sin \theta & \cos \theta \end{pmatrix}$ or something [[similar_matrices|similar]] 
+## rigour
+special_orthogonal_group:= $\{A \in O(n)|\det(A) = 1\} $
+
+Theorem: If $A \in SO(3) \implies \exists \hat{n} \in \mathbb{R}^3: A\hat{n}=\hat{n}$
+## exam clinic
+{{file:../figures/screenshot_20220115_173952.png}}
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

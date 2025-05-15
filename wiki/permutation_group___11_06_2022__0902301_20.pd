@@ -1,0 +1,27 @@
+# permutation_group
+## introduction
+%%visits: 2
+## intuition
+## rigour
+:todo: Alternating groups are sort of symmetric, loosely speaking
+
+## Permuation group notation to cycle notation
+:todo:
+
+## Transpositions
+transpositions are just 2-cycles, and every cycle can be described as a 2-cycle. A great way to think of this is that you swap things together.
+{{file:./27_09_2021_10_39.svg}}
+
+The figure above shows how to write $\begin{pmatrix} 1 &2&3&4 \\ 2&3&4&1 \end{pmatrix}$ in cycle-notation, which would be $(1\ 2)(4\ 2)(2\ 3)$, just jot down which positions to swap, the order does not really matter. Now, an important point, *We could change the order of the swaps and the notation looks completely different, but this represents the same permutation map*, so think [[function]]s.
+
+{{file:./figures/01_10_2021_10_44.svg}}
+
+## Alternating groups
+What are alternating groups? Alternating groups are the set of all even permutations (that can be written as even 2-cycles)
+
+## exam clinic
+## resources
+tags :math:groups_and_symmetries:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

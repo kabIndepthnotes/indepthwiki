@@ -1,0 +1,41 @@
+# quotient
+
+%%visits: 2
+
+## introduction
+
+## intuition
+
+## rigour
+
+Quotients:= Let $G$ be a group with $H \subset G$ a subgroup.
+
+left_quotient:= The quotient $G \diagup H = \{gH|\forall g\in G\}$ is the set of all left cosets. 
+
+right_quotient:= The quotient $H \setminus G = \{Hg|\forall g \in G\}$ is the set of all right cosets
+
+## exam clinic
+{{file:../figures/screenshot_20220113_121949.png}}
+
+{{file:../figures/screenshot_20220113_122023.png}}
+
+{{file:../figures/screenshot_20220113_122101.png}}
+
+{{file:../figures/screenshot_20220113_122050.png}}
+
+## examples and non-examples
+
+## resources
+[[group]]
+[[set]]
+
+tags :math:
+
+We define a multiplication of two sets $A,B$ as $AB=\{ab|\forall a \in A, b \in B\}$
+  
+if $H \triangleleft G$ then the quotient $G \setminus H$ equipped with the multiplication law on subsets is a group.
+
+tags: :groups_and_symmetries:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

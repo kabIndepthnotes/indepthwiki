@@ -1,0 +1,27 @@
+# mean_value_theorem
+## introduction
+%%visits: 2
+## intuition
+mean_value_theorem application to area analysis
+
+$f: (a,b) \to \mathbb{R}$ is differentiable. If an extremum is reached, then there exists a point in the interval, $c$ such that $f'(c) = 0$
+
+Sketch, left and right limits exists, and left and right are opposite signs, so must be 0.
+
+non-example of extreme_value_theorem.
+
+$f(x) = -|x| \le 0$. Extremised (extremum) at x=0 but not differentiable.
+
+mean_value_theorem:=  Let $f \in C[a,b]$ be differentiable on $(a,b)$. Then there exists $c \in (a,b)$ such that $f(c) = \frac{f(b) - f(a)}{b-a}$
+
+mean_value_theorem:~ The line that bisects two points on a smooth graph, has the same gradient as at least 1 point on that line.
+
+proof of mean_value_theorem. Let $F(t) = (f(t) - f(a)) - \left( \frac{f(b) - f(a)}{b-a} \right) (t-a) $ (this is a linear approximate) as $t\to a$ then it tends to 0 :todo:
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

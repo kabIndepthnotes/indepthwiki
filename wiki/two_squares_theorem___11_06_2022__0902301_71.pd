@@ -1,0 +1,14 @@
+# two_squares_theorem
+## introduction
+%%visits: 2
+## intuition
+## rigour
+An integer $n$ is a sum of two squares iff in the prime factorisation of n every prime $\equiv 3$ (mod $4$) occurs to an even power. 
+:todo: proof
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

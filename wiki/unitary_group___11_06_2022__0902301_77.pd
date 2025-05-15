@@ -1,0 +1,17 @@
+## unitary_group
+## introduction
+%%visits: 2
+## intuition
+The [[determinant]] of the unitary_group is $e^{i\theta}$
+
+Consider the [[homomorphism]] $\phi: U_1 \to U_1 : \phi(e^{i\theta}) = e^{i(n\theta)}$ The kernel of this is $\mathbb{Z}_n$ aka the roots of unity.
+
+## rigour
+$U(N) = \{A \in GL(N,\mathbb{C}) | A^{\dag} =A^{-1}\}$
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

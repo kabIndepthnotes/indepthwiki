@@ -1,0 +1,19 @@
+# orthogonal_group
+## rigour
+%%visits: 3
+orthogonal_group:= $O(N) = \{ A \in GL(n,\mathbb{R}) | A^{T} = A^{-1}\}$
+theorem. A real linear transformation $A$ of $\mathbb{R}^{n}$ is such that $\mid A \hat{x} \mid  =  \mid \hat{x}  \mid  \forall x \in \mathbb{R}^{n}$ if and only if $A \in O(n)$
+
+If $\hat{x} \in \mathbb{C}^{n}$ is a [[eigenvector]] of $A \in O(N)$ with [[eigenvalue]] $\lambda$ then $\left| \lambda \right|  = 1$
+
+If $\underline{x} \in \mathbb{C}$ is an [[eigenvector]] of $A \in O(n)$ with [[eigenvalue]] $| \lambda | = 1$
+
+1 is in the spectrum of $A \in O(n)$.
+## exam clinic
+## examples and non-examples
+## resources
+[[special_orthogonal_group]]
+tags [math](math___20250311_0922_50.pd)__groups_and_symmetries:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

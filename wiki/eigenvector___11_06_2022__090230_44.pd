@@ -1,0 +1,12 @@
+# eigenvector
+## introduction
+%%visits: 3
+eigenvectors and [[eigenvalue]]s are used a lot in a lot of places. The idea of it is quite similar to [[determinant]]s, in the sense that it is about which vectors are scaled by the matrix. For an easy example, the vector $\begin{pmatrix} 1 & 0 \\ 1 & 0  \end{pmatrix}$ has eigenvectors $\hat{i}$ and $hat{k}$, as the vectors that it is scaling on is just them. a
+## intuition
+## rigour
+What is an eigenvector? Transformation A has an eigenvector v if  $Av = \lambda  v$ where $\lambda$ is a scalar
+## examples
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

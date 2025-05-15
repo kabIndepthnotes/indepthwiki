@@ -1,0 +1,17 @@
+# lcm
+## introduction
+%%visits: 2
+## intuition
+The relationship between the [[gcd]] and the lcm is, Let $a,b$ be non-zero integers. Then $gcd(a,b)lcm(a,b) = |ab|$
+## rigour
+the $lcm(a,b) = min(\left\{ c : a|c $and $b|c\right\})$
+
+If $a,b$ are integers, then a common multiple of $a$ and $b$ is an integer c such that $a|c$ and $b|c$. The lcm is the lowest positive number which is a common multiple of $a$ and $b$.
+
+
+## exam clinic
+## resources
+tags :math:introduction_to_abstract_algebra:introduction_to_number_theory:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

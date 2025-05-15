@@ -1,0 +1,71 @@
+%title c___11_06_2022__08555526
+%date 2025-03-03 11:38
+%%visits: 7
+
+#  c___11_06_2022__08555526 
+#  contents 
+
+[[printf___20240531_092241|printf]]
+[[scanf___20240531_091544|scanf]]
+[[operator___20240603_115338|operators]]
+[[selection_statements___20240605_120037|selection_statements]]
+[[structs___20240524_094246|structs]]
+[[types_of_code_behaviour___20240603_121551|types_of_code_behaviour]]
+[[c_programming_a_modern_approach___20240531_103035|c_programming_a_modern_approach]]
+[[c_resources___20240521_154024|c_resources]]
+[[strdup___20240604_172932|strdup]]
+[[hash_table___20240604_171908|hash_table]]
+[[jump_statements___20240610_101043|jump_statements]]
+[[errors___20240610_094127|errors]]
+[[for_loop___20240610_094502|for_loop]]
+[[null_statement___20240610_114429|null_statement]]
+basic_data_types
+[[basic_data_types___20240617_141952|basic_data_types]]
+
+
+- declaring a variable:
+    - saying the name and data type e.g. ```int a;```
+- preprocessor 
+- Boolean operators:
+    - NOT: !
+    - AND: &&
+    - OR: || (checked after and, but use brackets if confused.)
+- indenting 
+``
+indent a.c -brs -nprs -npcs -i8 -fc1 -br -brf -nsaf -nsai -nsaw -ncs \
+-nfca -il0 -ce -nss -c0 -cd0 -ut -o out.c
+sed -E -i 's/([^\t]+)\t+\/\*/\1 \/*/g' out.c # space comments
+sed -i 's/switch (/switch(/g' out.c # simulate -nsas
+``
+
+- compiling
+``
+gcc -std=c99 
+``
+
+- old core file
+``
+|/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E
+``
+
+#  pointers tutorial 
+The `*` informs the compiler that we want a pointer variable, i.e. to set aside however many bytes is required to store an address in memory.
+
+#  Contents 
+
+##  In printf() what does the format option %2.5f mean? 
+format a float with at least 2 characters wide before decimal point and 5 characters long after the decimal point.
+##  In printf() what does the format option %s, %f, %c, %d mean? 
+s - format a string of characters 
+f - format a float
+c - format a character
+d - format a integer aka decimal.
+
+`a->b` := `(*a).b`
+
+
+#  conventions 
+- winged comments are to be `//` so that they can be nested with block comments.
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

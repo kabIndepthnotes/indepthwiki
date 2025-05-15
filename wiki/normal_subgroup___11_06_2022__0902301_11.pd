@@ -1,0 +1,47 @@
+# normal_subgroup
+## introduction
+%%visits: 2
+They have a sense of invariance, thinking of normal, or orthogonal, it helps to understand that they are not affected by some sort of changing_the_basis seen in [[similar_matrices]]
+
+normal_subgroups are where right coset and left cosets are the same.
+
+[[conjugation]] makes way for normal_subgroups, which make the left coset equal to the right coset
+
+normal_subgroup:= When $H \subset G$ is a normal_subgroup if it is a subgroup and $\forall h \in H, g \in G ghg^{-1} \in H$:= The set of all conjugate elements are in the subgroup
+## intuition
+
+If $G_2 \triangleleft G_1$ then $G_1 / G_2$ forms a group
+
+
+# The kernel of $\phi: G \to \text{Im} (\phi)$ is a normal subgroup of $G$
+
+Proof: Let $K = \ker \phi \subset G$. We first show that $K = \ker(\phi)$ is a subgroup. Closure: let $k_1,k_2 \in K = \ker \phi$ then $k_1k_2 \in \ker \phi$ as $\phi(k_1k_2) = \phi(k_1) \phi(k_2) = e'e' = e$ therefore $k_1k_2 \in \ker \phi$. Associativity is inherited. Identity:\ $e \in ker \phi$ as $\phi (e) = e'$. Inverses For $k \in \ker \phi$ then $k^{-1} \in \ker \phi$ as $\phi (k^{-1}) = \phi(k)^{-1} = e'^{-1} = e'$ Therefore $k^{-1} \in \ker \phi$ so K is a subgroup.
+
+We want to show that it is normal.Let $K=\ker \phi$
+
+$\phi (g k g^{-1}) = \phi (g) \phi (k) \phi(g^{-1})$
+
+$= \phi (g) e \phi(g^{-1})$
+
+$= \phi (g g^{-1})$
+
+$= e'$
+
+Consequently by this theorem, [[simple_group]] only have trivial [[homomorphism]]s. 
+
+Every normal_subgroup can be written as a kernel of a homomorphism
+
+For every [[homomorphism]] there is a normal_subgroup. They are the same number.
+
+[[special_linear_group]] $\triangleleft$ [[general_linear_group]]. PROOF, since the special_linear_group is the kernel of the determinant homomorphism $det:GL(n,\mathbb{C}) \to \mathbb{C}^{\times}$ then it is a normal_subgroup by the [[homomorphism_theorem]]
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:groups_and_symmetries:
+
+
+ormality of a subgroup allows us to have multiplication on [[coset]] space.
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

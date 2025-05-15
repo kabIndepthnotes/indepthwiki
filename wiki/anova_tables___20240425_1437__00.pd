@@ -1,0 +1,30 @@
+%title anova_tables
+%date 2024-04-25 14:37
+%%visits: 4
+
+#  anova_tables 
+anova is good for catergorical data and a good subsititue for linear modeling. It is a comparison of models.
+
+| Source    | Degrees of Freedom    | Sum of Squares | Mean Square                   | F-ratio                       |
+|-----------|-----------------------|----------------|-------------------------------|-------------------------------|
+| Treatment | $t-1$                 | $SS_M$         | $MS_M = \frac{SS_M}{(t - 1)}$ | $F = \frac{MS_M}{MS_E}$       |
+| Residual  | $(n-1) - (t-1) = n-t$ | $SS_E$         | $MS_E = \frac{SS_E}{(n - t)}$ |                               |
+| Total     | $n-1$                 | $SS_T$         |                               |                               |
+
+$SS_M = \sum _{j=1}^{t} \frac{Y_{j.}^2}{n_j} - \frac{Y_{..}^2}{N}$
+
+$SS_E = \sum _{j=1}^{t} \left( Y_{jk} - \frac{Y_{j.}}{n_j} \right)^2 S^2 $
+
+$SS_T = \sum _{j=1}^{t} \sum _{k=1}^{n_j} Y_{jk}^2 - \frac{Y_{..}^2}{N}$
+
+$Y_{.} := \sum _{i=1}^{n} Y_{i}$, so means sum over the index.
+
+This anova table can be different for different tests.
+
+#  anova table for 2 stage nested design 
+TODO
+
+
+#  Backlinks 
+    - [[design_of_experiments___20240511_105647|design_of_experiments]]
+    - [[index|Zettelkasten]]

@@ -1,0 +1,125 @@
+# homomorphism_theorem
+## introduction
+%%visits: 2
+Also known as noether 1st homomorphism_theorem
+
+
+Simply put it is the equation $\mathbb{R}^{*} / \ker \phi \cong \im \phi$
+
+The Right [[quotient]], $\mathbb{R}^{*} $ mod $\ker \phi$ is isomorphic ([[isomorphism]]) to the image of $phi$
+## intuition
+$Im(\phi) = \{\phi(g) | \forall  g \in G\} $
+$ker(\phi) = \{g \in G | \phi(g) =e \forall  g \in H\} $
+
+$ker(\phi) \triangleleft G$
+
+{{file:../figures/screenshot_20211108_110556.png}}
+
+The figure above shows how the homomorphisms split up, and the trivial maps get destroyed then we find a isomorphism (The bottom arrow then diagonal arrow).
+## rigour
+If $\phi: G\to H$ is a group [[homomorphism]] then $$
+im
+$$ 
+
+
+# The homomorphism_theorem
+
+Isomorphism between a [[coset]] and another group.
+
+Let $\mathbb{R}^{*} = \mathbb{R}\ \{0\}$ be a group under multiplication
+
+Let $\mathbb{R}^{+} = \{x \in \mathbb{R} | x > 0\}$ be a group under multiplication.
+
+Consider the map $\mathbb{R}^{*} \to \mathbb{R}^{+}$ given by $\phi (x) = |x|$  (make a negative or positive number into a positive?)
+
+wts, $\phi$ is a homomorphism:
+
+Let $x, x' \in \mathbb{R}^{*}$ then $\phi (x x') = |x x'| = |x| |x'| = \phi(x) \phi(x')$
+
+It's kernel is, $\ker \phi = \{ x \in \mathbb{R}^{*} | \phi (x) = 1\} = \{1,-1\}$ 
+
+So $\ker \phi \cong \mathbb{Z}_2$, $\phi$ is $2$ to $1$
+
+We know that $\mathbb{Z}_2 \triangleleft \mathbb{R}^{*}$ since it is the kernel of $\phi$
+
+We may form the quotient group $\mathbb{R}^{*} / \mathbb{Z}_2 = \{ x \mathbb{Z}_2 | x \in \mathbb{R}^{*}\}$, note that the left_coset is equal to the right_coset. A quotient group is a set of sets
+
+$= \{ \{-x,x\} | x \in \mathbb{R}^{*} \}$
+
+Each coset $\{ -x, x\}$ can be labelled by $|x|$, the positive element in the set. 
+
+N.B. The quotient group action is the multiplication on sets: $AB = \{a_ib_j | \forall a_i \in A, b_j \in B\}$ think of an cartesian_product
+
+Therefore $\{-x,x\}\{-y, y\} = \{xy, -xy\}$
+
+There is an isomorphism between $\mathbb{R}^{*}/ \mathbb{Z}_2$ and $\mathbb{R}^{+}$ given by $$
+\psi (\{-x,x\}) = |x|
+$$ 
+
+This is evidently onto $\mathbb{R}^{+}$ and is injective
+
+$\psi$ is a homomorphism
+
+$\psi (\{-x,x\} \{-y,y\} ) = \psi (\{-xy,xy\} ) = |xy| = |x| |y| = \psi ( \{-x,x\}) \psi (\{-y,y\})$ 
+
+$\psi$ is a bijective homomorphism $\implies \psi $ is a homomorphism. Therefore $\mathbb{R}^{*} / \mathbb{Z}_2 \cong \mathbb{R}^{+}$
+
+Let $G$ and $G'$ be groups and let $\phi : G\to G'$ be a homomorphism then $$
+G / ker \phi \cong \text{Im}(\phi)
+$$ 
+
+Proof. Let $K = \ker \phi$ an $\hat{G} = G / K = G / \ker \phi$ and let us find an isomorphism from $\hat{G}$ onto $\text{Im} (\phi)$
+
+$\hat{\phi}: \hat{G} \to \text{Im} (\phi)$ given by 
+
+$\hat{\phi}(gK) = \phi (gK) = \{\phi(gk) | k \in \ker \phi\}$
+
+We may be concerned that this is not well-defined: it should map a whole coset, an element of $\hat{G} = G / K$ to a single element in $\text{Im} \phi$ but it initially appears as if it maps onto many elements in $\text{Im} \phi$ however since $K = \ker \phi$ we have $\hat{\phi}(gk) = \{\phi(gk_1), \phi(gk_2),\ldots,\phi(gk_n)\} = \phi(g)$since the elements in the kernel maps the identity
+
+this hold for any k.
+
+$\hat{\phi}$ is a homomorphism:$$
+\hat{\phi} (g_1Kg_2K) = \hat{\phi}(g_1g_2K) = \hat{\phi}(g_1g_2)
+$$ 
+
+$\hat{\phi}$ is injective. 
+
+Suppose that $\exists g_1K \neq g_2K:$ 
+
+$\hat{\theta}(g_1K) = \hat{\theta}(g_2K)$
+
+$\implies \phi(g_1) = \phi(g_2)$
+
+$\implies e' = (\phi(g_1))^{-1} \phi(g_2)$
+
+$= \phi(g_1^{-1})\phi(g_2)$
+
+$\implies g_1^{-1}g_2 \in K$
+
+$\implies g_1K = g_1(g_1^{-1}g_2L) = g_2K$
+
+Which is our contradiction
+
+# Examples and Non-Examples
+
+$$
+\phi : D_3 \to \mathbb{Z}_2
+$$ 
+
+given by $\phi(a^{n}b^{m}) = b^{m}$ by the homomorphism_theorem: $$
+D_3 \setminus \mathbb{Z}_3 \cong \mathbb{Z}_2
+$$ 
+:todo: make more homomorphisms yourself.
+
+
+$\frac{O(n)}{SO(n)} \cong \mathbb{Z}_2$
+
+## exam clinic
+
+
+## resources
+Section 10.1 of the lecture notes
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,22 @@
+# The_orbit_stabiliser_theorem
+## introduction
+%%visits: 5
+$$
+\left| orb(x) \right| = \frac{G}{G_x}
+$$
+
+Alternatively
+
+$\left| G_x \right| \left| G\cdot x \right| = \left| G \right| $
+## intuition
+
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+[[orbit]]
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]
+    - [[representation_theory_of_finite_groups___20240516_103432|representation_theory_of_finite_groups]]

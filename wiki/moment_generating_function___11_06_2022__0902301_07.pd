@@ -1,0 +1,33 @@
+# moment_generating_function
+## introduction
+%%visits: 2
+
+MGF:= Given a random_variable X, it's K-th moment, $\mathbb{E}[X^{k}]$, if the expectation is well defined. The MGF is defined as $\mathbb{E}[e^{tx}]$
+## intuition
+Used to derive moments and it is an alternative way to find values of a distribution. 
+The moment_generating_function comes from the taylor expansion, so when derivates are taken
+
+Uniqueness. If two rvs have the same moment_generating_function, then they have the same distribution
+
+Properties:
+    - a,b \in R, Xrv, y= a+bx, $\phi_y (t) = e^{at}\phi_x(bt)$
+    - X,Y independant, $\phi_{X+Y}(t):= \mathbb{E}\left[ e^{t(X+Y} \right] = \mathbb{E}\left[ e^{tx}e^{ty} \right] =  \phi_X(t)\phi_Y(t)$ which is true for multiple i.d.s
+
+Binomial distribution is just a series of n Bernoulli’s distribution which is expected dude to the ids Properties of a mgf.
+
+Exponential family of equations.
+- Bernoulli’s, it is a 1-paremeter distribution
+- Normal
+    - The reason why we go from standard to any normal by $\frac{rv - mean}{standard}$ is because, of the mgf described above, and how the mgf is :todo:
+## rigour
+
+## exam clinic
+1. Let $N$ be a poisson rv with parameter $\lambda >0$, that is $$\mathbb{P}(N=k) = e^{-\lambda} \frac{\lambda^{k}}{k!}$$ find the moment_generating_function
+Since discrete we can use an easier formula. $\psi_N(t) = \sum _{k=0}^{\infty} e^{-\lambda} \frac{\lambda^{k}}{k!} e^{tk}$ Factor out $e^{-\lambda}$. and the series converges. $= e^{\lambda} e^{tk}$
+2. $n$ independent and identically distributed normal distributions with mean 0 and variance $\sigma^2$. What are the mean vector and the covariance 
+## examples and non-examples
+## resources
+tags :math:probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

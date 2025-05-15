@@ -1,0 +1,90 @@
+TODO%title quick_sort
+%date 2024-10-03 12:13
+%%visits: 6
+
+# quick_sort
+[c](c___20250304_1142_20.pd)
+
+quick sort is a divide and conquer algorithm, much like [[quad_trees___20241003_121442|quad_trees]].
+
+# algorithm
+1. Choose an array element $e$:= the partitioning element. Rearrange so that $a[1],\ldots,a[i-1]$ are less than or equal to $e$, $a[i] = e$, and $a[i+1],\ldots,a[n]$ are greater than or equal to $e$
+2. Sort elements indexed at $1,\ldots,i-1$ recursively using quick sort.
+3. Sort elements indexed at $i+1,\ldots,n$ recursively using quick sort.
+
+The method in which we rearrange step 1. is important for efficiency, but for our sake, let's use something simple.
+
+TODO possible make your own version of quicksort in case you cannot sell this commercially.
+
+/*********************************************************
+ * From C PROGRAMMING: A MODERN APPROACH, Second Edition *
+ * By K. N. King                                         *
+ * Copyright (c) 2008, 1996 W. W. Norton & Company, Inc. *
+ * All rights reserved.                                  *
+ * This program may be freely distributed for class use, *
+ * provided that this copyright notice is retained.      *
+ *********************************************************/
+
+/* qsort.c (Chapter 9, page 207) */
+/* Sorts an array of integers using Quicksort algorithm */
+
+#include <stdio.h>
+
+#define N 10
+
+void quicksort(int a[], int low, int high);
+int split(int a[], int low, int high);
+
+int main(void)
+{
+  int a[N], i;
+
+  printf("Enter %d numbers to be sorted: ", N);
+  for (i = 0; i < N; i++)
+    scanf("%d", &a[i]);
+
+  quicksort(a, 0, N - 1);
+
+  printf("In sorted order: ");
+  for (i = 0; i < N; i++)
+    printf("%d ", a[i]);
+  printf("\n");
+
+  return 0;
+}
+
+void quicksort(int a[], int low, int high)
+{
+  int middle;
+
+  if (low >= high) return;
+  middle = split(a, low, high);
+  quicksort(a, low, middle - 1);
+  quicksort(a, middle + 1, high);
+}
+
+int split(int a[], int low, int high)
+{
+  int part_element = a[low];
+
+  for (;;) {
+    while (low < high && part_element <= a[high])
+      high--;
+    if (low >= high) break;
+    a[low++] = a[high];
+
+    while (low < high && a[low] <= part_element)
+      low++;
+    if (low >= high) break;
+    a[high--] = a[low];
+  }
+
+  a[high] = part_element;
+  return high;
+}
+
+
+quick sort is too complex for arrays with elements less than 25.
+
+# Backlinks
+    - [[index|Zettelkasten]]

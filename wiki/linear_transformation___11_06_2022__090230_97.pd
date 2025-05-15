@@ -1,0 +1,15 @@
+# linear_transformation
+## introduction
+%%visits: 2
+The dimension of a space or linear transformation is how many vectors are in a basis of the range.
+$\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ has dimension 3
+$\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$ has dimension 2
+## intuition
+Think about orthogonality, basis that cannot interact with each other. A [[basis]] is the maximum numbber of vectors that are orthogonal to each other.
+## rigour
+## exam clinic
+## resources
+tags :math:linear_algebra_1:linear_algebra_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

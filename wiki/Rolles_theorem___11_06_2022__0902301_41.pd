@@ -1,0 +1,49 @@
+# Rolle's Theorem
+
+%%visits: 5
+Let $f\in C[a,b]$ be differentiable on $(a,b)$ and assume $f(a) = f(b)$. Then there exists a point $c \in (a,b)$ such that $f'(c) = 0$
+
+This is really just combining extreme_value_theorem with Fermats_Theorem. Can be proven case by case.
+
+{{file:./screenshot_20211019_095711.png}}
+{{file:screenshot_20210817_170605.png}}
+
+
+{{file:./screenshot_20211019_095747.png}}
+
+
+Rolle's thm
+
+$f(a) = f(b)$
+
+$f$ is cts on $\left[ a,b \right] $
+
+differentiable on $(a,b)$
+
+$\implies \exists c \in (a,b)$ so $f'(c) 0$
+
+
+Link mean_value_theorem to rolles_theorem: Think of mean_value_theorem as a generalisation 
+
+$$
+f'(p) = \frac{f(b) -f(a)}{b-a}
+$$ 
+
+speed at some point is the same as the average speed.
+
+If you travelled 60mph over an hour, at some point you travelled 60mph instantaneously
+
+# exam_clinic
+
+I model a stock $S(t) = Main(t) + Error(t)$. If I want to sell this stock, the error term needs to be low.
+
+The behaviour of the stock over a year, modelled at every interval in a linear fashion. 
+
+sps I culd partition $\left[ 0,1 \right] $ into small intervals. $I_1, \ldots , I_N$ so $sup |Error(t)| < 1p$
+
+1. $S(t) = M(t) + e(t)$ Where the absolute value of $E(t)$ is never more athan 10 in the interval $\left[ 0,2 \right]$. suppose I want to subdivide $\left[ 0,2 \right]$ into $N$ intervals of even length so that the $max{|E(t) - E(s)| \le \frac{1}{1000}$ on each $I$. 
+   
+How big must I choose N?
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

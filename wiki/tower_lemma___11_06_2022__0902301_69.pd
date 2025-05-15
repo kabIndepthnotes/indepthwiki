@@ -1,0 +1,13 @@
+# tower_lemma
+## introduction
+%%visits: 4
+$\mathbb{E}(\mathbb{E}(X|Y)) = \mathbb{E}(X)$
+Proof of the tower lemma :todo:
+## intuition
+## rigour
+## exam clinic
+## resources
+tags :math:probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

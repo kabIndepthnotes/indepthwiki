@@ -1,0 +1,16 @@
+# triangle_inequality
+## introduction
+%%visits: 2
+Triangle inequality destroys oscillation.
+Triangle inequality:~ the magnitude of the sum is less than or equal to the sum of the magnitudes.
+## intuition
+For vectors The only time they are equal, is when they form [[orthogonal]] [[vector]]s. 
+## rigour
+$\left| a + b \right| \le \left| a \right| + \left| b \right|$
+## exam clinic
+It is a useful procedure for [[convergence]] or [[continuity]], as when finding a value of delta for a value of epsilon, we need stuff to be less than without any variance that overly complicates things.
+## resources
+tags :math:linear_algebra_1:linear_algebra_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

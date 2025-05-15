@@ -1,0 +1,47 @@
+# hypothesis_testing
+## introduction
+%%visits: 2
+Hypothesis testing is much like proof in mathematics, where the "proof" is now a conclusion, so it is not as rigorous, but for less rigour you get more applications in real world.
+
+Hypothesis testing is using probabilities or statistics to make a judgement of some real world problem, that cannot be conclusively done with frequentist or mathematical methods, due to the stochastic nature. That is to say, when there is some level of uncertainty, about a proposition (there are more green m'n'ms than red in a jar, given the jar has a million m'n'ms and you only have time to check about 100), you can't just mathematically prove it. But, we can make a guess then have a agreed upon method to statistically prove this guess, this is hypothesis testing. As it is a guess, there is some chance that it is wrong. And as there is uncertainty involved, you can only say "the test we did suggests there are an equal amount of m'n'ms" or "The test is inconclusive also".
+## intuition
+$h_0$ is the null hypothesis, which is like saying this is what you usually expect to be true (equal m'n'ms as a default). "it is what you want to prove, It challenges the status quo"
+$h_1$ it wouldn't be much of a test if there wasn't anything special to find, so the alternative hypothesis is the one you test, to see if there is something different about the m'n'ms.
+
+The test statistic is the real world data that you can work with, to try to prove the case of $h_1$
+
+Then you come to some conclusion, that respects that there is some uncertainty, like "there is enough evidence to suggest $h_1$ is true.
+
+Rejection Region :~ If the value we observe is in this region, we decide that the $h_0$ should be rejected.
+
+For a Z-test, with a bunch of continuous RVs, we find the sample average. Which through [[The_central_limit_theorem]] we can say is also distributed as a normal distribution. We also use a Z-test, as the shift in mean and the spread in variance, is trivial.
+
+## rigour
+The test statistic is an observation that can cast doubt on $h_0$. It must have a known distribution.
+
+test statistic:= A function that takes information from a sample and outputs information to reject or accept hypotheses
+
+significance level:= "the probability of wrongly rejecting $h_0$.
+## exam clinic
+Section 1.1 of probability_and_statistics_2 lecture notes.
+1.2 of same notes.
+
+| Decision\ true state   | $H_0$        | $H_1$        |
+| ---------------------- | ----         | ---          |
+| $H_0$                  | Correct      | Type 2 error |
+| $H_1$                  | Type 1 error | Correct      |
+
+
+| x        | True state | $H_0$   | $H_1$   |
+|----------|------------|---------|---------|
+| Decision |            |         |         |
+| $H_0$    |            | Correct | Type 2  |
+| $H_1$    |            | Type 1  | Correct |
+significance_level:= $\mathbb{P}(\text{type 1 error }) = \sup_{\theta \in \Theta} \mathbb{P}((X_1,\ldots,X_2) \in \mathbb{R} | \theta)$
+
+
+## resources
+tags :math:probability_and_statistics_2:probability_and_statistics_1:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

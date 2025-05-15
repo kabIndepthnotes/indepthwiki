@@ -1,0 +1,53 @@
+# primes
+## introduction
+%%visits: 2
+Are there infinitely many primes? We can prove this with a factor method, see proof below
+It has been proven that there a infinitely many primes of the form $4k+1$, but a open problem is, How many of the form $k^2 + 1$? 
+## Intuition
+Euclid's lemma
+Let $p$ be prime, and $a,b \in \mathbb{Z}$. Suppose $p|ab$ then $p|a$ or $p|b$.
+## rigour
+prime:= A number is prime if it has two factors, itself and 1.
+## =Proof that there are infinitely many primes (forked version from Euclid).
+
+For sake of contradiction suppose there are only finitely many primes $p_1,p_2,\ldots,p_{r}$
+
+Now suppose $N = p_1p_2\ldots p_{r} + 1$. And since $N$ is larger than any prime in the set. 
+
+Now n cannot be a prime, so there are prime divisors of it.
+Claim, there exists a prime such that $p|N$ exercise.
+
+Also $p|p_1p_2 \ldots p_{r}$ since $p=p_{}$
+
+So $P|\left( N - p_1p_2\ldots p_{R} \right)$ which is the same as saying $P|1$ which is a contradiction which is a contradiction
+
+Lemma, Proof that there are infinitely many primes of the form $4k + 3, k \in \mathbb{N}$
+Key fact. For any integer $n \in \mathbb{Z}$ either: $n = 4k, n=4k+1, n=4k+2$ or $n=4k+3$ for some $k$
+Suppose for contradiction sake, There are only finitely many primes, $p_1\ldots p_n$ of the form $4k+3$. Let $N = 4p_1p_2\ldots p_{n-1}$. There exists $p|N$ 
+Can $p=4k$ or $p=4k+2$? No as N is odd so p is odd.
+Can $p=4k+3$? No, $p = 4p_1p_2p_3\ldots p_n$ would divide $N-4p_1p_2\ldots p_{n} = 1$, which is saying that p is a multiple of 1.
+So $p=4k+1$. N is a product of numbers that can only have the form $4k+1$. Consider two numbers of this form multiplied.
+$(4k+1)(4l+1) = 4(4kl+k+l)+1 = 4k'+1$ so if N is a product of numbers of form $4k+1$, then N itself has to be of the form $N = 4m+1$, but our assumption is that it is of the form $N = 4p_1p_2\ldots p_n-1$ Which is our contradiction.
+
+## exam clinic
+
+Show that there are infinitely primes of the form $6k-1$ with k positive integers.
+
+Assume there are finitely many primes of this form $p,p_1\ldots ,p_n$
+
+$N= 6p,\ldots p_n -1$
+
+$N \equiv 2$ mod $3$
+$N \equiv 2$ mod $3$
+
+Let $p|N$ then $p \neq p_1,\ldots,p_n$
+
+p can be in the class $1$ mod $6$ only
+
+Multiplying 
+## resources
+see also: [[arithmetic_progression]]
+tags :math:introduction_to_number_theory:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

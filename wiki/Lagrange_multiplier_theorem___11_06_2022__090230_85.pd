@@ -1,0 +1,21 @@
+# introduction
+Lagrange multiplier theorem has significantly reduced the difficulty of finding solutions to constraint problems. It is used to find maxima/minima of a function within a given constraint.
+%%visits: 5
+# diary
+long, and I don't feel like this is where I want it to be in terms of "done"
+# intuition
+:~ finding an extremum of a function within another "constraint" function. The highest point of a mountain inside the clouds. at this point the vectors of mountains = K vectors of clouds
+
+When finding the minimum or maximum of f at a constraint g.
+# rigour
+:= If the function f(x) has an extremum (subject to $g(x) = c , g(x)$ is the constraint) at the point $x_0$, then the vectors $\nabla f (x_0)$ and $\nabla g(x_0)$ and parallel. Thus if $\nabla g(x_0)$ is non-zero, there exists a unique constant $\lambda$ (known as a Lagrange multiplier) such that
+$\nabla f (x_0) = \lambda \nabla g (x_0)$
+# exam clinic
+1. Use the method of Lagrange multipliers to find the distance of the origin from the plane.  $2x - 2y + z = 5$
+    - The Lagrange formula above has $f(x)$ and $g(x)$. First we need to know the main function and the constraint. The main function is not given to us but we can find it. The modulus function is $\sqrt{x^2+y^2+z^2}$, so that is $f(x)$. Now to work out  $\nabla f$ and $\nabla g$.  $\nabla f = \lambda \left( x\left( x^2+y^2+z^2 \right)^{-\frac{1}{2}}\hat{i} + y\left( x^2+y^2+z^2 \right)^{-\frac{1}{2}}\hat{j} + z\left( x^2+y^2+z^2 \right)^{-\frac{1}{2}}\hat{k} \right)$ $\lambda \nabla g = \lambda(2\hat{i} - 2 \hat{j} + \hat{k})$ $\frac{x}{f(x)} = 2\lambda$ $\frac{y}{f(x)} = -2\lambda$ $\frac{z}{f(x)} = \lambda$ Putting all the '$\lambda$'s together gives the answer.
+# resources
+https://www.youtube.com/watch?v=8mjcnxGMwFo
+tags :math:calculus_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

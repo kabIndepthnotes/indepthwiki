@@ -1,0 +1,28 @@
+# kliens_four-group
+## introduction
+%%visits: 2
+There are specific properties of a klien 4 group.
+kliens_four-group:= $V_4$:= A group with the rules
+|     | *e* | *a* | *b* | *c* |
+|-----|-----|-----|-----|-----|
+| *e* | e   | a   | b   | c   |
+| *a* | a   | e   | c   | b   |
+| *b* | b   | c   | e   | a   |
+| *c* | c   | b   | a   | e   |
+
+
+## intuition
+There are no non-abelian groups of order less than or equal to 5.
+
+ $V_4$ is the smallest non-cyclic group
+ 
+ $V_4$ is such that all elements different from $e$
+ $V_4$ has the subgroups, $\left<a \right>$, $\left<b \right>$, $\left<c \right>$, $e,V_4$ and $\left<a \right> \equiv \left<b \right> = \mathbb{Z}_4$
+ 
+## rigour
+## exam clinic
+## resources
+tags :math:groups_and_symmetries:introduction_to_abstract_algebra:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

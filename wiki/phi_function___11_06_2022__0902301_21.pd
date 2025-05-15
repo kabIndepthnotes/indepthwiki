@@ -1,0 +1,63 @@
+# phi_function
+Euler's $\phi$-function 
+%%visits: 2
+
+Find a formula for $\phi(p^{a})$
+
+Explain why $\phi(mn) = \phi(m) \phi(n)$ if $gcd(m,n) = 1$ (if they are coprime) $m,n \in \mathbb{Z}$
+
+Euler_function:= Let m be a positive integer. We define $\phi (m) = |\{1 \le a \le m : gcd(a,m) = 1\}|$ which is how many integers are coprime to this number.
+
+$\phi(m) = |\mathbb{Z}_m^{x}|$, $\mathbb{Z}_m^{x}$ being the multiplicative group of units of $\mathbb{Z}_m$
+
+# Examples
+
+$\phi(1) = 1$, $\phi(6) = 2$ since $1,2,3,4,5,6$ and only $1,5$ are coprime
+
+$\phi(p) = p-1$ if $p$ is prime. 
+
+$\phi(25)$ since $5$ has 2 of the same factors, then we only need to consider the multiples of 5. there are 5 multiples of 5, so 20 other numbers that do not share divisors. The same with $\phi(125)$
+
+Generalising this to a lemma, $\phi(p^{a})= p^{a} - p^{a-1}$. 
+
+Let $m,n$ be two coprime positive integers. The $\phi(mn) = \phi(m)\phi(n)$ 
+
+
+Let $m$ be a positive integer. Then $$
+
+\sum _{d= divisors of m greater than 0} \phi(d) = m
+$$ 
+# Example
+Take $m = 8$
+
+$\sum _{0<d|8} \phi(8) = \phi(1) + \phi(2) +\phi(4) +\phi(8) = 1+1+2+4 = 8$
+
+take 
+$\sum _{0<d|p^{a}} \phi(d) = \phi(1) + \phi(p) + \phi(p^2) + \phi(p^3) + \ldots + \phi(p^{a}) = 1 + (p-1) + (p^2-p) + \ldots + (p^{a} - p^{a-1})$ which is a telescoping_series so it equals $p^{a}$
+
+Proof, for $m,n \ge 1$, which are coprime. By the fundamental_theorem_of_arithmetic there is a 1-to-1 correspondence between $$
+\{ d \in \mathbb{N} : d | mn\} 
+$$ 
+
+and $$
+\{ (a,b) \in \mathbb{N}^2 : a|m \text{ and } b|n\} 
+$$ 
+
+Let $F(m) = \sum _{0<d|mn} \phi(d)$. Hence, using that $\phi(ab) = \phi(a) \phi(b)$ for $gcd(a,b) = 1$. $$
+
+F(mn) = \sum _{0<d|mn} \phi(d) = \sum _{0<a|m \\ 0 < b|n}\phi(ab)  = \sum _{0<a|m} \phi(a) \sum _{0<b|m} \phi(b)  = F(m)F(n)
+$$ 
+
+Writing $m = p_{1}^{a_1}p_{2}^{a_2}\ldots p_{n}^{a_n}$
+
+$F(m) = F(p_{1}^{a_1}p_{2}^{a_2}\ldots p_{n}^{a_n}) = F(p_{1}^{a_1})F(p_{2}^{a_2}) \ldots F(p_{n}^{a_n}) = p_{1}^{a_1}p_{2}^{a_2}\ldots p_{n}^{a_n} = m$
+
+
+Example. $\phi(4) = | \{ 1 \le 4 : gcd(a,4\} |$
+Example. $\phi(2^{n}) = \frac{1}{2} 2^{n}$ since it is every odd number
+Example. $\phi(p) = p-1$
+
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

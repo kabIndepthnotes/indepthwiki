@@ -1,0 +1,28 @@
+# metric_function
+## introduction
+%%visits: 2
+A function that maps a coordinate to a Real number, if the function has the 3 stated properties above
+Thinking of it as a "distance function" helps the definition become more natural. 
+## intuition
+## rigour
+metric function := let $X$ be a non-empty set, the function $d: X \times X \to \mathbb{R}$ is called metric if: 
+    $d(x,y) > 0$ if $x \neq y$ and $d(x,x) = 0$  non-negative
+    $d(x,y) = d(y,x)$ symmetric
+    $d(x,z) \le d(x,y) + d(x,z)$ Triangle inequality
+## exam clinic
+## resources
+tags :math:
+In "A problemtext in advanced calculus" it states
+between x and y should be: 
+(i) greater than or equal to zero; 
+(ii) greater than zero if x and y are distinct; 
+(iii) the same as the distance between y and x; and 
+(iv) no larger than the sum of the distances produced by taking a detour through a point z. 
+We formalize these conditions to define a “metric” on a set.
+## See also
+[[isometry]] [[symmetry_group]] isometry and symmetry are similar.
+
+tags: :metric_spaces_and_topologies:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

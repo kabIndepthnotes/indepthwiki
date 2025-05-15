@@ -1,0 +1,45 @@
+# introduction
+known as a signed area scale factor.
+%%visits: 3
+# diary
+    - :journal:
+    - I think I was 🔥 on the revision lecture for [[Linear Algebra and Geometry (LAG)]] today. but I made key mistakes here and in column operations
+# intuition
+The determinant is a [[homomorphism]]
+
+The determinant can tell us if a matrix is invertible or not, or its [nullity?]. When the determinant is 0, that means that one of the dimensions of the transformation is lost, and by definition it cannot be returned to it's original form. This is because is you lose a dimension, you lose a "family of points", that is a set of infinite points that map to the same place, and so the transformation is no longer bijective.
+
+If A is a 1x1 matrix , A = (a) then det(A) = a
+
+If A is a 2x2 matrix : A = $\begin{bmatrix} a & b \\ c & d \\\end{bmatrix} \quad$ then $|A| = ad - bc$, the reason we know that the columns must be linearly independent, so the proportion of $\frac{a}{b} \neq \frac{c}{d}$, otherwise the column vectors would be linearly dependant. Also not any 2 non-parallel in $\mathbb{R}^2$ are linearly independent.det(A)  = ad-bc [ :todo: check the explanation of the reason a 2x2 determinant is like this ]
+
+    - **Antisymmetry** 
+        - When you swap two columns, you multiply by -1, maybe loosly thinking of the volume being flipped?
+    - **multilinearity**
+        - Linear in one column
+    - Antisymetric
+        - meaning that if you swap two columns in a matrix the result is the sign of the determinant is flipped (times by -1)
+    - Multilinearity
+        - This means that the determinant is linear in one column only, which is not the same as being linear in all columns
+    - Normalisation:
+        - det(I) = 1
+    - Adding a multiple of one column to another means that the determinant is unchanged
+        $D(a_1,a_2,a_j+ba_k,a_4,a_5,....,a_n) = D(a_1,a_2,a_j,a_4,a_5,....,a_n) + D(a_1,a_2,ba_k,a_4,a_5,....,a_n)$
+        $= D(a_1,a_2,a_j,a_4,a_5,....,a_n) + bD(a_1,a_2,a_k,a_4,a_5,....,a_n)$ BUT $D(a_1,a_2,a_k,a_4,a_5,....,a_n)$ has linearly dependant columns so it equals 0)
+        $= D(a_1,a_2,a_j,a_4,a_5,....,a_n)$
+    
+If A and B are square.
+
+*Distributive* $det(AB) = det(A)det(B)$
+
+$det(kA) = k^{n}A$
+
+$det(A^{t}) = det(A)$
+
+# rigour
+    - determinant notation := det(A) or |A|
+# examples
+tags :math:linear_algebra_1:linear_algebra_2:groups_and_symmetries:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

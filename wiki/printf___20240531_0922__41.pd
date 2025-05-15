@@ -1,0 +1,27 @@
+TODO%title printf
+%date 2024-05-31 09:22
+%%visits: 20
+
+# printf
+
+#= formatting =
+can have the form `%m.pX` or `%-m.pX` where
+$\pm$ is the right or left justification respectively
+m := minimum field width, no digits will necessarily be lost if gone over.
+X := The conversion specifier.
+
+# X
+If X is a "d" then p indicates the minimum number of digits to display.
+e - scientific notation
+f - floating point in fixed decimal notation
+g - either scientific notation or fixed decimal depending on the number's size. Useful when the size of the number cannot be predicted.
+
+# how do I print a double or a long double?
+`printf("%f",d)` for a double (same as a float) can use %e or %g
+`printf("%Lf",d)` for a long double, can use %Le or %Lg
+
+[c](c___20250304_1142_20.pd)
+
+# Backlinks
+    - [[c___11_06_2022__08555526|contents]]
+    - [[index|Zettelkasten]]

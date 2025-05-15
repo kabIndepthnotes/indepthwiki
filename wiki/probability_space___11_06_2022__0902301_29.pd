@@ -1,0 +1,14 @@
+# probability_space
+## introduction
+%%visits: 2
+## intuition
+## rigour
+probability_space := $(\Omega, \mu)$ where $\Omega$ is a sample space (a set) and $\mu$ is the probability measure
+## Examples
+
+## exam clinic
+## resources
+tags :math:probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

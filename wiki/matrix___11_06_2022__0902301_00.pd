@@ -1,0 +1,89 @@
+# matrix
+# introduction
+%%visits: 2
+Matrices were first developed to solved a system of linear equations, which are things like $$
+2x + 2y = 20
+5x +  y = 42
+$$
+So when thinking about any other property, it is helpful to always remember that a matrix at it's core has rules that make it so that it is sensible to use in a system of linear equations, specifically [[linear_diophantine_equation]]s
+# diary
+K: Hi jordan, I have just a funny question about matrices I was thinking about if/whenever you are free. When mathematicians first made a matrix, what problem where they trying to solve? in the sense that they aren't just an array of numbers with special operations, and they do have many many applications, but if you were to describe what a matrix is itself, how would you describe it?
+K answers his own question: They were first used to solve systems of linear equations. If I was to describe it, it is a special mathematical object used to manipulate systems of linear equations. Is it only for that? 
+# intuition
+Matrices were first used to simplify solving systems of linear equations, and get all their natural properties from that.
+
+- $A^{\dagger} = (A^{*})^{T} = (A^{t})^{*}$
+- $A^{*}$ - is every element conjugated, see [[complex_number]]
+- $A^{T}$ transposing, that is making the x-axis the y-axis.
+
+# rigour
+- [[trace]] := the sum of the main diagonal
+- Discriminant := $t^2 - 4\det$
+- semi := non-negative eigenvalues
+- definite := real eigenvalues
+# examples
+The [[rotation_matrix]] for 2x2.
+$\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$
+tags :math:linear_algebra_1:linear_algebra_2:groups_and_symmetries:
+:groups_and_symmetries: matrices under multiplication
+
+\definecolor{c1}{RGB}{255, 0, 0}
+\definecolor{c2}{RGB}{0, 0, 255}
+\definecolor{c3}{RGB}{255, 165, 0}
+\definecolor{c4}{RGB}{75, 0, 130}
+\definecolor{c5}{RGB}{220, 220, 0}
+\definecolor{c6}{RGB}{238, 130, 238} 
+\definecolor{c7}{RGB}{0, 128, 0}
+\definecolor{c8}{RGB}{100,100,100}
+\definecolor{c9}{RGB}{45,177,93}
+\definecolor{default}{RGB}{10,20,20}
+
+\color{default}
+<!-- Focus on rephrasing, exam questions checklist and atomic completeness! -->
+
+
+$$
+\begin{pmatrix} 
+\color{c1} a&
+\color{c2}b&
+\color{c3}c
+\\
+\color{c4}d&
+\color{c5}e&
+\color{c6}f&
+\\
+\color{c7}g&
+\color{c8}h&
+\color{c9}i
+\end{pmatrix} 
+\begin{pmatrix} 
+x 
+\\ 
+y 
+\\ 
+z 
+\end{pmatrix} 
+\iff
+\color{c1}a
+\color{default}x + 
+\color{c2}b
+\color{default}y + 
+\color{c3}c
+\color{default}z 
+\\
+\color{c4}d
+\color{default}x + 
+\color{c5}e
+\color{default}y + 
+\color{c6}f
+\color{default}z 
+\color{c7}g
+\color{default}x + 
+\color{c8}h
+\color{default}y + 
+\color{c9}i
+\color{default}z 
+$$
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

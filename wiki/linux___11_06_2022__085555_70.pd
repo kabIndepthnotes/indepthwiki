@@ -1,0 +1,43 @@
+%title linux___11_06_2022__08555570
+%date 2024-11-28 12:11
+%%visits: 37
+#  linux___11_06_2022__08555570 
+- apropros
+    - This is something that can help you find tools for the job you need.
+- pdfunite
+
+qpdf --password=yourpasswordhere --decrypt input.pdf output.pdf
+ffmpeg -video_size 1024x768 -framerate 25 -f x11grab -i :0.0+100,200 output.mp4 // screen record
+ccencrypt file
+
+
+	ls *.pdf | xargs -I '{}' qpdf --decrypt {} --replace-input
+
+
+# with "for"
+for i in {1..365}; do 
+	date +"%a %d %b %Y" -d "2024-10-22 +$i days"
+done
+
+
+
+for i in {1..52}; do 
+	# week=qalc -t "$i*7"
+	date +"%a %d %b %Y" -d "2024-12-30 +$i weeks"
+done
+
+
+
+	alsamixer -c0 --view=All
+
+
+#  remove ppa 
+
+#  steam 
+pactl set-default-source alsa_input.usb-BurrBrown_from_Texas_Instruments_USB_AUDIO_CODEC-00.9.analog-stereo
+
+#  entr 
+ls -d * . | entr make lit
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

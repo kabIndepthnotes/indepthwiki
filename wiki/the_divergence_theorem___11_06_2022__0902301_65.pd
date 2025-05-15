@@ -1,0 +1,14 @@
+# introduction
+# diary
+%%visits: 2
+# intuition
+The pressure inside a volume is equal to the pascals (force per area) on the surface of the volume.
+This also reminds me of A-level, when you are taught that there is a form of a plane in normal for and cartesian form, I wouldn't be suprised if that is because of this theorem.
+# rigour
+Used in solid regions
+$\int\int \int \nabla \cdot v dx dy dz  = \int \int v \cdot n d \sigma$ think of link between tangents and norma
+# examples
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

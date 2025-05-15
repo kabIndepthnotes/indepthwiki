@@ -1,0 +1,14 @@
+# introduction
+# diary
+%%visits: 3
+:journal: Again, I underestimated how little I internalised this definition.
+# intuition
+the scale factor of an eigenvector when it's transformation is applied.
+# rigour
+$\lambda$ is an eigenvalue if and only if $\det(Ax \lambda I) = 0$
+# examples
+tags :math:linear_algebra_2:KY1S1:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

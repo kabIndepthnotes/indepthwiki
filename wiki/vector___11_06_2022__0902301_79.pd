@@ -1,0 +1,30 @@
+%title vector
+%date 2021-08-27 10:19
+%%visits: 2
+
+# introduction
+Vectors are in a lot of places and not just in maths, however I believe in maths the definition of a vector is the best, as it encompasses most other forms of vectors (in physics, a vector has a magnitude and a direction, but this is not the definition mathematicians use). The definition of a vector, is something that is "linear", meaning that it can be added to and scaled up. With this more general definition. I can say that v : v = [people, fruit] is a vector, but does not have a direction. v_1 = [2(me+you),2(apples)] is a vector, and it has been scaled and added to.
+
+For the most part, we will use vectors in $R^n$ or $C^n$
+
+# diary
+    - :journal: first entry for the previous year!
+# intuition
+# rigour
+Cauchy's Theorem states $|u \cdotp v | \leq ||u|| ||v||$ 
+
+The Vector $s \in \mathbb{R}^3 = (x,y,z)$. x is a coordinate, entry or component
+
+A linear span is the collection of all linear combinations of the vectors in question. for example the ,$u,v \in \mathbb{R}^n , span(u,v) = \{\alpha u + \beta v\}\: \forall \alpha , \beta \in \mathbb{F}$
+
+A linear combination is an element in the span
+
+linear span := The span of $v,u, ... \in \mathbb{F}^n$ is the set $A = \{av+bu + ... \}$ where $a,b,...$ are scalars in $\mathbb{F}$
+# examples
+$\begin{pmatrix} 1 & 2 & 3 \end{pmatrix}$
+$\begin{pmatrix} 0 & 0 & 0 \end{pmatrix}$
+see https://www.youtube.com/watch?v=fNk_zzaMoSs as this gives a better explaination of what is a vector.
+tags :math:linear_algebra_1:linear_algebra_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

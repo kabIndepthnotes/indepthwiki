@@ -1,0 +1,16 @@
+# closed_set
+## introduction
+%%visits: 4
+The closed_set now has much more rigour than in real or complex_analysis, when we use metric_spaces 
+## intuition
+If it contains all converges of any sequences 
+{{file:../figures/screenshot_20220207_132543.png}}
+%% ==rigour
+%% ==exam clinic
+%% ==examples and non-examples
+## resources
+[[limit_point]]
+tags [math](math___20250311_0922_50.pd)__real_analysis:__complex_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

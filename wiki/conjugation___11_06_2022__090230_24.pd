@@ -1,0 +1,38 @@
+# conjugation
+## introduction
+%%visits: 3
+conjugation makes way for normal_subgroups, which make the left coset equal to the right coset
+
+Think, similar elements. 
+## intuition
+*relabel keeps the cycle the same*
+
+conjugation :~ think of changing_the_basis of_a_matrix or similar_matrices, it is the same formula but applied to the groups. We do this for the symmetric group.
+
+conjugation relates two elements if they are symmetric in a certain way. Ones that have similar structure (like order). They help with being able to sort elements out and deal with them together, which is useful when there are a large number of elements.
+
+*Conjugation is and equivalence relation* (we use group properties)
+    - Reflexive: $a ~ a$ as $e \in G$ hence $eae^{-1} = a$ 
+    - Symmetric: $a~b \iff b~a$ as $a~b \implies \exists g \in G : a = gbg^{-1} \implies g^{-1}ag = b \implies b ~ a$ 
+    - Transitive: $a~b,b~c \implies a~c$ as $a = gbg^{-1}, b = g'cg'^{-1} \implies a = gg'cg'^{-1}g^{-1} = gg'c(gg')^{-1}$ due to closure, $a~c$
+
+
+conjugation changes the labels of cycles. Consider 3-cycles. $a = (132)$ and $b= (123)$ may look different, but they have the same underlying structure, if we just relabelled the element, they are similar. Conjugation, loosely changing_the_basis. In other words, swap $2\leftrightarrow 3$. so $(23)(123)(23) = (132)$ 
+
+
+
+## rigour
+conjugation:= Given a group $G$, we say that $a \in G$ is conjugate to $b \in G$ if there exists $g \in G : a g b g^{-1}$ 
+
+Let $a,b \in G$ conjugation by a of b is : $aba^{-1}$
+
+
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,13 @@
+# Dirichlet_approximation_theorem
+## introduction
+%%visits: 5
+Let $\alpha$ be an irrational, then you can approximate $\alpha$ with a rational, where $\left| \alpha - \frac{a}{b} \right| < \frac{1}{b b_n}$
+## intuition
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

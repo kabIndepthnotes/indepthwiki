@@ -1,0 +1,33 @@
+# rotation_matrix
+## introduction
+%%visits: 4
+Let $A(\theta) = \begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$ where $\theta$ is the transformation in the anti-clockwise direction.
+## intuition
+The inverse of $A$ is $A(-\theta)$ since to invert the transformation you simply turn in the clockwise direction.
+The first component is simply the polar_coordinates form of a point, and the second point is it transposed.
+Properties of the rotation_matrix.
+Two reflections make a rotation, this is denoted as $b(\theta) = A(-\theta)BA(\theta)$, see changing_the_basis in the [[matrix]] page.
+## rigour
+#  The transpose is the inverse. 
+$A = \begin{pmatrix} \cos(x) && \sin(x) \\ -\sin(x) && \cos(x) \end{pmatrix}$
+$A^{T} = \begin{pmatrix} \cos(x) && -\sin(x) \\ \sin(x) && \cos(x) \end{pmatrix}$
+
+$A A^{T} = \begin{pmatrix} \cos(x) && \sin(x) \\ -\sin(x) && \cos(x) \end{pmatrix} \begin{pmatrix} \cos(x) && -\sin(x) \\ \sin(x) && \cos(x) \end{pmatrix}$
+
+$= \begin{pmatrix} \cos^2(x) + \sin^2 && - \cos(x)\sin(x) + \cos(x)\sin(x) \\ -\sin(x) \cos(x) + \cos(x)\sin(x) && \sin^2(x) + \cos^2(x) \end{pmatrix}$
+
+$= \begin{pmatrix} 1 && 0 \\ 0 && 1 \end{pmatrix}$
+
+$A^{T}A = \begin{pmatrix} \cos(x) && -\sin(x) \\ \sin(x) && \cos(x) \end{pmatrix} \begin{pmatrix} \cos(x) && \sin(x) \\ -\sin(x) && \cos(x) \end{pmatrix}$
+
+$\begin{pmatrix} \cos^2(x) + \sin^2(x) && \cos(x) \sin(x) - \sin(x) \cos(x) \\ \sin(x) \cos(x) - \cos(x) \sin(x) && \sin^2(x) \cos^2(x)\end{pmatrix}$
+
+$= \begin{pmatrix} 1 && 0 \\ 0 && 1 \end{pmatrix}$
+
+## exam clinic
+## resources
+[[dihedral_group]]
+tags :math:linear_algebra_1:linear_algebra_2:groups_and_symmetries:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

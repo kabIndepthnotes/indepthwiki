@@ -1,0 +1,21 @@
+# Fermat-Euler_theorem
+## introduction
+%%visits: 5
+## intuition
+Fermat-Euler_theorem:= Let $a \in \mathbb{Z}$ and $m$ be a positive integer. Suppose $gcd(a,m) = 1$. Then $$
+a^{\phi(m)} \equiv 1 \text{ mod m}
+$$ 
+
+Taking m=p we get Fermats_little_theorem
+
+Proof. Order of an element divides the order of a group. Lagranges_theorem
+
+notation for order is the $o\left(  \right) $ notation.
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

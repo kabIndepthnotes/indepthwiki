@@ -1,0 +1,18 @@
+# ball
+## introduction
+%%visits: 6
+Imagine a real ball but more abstracted, it doesn't have to be a ball shape, but it has that name because it has a radius and points that live in the radius are the elements of the ball.
+
+It is something that has a center,$c_0$ and a radius, $r$, and what is contained in the ball is governed by a [[metric]], all points that are at most $r$ away.
+
+There is the idea of disc in complex_analysis which is a specific metric.
+%% ==intuition
+## rigour
+{{file:../figures/screenshot_20220210_122457.png}}
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==resources
+tags [math](math___20250311_0922_50.pd)__metric_spaces_and_topologies:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

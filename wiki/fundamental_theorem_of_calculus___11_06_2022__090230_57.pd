@@ -1,0 +1,16 @@
+# introduction
+The fundamental theorem of calculus is used not only for curves, but for surfaces and they also look as though they are needed in [[green's_theorem]], [[stokes'_theorem]], and [[the_divergence_theorem]]. Isaac Newton (and Leibniz) discovered differentiation, and [all of calculus is based on this]. 
+%%visits: 2
+# diary
+    - :journal:
+# intuition
+The link between an integral and the gradient of it.
+# rigour
+$\int_C \nabla f \cdot = f(q) - f(p)$ for curve integrals
+# examples
+
+
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

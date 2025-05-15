@@ -1,0 +1,20 @@
+# conjugacy_class
+## introduction
+%%visits: 3
+## intuition
+Equivalence classes are either identical or disjoint and because any element $g \in G$ is in some conjugacy_class $(g \in [g]_c)$ they form partition, but not equipartitions.
+
+$[e]_c=\{e\}$ so no other conjugacy_class is a subgroup.
+
+Conjugation by an element g is a bijection: Let $M(h) = ghg^{-1}$
+## rigour
+conjugacy_class:= The conjugacy class of a is defined as $[a]_{c} = \{gag^{-1}| \forall g \in G\}$ 
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]
+    - [[representation_theory_of_finite_groups___20240516_103432|representation_theory_of_finite_groups]]

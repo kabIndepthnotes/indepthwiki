@@ -1,0 +1,45 @@
+# direct_product
+## introduction
+%%visits: 3
+Creating groups of higher order, from smaller groups.
+## intuition
+direct_products are [[group]]s with a coordinate system instead of just one element. For example $G= G_1\times G_2$ where $(e_1,e_2)$ is the identity
+
+Theorem $\mathbb{Z}_p\times \mathbb{Z}_q \equiv \mathbb{Z}_{pq} \iff$ $p$ and $q$ are relatively prime.
+
+proof. Let $\mathbb{Z}_p = <a>$ and $\mathbb{Z}_q$ find the generator and show it's order
+
+Remember the operation of $g_1*_{G_1}g_1'$ 
+
+If $G_1$ and $G_2$ are abelian groups then $G_1 \times G_2$ is abelian
+
+Proof: $\left( g_1,g_2 \right) \left( g_1',g_2' \right) = \left( g_1g_1',g_2g_2' \right) = \left( g_1'g_1,g_2'g_2 \right)= \left( g_1',g_2' \right\left( g_1,g_2 \right) )$ hence proved.
+
+$\left| G_1\times G_2 \right| = \left| G_1 \right|\left| G_2 \right|$ as Let $g_i \in G_1$ and $h_i \in G_2$.
+This is implied from the cartesian product and elements in a group being distinct.
+
+$G_1 \equiv G_1 \times \left\{ e_2 \right\} \subset G_1\times G_2$ Think of it as 1-d slice in a 2d plane!
+## rigour
+Definition 7.1 in the lecture notes.
+
+direct_product:= Let $G_1$ and $G_2$ be two groups. Then $G=G_1\times G_2 = \left\{  (g_1,g_2) : g_1 \in G_1, g_2 \in G_2\right\}$ with the multiplication law $(g_1,g_2)(g_1', g_2') = \left( g_1g_1',g_2g_2' \right)$. $G_1\times G_2$ is called the direct_product of $G_1$ and $G_2$. The action is sort of [[dot_product]].
+## exam clinic
+## examples
+1. Let $G_1 = \left\{ e_1,a_1 \right\}$ with $a_1^2 = e_1$ and $G_2 = \left\{ e_2,a_2 \right\}$ with $a_2^2 = e_2$
+since the cardinality of the group is 4, it is isomorphic to the kliens_four group or $\mathbb{Z}_4$. Recall that $\mathbb{Z}_4 =\left<b \right>$ with $b^{4}=e$ then $\mathbb{Z}_4 = \left\{ e, b, b^2, b^3 \right\}$, $\left| e \right| =1, \left| b \right| =4,\left| b^2 \right|=2, \left| b^3 \right| = 4$ (since 3 and 4 are coprime), Returning to $G_1\times G_2$ all of its elements are of the form: $\left( a_1^{n},a_2^{m} \right)$. $\left( a_1^{n},a_2^{m} \right)^2 =\left( a_1^{2n},a_2^{2m} \right) = \left( e_1,e_2 \right)$.
+
+All non-identity elements in $G_1\times G_2$ have order $2$. $G_1\times G_2$ is not isomorphic to $Z_4$ as the elements order should be preserved
+
+So it must be isomorphic to $G_1\times G_2 \equiv V_4$
+
+2. $\mathbb{Z}_2 \times \mathbb{Z}_3 \equiv \mathbb{Z}_6$ with elements $(a,b)$ with $a \in \left\{ 0,1 \right\}, b \left\{ 0,1,2 \right\}$. If we find an element that generates $\mathbb{Z}_2 \times  \mathbb{Z}_3$, this would be the first question you should ask, since it makes life a lot easier. It is clear that $(1,1)$ generates, since 2, and 3 are coprime. 
+
+3. $\mathbb{Z}_2 \times \mathbb{Z}_4$ Forms a discretised torus.
+
+$\mathbb{R}^2$
+:todo:$D_3$ is not a direct_product, since 
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

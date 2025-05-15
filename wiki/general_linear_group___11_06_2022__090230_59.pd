@@ -1,0 +1,23 @@
+# general_linear_group
+## introduction
+%%visits: 2
+These are all the invertible matrices, all the matrices with non-zero determinants
+## intuition
+It is a group.
+
+## rigour
+$GL(n,\mathbb{C}) = \{A \in M_n(\mathbb{C} | \det(A) \neq 0\}$
+
+Theorem. $GL(n,\mathbb{C}) \to \mathbb{C}^{\times}$ is surjective.
+$GL(n,\mathbb{R}) \to \mathbb{R}^{\times}$ is surjective.
+
+The [[centre_of_a_group|centre]] of the general_linear_group is isomorphic to $\mathbb{C}^{\times}$ 
+    - Proof: See the lecture notes, but suffice to say, that the centre is only scaled identity matrices. We chose intereting Bs so that the commutative element AB = BA is singled out. See the lecture notes.
+Outline of the proof, the centre [[centre_of_a_group|centre]] is only diagonal matrices.
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

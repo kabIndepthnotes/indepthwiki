@@ -1,0 +1,25 @@
+# integral
+##  Contents 
+%%visits: 3
+[[improper_integral]]
+[[Reimann_integral]]
+[[unbouned_integrals]]
+[[contour_integral]]
+
+{{file:../figures/screenshot_20211216_090917.png}}
+## introduction
+An integral was originally used as an "anti-derivative" in the sense that it was a rigourous way to find the inverse of an derivative ([[differentiation]]). It is made rigourous with [[staircase_function]]s and [[supremum]]s
+
+##  triple integrals 
+Choosing the bounds is not something you do wrong or right.
+It is just something that you do easier or harder.
+ 
+%% ==intuition
+%% ==rigour
+%% ==exam clinic
+%% ==examples and non-examples
+%% ==related
+tags [math](math___20250311_0922_50.pd)
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

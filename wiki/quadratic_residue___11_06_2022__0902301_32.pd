@@ -1,0 +1,13 @@
+# quadratic_residue
+## introduction
+%%visits: 2
+## intuition
+$[b]_{p} = [g]_{p}^{j}, b$ is a QR $\iff$ j is even
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,13 @@
+# joint_probability_distribution
+## introduction
+%%visits: 2
+## intuition
+## rigour
+## exam clinic
+Let $X,Y$ both be two iids with density function f, What is $\mathbb{P}(X \ge Y)$?
+## examples and non-examples
+## resources
+tags :math:probability_and_statistics_1:probability_and_statistics_2:data_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

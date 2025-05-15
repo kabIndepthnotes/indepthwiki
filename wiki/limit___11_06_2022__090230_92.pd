@@ -1,0 +1,175 @@
+# limit
+## introduction
+%%visits: 2
+Limit, it is used in [[differentiation]], in [[convergence]] [and a lot of other places]
+## intuition
+A limit to infinity is pretty much [[convergence]] with different names.
+$\forall \epsilon > 0 \exists  N \in \mathbb{N} \forall  n \ge N :\left| a_{n} - a \right| <\epsilon$
+now make $n = x$ $N - R$ $\mathbb{N} = \mathbb{R}$ and $a_n = f(x)$, $a = y_0$
+$\forall \epsilon > 0 \exists  N \in \mathbb{N} \forall  n \ge N :\left| a_{n} - a \right| <\epsilon$
+
+now a limit as $x \to \infty$ is also similar, in the sense that instead of R we have a neighbourhood of $x_0$, f(x) must be in a punctured neighbourhood of $x_0$ but not necessarily at $f(x_0)$.
+
+limit at a point:=  $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $x_0$ such that if $x \in V$, then  $f(x) \in U$. 
+limit at infinity:=  $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $\infty$ such that if $x \in V$, then  $f(x) \in U$. 
+
+$$
+\definecolor{c1}{RGB}{255, 0, 0}
+\definecolor{c2}{RGB}{0, 0, 255}
+\definecolor{c3}{RGB}{255, 165, 0}
+\definecolor{c4}{RGB}{75, 0, 130}
+\definecolor{c5}{RGB}{220, 220, 0}
+\definecolor{c6}{RGB}{238, 130, 238} 
+\definecolor{c7}{RGB}{0, 128, 0}
+\definecolor{c8}{RGB}{100,100,100}
+\definecolor{c9}{RGB}{45,177,93}
+\definecolor{default}{RGB}{10,20,20}
+$$
+
+$\color{default}$
+
+$$
+\lim_{
+x \to x_0
+} 
+\left[ f(x) \right] 
+# 
+l
+$$ 
+is just shorthand for 
+$$
+\color{c1} \left| f(x) - l \right|
+\color{c2}< \epsilon , \forall \epsilon > 0
+$$
+where
+$$ 
+\color{c3}0 < \left|x - x_0\right| 
+< \delta , \forall \delta > 0
+$$
+$\color{c1}$ the difference between $f(x)$ and l
+$\color{c2}$ gets smaller and smaller
+$\color{c3}$ as long as the difference between $x$ and $x_0$ gets smaller and smaller
+
+
+$\delta$ is dependent on $\epsilon$, that means if you change epsilon, your value of delta should be different. Note that as it is a modulus, then naturally we begin to see that we consider points above and below L. We are making a rigorous definition of the converging phenomena Finding if a limit exists can be done with L'hopital's rule, and differentiation has an implied limit.
+
+$\lim_{x\rightarrow x_0}[f(x)g(x)]  = \lim_{x\rightarrow x_0}[f(x)]\lim_{x\rightarrow x_0}[g(x)]$ 
+
+$\lim_{x\rightarrow x_0}[f(x)+g(x)] = \lim_{x\rightarrow x_0}[f(x)]+\lim_{x\rightarrow x_0}[g(x)]$ (BE CAREFUL OF $\infty - \infty$)
+
+$\lim_{x\rightarrow x_0}[\frac{f(x)}{g(x)}] = \frac{\lim_{x\rightarrow x_0}[f(x)]}{\lim_{x\rightarrow x_0}[g(x)]}$
+
+Order matters when dealing with double limits
+Intuition regarding cancelling "zero" terms
+When finding the limit $\lim_{x\rightarrow 2}[\frac{(2x+1)(x-2)}{x-2}]$ it makes the problem much easier when we cancel x-2 from the top and bottom. *BUT* this is not the same function. But what we are doing is we are saying $x \neq 2$ so we cancel the terms to find the limits. Then, as x gets very very very close to 2, we find the limit.
+## rigour
+Limit of a function f(x):= L as $x \rightarrow x_0$
+
+Let $x_0 \in \mathbb{R}$ and f be a function defined on a punctured neighbourhood of $x_0$ i.e. on $\left( x_0 - a, x_0 +a \right) \setminus \left\{ 0 \right\} = \left( x_0 - a, x_0 \right) \cup \left( x_0,x_0+a \right)$ for some $a >0$ 
+$\lim_{x\rightarrow x_0}[f(x)] = L$ 
+If and only if $|f(x) - L| < \epsilon $ for all $\epsilon > 0$ where $0<|x-x_0| < \delta$ for $\delta > 0$
+Continuous at a point:= If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
+Continuous [[function]]:= If every point on the function is continous
+Asymptotic limit := when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
+limit at infinity :~ $\infty$ is a "singular point" on the real line, and its neighbourhood are sets of the form $\left( R, \infty \right)$; similarly, the neighbourhoods of $-\infty$ are sets of the form $\left( -\infty,-R\right)$
+
+Alternate definition for limit := For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
+
+## examples
+## resouces
+[[Intermediate value theorem]]
+
+[[Sandwich theorem]]
+
+[Dividing each term by the highest degree in the denominator of a limit that goes to infinity](https://math.stackexchange.com/questions/1832699/dividing-each-term-by-the-highest-degree-in-the-denominator-of-a-limit-that-goes)
+
+
+Limit of a function f(x):= L as $x \rightarrow x_0$
+
+Let $x_0 \in \mathbb{R}$ and f be a function defined on a punctured neighbourhood of $x_0$ i.e. on $\left( x_0 - a, x_0 +a \right) \setminus \left\{ 0 \right\} = \left( x_0 - a, x_0 \right) \cup \left( x_0,x_0+a \right)$ for some $a >0$ 
+$\lim_{x\rightarrow x_0}[f(x)] = L$ 
+If and only if $|f(x) - L| < \epsilon $ for all $\epsilon > 0$ where $0<|x-x_0| < \delta$ for $\delta > 0$
+
+## exam clinic
+f(x) = $\frac{x+1}{x+2} \to 1$ as $x \to  \infty$ 
+
+## Algebra Of Limits
+Suppose $\lim_{n \to \infty} a_n = a$ and $\lim_{n \to \infty} b_n = b$
+
+$\lim_{n \to \infty} \left( a_n \pm b_n \right) = a \pm b$
+
+$\lim_{n \to \infty} \left( a_n  b_n \right) = a b$
+
+$\lim_{n \to \infty} \left( \frac{a_n}{b_n} \right) = \frac{a}{b}$ if $b \neq 0$
+
+
+tags :math:
+
+
+:todo:
+let $$S_n \rightarrow \mathbb{l}$$ and let $$T_n \rightarrow \mathbb{m}$$ as $$n \rightarrow \infty$$
+
+for any $$\alpha \in \mathbb{R}$$ one has $$\alpha S_n \rightarrow \alpha \mathbb{l}$$ as $$n \rightarrow \infty$$
+
+if $$S_n T_n$$
+
+When finding limits
+
+$$\lim[\frac{f(x)}{g(x)}] = \frac{\lim[f(x)]}{lim[g(x)]}$$ provided $$\lim[g(x)] \neq $$0
+
+
+
+$$n^{n} \gg n! \gg a^{n} \gg n^{k} \gg \log(n)$$
+
+Algebra of limits
+
+Divide by the fastest growing term in the denominator
+
+Subsequences, don't try to think of a formulae for it. 
+
+A limit point is the limit of some subsequence, TODO, learn some of the properties
+
+write out the terms of the subsequence
+
+taking reciprorocals, generally changes the limit points
+
+IF a_n has a limit point l \neq 0 \implies 1/l limit point of 1/a_n
+
+IF a_n has a limit point l = 0 \implies the corresponding subsequence will diverge
+
+IF a_n has a subsequence \to  +- \infty \implies the corresponding subsequence will converge to 0.
+
+These are all intuitive
+
+Continuous at a point:= If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
+
+Continuous [[function]]:= If every point on the function is continous
+
+
+Asymptotic limit := when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
+
+limit at infinity :~ $\infty$ is a "singular point" on the real line, and its neighbourhood are sets of the form $\left( R, \infty \right)$; similarly, the neighbourhoods of $-\infty$ are sets of the form $\left( -\infty,-R\right)$
+
+
+Alternate definition for limit := For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
+
+*Intuitions/notes*:
+
+$\delta$ is dependent on $\epsilon$, that means if you change epsilon, your value of delta should be different. Note that as it is a modulus, then naturally we begin to see that we consider points above and below L. We are making a rigorous definition of the converging phenomena Finding if a limit exists can be done with L'hopital's rule, and differentiation has an implied limit.
+
+$\lim_{x\rightarrow x_0}[f(x)g(x)]  = \lim_{x\rightarrow x_0}[f(x)]\lim_{x\rightarrow x_0}[g(x)]$ 
+
+$\lim_{x\rightarrow x_0}[f(x)+g(x)] = \lim_{x\rightarrow x_0}[f(x)]+\lim_{x\rightarrow x_0}[g(x)]$ (BE CAREFUL OF $\infty - \infty$)
+
+$\lim_{x\rightarrow x_0}[\frac{f(x)}{g(x)}] = \frac{\lim_{x\rightarrow x_0}[f(x)]}{\lim_{x\rightarrow x_0}[g(x)]}$
+
+Order matters when dealing with double limits
+
+Intuition regarding cancelling "zero" terms
+
+when finding the limit $\lim_{x\rightarrow 2}[\frac{(2x+1)(x-2)}{x-2}]$ it makes the problem much easier when we cancel x-2 from the top and bottom. *BUT* this is not the same function. But what we are doing is we are saying $x \neq 2$ so we cancel the terms to find the limits. Then, as x gets very very very close to 2, we find the limit.
+
+tags: :calculus_1:calculus_2:real_analysis:sequences_and_series:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,18 @@
+# Cramer_Rao_inequality
+## introduction
+%%visits: 5
+## intuition
+The Cramer_Rao_inequality motivates the idea of [[efficiency]].
+## rigour
+Theorem- Let $X_1,\ldots,X_n$ be i.i.d.s with probability density function f(x;0). Let $\hat{\theta}_n$ be an unbiased estimator of $\theta$. Then under "mild" conditions.
+
+Mild is defined as when supp(g(x)) is independent of $\theta$ then $$
+var(\hat{\theta}_n) \ge \frac{1}{In(\theta)}
+$$ 
+Recall that $I_n(\theta)$ is the [[Fisher_information]]
+## exam clinic
+## resources
+tags :math:probability_and_statistics_2:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,49 @@
+# expectation
+## introduction
+%%visits: 3
+This is the weighted average, or the (arithmetic mean?). 
+## intuition
+Linearity - $\mathbb{E} (aX + bY) = a\mathbb{E}(X) + b\mathbb{E}(Y)$
+## rigour
+If X and Y are joint distributions, then $\mathbb{E}(X) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} x f(x,y) dy dx = \int_{-\infty}^{\infty}x \int_{-\infty}^{\infty} f(x,y) dy dx = \int_{-\infty}^{\infty} x f_X(x) dx$
+
+$\mathbb{E}(XY) = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} xyf(x,y)dy dx$
+## exam clinic
+Question 1 from keats quiz - If $X$ is a random variable with probability density function $f(x) = 2x$, for $0<x<1$, then what is $E(X^2)$
+    - The formula $E(X^2) = \int_{-\infty}^{\infty} x^2f(x)$ gets us all the way to solving.
+    - = $\int_{0}^{1} x^2 2x =\int_{0}^{1} 2x^3 = \frac{1}{2}x^{4}\vline_{x=0}^{x=1}$
+    - $= \frac{1}{2}$
+
+Let $X\ge 0$ be a non-negative integer valued random variable. Prove that $\mathbb{E}[X] = \sum _{k=1}^{\infty} \mathbb{P}(X\ge k)$
+
+$\sum _{k=1}^{\infty} \mathbb{P}(X\ge k = \sum _{k=1}^{\infty} \sum _{j=k}^{\infty} \mathbb{P}(X=j)$ (now we want to swap the order due to foresight)
+
+Now $= \sum _{j=1}^{\infty} \sum _{k=1}^{j} \mathbb{P}(X=j)$
+
+to illustrate this, think of for loops?
+
+k = 1:
+    j = 1,2,3,4,5 .. 
+k = 2:
+    j = 2,3,4,5 ...
+k = 3:
+    j = 3,4,5,6,
+
+...
+
+j = 1
+    k = 1
+j = 2 
+    k = 1,2
+... 
+## examples
+Example of non-defined expectation
+$X~f_X(X) = \frac{a}{x^{1+a}},a>0$ an $0$ otherwise.
+
+$\mathbb{E}[X] = \int_{x=1}^{\infty}x \frac{a}{x^{1+a}}dx = \int_{x=1}^{\infty}\frac{a}{x^{a}}dx = a \frac{x^{a}}{-a+1}$ or $\ln \left( \left| x \right|  \right)$ when $a=1$, hence infinity at a=1.
+
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

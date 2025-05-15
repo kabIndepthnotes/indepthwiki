@@ -1,0 +1,73 @@
+# chinese_remainder_theorem
+## introduction
+%%visits: 5
+## intuition
+The ring theoretic statement of chinese_remainder_theorem:= Let $m,n$ be co-prime $\psi :  \mathbb{Z}_{mn} \to \mathbb{Z}_m \times  \mathbb{Z}_n$ Given by $\psi([a]_{mn}) = ([a]_m,[a]_n)$ is a bijection (also a ring isomorphism)
+
+Inverse elements
+
+Let $m$ be a positive integer and let $a \in \mathbb{Z}$. If $\gcd(a,m) = 1$ then there exists $b \in \mathbb{Z}$ such that $ab \equiv 1$ mod m
+
+Proof. Bezouts_lemma $\implies \exists u,v \in \mathbb{Z}$
+
+$au + vm = 1 \implies au = -vm +1 \implies au \equiv 1$ mod m
+
+
+multiplicative_group_of_integers and inverses
+
+What is a unit. Given a commutative ring $R$ with identity $1_R$ we call $a \in R$ a unit if there exists $b \in \mathbb{R}$ such that $a\cdot b = 1_R$ 
+
+$\mathbb{Z}_{mn}$. Related to $\mathbb{Z}_m \mathbb{Z}_n$ 
+## rigour
+Let $m,n$ be coprime integers. Then the system of modular equations. $x \equiv a$ mod m and $x \equiv b$ mod n has a unique solution mod mn
+let m,n >1 : gcd(m,n) = 1
+let a,b be arbitrary integers
+there is an integer x which satisfies 
+$x \equiv a \; (mod\; m)$
+$x \equiv b \; (mod\; n)$
+and the solution of these simultaneous equations are given by all
+$x \equiv x_0 \; (mod\; mn)$
+
+Proof of chinese_remainder_theorem
+Existence By [[Bezouts_lemma]], there exists $u,v \in \mathbb{Z}$ such that $um+vn = 1$. So $[vn]_m = [1]_m$. And $[um]_n = [1]_n$
+
+Consider, $X = bum + avn$
+$[X]_m = [bum+avn]_m = [avn]_m = [a]_m$
+
+$[X]_n = [bum + avn]_n = [bum]_n = [b]_n$
+
+uniqueness
+
+
+$X \equiv a$ mod m $X \equiv a$ mod m
+
+$X \equiv b$ mod n $Y \equiv b$ mod n
+
+So $X \equiv Y$ mod m $\implies m|x-y$ 
+
+So $X \equiv Y$ mod n $\implies n|x-y$ 
+## exam clinic
+Let $f(x) = x^{21} + a_{20}x^{20} + \ldots + a_1x + a_0$ with $a_{21},\ldots,a_1,a_0 \in \mathbb{Z}$. What is the nlargest number of solutions to $f\left( x \right) \equiv 0$ mod 186 in $\mathbb{Z}_{186}$
+$186 = 2\cdot 3 \cdot 31$
+
+
+$\mathbb{Z}_p$ is a field (not the case when composite)
+
+exam_clinc
+
+1.Let $f(x) = X^{21} + a_{20} X^{20} + \ldots + a_1X + a_0$ what is the largest number of solutios to $f(x) \equiv 0$ mod 186
+
+using chinese_remainder_theorem $\mathbb{Z}_186 \leftrightarrow \mathbb{Z}_2 \times  \mathbb{Z}_3 \times \mathbb{Z}_31$ (this is injective)
+
+1. $f(x) \equiv 0$ mod 2 which is less than or equal to the order of the group.
+2. $f(x) \equiv 0$ mod 3 which is less than or equal to the order of the group.
+3. $f(x) \equiv 0$ mod 31 which is less than or equal to the order of the group, but the number of solutions possible is bounded by 21
+
+So we times all possible permutations (chose with replacement)
+
+so answer $2\cdot 3\cdot 21 = 126$
+## resources
+tags :math:introduction_to_abstract_algebra:introduction_to_number_theory:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

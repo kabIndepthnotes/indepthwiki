@@ -1,0 +1,103 @@
+# Henzels_lemma
+## introduction
+%%visits: 8
+## intuition
+Hensels_lemma is used to solve equations $f\left( x \right) \equiv 0$ mod $p^{a}$ where $f(x) \in \mathbb{Z}[x]$ and $p$ is prime.
+
+Let $f(x) = a_nx^{n} + a_{n-1}x^{n-1} + \ldots + a_1x + a_0$. Recall, $f'(x) = na_n x^{n-1} + \ldots + a_1$
+
+Solve $f(x) \equiv 0$ mod m. chinese_remainder_theorem allows us to find $p_j ^{a_j}$. Hensels_lemma allows higher primes from a given prime. And chinese_remainder_theorem allows combining other primes. 
+
+Hensels_lemma has a connection to Newtons_method from calculus.
+
+*For Henzels_lemma * use $x_2 = x_1 - f(x_1)u$
+
+x1 is solution in p
+
+f(x1)  is not congruent 
+
+u is the inverse of f'(x) mod 31
+## rigour
+## exam clinic
+There are at most $p$ solutions.
+
+# exam_clinc
+Show that there are infinitely primes of the form $6k-1$ with k positive integers.
+
+Assume there are finitely many primes of this form $p,p_1\ldots ,p_n$
+
+$N= 6p,\ldots p_n -1$
+
+$N \equiv 2$ mod $3$
+$N \equiv 2$ mod $3$
+
+Let $p|N$ then $p \neq p_1,\ldots,p_n$
+
+p can be in the class $1$ mod $6$ only
+
+Multiplying 
+
+## examples and non-examples
+## resources
+tags :math:
+
+# Henzels_lemma
+
+Let $a_n, a_{n-1}, a_{n-2} \ldots a_1,a_0 \in \mathbb{Z}$
+
+$f(x) = a_n x^{n} + a_{n-1} x^{n-1} +a_{n-2} x^{n-2} + \ldots + + a_1x + a_0$
+
+$f'(x) = n a_n x^{n-1} + (n-1)a_{n-1} x^{n-2} + \ldots  + a_1$
+
+1. Solve $f(x) \equiv 0$ mod $pr$
+
+if $r=1$ then solve by trial and error
+
+Since $x_2 \in \mathbb{Z}, p^2 | f(x_2)$ then $p|f(x_2)$ 
+
+We need to understand Residue classes $\mathbb{Z}_p$ ad $\mathbb{Z}_p^2$ together. 
+
+every element in $\mathbb{Z}_p$  gets mapped to p lots of numbers.
+
+Henzels_lemma if there is a solution in mod p, then there are one solution in mod p $^2$
+
+
+Ex. Let $f(x) = x^2 + x +5$ find all solutions to $f(x) \equiv 0$ mod $11^2$
+
+Solve for $f(x) \cong 0$ mod 11. We find solutions $X_1 = 2,8 in \mathbb{Z}_11$
+
+Can we use [[Henzels_lemma]]? well, we run the Henzels_lemma process for each solution. If $f'(x_1) \cong 0$ mod p, we cannot use Henzels_lemma, otherwise we can. $f'(x=2) = 2x+1 = 5 \cong 0$ mod 11. So we use Henzels_lemma. $X_2 = X_1 - f(X_1) \cdot u$ so $u\cdot f'(x_1)  \equiv 1$ mod 11. We know $u=-2$ sub it back in $X_2 = 2-\left( 2^2 + 2 + 5 \right) (-2)$ so the solution is $24$ for the first element.
+
+Case 2) the same process, check if you get $X_1 = 8 \to X_2 = 96 $ so there are 2 solutions mo
+
+
+Note that when in Henzels_lemma when $p^{r}$ and $r$ is a multiple of 
+
+If $f(X_1) \equiv 0$ mod p and $f'(x) \equiv 0$ mod p, then lemma $3.7$ so $\implies f(x_1 + tp) \equiv f(x_1) + [pf'(x_1)t = 0] \equiv f(x)$
+
+Case 1: if $f(x) \cong 0 $ then $f(x_1+tp) \equiv 0$ mod $p^2$ so all the numbers are solutions (above $x_1$)
+
+Case 2: If $f(x_1) \cong 0$ mod $p^2$ then $f(x_1+tp) \cong 0$ mod $p^2$ 
+
+Example of this property
+
+Let $f(x) = x^3 - 2x^2 + x$ Find all solutions to $f(x) \cong 0$ mod $3^2$ 
+
+find solutions for $x \equiv 3$ which are $0,1$ mod 3.
+
+Check to apply Henzels_lemma. 
+
+When $x_1 = 0$ so we check $f'(x_1) \equiv 0$ mod 3 
+
+$f'(x) = 3x^2 -4x +1$ which is 1 mod 3
+
+Apply the equation $X_2 = X_1 - f(x_1) \cdot u$ use the divides relation
+
+
+Case $X_1 = 1$ 
+
+We check $f'(x_1) = 0$ then we can't use Henzels_lemma, so now we have to just check if $f(x_1) = 0$ mod $p^2$.
+
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

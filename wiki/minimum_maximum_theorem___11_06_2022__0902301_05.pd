@@ -1,0 +1,29 @@
+# minimum_maximum_theorem
+## introduction
+%%visits: 2
+## intuition
+extreme_value_theorem:= Maximum/Minimum theorem:= If $f \in C[a,b]$ then $f$ attains its maximum and minimum
+
+Proof. Denote $M = sup(f)$.
+
+$\forall n \in \mathbb{N} \exists x_n \in [a,b] : \left| f(x_n) - M \right| < \frac{1}{n}$. By Bolzano-Weierstrass theorem, $\exists x_n_k \to c$ as $k\to \infty$. $f$ is continous, so $f(x_n_k) \to f(c) as k \to \infty$. Thus $M=f(c)$, The proof for minimum is the similar, with $\inf f$ 
+
+proof
+
+Choose $X_N$ so $$
+f(X_N) \to M = sup f(t)
+$$ 
+
+$M \ge f(X_N) > M - \frac{1}{N}$
+
+B-W $X_N_I \to p$
+
+Triangle inequality $\left| f(p) - M \right| \le  \left| f(p) - f(X_N_I) \right| + \left| f(x_N} \right| $
+## rigour
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:real_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

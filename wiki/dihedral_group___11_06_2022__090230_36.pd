@@ -1,0 +1,15 @@
+# dihedral_group
+## introduction
+%%visits: 3
+$a^{n} = e, b^2=e, a^{k}b = ba^{-k}$
+## intuition
+in Dn
+$ba^{k} = a^{-k}b$
+{{file::../figures/screenshot_20211018_114424.png}}
+## rigour
+## exam clinic
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,20 @@
+# semi_direct_product
+## introduction
+%%visits: 2
+The semi_direct_product is used to decompose large groups into smaller groups, and hopefully find the [[normal_subgroup]]s of the groups too, to really understand what is going on with these objects and therefore learning more about operations, elements and different interactions between two numbers.
+
+The motivation for the semi_direct_product is to give only 1 normal subgroup
+
+## intuition
+There are different notation to the semi_direct_product. $\ltimes = \triangleright + \times$
+
+And $J = G \ltimes H$ is called an extension of $H$ by $G$
+## rigour
+The semi_direct_product:= The set $H\times G$ with the group operation. $(g_1,h_1)(g_2,h_2) = (g_1g_2,g_1\phi_{g_1}(h_2)$
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

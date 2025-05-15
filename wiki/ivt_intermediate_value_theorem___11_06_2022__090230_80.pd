@@ -1,0 +1,25 @@
+# ivt_intermediate_value_theorem
+## introduction
+%%visits: 2
+## intuition
+
+Proof is in the lecture notes, intuitive proof is here.
+Idea: Bisection method
+
+Suppose $f(a) < f(b)$. Let $d$ be between $f(a)$ and $f(b)$. Define $\left[ a_0,b_0 \right] \supset [a_1,b_1] \supset  \ldots$ so that:
+    1) $b_n - a_n = \frac{b-a}{2^{n}}$ (It should be halved each time)
+    2) $f(a_n) < d < f(b_n)$  due to continuity
+$a_n$ must converge from the left to a limit
+$b_n$ must converge from the right to a limit
+As the interval gets smaller, then the limit must equal d.
+
+Corollary of intermediate_value_theorem: If $f\in C[a,b]$ then $\ran f = [m,M]$ where $m = \inf f$ and $M = \sup f$ in the interval.
+## rigour
+Intermediate value theorem:= If $f \in C[a,b]$ then $f$ attains every value between $f(a)$ and $f(b)$
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:calculus_1:calculus_2:real_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,20 @@
+# Cantors_theorem
+## introduction
+%%visits: 5
+If a function is closed bounded on an interval, and continuous, then it is [[uniform_continuity|uniformly_continuous]]
+## intuition
+## rigour
+If $f \in C[a,b]$ then $f$ is uniform continuous on $[a,b]$
+
+Proof: By contradiction, assume $\exists \epsilon > 0 : \forall \delta > 0, \exists x, x' \in [a,b]:$ $$
+\left| x-x' \right| < \delta, \text{ but, } \left| f(x) - f(x') \right| \ge \epsilon
+$$ 
+
+Take $\delta = \frac{1}{n}: \exists x_n, x_{n'}: \left| x_n - x_n' \right| \le \frac{1}{n}$ but $\left| f(x_n) - f(x_n ') \right| \ge \epsilon$ :todo: finish the proof.
+## exam clinic
+## examples and non-examples
+## resources
+tags :math:real_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

@@ -1,0 +1,10 @@
+% directive
+
+
+# include directive
+- The include directive tells the preprocessor to open a specified file and insert its contents into the current file.
+- form 1, `#include <filename>`:= search the system header files directories
+- form 2 `#include "filename"`:= Search the current directory, then search the system files directories.
+- form 2 `#include TOKEN`:= we can have a `#define ABC` constant used with the include file, see :__c_prog_a_modern_approach:
+- We can direct the compiler to search for things with the `-Ipath` command
+[c](c___20250304_1142_20.pd)

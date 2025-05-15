@@ -1,0 +1,17 @@
+# Fermats_Theorem
+Fermats_Theorem:= Let $f$ be differentiable on $(a,b)$. If $f$ has a local maximum or minimum at $c \in (a,b)$, then $f'(c) = 0$.
+%%visits: 5
+
+proof. Suppose $c$ is a local maximum: Since it is a local maximum, the values on the left should be less, and the values on the right should be less. Then stretch this constant by $\frac{1}{x-c}$ due to foresight, the notational equivalence to this is.$$ 
+\frac{f(x)-f(c)}{x-c} \ge 0 \forall x \in (c-\epsilon,c) \text{and} \frac{f(x)-f(c)}{x-c} \le  0 \forall x \in (c,c+\epsilon) 
+$$ 
+It follows that $$
+\lim_{x \to c_{_}} \frac{f(x)-f(c)}{x-c} \ge 0 and \lim_{x \to c_{+}} \frac{f(x)-f(c)}{x-c} \le  0
+$$ 
+
+and so $f'(c) = \lim_{x \to c} \frac{f(x) - f(c)}{x-c} = 0$
+
+Note: $|x|$ is not differentiable at $0$ since :todo: Why is $|x|$ not differentiable here?
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

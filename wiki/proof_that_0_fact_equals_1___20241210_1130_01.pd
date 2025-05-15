@@ -1,0 +1,31 @@
+%title proof_that_0_fact_equals_1
+%date 2024-12-10 11:30
+%%visits: 6
+
+#  proof_that_0_fact_equals_1 
+$0! := \Gamma (1)$
+
+$\Gamma (z) := \int_{0}^{\infty} t^{z-1}e^{-t}dt $
+
+$\Gamma (1) = \int_{0}^{\infty} t^{0}e^{-t}dt$
+
+$= \int_{0}^{\infty} e^{-t}dt$
+
+using the substitution method for integration.
+
+$x := -t$
+
+$\implies \frac{dx}{d t} = -1$
+
+$\implies dx = -dt$
+
+And the bounds of the integral are now $0$ to $-\infty$.
+
+$\implies \int_{0}^{\infty} e^{-t}dt = - \int_{0}^{-\infty} e^{x}dx$
+
+We know that the integral of $e^{x}$ is itself, $e^{x}$.
+
+$=-\left[ e^{x} \right] _{0}^{-\infty}$
+
+$ = - (0 - 1) = - (-1) = 1$. QED.
+

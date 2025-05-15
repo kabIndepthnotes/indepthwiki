@@ -1,0 +1,37 @@
+# Global extrema
+
+%%visits: 2
+Finding the global extrema
+    - find all $c_1,c_2,\ldots \in [a,b]$ where $f'(c_k) = 0$ (also second derivate if there are too many minima)
+    - evaluate $f(c_k) \forall k$
+    - evaluate $f(a),f(b)$
+    - select the maximal value from the list $f(a),f(b),f(c_1),f(c_2)$
+    
+{{file:../figures/screenshot_20211027_102213.png}}
+
+
+***
+
+# asymptote
+
+Let $f$ be defined on $\mathbb{R}$. If $f(x) = ax + b + o(1)$ as $x\to \infty$, we say that the line $y=ax+b$ is an asymptote of the graph of $f$.
+
+{{file:../figures/screenshot_20211027_102715.png}}
+
+
+## asymptotic_expansions at infinity
+
+{{file:../figures/;screenshot_20211027_103130.png}}
+
+{{file:../figures/screenshot_20211027_103314.png}}
+
+To sketch the graph of $f(x)$, follow these steps:
+    - Find the *natural domain* of $f$
+    - Investigate the limiting behaviour at the boundary of the natural domain. If this includes infinity, determine the *asymptotes* at infinity
+    - Find intervals of continuity, find discontinuity and types
+    - Find zeros and intervals of constant sign
+    - Find extrema and intervals of monotonicity
+    - Find the intervals of convexity
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

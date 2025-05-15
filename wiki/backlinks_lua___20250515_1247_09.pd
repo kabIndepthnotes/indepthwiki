@@ -1,0 +1,13 @@
+# backlinks_lua
+
+	current_filename := current file we are compiling
+	backlinks := empty
+	read all files in directory
+		if current_filename is found in the text of a file
+			then add to back_links
+	remove current_filename from backlinks (redundant link to itself)
+
+# related
+[backlinks](backlinks___20250513_1105_42.pd)
+
+

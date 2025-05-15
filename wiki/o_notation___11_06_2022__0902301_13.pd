@@ -1,0 +1,63 @@
+# introduction
+I have seen the $O$ and $o$ notation used in calculating limits, as it is a great way to simplify the problem, as it provides some sort of mathematical approximation.
+%%visits: 2
+O notation is also used to find out which functions grow faster than the others. 
+
+# intuition
+Think of o_notation as error terms, that eventually tend to zero so you do not need to worry about them. It is some function that goes to zero faster then it's class.
+
+Little o notation means that these terms behave like this simpler function as x gets really close to something (infinitely close) 
+
+Big O notation means that these terms can be controlled by a smaller function, and don't blow up (stay bounded) as the function gets fairly close to (no limit here) x.
+
+
+# rigour
+
+Big 0 converges the ratio of sequences to a constant, but little o means that constant is always 0, so little o implies big o but the converse is false
+
+There is a calculus of o, but this sounds much more complicated that it needs to, just stick to the definitions and the weird bringing $t_n$ to the other side and that helps
+
+$f(x) = O(g(x))$ as $x \to x_0$, if $\frac{f(x)}{g(x)}$ is bounded for small $x - x_0$; aka $C_1 f(n) \le g(n) \le c_2 f(n)$
+$f(x) = o(g(x))$ as $x \to x_0$, if $\lim_{x \to x_0} \left[ \frac{f(x)}{g(x)} \right] = 0$
+
+E.g. as $x \to 0$
+    - $x^{n} = o(x^{m}), n > m$ The smaller power takes over closer to 0, think $0.5^{2}$ is bigger than $0.5^{20}$
+    - $O(x^{n}) + O(x^{m}) = O(x^{m})$ The smaller power is insignificant
+    - $O(x^{n})O(x^{m}) = O(x^{n+m})$ Normal multiplication of powers
+    - $O(x^{n}) = o(1)$ Any function of this form is going to tend to 0 as $x\to 0$, $\lim_{x \to 0} f(x) = 0$
+    - $\log\left| x \right| = O(x^{-1})$
+
+
+E.g. as $x \to \infty$ 
+    - $x^{m} = o(x^{n}), n > m$ The larger power takes over
+    - $O(x^{n})O(x^{m}) = O(x^{n+m})$
+    - $O(x^{-n}) = o(1), n >0$
+    - $x = O(e^{ax}), a >0$
+
+Asymptotic regime :~ a way of saying it needs to be tending to something
+
+
+The $O$ and $o$ notation
+Let $f$ and $g$ be two functions defined on an open interval $\Delta \subset \mathbb{R}$, and let $x_0 \in \Delta$. Suppose $g(x) \neq 0$ for small $x-x_0 \neq 0$ We write 
+
+$f(x) = O(g(x)) \text{ as } x \to x_0 \text{ , if } \frac{f(x)}{g(x)} \text{ is bounded for small } x - x_0$
+$$
+$$
+f(x) = o(g(x)) \text{ as } x \to x_0, if \lim_{x \to x_0} \frac{f(x)}{g(x)} = 0
+$$
+
+The same notation can be used if $x \to \infty$ or $x \to  -\infty$
+
+$o(1)$ just means it tends to 0 by itself
+# examples
+as $x\to 0$
+    - $O(x^{n})O(x^{m}) = O(x^{n+m})$
+    - $\sin x = O(x)$ as $|\sin x | \le |x|$
+    - $\log |x| = O(\frac{1}{x})$
+as $x\to \infty$
+    - $x = o(x^2)$ as $x\to \infty$
+:todo: throw in some calculus limit questions to see it in action.
+tags :math:real_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

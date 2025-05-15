@@ -1,0 +1,20 @@
+# Fisher_information
+## introduction
+%%visits: 5
+The Fisher_information is the sample size n times the log likelihood_function. According to the website https://www.statisticshowto.com/fisher-information/ ,The Fisher information tells us how much information about an unknown parameter we can get from a sample 
+## intuition
+It cannot be negative.
+## rigour
+$I_n(\theta)$:= $n \cdot \mathbb{E}\left[ \frac{\partial }{\partial x}l(\theta;x)^2  \right]$
+
+If the samples are independent, then the Fisher_information can be re-written as 
+
+:= $-n\mathbb{E}\left[ \frac{\partial^2  }{\partial x^2} l(\theta;x) \right]$
+## exam clinic
+## examples and non-examples
+## resources
+https://www.statisticshowto.com/fisher-information/
+tags :math:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]

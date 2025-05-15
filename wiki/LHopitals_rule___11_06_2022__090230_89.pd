@@ -1,0 +1,15 @@
+# L'Hopital's_rule
+## introduction
+%%visits: 5
+Used for calculating [[limit]]s
+Differentiate the numerator, differentiate the denomnatior, you end up with a limit that is equal to the original equation.
+## diary
+:journal: I legit spammed this theorem during a lot of problem sheets and perhaps an exam. It is super quick and easy 
+## intuition
+## rigour
+## exam clinic
+## resources
+tags :math:calculus_1:calculus_2:real_analysis:
+
+#  Backlinks 
+    - [[index|Zettelkasten]]
