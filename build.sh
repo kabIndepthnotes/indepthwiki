@@ -1,17 +1,22 @@
-:
+#!/usr/bin/sh
+
 
 # TODO file completion
 
-BUILD_DIR=~/docs/wiki_out/
-FILENAME=$1
-FILE="${FILENAME%.*}"
+build_dir=~/docs/wiki_out/
+filename=$1
+file="$(basename ${filename%.*})"
+backlink_file=backlinks/${file}_backlink.pd
 
 
-pandoc $FILENAME metadata.yaml \
+pandoc $filename $backlink_file metadata.yaml \
+	--lua-filter=filters/include-files.lua \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex+fenced_code_attributes+pipe_tables \
 	--to=latex \
-	--output=$BUILD_DIR/pdf/$FILE.pdf \
-	--pdf-engine=xelatex
+	--verbose \
+	--output=${build_dir}pdf/$file.pdf \
+	--pdf-engine=xelatex \
+	--lua-filter=filters/links-to-pdf.lua
 
 	# --include-in-header="layout.tex"
 
