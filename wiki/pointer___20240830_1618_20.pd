@@ -1,5 +1,4 @@
 # pointers
-
 <!-- visits: 35 -->
 
 # pointers, what are they and what does memory look like?
@@ -110,6 +109,7 @@ int *f(void)
 
 see also [link_between_pointers_and_array](link_between_pointers_and_array___20250331_1147_06.pd)
 
-# Backlinks
-    - [[function_c___20240724_112352|function_c]]
-    - [[index|Zettelkasten]]
+# related
+
+# standard
+[gold](gold___20250527_1447_20.pd)

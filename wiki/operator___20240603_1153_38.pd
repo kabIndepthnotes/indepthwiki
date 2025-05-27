@@ -141,8 +141,5 @@ The first expression should have a side effect, otherwise is it pointless.
 - produces an lvalue
 [c](c___20250304_1142_20.pd)
 
-# Backlinks
-    - [[c___11_06_2022__08555526|contents]]
-    - [[for_loop___20240610_094502|for_loop]]
-    - [[index|Zettelkasten]]
-    - [[pointer___20240830_161820|pointers]]
+# standard
+[gold](gold___20250527_1447_20.pd)
