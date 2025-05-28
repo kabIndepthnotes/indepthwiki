@@ -6,6 +6,11 @@ https://www.msweet.org/blog/2020-12-31-how-i-improve-my-c-code-quality.html
 
 see [c_resources](c_resources___20240521_1540_24.pd)
 
+~~~{.c .numberLines}
+perf record a.out
+perf report
+~~~
+
 # take advantage of existing code and libraries
 
 # adopt coding conventions and stick to them

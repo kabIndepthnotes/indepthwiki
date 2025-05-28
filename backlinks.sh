@@ -20,6 +20,6 @@ for file in $wiki_dir
 do
 	if grep $filename wiki/$file; then
 		# we want a new line as well hence echo
-		echo "$(my_linkify $file)" >> $backlink_file
+		echo "- $(my_linkify $file)" >> $backlink_file
 	fi
 done

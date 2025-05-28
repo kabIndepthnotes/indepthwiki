@@ -15,7 +15,7 @@ quick sort is a divide and conquer algorithm, much like [quad_trees](quad_trees_
 The method in which we rearrange step 1. is important for efficiency, but for our sake, let's use something simple.
 
 TODO possible make your own version of quicksort in case you cannot sell this commercially.
-See http://knking.com/books/c2/programs/qsort.c
+See <http://knking.com/books/c2/programs/qsort.c>
 
 quick sort is too complex for arrays with elements less than 25.
 

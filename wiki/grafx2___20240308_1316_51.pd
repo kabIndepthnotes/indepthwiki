@@ -2,26 +2,27 @@
 
 <!-- visits: 12 -->
 
-#  grafx2
-D - freehand
-Z - Lines
-A - eyedropper
-W - Increase brush size
-Q - Decrease brush size
-X - Set brush to smallest
-T - Prev foreground color
-Y - Next foreground color
-<C-S> - Save file
-<C-Shift-S> Save as
-J - save cluster as brush (key, magic brush grab)
-G - show gridlines (hide or show the grid in magnify mode)
+#  grafx2 keybindings
+- D - freehand
+- Z - Lines
+- A - eyedropper
+- W - Increase brush size
+- Q - Decrease brush size
+- X - Set brush to smallest
+- T - Prev foreground color
+- Y - Next foreground color
+- <C-S> - Save file
+- <C-Shift-S> Save as
+- J - save cluster as brush (key, magic brush grab)
+- G - show gridlines (hide or show the grid in magnify mode)
 
 #  tablet
-1 inc brush
-2 dec brush
-3 move
+- 1 inc brush
+- 2 dec brush
+- 3 move
 
 Script for making perspective circles?
+
 #  method for art
 - Rough outline
 - add theory to the outline on another layer(s)
@@ -37,7 +38,6 @@ Press the script TODO find a key
 setting
 luminosity
 
-[art](art___20250312_1407_25.pd)__game_development[pixel_art](pixel_art___20250319_1215_29.pd):
-
-#  Backlinks
-    - [[index|Zettelkasten]]
+- [art](art___20250312_1407_25.pd)
+- [game_dev](game_dev___20250528_1421_16.pd)
+- [pixel_art](pixel_art___20250319_1215_29.pd)

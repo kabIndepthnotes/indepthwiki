@@ -19,5 +19,11 @@ ref        	 refresh the screen
 print      	 print a value of a variable
 kill       	 kill program being run
 
+
+- old core file
+``
+|/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E
+``
+
 #  Backlinks
     - [[index|Zettelkasten]]

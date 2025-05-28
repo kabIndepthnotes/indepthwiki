@@ -4,7 +4,6 @@ cd ~/docs/indepthwiki/ || exit
 files=$(ls -1 wiki/*.pd)
 build_dir=~/docs/wiki_out/
 
-
 for file_pd in $files
 do
 	file="$(basename ${file_pd%.*})"
