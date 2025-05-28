@@ -1,0 +1,27 @@
+# Indepthwiki
+This is my lifelong library of knowledge that I have accumulated.
+I have taken over five years refining this wiki with frequent changes.
+This is a [zetelkasten](zetelkasten___20250527_1432_52.pd) with a [wiki_readability_standard](wiki_readability_standard___20250514_1457_05.pd).
+
+I try be like <https://based.cooking>.
+A site that has what you need, and none of the fluff to keep you on the site to sell you more ads.
+This means no scrolling to the bottom to get to the actual thing you want.
+
+This wiki in on github! see <https://github.com/kabIndepthnotes/indepthwiki>
+
+# Areas for you to start your research
+<!-- - [diamond](diamond___20250527_1447_01.pd) -->
+- [gold](gold___20250527_1447_20.pd)
+- [math](math___20250311_0922_50.pd)
+<!-- - [computer](computer___20250528_1358_07.pd) -->
+<!-- - [vim](vim___20250306_1212_54.pd) -->
+- [art](art___20250312_1407_25.pd)
+<!-- - spirituality -->
+<!-- - [game_dev](game_dev___20250528_1421_16.pd) -->
+- [music](music___20250312_1742_01.pd)
+
+this is `index___20250304_1203_14.pd`
+
+~~~{.include}
+index_of_files.pd
+~~~
