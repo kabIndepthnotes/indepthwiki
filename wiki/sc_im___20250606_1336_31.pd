@@ -1,0 +1,23 @@
+# sc_im
+`<` - left aligned
+`>` - right aligned
+\ - center
+`aa` - auto align
+`fh fl` - shift current width
+`fj fk` - add reduce decimal place
+`e` - edit number
+`E` - edit word
+`dd x` - delete cell
+`yy` - yank
+`P p` tautological
+
+
+# text objects
+`c` column
+`r` row
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

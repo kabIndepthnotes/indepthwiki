@@ -46,7 +46,9 @@ git commit --amend
 # submodules
 This is what I use for vim's built-in plugin functionality.
 
-
+~~~{.sh}
+git submodule update --init --recursive
+~~~
 
 #  Backlinks
     - [[index|Zettelkasten]]
