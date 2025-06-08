@@ -30,6 +30,9 @@ done
 
 	alsamixer -c0 --view=All
 
+# rename files to lowercase
+https://askubuntu.com/questions/282794/batch-rename-files-to-lowercase
+	for a_file in *;do mv -v "$a_file" `echo "$a_file" | tr [:upper:] [:lower:]` ;done;
 
 #  remove ppa 
 

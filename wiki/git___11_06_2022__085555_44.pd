@@ -16,6 +16,8 @@ conventions for commit: Use [title]: [ now explain the title ], where [title] is
 	- revert – reverts a previous commit
 * from https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
 
+I use ai to follow the standard git convention.
+
 #  how to resolve divergent branches
 `git fetch origin` will "download objects and refs from another repository"
 `git rebase` will "reapply commits on top of another base tip"
@@ -50,5 +52,11 @@ This is what I use for vim's built-in plugin functionality.
 git submodule update --init --recursive
 ~~~
 
-#  Backlinks
-    - [[index|Zettelkasten]]
+# re-writing history
+
+~~~{.sh}
+git reset --soft [commit hash]
+git push -f [origin branchname]
+~~~
+
+credit: https://www.reddit.com/r/git/comments/ghvwq9/how_can_i_completely_delete_commits_from_both/

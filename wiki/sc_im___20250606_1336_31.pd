@@ -11,10 +11,26 @@
 `yy` - yank
 `P p` tautological
 
+`Pc`- Paste with adapting cell reference
+`P` - in VISUAL mode to paste with context in the visual range.
+
+`^` - move to top row in same column
+`0` - move to first column in same row
+`#` - move to last valid row
+`$` - move to last valid column
+
+`g$` - go to rightmost visible column
+`g0` - go to leftmost visible column
+
+`zl` - scroll a column right
+`zh` - scroll a column left
+
 
 # text objects
 `c` column
 `r` row
+
+
 
 # standard
 [wood](wood___20250527_1447_59.pd)
