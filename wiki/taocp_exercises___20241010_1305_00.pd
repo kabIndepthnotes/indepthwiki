@@ -215,6 +215,12 @@ $$3^2 - 2^2 + 1^2 = 6$$
 $$4^2 - 3^2 + 2^2 - 1^2 = 10$$
 $$5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15$$
 
+$$1^2 = 1$$
+$$- 1^2 + 2^2 = 3$$
+$$3^2 - 2^2 + 1^2 = 6$$
+$$4^2 - 3^2 + 2^2 - 1^2 = 10$$
+$$5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15$$
+
 Note that we have the difference of 2 squares formula, with the second parenthesis equal to 1.
 
 $$1^2 = (1 + 0) (1-0$$
@@ -223,6 +229,7 @@ $$2^2 - 1^2 = (2 + 1) )(2-1)$$
 We need to delete every other term. which we do with $n+i \mod 2$.
 
 $$\sum _{i = 1} ^{n} \left( i + (i - 1) \right)  ((n + i) \mod 2)$$
+
 
 
 ## Proof

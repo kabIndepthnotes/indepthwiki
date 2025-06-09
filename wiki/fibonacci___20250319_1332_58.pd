@@ -1,7 +1,7 @@
 # fibonacci
 
 
-$F_0 = 0, F_1 = 1$ and every other term is the sum of the preceding two.
+$F_0 = 0, F_1 = 1$, $F_n = F_{n-1} + F_{n-2}$
 
 # theorems
 
