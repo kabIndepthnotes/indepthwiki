@@ -1,20 +1,18 @@
+TODO%title escape_sequences
+%date 2024-05-31 09:36
+%%visits: 9
+
 # escape_sequences
 
-<!-- visits: 9 -->
-
-# escape_sequences
-
-~~~{.c .numberLines}
-\a // Alert(bell)
-\b // Backspace - moves cursor back
-\n // New line
-\t // Horizontal tab
-\v // Vertical tab
-\\ // backslash
-\? // Question mark (rarely used)
-\' // single quote
-\" // Double quote
-~~~
+	\a // Alert(bell)
+	\b // Backspace - moves cursor back
+	\n // New line
+	\t // Horizontal tab
+	\v // Vertical tab
+	\\ // backslash
+	\? // Question mark (rarely used)
+	\' // single quote
+	\" // Double quote
 
 
 # numeric escape sequences

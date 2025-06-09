@@ -1,0 +1,28 @@
+# asignment_operator
+
+# assignment_operator
+Assignment is an operator not a statement, it returns a value.
+Assigment is right associative.
+`i = j = k;` := `i = (j = k);`
+
+~~~{.c .numberLines}
+int i;
+i = 72.99f // (returns 72)
+~~~
+
+# compound assignment
+As seen before, however we say that `v += e` is NOT equivalant to `v = v + e`. Pay attention to how many times v is called. For example
+
+~~~{.c .numberLines}
+a[i++] += 2;
+// as opposed to
+a[i++] = a[i++] + 2;
+~~~
+
+This is due to order of precedence, as well as [side_effects](side_effects___20240603_1300_44.pd).
+They are also right associative, and can be chained. `i += j += k;` := `i += (j += k);`
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

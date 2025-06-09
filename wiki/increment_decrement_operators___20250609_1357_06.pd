@@ -1,0 +1,28 @@
+# increment_decrement_operators
+
+# increment and decrement operators, prefix and postfix
+`++i`:~ increment i immediately
+`i++`:~ use the old value of `i` for now and increment later (not specified in the standard but safe to say after the next statement)
+
+~~~{.c .numberLines}
+i = 1
+printf("i is %d\n",++i); /* prints "i is 2" */
+printf("i is %d\n",i); /* prints "i is 2" */
+~~~
+
+and
+
+~~~{.c .numberLines}
+i = 1
+printf("i is %d\n",i++); /* prints "i is 1" */
+printf("i is %d\n",i); /* prints "i is 2" */
+~~~
+
+decrement is similar.
+
+postfix `++` and `--` have higher precedence than unary plus/minus
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

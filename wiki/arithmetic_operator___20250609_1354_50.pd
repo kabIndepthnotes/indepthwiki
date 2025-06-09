@@ -1,0 +1,54 @@
+# arithmetic_operator
+
+- Arithmetic operators:~ mathematical addition, subtraction, multiplication and division.
+- REMEMBER that it is not exactly the same as maths, we need to remember datatypes.
+
+# unary + and -
+Forces the integer to be positive or negative respectively.
+
+"The unary `+` operator does nothing"
+
+~~~{.c .numberLines}
+int j = 5;
+int i = +j; /* does nothing but can be used for style */
+int i = -j;/* think (-1) * j, it flips the sign bit */
+~~~
+
+# binary /
+
+# integer / 
+
+~~~{.c .numberLines}
+int i = 1;
+int j = 2;
+float k;
+x = i/j; // truncates, hence x = 0
+~~~
+
+`/ 0` is undefined.
+in [c89](c89___20250312_1239_51.pd) divsion with a -ve can be rounded up or down.
+in [c99](c99___20250312_1237_53.pd) division with a -ve is always rounded towards 0.
+
+# %, datatype acceptable, `% 0`, and `% -n` -ve numbers
+the modulus operator `%` only accepts integers.
+For floats see fmod.
+`% 0` is undefined.
+In [c89](c89___20250312_1239_51.pd) negative operands depend on the implementation.
+In [c99](c99___20250312_1237_53.pd) `i % j` has the same sign as `i`
+
+- Relational operators:~ greater than or less than
+- Logical operators:~ and, not, or, xor
+
+# operator precedence
+
+Highest: + - (unary)
+* / %
+Lowest: + - (binary)
+
+Operators like the binary operators are left associative (implied grouping is left first then right) `i - j - k` is equivalent to `(i - j) - k`
+In contrast, unary operators are right associative` - + i` is equivalent to `- (+)`
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
