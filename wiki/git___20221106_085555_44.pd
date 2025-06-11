@@ -19,8 +19,13 @@ conventions for commit: Use [title]: [ now explain the title ], where [title] is
 I use ai to follow the standard git convention.
 
 #  how to resolve divergent branches
+https://stackoverflow.com/questions/71768999/how-to-merge-when-you-get-error-hint-you-have-divergent-branches-and-need-to-s
 `git fetch origin` will "download objects and refs from another repository"
 `git rebase` will "reapply commits on top of another base tip"
+
+`fast forward` means we make a new commit applying the divergent branches.
+
+`rebase` means we ignore a certain branch, apply the second branch and then apply the first branch.
 
 # how to create a new github repo
 

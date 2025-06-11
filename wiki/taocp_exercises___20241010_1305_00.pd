@@ -209,32 +209,37 @@ We have $d = a'm + b'n$
 $am + bn = d$ and $am  + bn = r$
 
 7.
-$$1^2 = 1$$
-$$2^2 - 1^2 = 3$$
-$$3^2 - 2^2 + 1^2 = 6$$
-$$4^2 - 3^2 + 2^2 - 1^2 = 10$$
-$$5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15$$
 
-$$1^2 = 1$$
-$$- 1^2 + 2^2 = 3$$
-$$3^2 - 2^2 + 1^2 = 6$$
-$$4^2 - 3^2 + 2^2 - 1^2 = 10$$
-$$5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15$$
+# base case
+$$F_1 = 1^2 = 1$$
+$$F_2 = 2^2 - 1^2 = 3 = F_1 + 2$$
+$$F_3 = 3^2 - 2^2 + 1^2 = 6 = F_2 + 3$$
+$$F_4 = 4^2 - 3^2 + 2^2 - 1^2 = 10 = F_3 + 4$$
+$$F_5 = 5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15 = F_4 + 5$$
 
-Note that we have the difference of 2 squares formula, with the second parenthesis equal to 1.
-
-$$1^2 = (1 + 0) (1-0$$
-$$2^2 - 1^2 = (2 + 1) )(2-1)$$
-
-We need to delete every other term. which we do with $n+i \mod 2$.
-
-$$\sum _{i = 1} ^{n} \left( i + (i - 1) \right)  ((n + i) \mod 2)$$
+# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = F_k + k +1 $
+$$F_{k+1} = \left( k + 1 \right) ^2 - F_{k}$$
+$$ = k^2 + 2k + 1 - F_{k}$$
+$$F_k = F_{k-1} + k \text{ tautologically }$$
+$$ \implies F_{k+1} = k^2 + 2k + 1 - F_{k-1} - k$$
+$$F_k = k^2 - F_{k-1}$$
+$$ \implies F_{k+1} = F_k + k + 1$$
 
 
+8. prove Nicomachus theorem by induction.
 
-## Proof
-Case $n=1$, $\sum _{i=1}^{1} i + (i-1) ((1+i)\mod 2)$
-$$= (1 + 0) (2 \mod 2)$$
+# base case
+$$1^3 = 1$$
+$$2^3 = 3 + 5$$
+$$3^3 = 7 + 9 + 11$$
+$$4^3 = 13 + 15 + 17 + 19$$ etc.
+
+# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = \sum _{i=0}^{n} (n)(n-1) + 1 + 2i$
+
+
+
+
+$$n^3 = \sum _{i=0}^{n} (n)(n-1) + 1 + 2i$$
 
 #  Backlinks
     - [[index|Zettelkasten]]
