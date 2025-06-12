@@ -1,0 +1,20 @@
+# vim_regex
+
+- `\c`- case insensitive
+- `\C` - case sensitive
+- `\<word\>` - match only if it's a whole word
+- `\&` - match what was search
+- `\(\)` - make a group that can be repeated with `\1` or `\2` .. or `\99999`
+ `[0-9]` - matches a decimal digit
+- `.` - matches another of the last character
+- `\+` - matches one or more
+- `*` - matches zero or more
+- `[^a]` - match anything but a
+
+- :s/old/new/gc 	replace all (Confirm)
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

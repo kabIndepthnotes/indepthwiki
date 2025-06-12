@@ -217,7 +217,7 @@ $$F_3 = 3^2 - 2^2 + 1^2 = 6 = F_2 + 3$$
 $$F_4 = 4^2 - 3^2 + 2^2 - 1^2 = 10 = F_3 + 4$$
 $$F_5 = 5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15 = F_4 + 5$$
 
-# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = F_k + k +1 $
+# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = F_k + k +1$
 $$F_{k+1} = \left( k + 1 \right) ^2 - F_{k}$$
 $$ = k^2 + 2k + 1 - F_{k}$$
 $$F_k = F_{k-1} + k \text{ tautologically }$$
@@ -227,6 +227,7 @@ $$ \implies F_{k+1} = F_k + k + 1$$
 
 
 8. prove Nicomachus theorem by induction.
+a)
 
 # base case
 $$1^3 = 1$$
@@ -234,9 +235,15 @@ $$2^3 = 3 + 5$$
 $$3^3 = 7 + 9 + 11$$
 $$4^3 = 13 + 15 + 17 + 19$$ etc.
 
-# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = \sum _{i=0}^{n} (n)(n-1) + 1 + 2i$
+# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = \sum _{i=0}^{k} (k+1)(k) + 1 + 2i$
 
+We have $k^3 = \sum _{i=0}^{k-1} (k)(k-1) + 1 + 2i = \left( k-1 \right) ^2 (k) + k-1 \sum _{i=0}^{k-1} 2i$
+$\left( k-1 \right) ^2 (k) + k-1(k-1)(k)$
 
+using [summation](summation___20221106_0902301_58.pd)
+
+Note $$\left( k+1 \right) ^3 = \left( k+1 \right) (k^2 + 2k +1) = k^3 + 2k^2 + k + k^2 + 2k + 1$$
+$$= k^3 + 3k^2 + 3k + 1$$
 
 
 $$n^3 = \sum _{i=0}^{n} (n)(n-1) + 1 + 2i$$

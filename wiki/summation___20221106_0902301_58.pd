@@ -1,6 +1,14 @@
 **Definitions**:
 
 %%visits: 2
+
+# sum of first integers: $\sum _{i=1}^{n} i$
+$\sum _{i=1}^{n} i = \frac{1}{2} n (n+1)$
+
+# sum of first squares $\sum _{i=1}^{n} i^2$
+$\sum _{i=1}^{n} i^2 = \frac{1}{6} (n) (n+1) (2n+1)$
+
+
 $$\sum\limits_{r=1}^{n} a^r = \frac{a-a^{n+1}}{1-a} $$
 
 $$\sum\limits_{j=-k}^{n} f(j)= \sum\limits_{m=0} ^{n+k}f(m-k)$$
