@@ -18,5 +18,3 @@ assymptotically efficient:= if $\lim_{n \to \infty} eff(\hat{\theta}) = 1$ then 
 {{file:../figures/screenshot_20211216_102027.png}}
 tags :math:
 
-#  Backlinks
-    - [[index|Zettelkasten]]

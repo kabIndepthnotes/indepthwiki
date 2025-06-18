@@ -13,5 +13,3 @@ and so $f'(c) = \lim_{x \to c} \frac{f(x) - f(c)}{x-c} = 0$
 
 Note: $|x|$ is not differentiable at $0$ since :todo: Why is $|x|$ not differentiable here?
 
-#  Backlinks 
-    - [[index|Zettelkasten]]

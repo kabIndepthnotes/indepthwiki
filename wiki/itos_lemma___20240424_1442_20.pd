@@ -21,6 +21,3 @@ Then $dZ_t= \partial_t f dt + \partial_x f d X_t + \partial_y f dY_t + \frac{1}{
 
 Where $\left( dt \right) ^2 = dt dW_t^{(i)} = dW_t^{(1)} dW_t^{(2)} = 0$ and $\left( dW_t^{(i)} \right) ^2 = dt$ (think of this as a second order taylor expansion, especially $dW_t^{(2)}$.
 
-#  Backlinks
-    - [[index|Zettelkasten]]
-    - [[stochastic_integral___20240424_141119|stochastic_integral]]

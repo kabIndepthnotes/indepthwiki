@@ -21,5 +21,3 @@ file scope := It is visible from the point of declaration to the end of the file
 - If the external variable is assigned an incorrect value, it is harder to find the guilty function. Think of trying to solve a murder committed at a crowded party-there is no easy way to narrow the list of suspects.
 - Functions become less reusable as they would need the external variable to be carried with them.
 
-#  Backlinks 
-    - [[variable___20240731_101253|variable]]

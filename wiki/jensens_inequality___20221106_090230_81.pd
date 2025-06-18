@@ -15,5 +15,3 @@ f(g) + m(t-g) <= f(t)
 
 jensens_inequality:= if f is convex, f(average) $\le$ Average(f)
 
-#  Backlinks 
-    - [[index|Zettelkasten]]

@@ -5,5 +5,3 @@ $f: A \to \mathbb{R}$ is called Lipschitz_continous on A if $\exists C >0$ such 
 $$
 If $f$ has a bounded derivative, then $f$ is Lipschitz_continous.
 
-#  Backlinks 
-    - [[index|Zettelkasten]]

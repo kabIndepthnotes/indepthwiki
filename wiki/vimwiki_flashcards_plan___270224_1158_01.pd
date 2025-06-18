@@ -34,5 +34,3 @@ grep -o ".*:~" operators___20240603_115338.wiki
 cat #cat the file
 
 
-#  Backlinks
-    - [[index|Zettelkasten]]

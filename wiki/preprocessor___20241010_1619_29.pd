@@ -39,6 +39,3 @@ WARN: `#define f (a) b` is wrong because of the space after the left parenthesis
 
 
 
-#  Backlinks
-    - [[compiling_and_linking___20240522_095735|preprocessor]]
-    - [[index|Zettelkasten]]

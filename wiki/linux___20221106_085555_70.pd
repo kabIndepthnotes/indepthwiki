@@ -42,5 +42,3 @@ pactl set-default-source alsa_input.usb-BurrBrown_from_Texas_Instruments_USB_AUD
 #  entr 
 ls -d * . | entr make lit
 
-#  Backlinks 
-    - [[index|Zettelkasten]]

@@ -28,5 +28,3 @@ Most compilers would reject `\xcbe` as the range is `\x0 - \xff`
 
 [c](c___20250304_1142_20.pd)
 
-# Backlinks
-    - [[index|Zettelkasten]]

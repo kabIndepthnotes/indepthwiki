@@ -99,5 +99,3 @@ Case $X_1 = 1$
 We check $f'(x_1) = 0$ then we can't use Henzels_lemma, so now we have to just check if $f(x_1) = 0$ mod $p^2$.
 
 
-#  Backlinks 
-    - [[index|Zettelkasten]]

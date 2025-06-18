@@ -11,5 +11,3 @@ ffmpeg.exe -i "filename.mp3" -lavfi showwavespic=split_channels=1:s=1024x800 wav
 
 :Tab /\S\+/l0l2
 
-#  Backlinks
-    - [[index|Zettelkasten]]

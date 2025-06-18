@@ -36,6 +36,3 @@ Integer promotions:= anything less than int gets converted to int, or failing th
 See page 146 in c programming a modern approach if you want the rule for usual arithmetic conversions
 
 
-#  Backlinks
-    - [[function_c___20240724_112352|function_c]]
-    - [[index|Zettelkasten]]
