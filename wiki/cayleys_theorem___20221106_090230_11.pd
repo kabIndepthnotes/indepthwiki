@@ -13,5 +13,3 @@ tags :math:
 ## Cayley's theorem
 We can permute the elemenst of $G$, by $g:g_i \to g_{j}$ by $gg_{i} = g_{j}$ and so each group element in $G$ may be associated with a permutation i.e. if $gg_i = g'_i$ then $g = \begin{pmatrix} g_1&g_2&g_3& \ldots &g_{|g|} \\ g_1&g_2&g_3& \ldots &g_{|g|} \end{pmatrix}$ is a permutation within $S_{|g|}$. So it defines a permutation so it must be a subset etc. :todo:
 
-#  Backlinks 
-    - [[index|Zettelkasten]]
