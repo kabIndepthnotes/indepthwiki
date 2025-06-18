@@ -1,0 +1,11 @@
+# integer
+$$\ldots, -3, -2, -1,0,1,2,3,\ldots$$
+
+The integers are rigourously defined via [proof_by_induction](proof_by_induction___20250319_1259_06.pd).
+You start with one, then inductively add $1$ to find new numbers.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

@@ -1,0 +1,15 @@
+# real_number
+
+`:=` $x: x = n + 0.d_1d_2d_3d_4\ldots$ where $n$ is an [integer](integer___20250618_1132_14.pd) and $d_i$ is a decimal digit.
+
+This means that
+$$n + \frac{d_1}{10} + \frac{d_2}{100} + \ldots \frac{d_k}{10^{k}} \le x < n + \frac{d_1}{10} + \frac{d_2}{100} + \ldots \frac{d_k}{10^{k}} + \frac{1}{10^{k}}, \forall k \in \mathbb{Z}_{1}^{+}$$
+
+# examples
+Constant $e$, $\pi, \phi$
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+[taocp](taocp___20250317_1141_16.pd)

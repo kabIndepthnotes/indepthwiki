@@ -1,22 +1,29 @@
 # number
-## introduction
-%%visits: 2
+<!-- visits: 2 -->
 ## intuition
+
+- [integer](integer___20250618_1132_14.pd)
+- [rational_number](rational_number___20250618_1133_39.pd)
+- [real_number](real_number___20250618_1134_53.pd)
+- [complex_number](complex_number___20221106_090230_21.pd)
 
 ## rigour
 prime:= An integer $p>1$ is called a prime number or a prime if it has not positive divisors other than $1$ and $p$. An integer $n >1$ is called composite if it is not prime.
 Euclid's lemma:= Let $p$ be prime and $a,b \in \mathbb{Z}$. Suppose $p|ab$ then $p|a$ or $p|b$.
 Fundamental Theorem of Arithmetic:= Every integer $n>1$ can be expressed uniquely (up to reordering) as a product of primes.
 Proof of the Fundamental theorem of Arithmetic
-Case 1- if $p|a$, then we are done. Case 2- if p doesn't divide a, then $gcd(p,a) = 1$ and $\exists c \in \mathbb{Z} : ab=pc$ by the proposition.According to [[Bezouts_lemma]] $\exists u,v \in \mathbb{Z}, au + pv = 1 \implies (ba)u + p(bv) = b \implies p(cu) +p(bv) = b \implies p(cu+bv) = b$ hence p is a multiple of b, (in other words $p|b \square$) 
+Case 1- if $p|a$, then we are done.
+Case 2- if p doesn't divide a, then $gcd(p,a) = 1$ and $\exists c \in \mathbb{Z} : ab=pc$ by the proposition.
+According to [[Bezouts_lemma]] $\exists u,v \in \mathbb{Z}, au + pv = 1 \implies (ba)u + p(bv) = b \implies p(cu) +p(bv) = b \implies p(cu+bv) = b$ hence p is a multiple of b, (in other words $p|b \square$)
 
 Algebraic:= A number is algebraic if it is a root of a non-zero polynomial with rational coefficients.
 
 trancendental:= A number is trancendental if it is not algebraic
-## exam clinic
-## resources
-tags :math:
-fundament
 
-#  Backlinks 
-    - [[index|Zettelkasten]]
+## exam clinic
+
+## resources
+
+tags :math:
+[math](math___20250311_0922_50.pd)
+[taocp](taocp___20250317_1141_16.pd)
