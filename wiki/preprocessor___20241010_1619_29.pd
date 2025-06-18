@@ -22,6 +22,7 @@ It also makes comments blank.
 When the preprocessor is run, the processed code might still have bugs in it, therefore if a macro bug is likely, then we should check the preprocessor output with `gcc -E`
 
 #  directives
+
 ##  macro definitions
 `#define`, and `#undef` := removing a macro definition
 
@@ -32,10 +33,17 @@ the `#include directive`
 `#if`, `#ifdef`, `#ifndef`, `#elif`, `#else`, `#endif`.
 These allow code to be conditionally included or excluded.
 
+~~~{.c .numberLines}
+#if 0
+This line will be commented out
+#endif
+~~~
+
 #  parameterized macros
 `#define identifier( x_1, x_2, ... , x_n) replacement-list`
 
 WARN: `#define f (a) b` is wrong because of the space after the left parenthesis, it will be taken as a simple macro.
 
-
+# The `#error` directive
+Throw an error, and some compilers terminate the program.
 
