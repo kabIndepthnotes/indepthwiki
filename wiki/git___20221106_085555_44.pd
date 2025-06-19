@@ -2,6 +2,7 @@
 
 <!-- visits: 4 -->
 
+Standard git convention.
 conventions for commit: Use [title]: [ now explain the title ], where [title] is one of the following.
 	- feat – a new feature is introduced with the changes
 	- fix – a bug fix has occurred
@@ -31,7 +32,7 @@ https://stackoverflow.com/questions/71768999/how-to-merge-when-you-get-error-hin
 
 ~~~{.sh}
 git init
-git remote add origin
+git remote add origin [URL]
 # git@github.com:kabIndepthnotes/my_scripts.git
 git push --set-upstream origin main
 ~~~
@@ -65,3 +66,17 @@ git push -f [origin branchname]
 ~~~
 
 credit: https://www.reddit.com/r/git/comments/ghvwq9/how_can_i_completely_delete_commits_from_both/
+
+# remove files from git but keep local
+
+~~~{.sh}
+git rm --cached [file]
+~~~
+
+# change origin
+
+~~~{.sh}
+git remote rm origin
+
+git remote add origin git@github.com:user/repo.git
+~~~
