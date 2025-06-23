@@ -1,0 +1,39 @@
+# permutation
+" A permutation of $n$ objects is an arrangement of $n$ disctict objects in a row.
+
+
+there are $n$ ways of choosing the first object, then $n-1$ ways of choosing the second, $n-2$ and so on.
+$p_{nk} = n(n-1)\ldots(n-k+1)$
+
+# example
+
+## permutation of $\{a,b,c\}$
+$a,b,c$ $a,c,b$ $b,a,c$ $b,c,a$ $c,a,b$ $c,b,a$
+
+# method for explicitly constructing each permutation
+Given a permutation $a_1a_2\ldots a_{n-1}$ we form $n$ others by putting the number $n$ in all possible places.
+
+$$na_1a_2\ldots a_{n-1}, a_1na_2\ldots a_{n-1}, \ldots , a_1a_2 \ldots a_{n-1}$$
+
+## method 2
+"""
+For each permutation $a_1a_2\ldots a_{n-1}$ of $\{1,2,\ldots , n-1\}$, form $n$ others as follows: First construct the array.
+
+$$a_1a_2 \ldots a_{n-1} \frac{1}{2}, a_1a_2 \ldots a_{n-1} \frac{3}{2},  a_1a_2 \ldots a_{n-1} \frac{5}{2} \ldots  a_1a_2 \ldots a_{n-1} \frac{2n-1}{2}$$
+
+Rename using the number $\{1,2,\ldots n\}$ but the smallest number gets the number $1$, the largest number gets the number $n$, and similarly for the rest, we preserve the order or transpose the size of the number.
+
+for example.
+$2 3 1 \frac{1}{2}$, $2 3 1 \frac{3}{2}$, $2 3 1 \frac{5}{2}$ and $2 3 1 \frac{7}{2}$.
+
+$2 3 1 \frac{1}{2}$ so the $\frac{1}{2}$ becomes $1$, the $1 \leftarrow 2$, $3 \leftarrow 4$, the $2 \leftarrow 3$
+
+And renaming we get $3 4 2 1$, $3 4 1 2$, $2 4 1 3$, $2 3 1 4$
+
+We can put the fraction in any position, but it must be fixed in all array elements.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

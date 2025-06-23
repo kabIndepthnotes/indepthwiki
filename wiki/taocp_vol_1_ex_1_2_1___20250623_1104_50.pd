@@ -1,0 +1,249 @@
+# 1.2.1 exercises
+1. We can modify the idea of the proof by mathematical induction, by first proving $P(0)$ and $P(1)$ then continuing as normal.
+We can also do, $P(0)$ then assume true for $1,2,\ldots,n$ to then prove $n+1$
+
+3. The formula is not defined for $n=1$ as $\frac{1}{(n-1) \times n}$ will be $\frac{1}{0 \times 1}$ which is undefined.
+Because the iteration is not defined, (when we hav $1 \ldots 0$ do we do just $1$ or just $0$
+
+If we are to do induction, we have to start at $n=2$, but.
+$\frac{1}{1 \times 2} \stackrel{!}{=} \frac{3}{2} - \frac{1}{2}$
+$\text{ L.H.S } = \frac{1}{2}$ but
+$\text{ R.H.S } = 1$ CONTRADICTION.
+
+4.
+Recall, $\phi = \frac{1 + \sqrt{5} }{2}$
+
+W.T.S $\phi^{n -2} \le F_n$ where $F_n$ is the $n$th term in the [fibonnaci](fibonacci___20250319_1332_58.pd)  sequence.
+
+## base case
+For $n=1$, $F_1 = 1$ and $\phi^{1-2} = \frac{2}{1 + \sqrt{5} }$
+We know that the square root function is monotonic for numbers greater than $1$, and $\sqrt{4} = 2$,so $1+ \sqrt{5} > 1 + 2 = 3$.
+$\implies \phi^{-1} < 1$
+
+For $n=2$, $F_2 = 1$ and $\phi^{0} = 1$ and so we havee $\phi^{0} \le F_2$
+
+For $n=3$, $F_3 = 2$ and $\phi^{1} = \frac{1 + \sqrt{5} }{2} \approx 1.618$ and so we have $\phi^{1} \le F_3$
+
+For $n=4$, $F_4 = 3$ and $\phi^{2} \approx 2.618$ and so we have $\phi^{2} \le F_4$
+
+With foresight, the inductive step uses $2^{n-4}$ so I wanted to make sure that this doesn't cause any issues and figured out $1 \le n \le 4$ explicitly.
+
+# assume true for $\forall j : 1 < j < n$ to prove true for $n$
+
+$$F_n = F_{n-1} + F_{n-2}$$
+
+As we are dealing with all positive numbers, we have 
+
+$$\implies \phi^{n-3} + \phi^{n-4} \le F_n$$.
+
+We need to show $\phi^{n-2} \le \phi^{n-3} + \phi^{n-4}$.
+
+Plug in the formula values.
+$$\text{ LHS } = \frac{\left( 1 + \sqrt{5} \right)^{n-2}  }{2^{n-2}}$$
+
+$$\text{ RHS } = \frac{\left( 1 + \sqrt{5} \right)^{n-3}  }{2^{n-3}} + \frac{\left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-4}}$$
+
+$$= \frac{\left( 1 + \sqrt{5} \right)^{n-3}  }{2^{n-3}} + \frac{2 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-3}}$$
+
+$$= \frac{\left( 1 + \sqrt{5} \right)^{n-3}  + 2 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-3}}$$
+
+$$= \frac{2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqrt{5} \right)^{n-4}  }{2^{n-2}}$$
+
+We only need to compare numerators, we WTS, $\left( 1 + \sqrt{5} \right)^{n-2} \le 2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqrt{5} \right)^{n-4}$
+
+$u := 1 + \sqrt{5}$
+
+$u^{n-2} \le 2 u^{n-3} + 4u^{n-4}$
+$\implies u^{2}u^{n-4} \le 2 u^{n-4} u + 4u^{n-4}$
+$\implies u^2 \le 2u + 4$
+We can now plug in the values.
+
+$\implies (1 + sqrt{5})^2 = 6 + 2\sqrt{5} \le 2(1 + sqrt{5}) + 4 = 6 + 2\sqrt{5} \square$
+
+# 5. prove that every positve integer $> 2$ can be written as a product of primes.
+
+## base case
+$n=2$ we are done as $2$ is a prime.
+
+# assume true for $2 \le j < n$ to prove true for $n$
+For sake of contradiction, suppose that $n$ cannot be expressed as a product of primes.
+Why would this be the case?
+$n$ must have at least $2$ factors, as it is greater than 1, and $n$ itself is a factor of $n$.
+But it must have more factors, as if it only had $2$ factors than $n$ is prime and we are done, we have a expression of a product of primes.
+
+If it had a factor $a^{i} = n, i > 1$, We must have that $a < n$, and therefore by our assumption $a$ can be expressed as a product of primes. so $n = a = p_1 \ldots p_n$.
+In fact, any factor has the property of being less than $n$ and therefore by our induction step we know it is expressed as a factor of primes. $\square$
+
+6.
+
+Wts if $a'm + b'n = c, am + bn = d$ hold before step 4 on the [euclidean_algorithm](euclidean_algorithm___11_06_2022__0902301_67.pd), then they hold after.
+
+Set $c \leftarrow d$,
+
+We have $d = a'm + b'n$
+
+ $d \leftarrow r$,
+We have $am + bn = r$
+
+ $t \leftarrow a'$,
+ $a' \leftarrow a$,
+We have $d = am + b'n$
+
+ $a \leftarrow t - qa$,
+ $t \leftarrow b'$,
+ $b' \leftarrow b$,
+ $b \leftarrow t - qb$ Go to step `2`.
+
+We have $d = a'm + b'n$
+
+| t  | a    | a'   | b | b' | m | n | c | d |
+| -  | -    | -    | - | -  | - | - | - | - |
+| a' | t-qa | a    |   |    |   |   | d | r |
+| b' |      | t-qb | b |    |   |   |   |   |
+
+$am + bn = d$ and $am  + bn = r$
+
+7.
+
+# base case
+$$F_1 = 1^2 = 1$$
+$$F_2 = 2^2 - 1^2 = 3 = F_1 + 2$$
+$$F_3 = 3^2 - 2^2 + 1^2 = 6 = F_2 + 3$$
+$$F_4 = 4^2 - 3^2 + 2^2 - 1^2 = 10 = F_3 + 4$$
+$$F_5 = 5^2 - 4^2 + 3^2 - 2^2 + 1^2 = 15 = F_4 + 5$$
+
+# wts if valid for $F_k : 1 < k < n \implies F_{k+1} = F_k + k +1$
+$$F_{k+1} = \left( k + 1 \right) ^2 - F_{k}$$
+$$ = k^2 + 2k + 1 - F_{k}$$
+$$F_k = F_{k-1} + k \text{ tautologically }$$
+$$ \implies F_{k+1} = k^2 + 2k + 1 - F_{k-1} - k$$
+$$F_k = k^2 - F_{k-1}$$
+$$ \implies F_{k+1} = F_k + k + 1$$
+
+
+8. prove Nicomachus theorem by induction.
+a)
+[summation](summation___20221106_0902301_58.pd)
+
+# base case
+$$1^3 = 1$$
+$$2^3 = 3 + 5$$
+$$3^3 = 7 + 9 + 11$$
+$$4^3 = 13 + 15 + 17 + 19$$ etc.
+
+# scratch
+$f(k) = k*(k-1)+1 + k*(k-1)+3 +k*(k-1)+4$
+
+$(k+1)^2(k) + k+1 + k (2k+1)$
+
+$f(k+1) = $
+$= k^3 + 3k^2 + 3k + 1$
+
+# wts if valid for $F_{k+1} : 1 < k+1 < n \implies (k+2)^3 = \left( k+1 \right) ^3 + 3(k+1)^2 + 3(k+1) + 1$
+
+$RHS$
+$\left( k+2 \right) ^3 = (k^2 + 4k + 4)(k+2)$
+$= k^3 + 4k^2 + 4k + 2k^2 + 8k + 8$
+$k^3 + 6k^2 + 12k + 8$
+
+$LHS$
+$(k^2 + 2k + 1)(k +1) + 3(k^2 + 2k +1) + 3k + 3 + 1$
+$= k^3 + 2k^2 + k + k^2 + 2k + 1 + 3k^2 + 6k + 3 + 3k + 3 + 1$
+$= k^3 + 6k^2 + 12k + 8$
+
+# b)
+
+## base case
+$$1^3 = 1^2$$
+$$1^3 + 2^3 = 9 = (1+2)^2$$
+$$1^3 + 2^3 + 3^3 = 36 = (1 + 2 +3)^2$$
+
+We assume the that the formula $\sum _{i=1}^{n} i^3 = \left( \sum _{i=1}^{n} i \right)^2$ holds true.
+
+## assume true for $n=a-1$ to show true for $n = a$
+
+
+$$\sum _{i=1}^{n} i^3 = \sum _{i=0}^{n-1}i^3 + 3i^2 + 3i + 1$$
+$$= (\sum _{i=1}^{n-1} i)^2 + 3 \sum _{i=1}^{n-1} i^2 + 3 \sum _{i=1}^{n-1} i + n$$
+$$\left( \frac{1}{2}(n)(n-1) \right) ^2 + 3 \frac{1}{6}(n-1)(n)(2(n-1)+1) + 3 \frac{1}{2}(n-1)(n) + n$$
+$$= \frac{1}{4}n^2(n^2 - 2n + 1) + \frac{1}{2}(n^2 - n)( 2n -1) + \frac{3}{2}(n^2 -n) + n$$
+$$\frac{1}{4} (n^{4} - 2n^3 + n^2) + \frac{1}{2}(2n^3 - n^2 - 2n^2 + n) + \frac{3}{2}(n^2 - n) + n$$
+$$\frac{1}{4} (n^{4} - 2n^3 + n^2 + 2(2n^3 - n^2 - 2n^2 + n) + 6(n^2 - n) + 4n)$$
+$$\frac{1}{4} (n^{4} - 2n^3 + n^2 + 4n^3 - 2n^2 - 4n^2 + 2n + 6n^2 - 6n + 4n)$$
+$$\frac{1}{4} (n^{4} + 2n^3 + n^2)$$
+
+Compare to
+$$\left( \frac{1}{4}a^2(a+1)^2 \right)$$
+$$\frac{1}{4}a^2 (a^2 + 2a + 1)$$
+$$\frac{1}{4} (a^{4} + 2a^3 + a^2)$$
+
+Which is in the form we wanted $\square$
+
+# 9.  Prove by induction that if $0 < a < 1$ then $(1 - a)^{n} \ge 1 - na \forall n \in \mathbb{Z}$
+
+We have to prove this for integers positive and negative.
+Let's start with the positive integers.
+
+$$n = 0 \implies 1 \ge 1$$
+$$n = 1 \implies (1 - a) \ge 1 -a$$
+$$n = 2 \implies (1-a)^2 = 1 -2a +a^2 \ge 1 - 2a$$
+
+Assume that for $$n = k \implies (1-a)^{k} \ge 1 -ka$$ to show true for $$n=k+1$$
+WTS. $$(1-a)^{k+1} \ge 1 - (k+1)a$$
+LHS.
+$$(1-a)^{k+1} = (1-a)^{k}(1-a)$$
+RHS. $$1 - (k+1)a = 1 - ka -a$$
+
+By our inductive step, we know that $$(1-a)^{k} \ge (1 - ka)$$
+so we WTS, $$(1-a)^{k}(1-a) \ge (1-ka)(1 - \frac{a}{1-ka})$$
+We cancel out the known terms
+$$\iff(1-a) \ge (1-\frac{a}{1-ka})$$
+$$\iff -a \ge -\frac{a}{1-ka}$$
+$$\iff 1 \le \frac{1}{1-ka}$$
+$$\iff 1-ka \le 1$$
+$$\iff -ka \le 0$$ which is part of our assumption of $a$ hence true.
+
+<!-- TODO Clean this up and make readable but otherwise correct -->
+Inductive step.
+Assume true that for $n = - k \implies (1-a)^{-k} \ge 1 + ka$ to show true for $n = -k - 1$
+
+WTS. $$\frac{1}{(1-a)^{k}} \times \frac{1}{1-a} \ge!! 1 -(-k-1)a = 1 + ka + a$$
+
+RHS
+$$1 + ka + a = (1+ka) (1+ \frac{a}{1+ka})$$
+
+WTS $$\frac{1}{1-a} \ge 1 + \frac{a}{1 +ka}$$
+$$\iff \frac{1}{1-a} \ge \frac{1 + ka + a}{1 +ka}$$
+$$\iff 1+ka \ge (1+ka+a)(1-a) = 1 + ka - ka^2 -a^2$$
+$$\iff 0 \ge -ka^2 - a^2$$
+which is true.
+
+# 10. Prove by induction that if $n\ge 10$ then $2^{n} > n^{3}$
+
+TODO readable and potentially wrong in proof We need to look up nature of cubic equations.
+
+## base case
+if $n = 10$ then $2^{10} = 1024$ and $n^{3} = 1000$.
+
+# assume true for $n \le k$ to prove $n = k + 1$.
+$2^{k+1} = 2^{k}2^{1}$.
+We know $2^{k} > k^{3}$ so this implies $2^{k} 2^{1} > 2 k^{3}$
+
+Suffice to show $2(k)^{3} > (k+1)^{3}$.
+$(k+1)^3 = (k+1)(k^2 + 2k + 1)$
+$= (k^3 + 2k^2 + k + k^2 + 2k + 1)$
+$= k^3 + 3k^2 + 3k + 1$
+
+$2k^3 - k^3 - 3k^2 - 3k - 1$
+$f(k) := k^3 - 3k^2 - 3k - 1$
+
+$\frac{d}{d k} f = 3k^2 - 6k - 3$
+wts that the function is increasing when $k \ge 10$
+
+consider $g(k) := k^2 - 2k - 1$
+
+$\frac{d}{d k} g(k) = 2k - 2$
+which is increasing for $k>10$
+
+$\implies g(k)$ is increasing, $\implies$ $f(k)$ is increasing, hence the our original statement is must be true, $\square$
+

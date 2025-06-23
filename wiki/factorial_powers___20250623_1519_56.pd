@@ -1,0 +1,11 @@
+# factorial_powers
+
+$$x^{\underline{k}} := x(x-1)\ldots (x - k +1) = \prod_{j=0}^{k-1} (x-j)$$
+
+$$x^{\bar{k}} := x(x+1)\ldots (x + k -1) = \prod_{j=0}^{k-1} (x+j)$$
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

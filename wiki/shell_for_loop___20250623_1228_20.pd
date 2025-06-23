@@ -1,0 +1,21 @@
+# shell_for_loop
+
+~~~{.sh .numberLines}
+for letter in a b c
+do
+done
+~~~
+
+~~~{.sh .numberLines}
+# Loop from 0-VAR.
+VAR=50
+for ((i=0;i<=VAR;i++)); do
+    printf '%s\n' "$i"
+done
+~~~
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
