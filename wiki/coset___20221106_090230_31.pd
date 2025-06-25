@@ -19,7 +19,7 @@ Cosets: can be defined without group theory
 
 Subsets : $H \subset G$ with an equivalence_relation
 
-Cosets:= $Y \subset X$ with $y_1~y_2 \forall y_1,y_2 \in Y$
+Coset `:=` $Y \subset X$ with $y_1~y_2 \forall y_1,y_2 \in Y$
 
 Suppose $Y_1,Y_2$ are both cosets of $(X,~)$.
 then either $y_1H = y_2H$ so they describe the same coset

@@ -4,7 +4,7 @@
 # declaration
 declaration :~ described for the benefit of the compiler.
 
-declaration := specificy a variable type and name.
+declaration `:=` specificy a variable type and name.
 
 # assignment
 give a variable a value, this is different than a initialisation.
@@ -22,9 +22,9 @@ local variable:~ a variable defined in a scope like within a function
 local variables cannot be accessed outside the function it is defined
 
 #  automatic variable
-Automatic Storage Duration:= Automatic extent:= The portion of program execution during which storage of the variable exists. It gets allocated and deallocated automatically.
+Automatic Storage Duratio `:=` Automatic exten `:=` The portion of program execution during which storage of the variable exists. It gets allocated and deallocated automatically.
 
-Block scope:= The portion of the program text where the variable can be referenced.
+Block scop `:=` The portion of the program text where the variable can be referenced.
 
 
 in [c99](c99___20250312_1237_53.pd) as you can declare a variable pretty much declare a variable whenever, the scope only starts when the variable is declared, allowing for very small scopes.

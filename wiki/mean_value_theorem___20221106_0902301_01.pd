@@ -12,7 +12,7 @@ non-example of extreme_value_theorem.
 
 $f(x) = -|x| \le 0$. Extremised (extremum) at x=0 but not differentiable.
 
-mean_value_theorem:=  Let $f \in C[a,b]$ be differentiable on $(a,b)$. Then there exists $c \in (a,b)$ such that $f(c) = \frac{f(b) - f(a)}{b-a}$
+mean_value_theore `:=` Let $f \in C[a,b]$ be differentiable on $(a,b)$. Then there exists $c \in (a,b)$ such that $f(c) = \frac{f(b) - f(a)}{b-a}$
 
 mean_value_theorem:~ The line that bisects two points on a smooth graph, has the same gradient as at least 1 point on that line.
 

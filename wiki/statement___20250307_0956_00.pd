@@ -10,7 +10,7 @@ include directives are not calculated at runtime, they are manipulated at a diff
 
 ## expression statement
 
-$:~$ building math formulas
+ `:~`  building math formulas
 
 A statement that has an operator in it.
 

@@ -5,7 +5,7 @@
 #  sizeof
 
 #  sizeof Operator
-sizeof:= The value of `sizeof ( type )` is an uint representing the number of bytes required to store a value belonging to typename.
+sizeo `:=` The value of `sizeof ( type )` is an uint representing the number of bytes required to store a value belonging to typename.
 
 [c](c___20250304_1142_20.pd)
 

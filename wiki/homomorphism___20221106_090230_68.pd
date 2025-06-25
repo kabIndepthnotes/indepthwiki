@@ -42,7 +42,7 @@ product of inputs = product of outputs
 
 $1_R$ maps to $1_S$
 ## rigour
-homomorphism:= A function between two groups is homomorphic if $\phi (g *_G g') = \phi (g) *_H \phi(g') \:\forall g,g' \in G $
+homomorphis `:=` A function between two groups is homomorphic if $\phi (g *_G g') = \phi (g) *_H \phi(g') \:\forall g,g' \in G $
 
 ## Theorems
 A homomorphism is an [[isomorphism]] iff it is surjective and the kernel is trivial.
@@ -105,7 +105,7 @@ Therefore by the group homomorphism theorem we have, $G \setminus Z(G) \cong Inn
 ## exam clinic
 Let $G_1$ and $G_2$ be groups. A map $\Phi:G_1\to G_2$ is a _homomorphism_ if $\Phi(gh) = \Phi(g)(\Phi(h) \forall g,h, \in G_1$
 ;x
-Isomorphism:= Bijective homomorphism
+Isomorphis `:=` Bijective homomorphism
 Isomorphism:~ this shows the same underlying structure.
 
 n.b. $\Phi^{-1}: G_2 \to G_1$ while $(\Phi(g))^{-1} \in G_1$ The first is a function inverse, the second is an inverse element.

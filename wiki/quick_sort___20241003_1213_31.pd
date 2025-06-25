@@ -8,7 +8,7 @@
 quick sort is a divide and conquer algorithm, much like [quad_trees](quad_trees___20241003_1214_42.pd).
 
 # algorithm
-1. Choose an array element $e$:= the partitioning element. Rearrange so that $a[1],\ldots,a[i-1]$ are less than or equal to $e$, $a[i] = e$, and $a[i+1],\ldots,a[n]$ are greater than or equal to $e$
+1. Choose an array element $e `:=` the partitioning element. Rearrange so that $a[1],\ldots,a[i-1]$ are less than or equal to $e$, $a[i] = e$, and $a[i+1],\ldots,a[n]$ are greater than or equal to $e$
 2. Sort elements indexed at $1,\ldots,i-1$ recursively using quick sort.
 3. Sort elements indexed at $i+1,\ldots,n$ recursively using quick sort.
 

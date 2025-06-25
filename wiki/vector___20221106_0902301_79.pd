@@ -19,7 +19,7 @@ A linear span is the collection of all linear combinations of the vectors in que
 
 A linear combination is an element in the span
 
-linear span := The span of $v,u, ... \in \mathbb{F}^n$ is the set $A = \{av+bu + ... \}$ where $a,b,...$ are scalars in $\mathbb{F}$
+linear span `:=` The span of $v,u, ... \in \mathbb{F}^n$ is the set $A = \{av+bu + ... \}$ where $a,b,...$ are scalars in $\mathbb{F}$
 # examples
 $\begin{pmatrix} 1 & 2 & 3 \end{pmatrix}$
 $\begin{pmatrix} 0 & 0 & 0 \end{pmatrix}$

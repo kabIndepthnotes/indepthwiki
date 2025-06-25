@@ -15,10 +15,10 @@ $[a]_m [b]_m = [ab]_m$
 
 $\mathbb{Z}_m$ is a ring 
 ## rigour
-modulo:= Let $m$ be a non-zero integer, and let $a,b \in \mathbb{Z}$. We say that $a$ is *congruent to* $b$ modulo $m$, if $m|(a-b)$ We write this as $a\equiv b (mod m)$ where m is the modulus.
-congruence class:= $\left[ a \right] _{m} = \left\{ b \in \mathbb{Z}: b \equiv a (mod ) \right\} $
-residue system:= Let $m$ be a positive integer. A set $\left\{ x_1,x_2,\ldots x_r \right\}$ is called a *complete residue system modulo* m, if for ever integer y there is exactly one $x_i$ such that $y \equiv x_i (mod m)$
-set of congruence classes:= ring of integers:= For a positive integer m, we let $\mathbb{Z}_{m}$ denote the set of congruence classes modulo $m$, also called ring of integer modulo m. $\mathbb{Z}_{3} = \left\{ [0]_3 ,[1]_3 ,[2]_3 \right\}$ 
+modul `:=` Let $m$ be a non-zero integer, and let $a,b \in \mathbb{Z}$. We say that $a$ is *congruent to* $b$ modulo $m$, if $m|(a-b)$ We write this as $a\equiv b (mod m)$ where m is the modulus.
+congruence clas `:=` $\left[ a \right] _{m} = \left\{ b \in \mathbb{Z}: b \equiv a (mod ) \right\} $
+residue syste `:=` Let $m$ be a positive integer. A set $\left\{ x_1,x_2,\ldots x_r \right\}$ is called a *complete residue system modulo* m, if for ever integer y there is exactly one $x_i$ such that $y \equiv x_i (mod m)$
+set of congruence classe `:=` ring of integer `:=` For a positive integer m, we let $\mathbb{Z}_{m}$ denote the set of congruence classes modulo $m$, also called ring of integer modulo m. $\mathbb{Z}_{3} = \left\{ [0]_3 ,[1]_3 ,[2]_3 \right\}$ 
 ## exam clinic
 $\left[ 2 \right] _{3} = \left\{ 3k+2, k \in \mathbb{Z} \right\} = \left\{ 2,5,-1,7 \ldots \right\}$ ==resources
 residue class for m=4 is $\left\{ 0,1,2,3 \right\} $ or $\left\{ 1,2,3,4 \right\} $ in fact any set of the form $\left\{ n,n+1,n+2,n+3 \right\}$ where $n \in \mathbb{Z}$

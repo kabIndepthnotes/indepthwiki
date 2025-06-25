@@ -15,7 +15,7 @@ $P(2)$ is also true, since $F_2 = 1 < 1.6 < \phi^{1} = \phi^{2-1}$.
 Now, if $P(1), P(2), \ldots, P(n)$ are true, and $n > 1$, we have, in particular, that $P(n-1)$ and $P(n)$ are also true, so $F_{n-1} \le \phi^{n-2}$ and $F_n \le \phi^{n-1}$.
 Adding these inequalities, we get $F_{n+1} = F_{n-1} + F_n \le \phi^{n-2} + \phi^{n-1} = \phi^{n-2} (1+\phi)$
 
-Note, $\phi := \frac{\left( 1+\sqrt{5}  \right)}{2}$, and so $\phi^2 = \frac{1}{4} \left( 1 + 2 \sqrt{5} + 5 \right) = \frac{3}{4} + \frac{\sqrt{5}}{2} = 1 + \frac{1}{2}\left( 1 + \sqrt{5}  \right) = 1 + \phi$
+Note, $\phi `:=` \frac{\left( 1+\sqrt{5}  \right)}{2}$, and so $\phi^2 = \frac{1}{4} \left( 1 + 2 \sqrt{5} + 5 \right) = \frac{3}{4} + \frac{\sqrt{5}}{2} = 1 + \frac{1}{2}\left( 1 + \sqrt{5}  \right) = 1 + \phi$
 
 Putting this in the equation before gives up $F_{n-1} + F_n \le \phi^{n-2} + \phi^{n-1} = \phi^{n-2} (1+\phi) = \phi^{n}$ which $P(n+1)$.
 

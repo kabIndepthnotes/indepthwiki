@@ -17,19 +17,19 @@
     - `my_variable`
 - spacing is super important, consider searching.
 - reuse names
-    - `array` := arrays
-    - `type` := enu
-    - `node` :=links to other node
-    - `entity` := generic networked thing
-    - `handle` := pointer to opaque data structure
-    - `func` := function pointer
-    - `internal` := function internal to a module
-    - `i`,`j`,`k` := indexes for for loop
-    - `count` := unsigned int
-    - `f` := float
-    - `vec` := vector
+    - `array` `:=` arrays
+    - `type` `:=` enu
+    - `node` `:=` inks to other node
+    - `entity` `:=` generic networked thing
+    - `handle` `:=` pointer to opaque data structure
+    - `func` `:=` function pointer
+    - `internal` `:=` function internal to a module
+    - `i`,`j`,`k` `:=` indexes for for loop
+    - `count` `:=` unsigned int
+    - `f` `:=` float
+    - `vec` `:=` vector
     - `length`
-    - `found` := binary for an existence of something
+    - `found` `:=` binary for an existence of something
     - `next` :~ loosely-defined
     - `previous` :~ losely-defined
     - `list`

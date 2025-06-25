@@ -3,17 +3,17 @@
 <!-- visits: 4 -->
 
 #  clusters and why are they important
-clusters:= groupings of pixels that share a single colour. This helps with understanding the resolution of the image, as an image scaled x times will still have the same cluster shapes. Clusters interact top, bottom, left and right.
+cluster `:=` groupings of pixels that share a single colour. This helps with understanding the resolution of the image, as an image scaled x times will still have the same cluster shapes. Clusters interact top, bottom, left and right.
 
 lines define clusters in the negative space.
 
-meta-clusters:= meta-clusters are clusters that connect to other clusters (of different colours of course) up down left or right.
+meta-cluster `:=` meta-clusters are clusters that connect to other clusters (of different colours of course) up down left or right.
 
-implicit cluster:= When [[anti_aliasing___20240704_092417|anti_aliasing]] we can create a series of individual pixels which are in the direction of a line, which then causes an implicit cluster
+implicit cluste `:=` When [[anti_aliasing___20240704_092417|anti_aliasing]] we can create a series of individual pixels which are in the direction of a line, which then causes an implicit cluster
 
-{{file:~/Documents/vimwiki/figures/Figure 3-09.png}}
+{{fil `:~` Documents/vimwiki/figures/Figure 3-09.png}}
 
-resolution:= the size of the smallest apparent cluster.
+resolutio `:=` the size of the smallest apparent cluster.
 
 [pixel_art](pixel_art___20250319_1215_29.pd):[flashcard](flashcard___20250324_0938_53.pd):
 

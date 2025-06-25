@@ -6,7 +6,7 @@ strictly concave if $f(\theta_{x_1} + (1-\theta)_{x_2}) < \theta f(x_1) + (1- \t
 
 convex if $f(\theta_{x_1} + (1-\theta)_{x_2}) \ge  \theta f(x_1) + (1- \theta)f(x_2)$
 
-Convexity:= convex downward:= Let $f \in C(a,b)$ $f$ is called *convex* on $(a,b)$, if for any $x_1,x_2 \in (a,b)$ and for any $\theta \in (0,1)$ we have $$
+Convexit `:=` convex downwar `:=` Let $f \in C(a,b)$ $f$ is called *convex* on $(a,b)$, if for any $x_1,x_2 \in (a,b)$ and for any $\theta \in (0,1)$ we have $$
 f(\theta_{x_1} + (1-\theta)_{x_2}) \le \theta f(x_1) + (1- \theta)f(x_2)
 $$
 
@@ -28,11 +28,11 @@ For any 2 points in the interval, The graph between two points is always less th
 
 concave is the same but for the function $-f$
 
-point_of_inflection:= If $f$ is convex on $(x_0 - \delta, x_0)$ and concave on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
+point_of_inflectio `:=` If $f$ is convex on $(x_0 - \delta, x_0)$ and concave on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
 
 also
 
-point_of_inflection:= If $f$ is concave on $(x_0 - \delta, x_0)$ and convex on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
+point_of_inflectio `:=` If $f$ is concave on $(x_0 - \delta, x_0)$ and convex on $(x_0,x_0+\delta)$ then $x_0$ is called the point of inflection
 
 {{file:../figures/screenshot_20211027_100349.png}}
 

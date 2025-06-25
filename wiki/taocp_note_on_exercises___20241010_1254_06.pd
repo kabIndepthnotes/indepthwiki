@@ -15,13 +15,13 @@
 
 This scale is logarithmic
 
-M := Math required
+M `:=` Math required
 
-HM := Higher math required
+HM `:=` Higher math required
 
 M, and HM do not imply difficulty
 
-$\nabla$ := Recommended :~ MUST DO
+$\nabla$ `:=` Recommended :~ MUST DO
 
 Note that non-$\nabla \neq$ ~ Don't bother.
 

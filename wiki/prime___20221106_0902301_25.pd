@@ -7,7 +7,7 @@ It has been proven that there a infinitely many primes of the form $4k+1$, but a
 Euclid's lemma
 Let $p$ be prime, and $a,b \in \mathbb{Z}$. Suppose $p|ab$ then $p|a$ or $p|b$.
 ## rigour
-prime:= A number is prime if it has two factors, itself and 1.
+prim `:=` A number is prime if it has two factors, itself and 1.
 ## =Proof that there are infinitely many primes (forked version from Euclid).
 
 For sake of contradiction suppose there are only finitely many primes $p_1,p_2,\ldots,p_{r}$

@@ -2,7 +2,7 @@
 ## introduction
 %%visits: 2
 
-MGF:= Given a random_variable X, it's K-th moment, $\mathbb{E}[X^{k}]$, if the expectation is well defined. The MGF is defined as $\mathbb{E}[e^{tx}]$
+MG `:=` Given a random_variable X, it's K-th moment, $\mathbb{E}[X^{k}]$, if the expectation is well defined. The MGF is defined as $\mathbb{E}[e^{tx}]$
 ## intuition
 Used to derive moments and it is an alternative way to find values of a distribution. 
 The moment_generating_function comes from the taylor expansion, so when derivates are taken
@@ -11,7 +11,7 @@ Uniqueness. If two rvs have the same moment_generating_function, then they have 
 
 Properties:
     - a,b \in R, Xrv, y= a+bx, $\phi_y (t) = e^{at}\phi_x(bt)$
-    - X,Y independant, $\phi_{X+Y}(t):= \mathbb{E}\left[ e^{t(X+Y} \right] = \mathbb{E}\left[ e^{tx}e^{ty} \right] =  \phi_X(t)\phi_Y(t)$ which is true for multiple i.d.s
+    - X,Y independant, $\phi_{X+Y}(t `:=` \mathbb{E}\left[ e^{t(X+Y} \right] = \mathbb{E}\left[ e^{tx}e^{ty} \right] =  \phi_X(t)\phi_Y(t)$ which is true for multiple i.d.s
 
 Binomial distribution is just a series of n Bernoulli’s distribution which is expected dude to the ids Properties of a mgf.
 

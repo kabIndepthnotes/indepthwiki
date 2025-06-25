@@ -3,7 +3,7 @@
 %%visits: 2
 ## intuition
 ## rigour
-simple_groups:=  groups with only trivial normal_subgroups.
+simple_group `:=` groups with only trivial normal_subgroups.
 ## exam clinic
 ## examples and non-examples
 ## resources

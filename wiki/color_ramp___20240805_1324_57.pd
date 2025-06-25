@@ -3,11 +3,11 @@
 <!-- visits: 17 -->
 
 #  color_ramp
-ramp:= a ramp is a transition from one color to another.
-straight ramp:= Only lightness changes, like a monochromatic palette with no hue shifting. Rarely used.
-luminosity ramp:= Sorting by luminosity, there is a formula but it is intuitively the percieved color brightness, not just the "value" component in hsv
+ram `:=` a ramp is a transition from one color to another.
+straight ram `:=` Only lightness changes, like a monochromatic palette with no hue shifting. Rarely used.
+luminosity ram `:=` Sorting by luminosity, there is a formula but it is intuitively the percieved color brightness, not just the "value" component in hsv
 
-static ramp:= Only saturation changes.
+static ram `:=` Only saturation changes.
 
 ##  hue method
 Start at end points and transition around the color wheel

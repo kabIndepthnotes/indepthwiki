@@ -22,7 +22,7 @@ $G_1 \equiv G_1 \times \left\{ e_2 \right\} \subset G_1\times G_2$ Think of it a
 ## rigour
 Definition 7.1 in the lecture notes.
 
-direct_product:= Let $G_1$ and $G_2$ be two groups. Then $G=G_1\times G_2 = \left\{  (g_1,g_2) : g_1 \in G_1, g_2 \in G_2\right\}$ with the multiplication law $(g_1,g_2)(g_1', g_2') = \left( g_1g_1',g_2g_2' \right)$. $G_1\times G_2$ is called the direct_product of $G_1$ and $G_2$. The action is sort of [[dot_product]].
+direct_produc `:=` Let $G_1$ and $G_2$ be two groups. Then $G=G_1\times G_2 = \left\{  (g_1,g_2) : g_1 \in G_1, g_2 \in G_2\right\}$ with the multiplication law $(g_1,g_2)(g_1', g_2') = \left( g_1g_1',g_2g_2' \right)$. $G_1\times G_2$ is called the direct_product of $G_1$ and $G_2$. The action is sort of [[dot_product]].
 ## exam clinic
 ## examples
 1. Let $G_1 = \left\{ e_1,a_1 \right\}$ with $a_1^2 = e_1$ and $G_2 = \left\{ e_2,a_2 \right\}$ with $a_2^2 = e_2$

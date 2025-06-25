@@ -1,7 +1,7 @@
 # kernel
 ## introduction
 %%visits: 2
-Kernel of a linear transformation:= What vectors in the domain map to the zero vector according to the transformation, $$\{v: Av =0 \}$$
+Kernel of a linear transformatio `:=` What vectors in the domain map to the zero vector according to the transformation, $$\{v: Av =0 \}$$
 
 
 $\{ g \in G : \phi(g) = e_g \}$
@@ -10,7 +10,7 @@ I feel like this is a general definition of kernels (it is)
 ## intuition
 Kernel of homomorphisms:~ anything from the range that gets mapped to the identity
 ## rigour
-Kernel of [[homomorphism]]s:= ker $phi = \{g \in G_1 | \phi(g) = e_{G_2}\}$ (where $\phi : G_1 \to G_2$ 
+Kernel of [[homomorphism]] `:=` ker $phi = \{g \in G_1 | \phi(g) = e_{G_2}\}$ (where $\phi : G_1 \to G_2$ 
 
 This kernel is a normal_subgroup, and there is a 121 relation between normal_subgroups and kernels
 

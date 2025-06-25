@@ -26,7 +26,7 @@ boundedness_theorem requires continuity in a closed, bounded interval
 
 Intuitively this makes sense, however rigour is often a bit harder than intuition. The proof shows by contradiction that it is an extension on continuity
 ## rigour
-boundedness_theorem:= If $f \in C[a,b]$, then $f$ is bounded
+boundedness_theore `:=` If $f \in C[a,b]$, then $f$ is bounded
 ## exam clinic
 ## examples and non-examples
 ## resources

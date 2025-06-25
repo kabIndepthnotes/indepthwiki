@@ -13,5 +13,5 @@ f(g) + m(t-g) <= f(t)
 
 "If I score better every test last year, then my average will always be better than last year"
 
-jensens_inequality:= if f is convex, f(average) $\le$ Average(f)
+jensens_inequalit `:=` if f is convex, f(average) $\le$ Average(f)
 

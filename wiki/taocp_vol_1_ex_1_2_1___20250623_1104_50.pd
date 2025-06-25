@@ -51,7 +51,7 @@ $$= \frac{2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqr
 
 We only need to compare numerators, we WTS, $\left( 1 + \sqrt{5} \right)^{n-2} \le 2 \times \left( 1 + \sqrt{5} \right)^{n-3}  + 4 \times \left( 1 + \sqrt{5} \right)^{n-4}$
 
-$u := 1 + \sqrt{5}$
+$u `:=` 1 + \sqrt{5}$
 
 $u^{n-2} \le 2 u^{n-3} + 4u^{n-4}$
 $\implies u^{2}u^{n-4} \le 2 u^{n-4} u + 4u^{n-4}$
@@ -235,12 +235,12 @@ $= (k^3 + 2k^2 + k + k^2 + 2k + 1)$
 $= k^3 + 3k^2 + 3k + 1$
 
 $2k^3 - k^3 - 3k^2 - 3k - 1$
-$f(k) := k^3 - 3k^2 - 3k - 1$
+$f(k) `:=` k^3 - 3k^2 - 3k - 1$
 
 $\frac{d}{d k} f = 3k^2 - 6k - 3$
 wts that the function is increasing when $k \ge 10$
 
-consider $g(k) := k^2 - 2k - 1$
+consider $g(k) `:=` k^2 - 2k - 1$
 
 $\frac{d}{d k} g(k) = 2k - 2$
 which is increasing for $k>10$

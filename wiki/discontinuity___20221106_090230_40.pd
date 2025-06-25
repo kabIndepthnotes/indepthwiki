@@ -8,13 +8,13 @@ Point discontinuity can be less obvious than the others.
 
 Point discontinuity:~ This is where left limit $=$ right limit but "centre" point is not defined, so it continuous at a point but not continuous at an interval.
 
-removable discontinuity:= Point discontinuity :~ both left and right limit at $x_0$ exist, and they are the same, but the point $x_0$ is not the same, e.g  $y = x^2$ with $x =0, y = 5$
+removable discontinuit `:=` Point discontinuity :~ both left and right limit at $x_0$ exist, and they are the same, but the point $x_0$ is not the same, e.g  $y = x^2$ with $x =0, y = 5$
 
-jump discontinuity:= both limits exist but they are not equal to each other :~ the is a jump in the graph. 
+jump discontinuit `:=` both limits exist but they are not equal to each other :~ the is a jump in the graph. 
 
-Infinite discontinuity:= 1 of the left or right limits are infinite, e.g. $f(x)=\frac{1}{x}$ at $x=0$
+Infinite discontinuit `:=` 1 of the left or right limits are infinite, e.g. $f(x)=\frac{1}{x}$ at $x=0$
 
-Oscillatory discontinuity:= at least one of the limits do not exist. e.g. $\sin \left( \frac{1}{x} \right)$
+Oscillatory discontinuit `:=` at least one of the limits do not exist. e.g. $\sin \left( \frac{1}{x} \right)$
 ## rigour
 ## exam clinic
 ## resources

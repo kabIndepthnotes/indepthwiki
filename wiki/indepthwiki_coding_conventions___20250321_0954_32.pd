@@ -7,5 +7,5 @@
 - files should not be longer than 80 lines
 - I adopt mathematical notation which I use mainly informally (as a way to illustrate a loosely-defined point rather than to mainly incorporate mathematical rigout). I use these with spaces on both sides, like a `:=` b not a`:=`b (note the spaces on either side of `:=`. This is because the notation means `is defined as` which itself needs spaces between the words.
 	- Namely I use `:=` to mean defined as, `:~` to mean defined intuitively as (think of it as the $\approx$ in math instead of an $=$ sign.
-	- I use `:-` to mean I am writing about this concept, but not an actual definition nor an intuitive definition, much like having a front or back to a [flashcard](flashcard___20250324_0938_53.pd). e.g. coding conventions :- help the code be more accessible to everyone.
+	- I use `:-` to mean I am writing about this concept, but not an actual definition nor an intuitive definition, much like having a front or back to a [flashcard](flashcard___20250324_0938_53.pd). e.g. coding conventions `:-` help the code be more accessible to everyone.
 - rate it with the [wiki_readability_standard](wiki_readability_standard___20250514_1457_05.pd)

@@ -22,7 +22,7 @@ What you may want is `i < j && j < k`
 `!` has the same precedence as unary plus and minus, and is right associative.
 Logical operations `&&` and `||` have lower precedence to than equality are left associative.
 
-Short-circuiting:= if with the first operand we know the outcome of the expression, then we do not compute the full expression.
+Short-circuitin `:=` if with the first operand we know the outcome of the expression, then we do not compute the full expression.
 e.g. `(i != 0) && (j / i > 0)` when `i` is equal to zero the program knows that the expression will fail and therefore not compute the second expression.
 
 # conditional operator

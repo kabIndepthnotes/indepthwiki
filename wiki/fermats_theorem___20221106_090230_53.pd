@@ -1,5 +1,5 @@
 # Fermats_Theorem
-Fermats_Theorem:= Let $f$ be differentiable on $(a,b)$. If $f$ has a local maximum or minimum at $c \in (a,b)$, then $f'(c) = 0$.
+Fermats_Theore `:=` Let $f$ be differentiable on $(a,b)$. If $f$ has a local maximum or minimum at $c \in (a,b)$, then $f'(c) = 0$.
 %%visits: 5
 
 proof. Suppose $c$ is a local maximum: Since it is a local maximum, the values on the left should be less, and the values on the right should be less. Then stretch this constant by $\frac{1}{x-c}$ due to foresight, the notational equivalence to this is.$$ 

@@ -2,7 +2,7 @@
 ## introduction
 %%visits: 5
 ## intuition
-Fermat-Euler_theorem:= Let $a \in \mathbb{Z}$ and $m$ be a positive integer. Suppose $gcd(a,m) = 1$. Then $$
+Fermat-Euler_theore `:=` Let $a \in \mathbb{Z}$ and $m$ be a positive integer. Suppose $gcd(a,m) = 1$. Then $$
 a^{\phi(m)} \equiv 1 \text{ mod m}
 $$ 
 

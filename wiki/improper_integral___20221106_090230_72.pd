@@ -6,14 +6,14 @@
 absolute convergence implies convergence, but the other way round is not true. why? Because oscillatory diminishment is a big factor in convergence. 
 
 ## rigour
-Case to infinity: Let $f:[a,\infty) \to \mathbb{R}, f \in \fancy{R}[a,b], \forall b > a,$ one has $\int_{a}^{\infty}f(x)dx := \lim_{b \to \infty} \int_{a}^{b}f(x)dx$
+Case to infinity: Let $f:[a,\infty) \to \mathbb{R}, f \in \fancy{R}[a,b], \forall b > a,$ one has $\int_{a}^{\infty}f(x)dx `:=` \lim_{b \to \infty} \int_{a}^{b}f(x)dx$
 
 
-Case to -infinity: Let $f:(-\infty,b] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a> b,$ one has $\int_{-\infty}^{b}f(x)dx := \lim_{a \to -\infty} \int_{a}^{b}f(x)dx$
+Case to -infinity: Let $f:(-\infty,b] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a> b,$ one has $\int_{-\infty}^{b}f(x)dx `:=` \lim_{a \to -\infty} \int_{a}^{b}f(x)dx$
 
 Now to consider the case of from $-\infty$ to $\infty$ we have to combine the two definitions, but doing so carefully. 
 
-Case from -infinity to infinity: Let $f:(-\infty,\infty] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a< b,$ one has $\int_{-\infty}^{\infty}f(x)dx :=\lim_{b \to \infty} \int_{0}^{b} f(x)dx +  \lim_{a \to -\infty} \int_{a}^{0}f(x)dx$
+Case from -infinity to infinity: Let $f:(-\infty,\infty] \to \mathbb{R}, f \in \fancy{R}[a,b], \forall a< b,$ one has $\int_{-\infty}^{\infty}f(x)dx `:=` lim_{b \to \infty} \int_{0}^{b} f(x)dx +  \lim_{a \to -\infty} \int_{a}^{0}f(x)dx$
 
 $\int_{a}^{\infty}f(x)dx$ converges absolutely if $\int_{a}^{\infty}\left| f(x) \right| dx$ converges
 

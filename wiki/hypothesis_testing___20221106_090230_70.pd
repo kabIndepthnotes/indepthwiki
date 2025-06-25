@@ -19,9 +19,9 @@ For a Z-test, with a bunch of continuous RVs, we find the sample average. Which 
 ## rigour
 The test statistic is an observation that can cast doubt on $h_0$. It must have a known distribution.
 
-test statistic:= A function that takes information from a sample and outputs information to reject or accept hypotheses
+test statisti `:=` A function that takes information from a sample and outputs information to reject or accept hypotheses
 
-significance level:= "the probability of wrongly rejecting $h_0$.
+significance leve `:=` "the probability of wrongly rejecting $h_0$.
 ## exam clinic
 Section 1.1 of probability_and_statistics_2 lecture notes.
 1.2 of same notes.
@@ -37,7 +37,7 @@ Section 1.1 of probability_and_statistics_2 lecture notes.
 | Decision |            |         |         |
 | $H_0$    |            | Correct | Type 2  |
 | $H_1$    |            | Type 1  | Correct |
-significance_level:= $\mathbb{P}(\text{type 1 error }) = \sup_{\theta \in \Theta} \mathbb{P}((X_1,\ldots,X_2) \in \mathbb{R} | \theta)$
+significance_leve `:=` $\mathbb{P}(\text{type 1 error }) = \sup_{\theta \in \Theta} \mathbb{P}((X_1,\ldots,X_2) \in \mathbb{R} | \theta)$
 
 
 ## resources

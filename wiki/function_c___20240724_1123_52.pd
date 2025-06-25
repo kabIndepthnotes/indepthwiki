@@ -12,9 +12,9 @@ return-type function-name ( parameters )
 }
 ~~~
 
-return type:= the type of data the function takes place of (for lack of a better word, despite being a circular definition return)
+return typ `:=` the type of data the function takes place of (for lack of a better word, despite being a circular definition return)
 
-parameters:= the variables in the function initialisation
+parameter `:=` the variables in the function initialisation
 
 # the return type
 The function may not return arrays

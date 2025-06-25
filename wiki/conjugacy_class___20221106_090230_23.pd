@@ -8,7 +8,7 @@ $[e]_c=\{e\}$ so no other conjugacy_class is a subgroup.
 
 Conjugation by an element g is a bijection: Let $M(h) = ghg^{-1}$
 ## rigour
-conjugacy_class:= The conjugacy class of a is defined as $[a]_{c} = \{gag^{-1}| \forall g \in G\}$ 
+conjugacy_clas `:=` The conjugacy class of a is defined as $[a]_{c} = \{gag^{-1}| \forall g \in G\}$ 
 ## exam clinic
 ## examples and non-examples
 ## resources

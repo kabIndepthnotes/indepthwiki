@@ -8,7 +8,7 @@ add number of times reviewed to the file
 add the ease number to the file
 
 #  reviewing cards
-print lines with "=" or "%%=" or have a definition "*:="
+print lines with "=" or "%%=" or have a definition " `:=` 
 upon recollection, print all lines.
 Add 1 to the number of times reviewed.
 If the card is easy, add 1 to the ease.
@@ -25,9 +25,9 @@ Have the option to review special cards such as cards:
 
 grep -Rnlw "/home/kab/Documents/vimwiki/" -e "[c](c___20250304_1142_20.pd)" | shuf
 grep "^=.*=$" /home/kab/Documents/vimwiki/operators___20240603_115338.wiki #replace with each file iteratively
-grep -o ".*:=" operators___20240603_115338.wiki
-grep -o ".*:-" operators___20240603_115338.wiki
-grep -o ".*:~" operators___20240603_115338.wiki
+grep -o ". `:=` operators___20240603_115338.wiki
+grep -o ". `:-` operators___20240603_115338.wiki
+grep -o ". `:~`  operators___20240603_115338.wiki
 
 # await input
 

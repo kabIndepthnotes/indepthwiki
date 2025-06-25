@@ -22,7 +22,7 @@ conjugation changes the labels of cycles. Consider 3-cycles. $a = (132)$ and $b=
 
 
 ## rigour
-conjugation:= Given a group $G$, we say that $a \in G$ is conjugate to $b \in G$ if there exists $g \in G : a g b g^{-1}$ 
+conjugatio `:=` Given a group $G$, we say that $a \in G$ is conjugate to $b \in G$ if there exists $g \in G : a g b g^{-1}$ 
 
 Let $a,b \in G$ conjugation by a of b is : $aba^{-1}$
 

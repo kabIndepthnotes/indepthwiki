@@ -11,11 +11,11 @@ insert(a, k, v): store the pair k:v in the associative array a.
 
 delete(a, k): delete the k:v pair associated with k.
 
-associateive array := map := symbol table:= dictionary
+associateive array `:=` map `:=` symbol tabl `:=` dictionary
 
 # Hash table
 A fast Associative Array which uses a hash function.
-hash table := hash map:= map:= hash:= dictionary
+hash table `:=` hash ma `:=` ma `:=` has `:=` dictionary
 
 # hash function
 - Take a string as its imput and return a number between `0` and `m`, our desired bucket array length.

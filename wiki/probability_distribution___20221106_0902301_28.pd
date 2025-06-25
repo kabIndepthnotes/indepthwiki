@@ -56,7 +56,7 @@ $$
 
 # marginal
 
-marginal distribution:= $\sum _{x_1,x_2,x_3,x_4\ldots x_n} \mathbb{P}(x_1=y_1,\ldots,x_{k-1} = y_{k-1},x_{k} = y_{k})$ :~ Summing over all possible values of the remaining r.v.s
+marginal distributio `:=` $\sum _{x_1,x_2,x_3,x_4\ldots x_n} \mathbb{P}(x_1=y_1,\ldots,x_{k-1} = y_{k-1},x_{k} = y_{k})$ :~ Summing over all possible values of the remaining r.v.s
 With the joint distribution we can compute the marginals, but with the marginals, we can't say much (unless independent).
 When we compute independence, we assume the existence of a mulitvariate [[../probability_distribution|probability_distribution]]
 

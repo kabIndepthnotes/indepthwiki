@@ -5,9 +5,9 @@
 #  structs 
 A struct is the closest thing to a object you have in c.
 
-`a->b` := `(*a).b`
+`a->b` `:=` `(*a).b`
 
-`rot->state := (*rot).state`
+`rot->state `:=` (*rot).state`
 
 from w3 schools
 

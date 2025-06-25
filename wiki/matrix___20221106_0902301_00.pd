@@ -17,10 +17,10 @@ Matrices were first used to simplify solving systems of linear equations, and ge
 - $A^{T}$ transposing, that is making the x-axis the y-axis.
 
 # rigour
-- [[trace]] := the sum of the main diagonal
-- Discriminant := $t^2 - 4\det$
-- semi := non-negative eigenvalues
-- definite := real eigenvalues
+- [[trace]] `:=` the sum of the main diagonal
+- Discriminant `:=` $t^2 - 4\det$
+- semi `:=` non-negative eigenvalues
+- definite `:=` real eigenvalues
 # examples
 The [[rotation_matrix]] for 2x2.
 $\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$

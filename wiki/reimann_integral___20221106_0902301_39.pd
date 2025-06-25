@@ -2,7 +2,7 @@
 It took a long time to create the riemann integral, that it a mathematically rigourous method to find the anti-derivative or primative of a function. The riemann integral of a curve is the area underneath the curve.
 %%visits: 5
 
-What is the definition of the Rienmann Integral? The (Riemann) integral := The Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
+What is the definition of the Rienmann Integral? The (Riemann) integral `:=` The Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
 # diary
 :I've realied how bad I am at understanding the simple things, as I should be able to rewrite my whole wiki on the fundamental topics that are here. I see that my system has not been optimised.
 # intuition
@@ -37,7 +37,7 @@ and any $\xi \in [xk,x_{k+1}]$, one has $$
 \left| \mathcal{I} - \sum _{k=1}^{n} f(\xi)(x_{k+1}-x_k) \right| \le \epsilon
 $$ 
 
-The (Riemann) integral :=The Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
+The (Riemann) integral `:=` he Riemann integral  of a function f (x) on the interval [a, b], if it exists, is equal to the sum of the areas of the steps of any staircase function S(x) in the limit that the step width, w, approaches zero so long as $\lim_{w\to0}$ [S(x)] = f (x).
 $\int \int_U \int g(x,y,z) dx dy dz $ =  $\lim_{M,N,L \to \infty} \sum_{i,j,k = 0}^{M,N,L} g(x_i,y_j,z_k) \partial x_i \partial y_j \partial z_k$
 # exam clinic
 Think, integrate the awkward line first.

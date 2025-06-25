@@ -15,16 +15,16 @@ In [[set_theory]], if you only had elements and not anything you could do with t
 $dim(G\setminu H) = dim(G) - dim(H)$
 
 # rigour
-Group:= Set $G$, with a binary operation. $G\times G \to G$ satisfying
+Grou `:=` Set $G$, with a binary operation. $G\times G \to G$ satisfying
     1. Identity $\exists  e \in G : \forall \ a \in G, ea = ae = a$
     2. Inverses $\forall a \in G\ \exists  b \in G : ab = e = ba$
     3. Associativity $\forall  a,b,c \in G, (ab)c = a(bc)$
-    4. Closure:= $S\times S \to S$
+    4. Closur `:=` $S\times S \to S$
 It must be Associative, have inverses, have the identity, and have closure
 
-Group:= A group is a set $G$ and a mapping from the Cartesian product $G \times G$ into $G$ (a law of composition or a multiplication  law) which we denote by juxtaposition (which means we put it together to show multiplication
+Grou `:=` A group is a set $G$ and a mapping from the Cartesian product $G \times G$ into $G$ (a law of composition or a multiplication  law) which we denote by juxtaposition (which means we put it together to show multiplication
 
-Subgroup:= H is a subgroups of G iff H is a group with operation $*_G$ and H is a subset of G
+Subgrou `:=` H is a subgroups of G iff H is a group with operation $*_G$ and H is a subset of G
 
 All groups of even order contain at least one non-identity element which squares to the identity. e.g. $\mathbb{Z}_2 = \left\{ e,a \right\}$ 
 
@@ -110,7 +110,7 @@ So, $b' = b$ which is our contradiction
 :todo: 
 Are permutation groups, primative groups? that is to say most groups are usually perm groups, and all properties of groups are perm groups
 I can see what $S_{3}$ looks like, but what does the superset $Perm(X)$ look like?
-Symmetric group:= The set of all permutations of n elements is called the symmetric group. $Perm(X) \subset Sym(X)$
+Symmetric grou `:=` The set of all permutations of n elements is called the symmetric group. $Perm(X) \subset Sym(X)$
 $\left| S_{N} \right| =n!$
 $S_3$ can be thought of as some sort of action on the three points of a triangle, but this may not extend to $S_4$
 

@@ -1,7 +1,7 @@
 % array
 
 
-array:= A data structure containing a number of data values, of the same type.
+arra `:=` A data structure containing a number of data values, of the same type.
 
 # Initialization
 

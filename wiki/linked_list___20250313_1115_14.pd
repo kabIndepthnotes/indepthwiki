@@ -20,9 +20,9 @@ A linked list is where I store data in linear from.
 	4. No random access like hash maps
 
 # Types of linked list
-- singly linked list :- each node points to the next node and the last node points to `NULL`
-- doubly linked list :- each node points to the next node and previous node. Each node has 2 pointers.
-- circular linked link :- singly linked list but the last node points to the first node.
+- singly linked list `:-` each node points to the next node and the last node points to `NULL`
+- doubly linked list `:-` each node points to the next node and previous node. Each node has 2 pointers.
+- circular linked link `:-` singly linked list but the last node points to the first node.
 - circular doubly linked list :~ circular linked list and doulble linked list combined.
 
 # Time complexity

@@ -5,7 +5,7 @@ The Fisher_information is the sample size n times the log likelihood_function. A
 ## intuition
 It cannot be negative.
 ## rigour
-$I_n(\theta)$:= $n \cdot \mathbb{E}\left[ \frac{\partial }{\partial x}l(\theta;x)^2  \right]$
+$I_n(\theta) `:=` $n \cdot \mathbb{E}\left[ \frac{\partial }{\partial x}l(\theta;x)^2  \right]$
 
 If the samples are independent, then the Fisher_information can be re-written as 
 

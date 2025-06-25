@@ -51,8 +51,8 @@ printf("%d", *p); // undefined behaviour
 
 # difference between `q = p` and `*q = *p`
 
-- `*q = *p` := Copy the value that `p` points to into the object that `q` points to. The [indirection operator](operator___20240603_1153_38.pd)  is used here.
-- `q = p` := when both are pointers, `q = p` is setting `q` as an alias for `p`. What is stored in `p` (an address) is now stored in `q`.
+- `*q = *p` `:=` Copy the value that `p` points to into the object that `q` points to. The [indirection operator](operator___20240603_1153_38.pd)  is used here.
+- `q = p` `:=` when both are pointers, `q = p` is setting `q` as an alias for `p`. What is stored in `p` (an address) is now stored in `q`.
 -
 
 # pointers as arguments in a function

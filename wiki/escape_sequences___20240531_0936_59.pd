@@ -18,9 +18,9 @@ TODO%title escape_sequences
 # numeric escape sequences
 These are used when we want to go beyond the current escape sequences and represent any character.
 
-octal escape sequences:= at most three digits, e.g. `\33` or `\033`
+octal escape sequence `:=` at most three digits, e.g. `\33` or `\033`
 
-hexadecimal escape sequences:= cannot exceed an unsigned character e.g. `\x1b`
+hexadecimal escape sequence `:=` cannot exceed an unsigned character e.g. `\x1b`
 
 Note that the escape sequence only ends when it reaches the first non-hex/octal character.
 `"Z\xfcrich"` gives us `"Zurich"` but`"\xfcber"` could catch `"[\xcbe]r"` as `r` is the only non-hex character.

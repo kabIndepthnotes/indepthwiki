@@ -37,7 +37,7 @@ $det(kA) = k^{n}A$
 $det(A^{t}) = det(A)$
 
 # rigour
-    - determinant notation := det(A) or |A|
+    - determinant notation `:=` det(A) or |A|
 # examples
 tags :math:linear_algebra_1:linear_algebra_2:groups_and_symmetries:
 

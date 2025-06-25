@@ -8,11 +8,11 @@
 
 ## rigour
 
-Quotients:= Let $G$ be a group with $H \subset G$ a subgroup.
+Quotient `:=` Let $G$ be a group with $H \subset G$ a subgroup.
 
-left_quotient:= The quotient $G \diagup H = \{gH|\forall g\in G\}$ is the set of all left cosets. 
+left_quotien `:=` The quotient $G \diagup H = \{gH|\forall g\in G\}$ is the set of all left cosets. 
 
-right_quotient:= The quotient $H \setminus G = \{Hg|\forall g \in G\}$ is the set of all right cosets
+right_quotien `:=` The quotient $H \setminus G = \{Hg|\forall g \in G\}$ is the set of all right cosets
 
 ## exam clinic
 {{file:../figures/screenshot_20220113_121949.png}}

@@ -21,21 +21,21 @@ Intervals: for $a <b$
     - $[a,b]$ = $\left\{ x: a \le  x \le  b \right\}$ closed
     - Sets that are not open or closed are called semi-intervals
 
-$\varnothing$ := the empty set := the set with no elements
+$\varnothing$ `:=` the empty set `:=` the set with no elements
 
-$2^{\Omega}$ := The power set, a set of all subsets of $\Omega$
+$2^{\Omega}$ `:=` The power set, a set of all subsets of $\Omega$
 
-Singleton := a set with only one element
+Singleton `:=` a set with only one element
 
-Countably infinite set := Anything that has a bijection to $\mathbb{N}$.
+Countably infinite set `:=` Anything that has a bijection to $\mathbb{N}$.
 
-infimum := The greatest lowerbound
+infimum `:=` The greatest lowerbound
 
-supremum := The lowest upperbound
+supremum `:=` The lowest upperbound
 
 Completeness axiom: every set of real numbers that is bounded above has a supremum and every set bounded below has an infimum
 
-countable := If there is a one to one map between A and $\mathbb{N}$, it is countable, otherwise it is uncountable.
+countable `:=` If there is a one to one map between A and $\mathbb{N}$, it is countable, otherwise it is uncountable.
 
 ## resources
 

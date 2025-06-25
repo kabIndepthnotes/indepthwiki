@@ -2,15 +2,15 @@
 # introduction
 %%visits: 3
 # intuition
-D’Alembert’s Criterion := $\lim_{n \to \infty} |\frac{a_{n+1}}{a_n} |$ is less than 1 if $\sum^{n} a_n$ is convergent and is greater than 1 if $\sum^{n} a_n$ is divergent. It is inconclusive otherwise.
+D’Alembert’s Criterion `:=` $\lim_{n \to \infty} |\frac{a_{n+1}}{a_n} |$ is less than 1 if $\sum^{n} a_n$ is convergent and is greater than 1 if $\sum^{n} a_n$ is divergent. It is inconclusive otherwise.
 
 Convergence, every number in the sequence, eventually will stay within any given error window of the number they should become.
 # rigour
 A sequence ${a_n}_{n=1}^{\infty}$ converges to a limit $a \in \mathbb{R}$, if $\forall \epsilon > 0 \exists N \in \mathbb{N}: \forall n \ge N : \left| a_n - a\right| < \epsilon$
-monotone := non-increasing (all later terms are lower than or equal) or non-decreasing (all later terms are greater than or equal)
+monotone `:=` non-increasing (all later terms are lower than or equal) or non-decreasing (all later terms are greater than or equal)
 Cauchy_convergence 
 
-Bolzano-Weierstrass theorem := Every bounded sequence has a convergent subsequence := Let ${x_{n}}_{n=1}^{\infty} \subset [a,b];$ then ${x_{n}}_{n=1}^{\infty}$ has a limit point in $[a,b]$
+Bolzano-Weierstrass theorem `:=` Every bounded sequence has a convergent subsequence `:=` Let ${x_{n}}_{n=1}^{\infty} \subset [a,b];$ then ${x_{n}}_{n=1}^{\infty}$ has a limit point in $[a,b]$
 # examples
 tags :math:sequences_and_series:real_analysis:
 

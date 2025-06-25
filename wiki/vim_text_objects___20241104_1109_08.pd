@@ -13,19 +13,19 @@ https://github.com/chrisbra/matchit
 
 [a_z_text_objects](a_z_text_objects___20250327_1139_01.pd)
 
-WORD := a sequence of non-blank characters, seperated with whitespace. An empty line is considered a WORD.
+WORD `:=` a sequence of non-blank characters, seperated with whitespace. An empty line is considered a WORD.
 
 - aw, iw are trivial
 - aW, iW are a Word and inner Word
 - as, is :~ a sentence, inner sentence respectively
 - ap, ip :~ a paragraph text-object (a paragraph, inner paragraph)
-- a] := `a[` :~ a `[]` block
-- i] := `i[` :~ inner `[]` block
-- a( := a)
-- i) := i(
+- a] `:=` `a[` :~ a `[]` block
+- i] `:=` `i[` :~ inner `[]` block
+- a( `:=` a)
+- i) `:=` i(
 - < and > text objects :~ for code in `<>`
 - t :~ a text object for a tag block (a html tag)
-- } := B :~ a text object for code in {}
+- } `:=` B :~ a text object for code in {}
 - ", ', \` :~ text object for quoted strings
 
 

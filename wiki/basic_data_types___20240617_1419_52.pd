@@ -76,9 +76,9 @@ for shorts, prepend with `h`, e.g. `%hd`, `%hu`, `%ho`, `%hx`
 for longs, prepend with `l` as for shorts, and long longs, prepend with `ll`
 
 # what are the three floating point types?
-float:= single precision floating point
-double:= double precision floating point. Enough for most programs.
-long double:= Extended precision floating points. Rarely needed.
+floa `:=` single precision floating point
+doubl `:=` double precision floating point. Enough for most programs.
+long doubl `:=` Extended precision floating points. Rarely needed.
 
 In [c99](c99___20250312_1237_53.pd) we also have complex variants of float, double and long double.
 

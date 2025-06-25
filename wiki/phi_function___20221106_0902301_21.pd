@@ -6,7 +6,7 @@ Find a formula for $\phi(p^{a})$
 
 Explain why $\phi(mn) = \phi(m) \phi(n)$ if $gcd(m,n) = 1$ (if they are coprime) $m,n \in \mathbb{Z}$
 
-Euler_function:= Let m be a positive integer. We define $\phi (m) = |\{1 \le a \le m : gcd(a,m) = 1\}|$ which is how many integers are coprime to this number.
+Euler_functio `:=` Let m be a positive integer. We define $\phi (m) = |\{1 \le a \le m : gcd(a,m) = 1\}|$ which is how many integers are coprime to this number.
 
 $\phi(m) = |\mathbb{Z}_m^{x}|$, $\mathbb{Z}_m^{x}$ being the multiplicative group of units of $\mathbb{Z}_m$
 

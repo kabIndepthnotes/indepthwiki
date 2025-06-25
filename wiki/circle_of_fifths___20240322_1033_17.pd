@@ -13,7 +13,7 @@ FCGDAEB
 Order of flats (order of sharps in reverse):
 BEADGCF
 
-{{file:~/Documents/vimwiki/figures/screenshot_20240322_103635.png}}
+{{fil `:~` Documents/vimwiki/figures/screenshot_20240322_103635.png}}
 
 #  application
 Keys close to each other sound harmonious, chords far apart may seem more foreign.
@@ -48,8 +48,8 @@ c_  d_  e_  f_  g_  a_  b_
 
 
 #  Keys csound
-0 := c
-11 := b
+0 `:=` c
+11 `:=` b
 
 c, c#, d, d#, e, f, f#, g, g#, a, a#, b
 0, 1 , 2, 3 , 4, 5, 6 , 7, 8 , 9, 10, 11

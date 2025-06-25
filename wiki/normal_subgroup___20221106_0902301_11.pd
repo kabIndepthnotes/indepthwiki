@@ -7,7 +7,7 @@ normal_subgroups are where right coset and left cosets are the same.
 
 [[conjugation]] makes way for normal_subgroups, which make the left coset equal to the right coset
 
-normal_subgroup:= When $H \subset G$ is a normal_subgroup if it is a subgroup and $\forall h \in H, g \in G ghg^{-1} \in H$:= The set of all conjugate elements are in the subgroup
+normal_subgrou `:=` When $H \subset G$ is a normal_subgroup if it is a subgroup and $\forall h \in H, g \in G ghg^{-1} \in H `:=` The set of all conjugate elements are in the subgroup
 ## intuition
 
 If $G_2 \triangleleft G_1$ then $G_1 / G_2$ forms a group

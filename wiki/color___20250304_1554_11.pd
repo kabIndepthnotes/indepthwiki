@@ -1,8 +1,8 @@
 # color
 
 
-hsv, hsb := hue saturation and value (or brightness)
-cymk := cyan magenta yello and key, this is additive color
+hsv, hsb `:=` hue saturation and value (or brightness)
+cymk `:=` cyan magenta yello and key, this is additive color
 
 Hue can be thought of as where in the color wheel you are.
 Red is at $0^{\cdot}$ ... green is at $180^{\cdot}$ ... red again at $360^{\cdot}$.

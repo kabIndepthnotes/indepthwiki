@@ -5,9 +5,9 @@
 #  external variables 
 external variables have static storage duration and file scope.
 
-static storage duration := This is the same as if it was declared with the `static` keyword.
+static storage duration `:=` This is the same as if it was declared with the `static` keyword.
 
-file scope := It is visible from the point of declaration to the end of the file.
+file scope `:=` It is visible from the point of declaration to the end of the file.
 
 #  how do you declare a variable without defining it? 
 - By doing this, `extern int i;`.

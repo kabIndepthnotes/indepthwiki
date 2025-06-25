@@ -3,7 +3,7 @@
 <!-- visits: 4 -->
 
 #  dithering
-dithering:= Overlaying a repeating pattern of disconnected pixels of one color over an image.
+ditherin `:=` Overlaying a repeating pattern of disconnected pixels of one color over an image.
 
 Dithering is used for creating artificial colors, adding texture, or tapering clusters into each other.
 

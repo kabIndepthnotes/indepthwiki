@@ -2,7 +2,7 @@
 ## introduction
 %%visits: 5
 ## intuition
-The ring theoretic statement of chinese_remainder_theorem:= Let $m,n$ be co-prime $\psi :  \mathbb{Z}_{mn} \to \mathbb{Z}_m \times  \mathbb{Z}_n$ Given by $\psi([a]_{mn}) = ([a]_m,[a]_n)$ is a bijection (also a ring isomorphism)
+The ring theoretic statement of chinese_remainder_theore `:=` Let $m,n$ be co-prime $\psi :  \mathbb{Z}_{mn} \to \mathbb{Z}_m \times  \mathbb{Z}_n$ Given by $\psi([a]_{mn}) = ([a]_m,[a]_n)$ is a bijection (also a ring isomorphism)
 
 Inverse elements
 

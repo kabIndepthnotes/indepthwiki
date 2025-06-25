@@ -10,8 +10,8 @@ $\forall \epsilon > 0 \exists  N \in \mathbb{N} \forall  n \ge N :\left| a_{n} -
 
 now a limit as $x \to \infty$ is also similar, in the sense that instead of R we have a neighbourhood of $x_0$, f(x) must be in a punctured neighbourhood of $x_0$ but not necessarily at $f(x_0)$.
 
-limit at a point:=  $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $x_0$ such that if $x \in V$, then  $f(x) \in U$. 
-limit at infinity:=  $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $\infty$ such that if $x \in V$, then  $f(x) \in U$. 
+limit at a poin `:=` $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $x_0$ such that if $x \in V$, then  $f(x) \in U$. 
+limit at infinit `:=` $\forall$ neighbourhood $U$ of  $y_0$, $\exists$ a neighbourhood  $V$ of  $\infty$ such that if $x \in V$, then  $f(x) \in U$. 
 
 $$
 \definecolor{c1}{RGB}{255, 0, 0}
@@ -63,17 +63,17 @@ Order matters when dealing with double limits
 Intuition regarding cancelling "zero" terms
 When finding the limit $\lim_{x\rightarrow 2}[\frac{(2x+1)(x-2)}{x-2}]$ it makes the problem much easier when we cancel x-2 from the top and bottom. *BUT* this is not the same function. But what we are doing is we are saying $x \neq 2$ so we cancel the terms to find the limits. Then, as x gets very very very close to 2, we find the limit.
 ## rigour
-Limit of a function f(x):= L as $x \rightarrow x_0$
+Limit of a function f(x `:=` L as $x \rightarrow x_0$
 
 Let $x_0 \in \mathbb{R}$ and f be a function defined on a punctured neighbourhood of $x_0$ i.e. on $\left( x_0 - a, x_0 +a \right) \setminus \left\{ 0 \right\} = \left( x_0 - a, x_0 \right) \cup \left( x_0,x_0+a \right)$ for some $a >0$ 
 $\lim_{x\rightarrow x_0}[f(x)] = L$ 
 If and only if $|f(x) - L| < \epsilon $ for all $\epsilon > 0$ where $0<|x-x_0| < \delta$ for $\delta > 0$
-Continuous at a point:= If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
-Continuous [[function]]:= If every point on the function is continous
-Asymptotic limit := when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
+Continuous at a poin `:=` If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
+Continuous [[function] `:=` If every point on the function is continous
+Asymptotic limit `:=` when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
 limit at infinity :~ $\infty$ is a "singular point" on the real line, and its neighbourhood are sets of the form $\left( R, \infty \right)$; similarly, the neighbourhoods of $-\infty$ are sets of the form $\left( -\infty,-R\right)$
 
-Alternate definition for limit := For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
+Alternate definition for limit `:=` For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
 
 ## examples
 ## resouces
@@ -84,7 +84,7 @@ Alternate definition for limit := For any neighbourhood $U= \left( y_0 - \epsilo
 [Dividing each term by the highest degree in the denominator of a limit that goes to infinity](https://math.stackexchange.com/questions/1832699/dividing-each-term-by-the-highest-degree-in-the-denominator-of-a-limit-that-goes)
 
 
-Limit of a function f(x):= L as $x \rightarrow x_0$
+Limit of a function f(x `:=` L as $x \rightarrow x_0$
 
 Let $x_0 \in \mathbb{R}$ and f be a function defined on a punctured neighbourhood of $x_0$ i.e. on $\left( x_0 - a, x_0 +a \right) \setminus \left\{ 0 \right\} = \left( x_0 - a, x_0 \right) \cup \left( x_0,x_0+a \right)$ for some $a >0$ 
 $\lim_{x\rightarrow x_0}[f(x)] = L$ 
@@ -141,17 +141,17 @@ IF a_n has a subsequence \to  +- \infty \implies the corresponding subsequence w
 
 These are all intuitive
 
-Continuous at a point:= If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
+Continuous at a poin `:=` If $\lim_{x\rightarrow x_0}[f(x)]$ exists and is equal to $f(x_0)$
 
-Continuous [[function]]:= If every point on the function is continous
+Continuous [[function] `:=` If every point on the function is continous
 
 
-Asymptotic limit := when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
+Asymptotic limit `:=` when a value can become arbitrarily close to but never be a value, for instance $\lim_{x \to \infty}$ is an asymptotic limit
 
 limit at infinity :~ $\infty$ is a "singular point" on the real line, and its neighbourhood are sets of the form $\left( R, \infty \right)$; similarly, the neighbourhoods of $-\infty$ are sets of the form $\left( -\infty,-R\right)$
 
 
-Alternate definition for limit := For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
+Alternate definition for limit `:=` For any neighbourhood $U= \left( y_0 - \epsilon , y_0 +\epsilon \right)$ of $y_0$ there exists a neighbourhood $V = \left( x_0 - \delta, x_0 + \delta \right)$ of $x_0$ such that if $x \in V$, then $f\left( x \right) \in U$
 
 *Intuitions/notes*:
 

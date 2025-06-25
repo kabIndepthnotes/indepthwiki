@@ -3,7 +3,7 @@
 <!-- visits: 55 -->
 This is a rigourous definition of an algorithm using set theory.
 
-computational method := A quadruple, $\left( Q,I,\Omega, f \right)$ in which $Q$ is a set containing subsets $I$ and $\Omega$.
+computational method `:=` A quadruple, $\left( Q,I,\Omega, f \right)$ in which $Q$ is a set containing subsets $I$ and $\Omega$.
 And f is a [function](function_math___20240724_1123_23.pd) $Q \to Q$.
 $f$ should leave $\Omega$ pointwise fixed ($f(q) = q \forall q \in \Omega$)
 
@@ -40,7 +40,7 @@ $$
 \color{c4} \text{the computational rule.}<!--f-->
 \color{default}
 
-pointwise fixed:= $f(q)$ should equal $q$ for all $q \in \Omega$
+pointwise fixe `:=` $f(q)$ should equal $q$ for all $q \in \Omega$
 
 #  The set $I$
 Each $x \in I$ defines a computational sequence, $x_0,x_1,x_2,\ldots,$ with $x_0 = x$ and $f(x_k) = x_{k+1}$ for $k \ge 0$

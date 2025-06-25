@@ -15,11 +15,11 @@ J - save cluster as brush (key, magic brush grab in dawn scripts)
 G - show gridlines (hide or show the grid in magnify mode)
 
 # tablet
-	- 1:= b := brush
-	- 2:= e := draw
-	- 3:= i := unit pixel
-	- 4:= " ":= increase brush size
-	- 5:= shift+ctrl+z:= eyedropper
-	- 6:= := toggle grid
-	- 7:= + := undo
-	- 8:= - := fill
+	- `:=` b `:=` brush
+	- `:=` e `:=` draw
+	- `:=` i `:=` unit pixel
+	- `:=` " `:=` increase brush size
+	- `:=` shift+ctrl+ `:=` eyedropper
+	- `:=`  `:=` toggle grid
+	- `:=` + `:=` undo
+	- `:=` - `:=` fill

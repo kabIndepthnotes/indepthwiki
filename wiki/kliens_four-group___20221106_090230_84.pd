@@ -2,7 +2,7 @@
 ## introduction
 %%visits: 2
 There are specific properties of a klien 4 group.
-kliens_four-group:= $V_4$:= A group with the rules
+kliens_four-grou `:=` $V_4 `:=` A group with the rules
 |     | *e* | *a* | *b* | *c* |
 |-----|-----|-----|-----|-----|
 | *e* | e   | a   | b   | c   |

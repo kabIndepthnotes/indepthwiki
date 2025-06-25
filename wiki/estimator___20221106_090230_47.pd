@@ -12,11 +12,11 @@ If mu is known for $\hat{\sigma ^2}$ you divide by n
 
 To discern between 2 unbiased estimator, the lower variance of an estimator is better.
 
-Efficiency:= Lower variance
+Efficienc `:=` Lower variance
 
-Relative Efficiency:= $\frac{var(X)}{var(Y)}$
+Relative Efficienc `:=` $\frac{var(X)}{var(Y)}$
 
-Mean_square_error:= $\mathbb{E}[(\hat{\theta} \theta)^2] = Var(\hat{\theta}) + Bias(\hat{theta}) ^2$
+Mean_square_erro `:=` $\mathbb{E}[(\hat{\theta} \theta)^2] = Var(\hat{\theta}) + Bias(\hat{theta}) ^2$
 
 An estimator with smalle MSE is better
 ## rigour==
@@ -33,11 +33,11 @@ $\mathbb{P}(\left| \hat{\mu} - \mu \right| > \epsilon) = \mathbb{P}(|\frac{\sigm
 
 Which becomes very small.
 
-convergence_in_probability:= The sequence of random variables $X_N$ converges in probability to a random variable X (or a constant if $\forall  \epsilon > 0, \mathbb{P}(|X_N - X| > \epsilon) \to 0$ as $n \to \infty$. E.g. $\hat{\mu_n} \to  \mu$ in probability
+convergence_in_probabilit `:=` The sequence of random variables $X_N$ converges in probability to a random variable X (or a constant if $\forall  \epsilon > 0, \mathbb{P}(|X_N - X| > \epsilon) \to 0$ as $n \to \infty$. E.g. $\hat{\mu_n} \to  \mu$ in probability
 
 {{file:../figures/screenshot_20211026_092149.png}}
 
-consistent:= If a sequence of estimates $\hat{\theta_n}$ of some parameter $\theta$ converges to the parameter $\theta$ in probability, we say that $\hat{\theta_n}$ is consistent. $\mathbb{P}(|\hat{\theta_n } - \theta| > \epsilon) \to 0$ as $n\to \infty$ for any $\epsilon > 0$
+consisten `:=` If a sequence of estimates $\hat{\theta_n}$ of some parameter $\theta$ converges to the parameter $\theta$ in probability, we say that $\hat{\theta_n}$ is consistent. $\mathbb{P}(|\hat{\theta_n } - \theta| > \epsilon) \to 0$ as $n\to \infty$ for any $\epsilon > 0$
 
 Example of a :todo:
 

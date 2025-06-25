@@ -2,12 +2,12 @@
 
 
 # color ramp
-ramp := a series of colors that transition, generally in brightness or luminousity
+ramp `:=` a series of colors that transition, generally in brightness or luminousity
 
-straight ramp := a ramp where only lighntess changes, like a monochromatic paletter with no hue shifting. Rarely used
+straight ramp `:=` a ramp where only lighntess changes, like a monochromatic paletter with no hue shifting. Rarely used
 
 # luminosity ramp
-luminosity ramp := where brightness is replaced by percieved brightness.
+luminosity ramp `:=` where brightness is replaced by percieved brightness.
 
 see [luminosity_of_color](luminosity_of_color___20250304_1559_49.pd)
 

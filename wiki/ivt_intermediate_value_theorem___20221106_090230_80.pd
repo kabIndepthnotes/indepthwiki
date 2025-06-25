@@ -15,7 +15,7 @@ As the interval gets smaller, then the limit must equal d.
 
 Corollary of intermediate_value_theorem: If $f\in C[a,b]$ then $\ran f = [m,M]$ where $m = \inf f$ and $M = \sup f$ in the interval.
 ## rigour
-Intermediate value theorem:= If $f \in C[a,b]$ then $f$ attains every value between $f(a)$ and $f(b)$
+Intermediate value theore `:=` If $f \in C[a,b]$ then $f$ attains every value between $f(a)$ and $f(b)$
 ## exam clinic
 ## examples and non-examples
 ## resources

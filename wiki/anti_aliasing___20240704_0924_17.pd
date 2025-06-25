@@ -6,7 +6,7 @@
 Adding pixels of an intermediaty color to the intersections of clusters.
 It blunts the edges.
 
-{{file:~/Documents/vimwiki/figures/screenshot_20240704_092612.png}}
+{{fil `:~` Documents/vimwiki/figures/screenshot_20240704_092612.png}}
 
 note, the anti-aliasing pixel does not form a [[cluster___20240619_095817|cluster]] in of itself, rather it blends two clusters boudaries.
 
@@ -15,7 +15,7 @@ It is not good to simply trace the outline of a cluster, this is banding, and wi
 Using a neutraliser
 
 #  how to anti-alias a 1-2 line?
-{{file:~/Documents/vimwiki/figures/screenshot_20240708_115734.png}}
+{{fil `:~` Documents/vimwiki/figures/screenshot_20240708_115734.png}}
 
 #  The longer the step are, then what?
 The longer the steps, the longer the AA segments should be.

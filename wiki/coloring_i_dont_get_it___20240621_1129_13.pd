@@ -59,14 +59,14 @@ Complementry colors are two colors 180 degrees away from each other on the color
 Complementry colors are good colors to start for neutralsing a color.
 
 #  Triad
-triad:= a set of 3 colors equally spaced apart in the color wheel.
+tria `:=` a set of 3 colors equally spaced apart in the color wheel.
 Pick a color, go 85 points up or down in hue (remember that hue is a circle so you may have to wrap around)
 
  = Secondary colors.
 These are two primary colors that are combined, usually via paint.
 
 #  Intermediate colors
-Intermediate colors:= are like secondary colors but instead of adding equal parts primary, you add 2 parts of one primary and 1 part of another.
+Intermediate color `:=` are like secondary colors but instead of adding equal parts primary, you add 2 parts of one primary and 1 part of another.
 For example a reddish orange.
 
 #  Warm colors

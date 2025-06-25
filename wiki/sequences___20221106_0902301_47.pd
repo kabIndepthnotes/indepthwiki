@@ -1,7 +1,7 @@
 # sequences
 ## introduction
 %%visits: 3
-sequence:= A sequence is a list of numbers, that are ordered. They are typically infinite. :todo:can they be finite, or is that a tuple?
+sequenc `:=` A sequence is a list of numbers, that are ordered. They are typically infinite. :todo:can they be finite, or is that a tuple?
 ## intuition
 ## rigour
 ## exam clinic

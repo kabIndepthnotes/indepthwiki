@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=Zpdo6We-_e0
 	:p
 	:i
 	#insert
-	:-1p
+ `:-` p
 	# print previous line
 	:4c
 	#changes line 4

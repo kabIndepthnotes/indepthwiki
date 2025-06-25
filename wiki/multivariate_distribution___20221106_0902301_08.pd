@@ -2,11 +2,11 @@
 note that $\left( \Sigma^{\frac{1}{2}} \right)^{T}\Sigma^{\frac{1}{2}} = \Sigma$
 %%visits: 2
 
-Covariance matrix:= $\begin{pmatrix} \sigma_{11} & \sigma_{21} & \ldots & \sigma_{1n} \\ \sigma_{21} & \ldots & & \sigma_{2n} \\ \vdots  \\ \end{pmatrix}$ where $\sigma_{ij} = Cov(X_i,X_j)$
+Covariance matri `:=` $\begin{pmatrix} \sigma_{11} & \sigma_{21} & \ldots & \sigma_{1n} \\ \sigma_{21} & \ldots & & \sigma_{2n} \\ \vdots  \\ \end{pmatrix}$ where $\sigma_{ij} = Cov(X_i,X_j)$
 Properties of the Covariance matrix
 Symmetric: $\sigma_{ij} = \sigma_{ji}$
 Positive definite
-Multivariate normal:= mean vector and a covariance matrix parameter.
+Multivariate norma `:=` mean vector and a covariance matrix parameter.
 Covariance is linear.
 Multivariate vectors.
 ![](./screenshot_20211012_150830.png)

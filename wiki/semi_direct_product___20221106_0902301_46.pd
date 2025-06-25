@@ -10,7 +10,7 @@ There are different notation to the semi_direct_product. $\ltimes = \trianglerig
 
 And $J = G \ltimes H$ is called an extension of $H$ by $G$
 ## rigour
-The semi_direct_product:= The set $H\times G$ with the group operation. $(g_1,h_1)(g_2,h_2) = (g_1g_2,g_1\phi_{g_1}(h_2)$
+The semi_direct_produc `:=` The set $H\times G$ with the group operation. $(g_1,h_1)(g_2,h_2) = (g_1g_2,g_1\phi_{g_1}(h_2)$
 ## exam clinic
 ## examples and non-examples
 ## resources

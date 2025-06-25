@@ -7,8 +7,8 @@
 
 This is the most important pitfall to avoid in pixelart
 
-staircase banding:= often seen in [[anti_aliasing___20240704_092417|anti_aliasing]] attempts, this is when
-skip one banding:= TODO
+staircase bandin `:=` often seen in [[anti_aliasing___20240704_092417|anti_aliasing]] attempts, this is when
+skip one bandin `:=` TODO
 
 When the art is viewed from afar the effects of banding become much more apparent. Also, this means that lower resolution art doesn't have to worry about banding as much.
 

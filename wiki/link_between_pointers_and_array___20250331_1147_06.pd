@@ -1,8 +1,8 @@
 # link_between_pointers_and_array
 "The name of an array can be used as a pointer to the first element in the array"
 
-- `a+i` := `&a[i]`
-- `*(a+i)` := `a[i]`
+- `a+i` `:=` `&a[i]`
+- `*(a+i)` `:=` `a[i]`
 
 # pointer arithmetic
 - there are 3 and only 3 pointer arithmetics
@@ -66,10 +66,10 @@ for (p = &a[0]; p < &a[N]; p++) {
 - it is valid to do `&a[N]` even though it cannot be dereferenced. The address exists but the value doesn't
 
 # `*p++` or combining * and ++ [operators](operator___20240603_1153_38.pd)
-- `*p++` := `*(p++)` := Value of `*p` before increment; increment `p` later
-- `(*p)++`           := Value of `*p` before increment; increment `*p` later
-- `*++p` := `*(++p)` := Increment `p` first; Value of `*p` after increment
-- `++*p` := `++(*p)` := Increment `*p` first; Value of `*p` after increment
+- `*p++` `:=` `*(p++)` `:=` Value of `*p` before increment; increment `p` later
+- `(*p)++` `:=` Value of `*p` before increment; increment `*p` later
+- `*++p` `:=` `*(++p)` `:=` Increment `p` first; Value of `*p` after increment
+- `++*p` `:=` `++(*p)` `:=` Increment `*p` first; Value of `*p` after increment
 
 Use cases for this is creating a stack function, see [c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
 

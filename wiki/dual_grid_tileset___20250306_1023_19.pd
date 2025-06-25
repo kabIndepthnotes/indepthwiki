@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=jEWFSv3ivTg
 - They are all quads, but become hexagons etc to help.
 
 problem, transitions fall on the edge of the game, and preparing a half cliff is awkward.
-- poor solution:- make the cliffs too big or too small. You need to factor in neighbours in this grid.
+- poor solutio `:-` make the cliffs too big or too small. You need to factor in neighbours in this grid.
 - graph duality is the concept dual grid is based on. Every mathematical [graph](graph___20250311_0922_37.pd) has a symmetical graph.
 
 - In the hexagonal dual grid, there are triangle grids and hexagonal grids. The hexagons are at the vertices of a triangle(s), and the vertices of the hexagon are at the edge (or face) of the triangles. The operation is the same for a dual grid.

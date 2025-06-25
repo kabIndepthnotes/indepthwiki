@@ -17,7 +17,7 @@ $SS_E = \sum _{j=1}^{t} \left( Y_{jk} - \frac{Y_{j.}}{n_j} \right)^2 S^2 $
 
 $SS_T = \sum _{j=1}^{t} \sum _{k=1}^{n_j} Y_{jk}^2 - \frac{Y_{..}^2}{N}$
 
-$Y_{.} := \sum _{i=1}^{n} Y_{i}$, so means sum over the index.
+$Y_{.} `:=` \sum _{i=1}^{n} Y_{i}$, so means sum over the index.
 
 This anova table can be different for different tests.
 

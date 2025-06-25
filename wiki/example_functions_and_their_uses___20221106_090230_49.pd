@@ -1,4 +1,4 @@
-travelling_bomb_function:= Travelling bomb function, every power of 10, the value of the function is x, and 0 otherwise.
+travelling_bomb_functio `:=` Travelling bomb function, every power of 10, the value of the function is x, and 0 otherwise.
 
 %%visits: 3
 travelling_bomb_function used to prove continuity and such.

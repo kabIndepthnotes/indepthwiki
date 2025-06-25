@@ -5,7 +5,7 @@ A function that maps a coordinate to a Real number, if the function has the 3 st
 Thinking of it as a "distance function" helps the definition become more natural. 
 ## intuition
 ## rigour
-metric function := let $X$ be a non-empty set, the function $d: X \times X \to \mathbb{R}$ is called metric if: 
+metric function `:=` let $X$ be a non-empty set, the function $d: X \times X \to \mathbb{R}$ is called metric if: 
     $d(x,y) > 0$ if $x \neq y$ and $d(x,x) = 0$  non-negative
     $d(x,y) = d(y,x)$ symmetric
     $d(x,z) \le d(x,y) + d(x,z)$ Triangle inequality

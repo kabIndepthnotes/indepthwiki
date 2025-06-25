@@ -2,7 +2,7 @@
 
 %%visits: 5
 ## introduction
-Lagrange's Theorem for groups:= $\left| G \right| = \left| H \right| i(H,G)$
+Lagrange's Theorem for group `:=` $\left| G \right| = \left| H \right| i(H,G)$
 
 Corollaries of Lagrange's Theorem.
 
@@ -14,7 +14,7 @@ If $\left| G \right|$ is prime, then $G$ is a cyclic group.
 ## intuition
 proof of Lagranges_theorem theorem uses cosets, mainly that they are disjoint and collectively exhausting, so the order of the group (the number of elements in it), are the number of cosets times the number of elements in any given subgroup.
 ## rigour
-index of set H in group G:= i(H,G):= The number of cosets of $G$ with respect to H. 
+index of set H in group `:=` i(H,G `:=` The number of cosets of $G$ with respect to H. 
 ## exam clinic
 ## resources
 tags :math:introduction_to_abstract_algebra:introduction_to_number_theory:

@@ -1,7 +1,7 @@
 # backlinks_lua
 
-	current_filename := current file we are compiling
-	backlinks := empty
+	current_filename `:=` current file we are compiling
+	backlinks `:=` empty
 	read all files in directory
 		if current_filename is found in the text of a file
 			then add to back_links

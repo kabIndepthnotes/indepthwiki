@@ -4,7 +4,7 @@
 ## intuition
 The property sequilinearity ( a generalisation of bilinearity) is implied. This is $\left<a \hat{y}+ b \hat{z} , \hat{x} \right> = a^{*}\left<\hat{y},\hat{x} \right> + b^{*}\left<\hat{z},yhat \right>$
 ## rigour
-inner_product:= A map is an inner_product, Where $V \in \mathbb{C}^{n}$ is a finite vector. $V\times V \to \mathbb{C}$ given by, $\left( \hat{x},\hat{y} \right)\to \left< \hat{x,\hat{y}} \right>$ is an inner product if.
+inner_produc `:=` A map is an inner_product, Where $V \in \mathbb{C}^{n}$ is a finite vector. $V\times V \to \mathbb{C}$ given by, $\left( \hat{x},\hat{y} \right)\to \left< \hat{x,\hat{y}} \right>$ is an inner product if.
     - $\left<\hat{x},\hat{y} \right>^{*} = \left< \hat{y},\hat{x} \right>$
     - $\left<\hat{x},a\hat{y} + b \hat{z}\right>^{*} = a\left<\hat{x},\hat{y} \right> + b\left<\hat{x},\hat{y} \right>$    
     - $\left< \hat{x},\hat{x} \right> \ge 0$ and $\left< \hat{x},\hat{x}\right> = 0 \implies \hat{x} = \hat{0}$

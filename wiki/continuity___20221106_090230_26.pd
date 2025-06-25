@@ -3,7 +3,7 @@
 %%visits: 4
 If you find a range for the outputs, I can find a range for the inputs, that the output will always be in.
 
-$f \in C[a,b]$ := f is continuous and $f(a) = \lim_{x \to a_+} f(x)$ and $f(b) = \lim_{x \to b_{_}}f(x)$
+$f \in C[a,b]$ `:=` f is continuous and $f(a) = \lim_{x \to a_+} f(x)$ and $f(b) = \lim_{x \to b_{_}}f(x)$
 
 ## intuition
 "nearby points in the domain map to nearby points in the range"

@@ -6,7 +6,7 @@
 - the preprocessor is a program itself.
 - can create confusing code
 
-preprocessing directives := commands that the preprocessor follows, usually beginning with `#`
+preprocessing directives `:=` commands that the preprocessor follows, usually beginning with `#`
 
 #  `#define`
 This defines a `macro`,
@@ -24,7 +24,7 @@ When the preprocessor is run, the processed code might still have bugs in it, th
 #  directives
 
 ##  macro definitions
-`#define`, and `#undef` := removing a macro definition
+`#define`, and `#undef` `:=` removing a macro definition
 
 ##  file inclusions
 the `#include directive`

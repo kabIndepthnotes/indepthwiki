@@ -41,9 +41,9 @@ You can reset the beat counter with
 This resets the beat counter so that you can repeat a section without changing the start times p2
 
 #  carry, ramp and +
-. := copy the p-field of the one above
-+ := p2 set to p2 + p3 of the above
-< := Linearly interpolate between points above and below
+. `:=` copy the p-field of the one above
++ `:=` p2 set to p2 + p3 of the above
+< `:=` Linearly interpolate between points above and below
 
 #  global variables
 gi, gk, and ga rate variables

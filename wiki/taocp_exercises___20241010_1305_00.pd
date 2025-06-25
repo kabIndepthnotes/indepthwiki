@@ -11,9 +11,9 @@ see [taocp_note_on_exercises](taocp_note_on_exercises___20241010_1254_06.pd)
 Doing questions helps test knowledge and check if there are any gaps in understanding.
 Math is not a spectator sport.
 
-3. $13^{3} : =13 \times 13 \times 13 := (13 \times 13) \times 13$
+3. $13^{3} : =13 \times 13 \times 13 `:=` (13 \times 13) \times 13$
 By definition, multiplication is related to addition in the following way.
-$x \times n := \sum _{i=1}^{n} x$.
+$x \times n `:=` \sum _{i=1}^{n} x$.
 so $13 \times 13 = \sum _{i=1}^{13} 13 = 169$.
 We do the same step.
 $169 \times 13 = \sum _{i=1}^{13} 169 = 2197$

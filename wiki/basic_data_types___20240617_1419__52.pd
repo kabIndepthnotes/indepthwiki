@@ -1,7 +1,3 @@
-TODO%title basic_data_types
-%date 2024-06-17 14:19
-%%visits: 15
-
 # basic_data_types
 Fundamentally c only really accepts integers (signed and unsigned) as well as floats.
 
@@ -9,8 +5,8 @@ Fundamentally c only really accepts integers (signed and unsigned) as well as fl
 - floats are much larger and more precise, but at a cost of being slower.
 
 # short and longs and their use case
-long:~ more space to store an integer
-short:~ less space to save memory
+long `:~` more space to store an integer
+short `:~` less space to save memory
 
 # all non-trivial combinations of basic data types, e.g. shorts, ints
 Here are all the non-trivial combinations
@@ -73,9 +69,9 @@ for shorts, prepend with `h`, e.g. `%hd`, `%hu`, `%ho`, `%hx`
 for longs, prepend with `l` as for shorts, and long longs, prepend with `ll`
 
 # what are the three floating point types?
-float:= single precision floating point
-double:= double precision floating point. Enough for most programs.
-long double:= Extended precision floating points. Rarely needed.
+floa `:=` single precision floating point
+doubl `:=` double precision floating point. Enough for most programs.
+long doubl `:=` Extended precision floating points. Rarely needed.
 
 In [c99](c99___20250312_1237_53.pd) we also have complex variants of float, double and long double.
 
@@ -99,3 +95,7 @@ If you are using char to store a 256 bit integer, you may want to specify if it 
 
 [c](c___20250304_1142_20.pd)
 
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related

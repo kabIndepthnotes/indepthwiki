@@ -6,20 +6,20 @@ These are classifications of color based on saturation.
 The effect of hue saturation and value are much different in certain ranges. e.g. hue doesn't matter at high or low brightness. Hue also doesn't matter as much at low saturation.
 
 (Most saturated)
-Intense := Very strong colors, hue plays a stronger role than value
+Intense `:=` Very strong colors, hue plays a stronger role than value
 
-Core := These are quite balanced, not the largest category of colors. Bright and vibrant but not too strong
+Core `:=` These are quite balanced, not the largest category of colors. Bright and vibrant but not too strong
 
-Pastel := Hue is clear in this range. Hint of hue
+Pastel `:=` Hue is clear in this range. Hint of hue
 
-Desaturated := Grey
+Desaturated `:=` Grey
 
 Black
 
 For any given hue, there are 4 different value categories and 4 different types of saturation.
 
-V1, V2, V3, V4 := Dark, Mid-Dark,  Mid-Light, and Light respectively
-S1, S2, S3, S4 := Intense, Core, Pastel and Tint respectively
+V1, V2, V3, V4 `:=` Dark, Mid-Dark,  Mid-Light, and Light respectively
+S1, S2, S3, S4 `:=` Intense, Core, Pastel and Tint respectively
 
 The divisions are closer in warmer colors and further away in colder colours.
 

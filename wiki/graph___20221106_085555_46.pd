@@ -7,7 +7,7 @@ walk:~ A way to traverse between one point and another.
 trail:~ Think of a normal trail down a park. In a trail, you don't mind going in a loop around a point, the main point is that you don't want to walk the same edge again and again.
 path:~ Think of a path to get from point $a$ to $b$. Now loops of are pointless. I want to get from point $a$ to $b$ so why do I want to go around in circles? This is the idea behind.
 ## rigour
-length of the walk:= the number of edges in the walk.
+length of the wal `:=` the number of edges in the walk.
 %% ==exam clinic
 %% ==examples and non-examples
 %% ==related

@@ -8,7 +8,7 @@ A series of probability_density_functions eventually becomes a normal probabilit
 Let $X_1,X_2,\ldots$ be independent and identically distributed random_variables with $\mathbb{E}(x_i)=\mu$ and $var(X_i) = \sigma^2 < \infty$ 
 
 $$
-Z_n := \frac{\sum _{k=1}^{n} X_k - n\mu}{\sigma \sqrt{n}} = \frac{\overline{X} - n \mu}{\frac{\sigma}{\sqrt{n} }}
+Z_n `:=` \frac{\sum _{k=1}^{n} X_k - n\mu}{\sigma \sqrt{n}} = \frac{\overline{X} - n \mu}{\frac{\sigma}{\sqrt{n} }}
 $$
 ## exam clinic
 ## examples and non-examples

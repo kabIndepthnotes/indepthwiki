@@ -4,5 +4,5 @@
 
 #  ncr
 aka binomial distribution.
-$nCr := \frac{n!}{r!(n-r)!}$
+$nCr `:=` \frac{n!}{r!(n-r)!}$
 

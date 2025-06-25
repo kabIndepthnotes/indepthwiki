@@ -36,7 +36,7 @@ $f(m,n,p,3) = (n,p,p,1)$ :~ replace $n$ with the remainder $r$ (or in this case 
 
 # Worked example using rigour
 1. find $gcd(52,21)$ using the rigourous definition of the euclidean algorithm.
-$m := 52$ and $n := 21$.
+$m `:=` 52$ and $n `:=` 21$.
 $f((52,21)) = (52,21,0,1)$
 $f((52,21,0,1)) = (52, 21, 10, 2)$
 $f((52,21,10,2)) = (52, 21, 10, 3)$

@@ -10,7 +10,7 @@ set_of_measure_zero is a set.
 Much like in differentiation, there is an idea of infinitesimals. The above picture can be thought of as approximations. Say a youtube video in 120p, will have blur. But then a youtube video at 1080p will have more refined pixels. Imagine the pixel resolution can get better and better, if it can tend to infinity, then you have infinitesimal pixels and the set is of measure zero.
 
 ## rigour
-set_of_measure_zero:= if for any $\epsilon > 0$ one can cover the set $E$ by intervals $(a_j,b_j), j=1,2,3,\ldots$ such that 
+set_of_measure_zer `:=` if for any $\epsilon > 0$ one can cover the set $E$ by intervals $(a_j,b_j), j=1,2,3,\ldots$ such that 
 $$
 \sum _{k=1}^{\infty} (b_j-a_j) < e
 $$ 

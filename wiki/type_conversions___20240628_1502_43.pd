@@ -16,7 +16,7 @@ This is for most binary operators.
 narrower:~ a variable that takes less bytes to store.
 The narrower variable often gets promoted to a "wider" variable, to match the size of the other operand.
 
-e.g. Integral promotions := a character or short integer gets converted to type int.
+e.g. Integral promotions `:=` a character or short integer gets converted to type int.
 [c89](c89___20250312_1239_51.pd)
 
 # Implicit conversions in [c99](c99___20250312_1237_53.pd)
@@ -31,7 +31,7 @@ e.g. Integral promotions := a character or short integer gets converted to type 
 
 Ignoring extended int and enumerated types.
 #  integer and integral promotions
-Integer promotions:= anything less than int gets converted to int, or failing that unsigned int.
+Integer promotion `:=` anything less than int gets converted to int, or failing that unsigned int.
 
 See page 146 in c programming a modern approach if you want the rule for usual arithmetic conversions
 

@@ -2,7 +2,7 @@
 ## introduction
 %%visits: 2
 ## intuition
-extreme_value_theorem:= Maximum/Minimum theorem:= If $f \in C[a,b]$ then $f$ attains its maximum and minimum
+extreme_value_theore `:=` Maximum/Minimum theore `:=` If $f \in C[a,b]$ then $f$ attains its maximum and minimum
 
 Proof. Denote $M = sup(f)$.
 
