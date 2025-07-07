@@ -5,6 +5,7 @@
 #  errors
 
 #  off by one error
-off by one error :~ using `i <= n` instead of `i < n` or vice versa
+- off by one error :~ using `i <= n` instead of `i < n` or vice versa
+- another case is when you initialise arrays and then try to index the $n$th value or forget that the string literal is like having an $n+1$ array.
 [c](c___20250304_1142_20.pd)
 

@@ -1,7 +1,8 @@
 # continuous_integration_testing
 
-
 <!-- visits: 5 -->
+
+- On every commit or at points in a day, run some tests to ensure the code is in a workable state.
 
 # continuous_integration_testing
 [c](c___20250304_1142_20.pd)

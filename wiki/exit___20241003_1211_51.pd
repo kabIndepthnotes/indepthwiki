@@ -7,5 +7,10 @@
 # The exit function
 Whenever the exit function is called, the whole program terminates.
 This is like returning in the main function.
+
+~~~{.c .numberLines}
+exit;
+~~~
+
 [c](c___20250304_1142_20.pd)
 

@@ -6,7 +6,15 @@
 - [string_literals](string_literals___20240923_1200_28.pd)
 - [pointer](pointer___20240830_1618_20.pd)
 - [sequence_point](sequence_point___20250217_1646_54.pd)
-- [preprocessor](preprocessor___20241010_1619_29.pd)
+- [compiling_and_linking](compiling_and_linking___20240522_0957_35.pd)
+- [basic_data_types](basic_data_types___20240617_1419_52.pd)
+- [external_variable](external_variable___20241024_1412_57.pd)
+- [escape_sequences](escape_sequences___20240531_0936_59.pd)
+- [jump_statements](jump_statements___20240610_1010_43.pd)
+- [effective_use_of_c](effective_use_of_c___20250321_0952_11.pd)
+- [linked_list](linked_list___20250313_1115_14.pd)
+- [link_between_pointers_and_array](link_between_pointers_and_array___20250331_1147_06.pd)
+
 
 recommended by https://www.reddit.com/r/C_Programming/comments/10zyicb/where_and_how_to_learn_c/
 

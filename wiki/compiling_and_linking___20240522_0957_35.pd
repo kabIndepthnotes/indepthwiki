@@ -1,13 +1,10 @@
 # compiling and linking
 
-
 <!-- visits: 13 -->
 
 # preprocessor
 In C, the preprocessor is like an editor, it processes commands beginning with `#` and modifies the source code.
 see [preprocessor](preprocessor___20241010_1619_29.pd) for details.
-
-
 
 # compiler
 After preprocessing, the compiler translates the code to object code.
@@ -18,4 +15,3 @@ The combines the object code from the compiler to additional code such as librar
 
 # tags
 [c](c___20250304_1142_20.pd)
-

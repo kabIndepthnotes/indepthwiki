@@ -16,7 +16,37 @@ printf("When you come to a fork in the road, take it "
 ~~~
 
 # How strings are stored
-strings are an [array](array___20240710_1404_29.pd) of [basic_data_types](basic_data_types___20240617_1419_52.pd).
+strings are an [array](array___20240710_1404_29.pd) of [basic_data_types](basic_data_types___20240617_1419_52.pd), characters, where each character is a byte.
+- the c compiler puts a null character at the end of the array, to mark the end of the array.
+
+null character `:=` a byte with characters all zero. $00000000$.
+
+~~~{.c .numberLines}
+char *p;
+p = "abc"; // p stores address of 'a'
+
+char ch;
+ch = "abc"[1]; // stores 'b'
+
+// use case
+char digit_to_hex_char(int digit)
+{
+	return "0123456789ABCDEF"[digit];
+}
+~~~
+
+# warnings
+
+~~~{.c .numberLines}
+printf("\n"); // legal
+printf('\n'); // wrong!
+
+char *p
+p[0] = 'a'; // wrong, p is not initialised
+~~~
+
+# what is the difference between a string literal and an array of characters?
+
 
 [c](c___20250304_1142_20.pd)
 

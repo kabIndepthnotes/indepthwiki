@@ -1,13 +1,12 @@
 # basic_data_types
 
-
 <!-- visits: 15 -->
 
 # basic_data_types
 Fundamentally c only really accepts integers (signed and unsigned) as well as floats.
 
-- ints are typically as $< 2,147,483,647$ but some systems may have $< 32,767$
-- floats are much larger and more precise, but at a cost of being slower.
+- ints are typically as $< 2,147,483,647$, some systems have $< 32,767$
+- floats are much larger and more precise, but slower.
 
 # short and longs and their use case
 long:~ more space to store an integer
@@ -27,13 +26,11 @@ long int
 unsigned long int
 ~~~
 
-
 note, combinations like `long signed int` is the same as `long int`
 
-You may omit the int at the end as it is legal but unnecessary.
+You may omit the int at the end as it is not mandatory.
 
-By the spec, we need `short <= int <= long` but that means we can have
-`short = int = long`
+By the spec, we need `short <= int <= long` but that means we can have `short = int = long`
 
 We can check the `<limits.h>` to determine the ranges on your machine.
 
@@ -68,9 +65,11 @@ Octals must begin with a `0` (this are base 8 numbers).
 Hexadecimals must begin with a `0x`
 
 # how do I read and write integers?
-#= for unsigned integers =
+
+## for unsigned integers
 instead of `%d` use `%u` for base 10, `%o` for octal, `%x` for hexadecimal.
-#= for short integers, and long integers in decimal octal or hex =
+
+## for short integers, and long integers in decimal octal or hex
 for shorts, prepend with `h`, e.g. `%hd`, `%hu`, `%ho`, `%hx`
 
 for longs, prepend with `l` as for shorts, and long longs, prepend with `ll`
@@ -98,7 +97,6 @@ if ('a' <= ch && ch <= 'z'){
 
 for (ch = 'A'; ch <= 'Z'; ch++) //iterate from A to Z
 ~~~
-
 
 If you are using char to store a 256 bit integer, you may want to specify if it is unsigned or signed.
 
