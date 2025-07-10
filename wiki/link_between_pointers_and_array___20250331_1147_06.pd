@@ -83,6 +83,28 @@ for (p = a; p < a; p++)
 ~~~
 
 # comparing pointers
+- array names are pointers to the first element.
+
+~~~{.c .numberLines}
+for (p = a; p < a + N; p++) {
+	sum += *p;
+}
+~~~
+
+# errors
+
+~~~{.c .numberLines}
+int a[20];
+
+/* ... */
+
+while (*a != 0)
+	a++; /* wrong as you are trying to make the array point somewhere else*/
+
+p = a;
+while (*p != 0)
+	p++; /* correct */
+~~~
 
 
 # tags

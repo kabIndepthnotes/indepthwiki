@@ -1,0 +1,16 @@
+# strcpy
+- what you intuitively do when you want to say
+
+~~~{.c .numberLines}
+str1 = "abcd"; /* wrong as str1 is an array name and cannot be on the left hand side*/
+/* ~= */
+strcpy(str1, "abcd");
+~~~
+
+- WARN: if the array of the destination is not big enough then undefined behaviour occurs. (see [strncpy](strncpy___20250710_0923_59.pd)
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

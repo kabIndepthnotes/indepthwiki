@@ -1,0 +1,17 @@
+# strcat
+- cats string 2 to the end of string 1
+
+# example
+
+~~~{.c .numberLines}
+strcpy(str1, "abc");
+strcat(str1, "def"); /* str1 is now "abcdef" */
+~~~
+
+[strncat](strncat___20250710_0938_53.pd) is safer.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

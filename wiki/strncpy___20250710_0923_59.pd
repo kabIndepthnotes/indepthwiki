@@ -1,0 +1,12 @@
+# strncpy
+
+~~~{.c .numberLines}
+strncpy(str1, str2, sizeof(str1) - 1);
+str1[sizeof(str1) - 1] = '\0';
+~~~
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

@@ -1,0 +1,14 @@
+# strncat
+- cat 2 strings together, terminate with null.
+
+# example
+
+~~~{.c .numberLines}
+strncat(str1, str2, sizeof(str1) - strlen(str1) - 1);
+~~~
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
