@@ -2,12 +2,10 @@
 
 <!-- visits: 7 -->
 
-#  structs 
-A struct is the closest thing to a object you have in c.
+A struct is the closest thing to a oop object you have in c.
 
+When you pass a pointer to a struct in a c program, you access it by dereferencing it.
 `a->b` `:=` `(*a).b`
-
-`rot->state `:=` (*rot).state`
 
 from w3 schools
 
@@ -64,19 +62,18 @@ main(void)
 }
 ~~~
 
-A struct is creating new datatypes, like how a string is a collection of letters.
+A struct is like creating a composite datatype.
 
 look at this example
 
 ~~~{.c .numberLines}
-typedef struct Player {
+typedef struct {
     Vector2 position;
     float speed;
     bool canJump;
-} Cloud;
+} Player;
 ~~~
 
-This code is defining what a Player is and then initializing a variable with datatype Player, called cloud
+This code is defining what a `Player` is and then initializing a variable with datatype `Player`, called cloud
 
 [c](c___20250304_1142_20.pd)
-

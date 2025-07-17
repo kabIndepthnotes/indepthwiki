@@ -1,5 +1,20 @@
 # strcmp
 
+- compares strings and returns a real number.
+
+
+~~~{.c .numberLines}
+if (strcmp(str1, str2) < 0) { /* is str1 < str2 */
+	/* do something */
+}
+~~~
+
+# s1 is less than s2 when?
+- first $i$ chars are the same but `s1[i+1]` char is less than `s2[i+1]`. for example `s1 = "abca"` `s2 = "abcd"` $\implies$ `s1 < s2`.
+- s1 is the same string as s2 but truncated.
+
+This follows the [ascii](ascii___20250717_1103_07.pd) character set.
+
 
 # standard
 [wood](wood___20250527_1447_59.pd)

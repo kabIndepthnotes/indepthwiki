@@ -1,5 +1,4 @@
-% directive
-
+# directive
 
 # include directive
 - The include directive tells the preprocessor to open a specified file and insert its contents into the current file.

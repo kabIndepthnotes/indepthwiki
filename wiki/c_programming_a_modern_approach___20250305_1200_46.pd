@@ -13,13 +13,15 @@
 - [jump_statements](jump_statements___20240610_1010_43.pd)
 - [effective_use_of_c](effective_use_of_c___20250321_0952_11.pd)
 - [linked_list](linked_list___20250313_1115_14.pd)
-- [link_between_pointers_and_array](link_between_pointers_and_array___20250331_1147_06.pd)
+- [link_between_pointers_and_array](linembeddedk_between_pointers_and_array___20250331_1147_06.pd)
+- [string_literals](string_literals___20240923_1200_28.pd)
 - [strcpy](strcpy___20250709_1440_12.pd)
 - [strncpy](strncpy___20250710_0923_59.pd)
 - [strlen](strlen___20250710_0931_28.pd)
 - [strcat](strcat___20250710_0933_48.pd)
 - [strncat](strncat___20250710_0938_53.pd)
 - [strcmp](strcmp___20250710_0940_16.pd)
+- [sprintf](sprintf___20250717_1110_16.pd)
 
 
 recommended by https://www.reddit.com/r/C_Programming/comments/10zyicb/where_and_how_to_learn_c/

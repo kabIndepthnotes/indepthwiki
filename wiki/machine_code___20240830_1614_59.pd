@@ -2,9 +2,9 @@
 
 <!-- visits: 7 -->
 
-# machine_code
 - main memory is divided into bytes
 - opcode and operand
+- assembly has a direct map to machine code has (in fact most people use the two words interchangeably for example in [taocp](taocp___20250317_1141_16.pd) ).
 
 [c](c___20250304_1142_20.pd)
 

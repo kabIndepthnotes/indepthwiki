@@ -1,0 +1,12 @@
+# ai_prompts_to_improve_wiki
+You are a pair programmer expert in multiple topics, I will give you a list of note files and I want you to chose a set of files that are important to refactor.
+
+~~~{.sh .numberLines}
+ls
+~~~
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
