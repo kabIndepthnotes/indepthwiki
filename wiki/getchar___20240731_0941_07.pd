@@ -28,7 +28,7 @@ while ( (ch = getchar()) == ' ') /* skips blanks */
 ;
 ~~~
 
-[c_idioms](c_idioms___20250305_1125_25.pd)
+[c_idiom](c_idiom___20250305_1125_25.pd)
 
 [c](c___20250304_1142_20.pd)
 

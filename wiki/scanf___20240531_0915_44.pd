@@ -33,7 +33,7 @@ for a long double, `scanf("%Lf",&d);`, `scanf("%Le",&d);` or, `scanf("%Lg",&d);`
 For that via inspection do `scanf(" %c", &ch);`
 getchar
 
-see [basic_data_types](basic_data_types___20240617_1419_52.pd)
+see [basic_data_type](basic_data_type___20240617_1419_52.pd)
 
 
 [c](c___20250304_1142_20.pd)

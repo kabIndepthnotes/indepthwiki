@@ -13,7 +13,7 @@ for (d = 2; d < n && n % d != 0; d++); // a more real-world example of the null 
 ~~~
 
 
-Another and pretty much the only other use case for null statemtents are when adding [jump_statements](jump_statements___20240610_1010_43.pd) labels in a [compound_statement](compound_statement___20240605_1151_46.pd)
+Another and pretty much the only other use case for null statemtents are when adding [jump_statement](jump_statement___20240610_1010_43.pd) labels in a [compound_statement](compound_statement___20240605_1151_46.pd)
 
 [c](c___20250304_1142_20.pd)
 

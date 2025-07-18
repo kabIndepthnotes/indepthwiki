@@ -17,7 +17,7 @@ printf("When you come to a fork in the road, take it "
 ~~~
 
 # How strings are stored
-strings are an [array](array___20240710_1404_29.pd) of [basic_data_types](basic_data_types___20240617_1419_52.pd), characters, where each character is a byte.
+strings are an [array](array___20240710_1404_29.pd) of [basic_data_type](basic_data_type___20240617_1419_52.pd), characters, where each character is a byte.
 - the c compiler puts a null character at the end of the array, to mark the end of the array.
 
 null character `:=` a byte with characters all zero. $00000000$, `'\0'` or `0x00`
