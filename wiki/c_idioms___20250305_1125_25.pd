@@ -26,6 +26,36 @@ Visit nodes in a linked list, using a pointer variable `p` to keep track of the 
 for (p = first; p != NULL; p = p->next)
 ~~~
 
+# idiom for finding the length of an array
+
+~~~{.c .numberLines}
+sizeof(a) / sizeof(a[10]);
+~~~
+
+# search for the null character at the end of a string
+
+~~~{.c .numberLines}
+while (*s++) {
+	;
+}
+/* s points to just past null char */
+~~~
+
+~~~{.c .numberLines}
+while (*s) {
+	s++;
+}
+/* s points to null char */
+~~~
+
+# copy string from one place to another
+
+~~~{.c .numberLines}
+while (*p++ = *s2++) {
+	; /* loop terminates after assignment */
+}
+~~~
+
 
 # credit
 [c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)

@@ -3,11 +3,23 @@
 - electrical_engineering
 - assembly
 - c
-- embedded dsa
+- embedded dsa:
+	- linked lists
+	- adding, multiplying, dividing using and, or xor and shifts
+	- integer math on processors that don't have FPU
+	- fixed point math to be faster
+	- buffering:
+		- circular buffer, buffer pre-allocation, buffer management, zero-copy buffers
+	- observer pattern
+	- reference counted object
+	- state machines
+	- unions to represent bitwise buffers
 - iot
 - can
 - uart
 - computer architecture
+- real time system design
+- race conditions
 
 # standard
 [wood](wood___20250527_1447_59.pd)

@@ -3,6 +3,7 @@
 <!-- visits: 19 -->
 
 # splicing
+
 ~~~{.c .numberLines}
 "This string is continued on the next line \
 because of the \\ sign. this is called splicing"
@@ -46,6 +47,7 @@ p[0] = 'a'; // wrong and undefined behavior, p is not initialised
 ~~~
 
 # what is the difference between a string literal and an array of characters?
+An array of charcters can be changed but a string literal is constant.
 
 
 [c](c___20250304_1142_20.pd)

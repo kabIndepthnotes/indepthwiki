@@ -1,7 +1,6 @@
-% array
+# array
 
-
-arra `:=` A data structure containing a number of data values, of the same type.
+array `:=` A data structure containing a number of data values, of the same type.
 
 # Initialization
 
@@ -26,8 +25,6 @@ int a[] = {4, 9, 1, 8, [0] = 5, 7} //becomes
 int a[] = {5, 7, 1, 8}
 ~~~
 
-
-
 # 2-dimensional arrays
 2 dimensional arrays are stored in row-major order, so row 0 is stored first then row 1 etc.
 
@@ -39,7 +36,6 @@ in [c99](c99___20250312_1237_53.pd) you can use
 double ident [2][2] = {[0][0] = 1.0, [1][1] = 1.0};
 ~~~
 
-
 you do not need the inner braces as the compiler can guess what you are trying to do, but it can make your code less clear
 
 ~~~{.c .numberLines}
@@ -49,8 +45,6 @@ int m[5][9] = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 	1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1,
 	1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1}
 ~~~
-
-
 
 # variable length arrays [c99](c99___20250312_1237_53.pd)
 In [c99](c99___20250312_1237_53.pd) you can have the length of an array be computed at run time
@@ -62,12 +56,10 @@ int a[3*j];
 VLAs can be multi-dimensional, they can't have static storage duration and it can't have an initializer.
 
 # idiom for finding the length of an array
-TODO add to c_idioms
 
 ~~~{.c .numberLines}
 sizeof(a) / sizeof(a[10]);
 ~~~
-
 
 [c](c___20250304_1142_20.pd) [flashcard](flashcard___20250324_0938_53.pd)
 

@@ -1,8 +1,11 @@
 # static
 
-<!-- visits: 7 -->
+<!-- visi ts: 7 -->
 
-#  static 
+# static variable
+A static variable has a permanent storage location throughout the program, so it retains it's value throughout.
+
+#  static
 The static keyword used in the following show that the array in the function is at least 3 items long.
 
 ~~~{.c .numberLines}

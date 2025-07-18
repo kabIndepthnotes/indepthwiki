@@ -19,7 +19,7 @@
 - reuse names
     - `array` `:=` arrays
     - `type` `:=` enu
-    - `node` `:=` inks to other node
+    - `node` `:=` links to other node
     - `entity` `:=` generic networked thing
     - `handle` `:=` pointer to opaque data structure
     - `func` `:=` function pointer
@@ -38,7 +38,7 @@
     - module_object_subject(); // this allows for all module functions to be seen, as well as all the functions regarding the object
 - modular programming in c is good
 - interface with headerfiles, don't make one header file for every c file, instead make a master external headerfile for the folder as well as internal headerfiles
-- You can do object orientation in c, in fact it is more realistic to what happens.
+- You can do oop in c, in fact it is more realistic to what happens.
 - void pointers are like encapsulation
 - macros make it easy to shoot yourself in the foot, only do it when it is most sensible.
     - for debugging, especially memory leaks, to review, and for packing data.
@@ -65,16 +65,16 @@
 - `for(i=0;i < 10;i++)`
 -   `p[i] = 0`
 - is actually doing a multiplication under the hood, which is, `p + (sizeof *p) * i`
+
 #  structs
 - Structs:~ a sizeof and a bunch of offset types
-
-
 - Alignment will make things complicated
 - data needs to be stored on even numbers, the ordering matters. The compiler does this to be faster
     - `typedef struct{`
     - `uint32 a;`
     - `uint8 b; }` this will take up 8 bytes. Size allocated will always be multiples of 4
 -
+
 #  memory cont
 - Each $4k$ block has read/write/execute flags
 - block addresses are virtualised
@@ -114,7 +114,7 @@
     - no it won't take too much time
     - you will earn it back faster then you think
 - you can use pointers as unique ... TODO
-- eskil@obsession.se
+- contact info see his video
 
 [c](c___20250304_1142_20.pd)
 

@@ -4,6 +4,12 @@
 # operators (ALL INCLUDE PRECEDENCE AND ASSOCIATION)
 It is essential to master these.
 
+# arithmetic operator
+
+# assignment operator
+
+# increment and decrement operator
+
 ~~~{.include}
 arithmetic_operator___20250609_1354_50.pd
 assignment_operator___20250609_1359_27.pd
@@ -12,7 +18,7 @@ increment_decrement_operators___20250609_1357_06.pd
 
 ## relational operators precedence and association
 relational operators (`<`, `>`, `<=`, `>=`) have a lower precedence to arithmetic and are left associative.
-WARN: `i < j < k`:= `(i < j) < k` where `(i < j) = 1 || 0;`
+WARN: `i < j < k`:= `(i < j) < k` where `(i < j) == 1 || 0;`
 What you may want is `i < j && j < k`
 
 ## equality operators precedence and association
@@ -22,11 +28,11 @@ What you may want is `i < j && j < k`
 `!` has the same precedence as unary plus and minus, and is right associative.
 Logical operations `&&` and `||` have lower precedence to than equality are left associative.
 
-Short-circuitin `:=` if with the first operand we know the outcome of the expression, then we do not compute the full expression.
+Short-circuiting `:=` if with the first operand we know the outcome of the expression, then we do not compute the full expression.
 e.g. `(i != 0) && (j / i > 0)` when `i` is equal to zero the program knows that the expression will fail and therefore not compute the second expression.
 
 # conditional operator
-`expr1 ? expr2 : expr3`:~ if expr1 then expr2 else expr3
+`expr1 ? expr2 : expr3` `:~` if expr1 then expr2 else expr3
 
 # comma operator
 Allows us to execute multiple statements at once.
