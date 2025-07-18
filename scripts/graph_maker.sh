@@ -15,6 +15,9 @@
 # https://github.com/wolandark/Vimwiki-Graphviz
 ###############################################
 
+# cd ~/docs/indepthwiki/wiki/ && ./../scripts/graph_maker.sh > ../graph.txt
+# cd ~/docs/indepthwiki/wiki/ && dot -Tpng graph.txt -o graph.png
+
 layout="sfdp"
 overlap="scalexy"
 format="pd"

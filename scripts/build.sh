@@ -8,7 +8,8 @@ cd ${HOME}/docs/indepthwiki/ || exit
 build_dir=${HOME}/docs/wiki_out/
 filename=$1
 file="$(basename ${filename%.*})"
-backlink_file=${HOME}backlinks/${file}_backlink.pd
+${HOME}/docs/indepthwiki/scripts/backlinks.sh $filename
+backlink_file=${HOME}/docs/indepthwiki/backlinks/${file}_backlink.pd
 
 
 pandoc $filename $backlink_file metadata.yaml \

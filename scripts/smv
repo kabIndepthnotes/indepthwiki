@@ -1,0 +1,35 @@
+#!/usr/bin/bash
+
+# find zetel to rename
+cd ~/docs/indepthwiki/wiki/ || exit
+old=$(ls *.pd | fzf)
+echo "$old"
+# dezetelify
+# dezetelify "$old"
+front=$(echo "$old" | perl -pe 's/(\S+)(___.*)/\1/')
+back=$(echo "$old" | perl -pe 's/(\S+)(___.*)/\2/')
+# rename to something + old timestamp
+input=""
+
+read -p "new name: " input
+
+new=${input}${back}
+
+# new_link=$(my_linkify "${input}${back}")
+# old_link=$(my_linkify "$old")
+
+new_link=$(echo "\\[${input}\\](${input}${back})")
+old_link=$(echo "\\[${front}\\](${front}${back})")
+
+# echo "old link $old_link"
+# echo "new link $new_link"
+
+
+# search for all instances of old filename and replace with new instance
+for file in *.pd
+do
+	sed -i "s/${old_link}/${new_link}/g" "$file"
+	# echo "sed -i s/${old_link}/${new_link}/g $file"
+done
+
+mv "$old" "$new"
