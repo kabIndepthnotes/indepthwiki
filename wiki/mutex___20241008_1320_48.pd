@@ -5,5 +5,16 @@
 # mutex
 This is used to provide a locking mechanism.
 
+mutex := mutually exclusive flag
+
+- if one thread has the mutex it can execute
+- the mutex gets passed to the next thread
+- without the mutex the thread cannot run
+
+	A mutex is like a bathroom key at a gas station, ensuring that only one person may use the bathroom at a time AND that no one else may use the toilet until the current occupant is finished and the key is returned. – 
+	jonschlinkert <https://stackoverflow.com/users/1267639/jonschlinkert>
+	Commented Jan 2, 2020 at 17:51
+<https://stackoverflow.com/questions/34524/what-is-a-mutex>
+
 [c](c___20250304_1142_20.pd)embedded:
 

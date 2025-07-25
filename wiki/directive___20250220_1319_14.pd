@@ -5,5 +5,16 @@
 - form 1, `#include <filename>`:= search the system header files directories
 - form 2 `#include "filename"`:= Search the current directory, then search the system files directories.
 - form 2 `#include TOKEN`:= we can have a `#define ABC` constant used with the include file, see [c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
+
+~~~{.c .numberLines}
+#ifdef LINUX
+	#define INCLUDE <stdiolinux.h>
+#else
+	#define INCLUDE <stdiowin.h>
+#endif
+
+#include INCLUDE
+~~~
+
 - We can direct the compiler to search for things with the `-Ipath` command
 [c](c___20250304_1142_20.pd)

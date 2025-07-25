@@ -5,7 +5,7 @@
 - `*(a+i)` `:=` `a[i]`
 
 # pointer arithmetic
-- there are 3 and only 3 pointer arithmetics
+- there are exactly $3$ pointer arithmetics
 
 # adding an integer to a pointer
 
@@ -13,13 +13,14 @@
 int *p;
 int j = 5;
 
-int a[] = {/* populate */}
+int a[] = {0,1,2,3,4,5,6,7}
 
 p = &a[2];
 /* p + 3 will point to a[5] */
 
 p += 4;
 /* p points to a[6] */
+printf("*p is %d", *p); /* should be a[6] == 6 */
 ~~~
 
 # subtracting an integer to a pointer
