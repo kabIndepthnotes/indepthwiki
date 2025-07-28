@@ -4,5 +4,6 @@
 
 #  sequence_point
 - a point in programs execution when all side effects of the previous evaluation has been performed and no side effects of the next evaluation have been performed.
+<https://en.wikipedia.org/wiki/Sequence_point#Up_to_C++03>
 
 [c](c___20250304_1142_20.pd)

@@ -2,9 +2,8 @@
 
 <!-- visits: 7 -->
 
-# getchar
-"Be careful if you mix getchar and [scanf](scanf___20240531_0915_44.pd) in the same program, scanf has a tendency to leave behind characters that it has "peeked" at but not read, including the new-line character.
- Consider what happens if we try and read a number first, then a character"
+	"Be careful if you mix getchar and [scanf](scanf___20240531_0915_44.pd) in the same program, scanf has a tendency to leave behind characters that it has "peeked" at but not read, including the new-line character.
+	 Consider what happens if we try and read a number first, then a character"
 
 ~~~{.c .numberLines}
 printf("Enter an integer: ");
@@ -13,7 +12,7 @@ printf("Enter a command: ");
 command = getchar();
 ~~~
 
-"The call of scanf will leave behind any characters that weren't consumed during the reading of `i`, including (but not limited to) the new-line character, `getchar` will fetch the first leftover character, which wasn't what we had in mind."
+	"The call of scanf will leave behind any characters that weren't consumed during the reading of `i`, including (but not limited to) the new-line character, `getchar` will fetch the first leftover character, which wasn't what we had in mind."
 
 # idioms
 see page 140 of c_programming_a_modern_approach
@@ -28,7 +27,9 @@ while ( (ch = getchar()) == ' ') /* skips blanks */
 ;
 ~~~
 
-[c_idiom](c_idiom___20250305_1125_25.pd)
 
-[c](c___20250304_1142_20.pd)
+# related
+- [c_idiom](c_idiom___20250305_1125_25.pd)
+- [c](c___20250304_1142_20.pd)
+- [scanf](scanf___20240531_0915_44.pd)
 

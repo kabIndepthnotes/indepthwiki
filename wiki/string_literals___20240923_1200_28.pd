@@ -38,7 +38,7 @@ char digit_to_hex_char(int digit)
 
 # warnings
 
-~~~{.c .numberLines}
+[c](c___20250728_1029_34.pd)c .numberLines}
 printf("\n"); // legal
 printf('\n'); // wrong!
 

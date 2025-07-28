@@ -2,15 +2,17 @@
 
 # escape_sequences
 
-	\a // Alert(bell)
-	\b // Backspace - moves cursor back
-	\n // New line
-	\t // Horizontal tab
-	\v // Vertical tab
-	\\ // backslash
-	\? // Question mark (rarely used)
-	\' // single quote
-	\" // Double quote
+~~~{.c .numberLines}
+\a // Alert(bell)
+\b // Backspace - moves cursor back
+\n // New line
+\t // Horizontal tab
+\v // Vertical tab
+\\ // backslash
+\? // Question mark (rarely used)
+\' // single quote
+\" // Double quote
+~~~
 
 
 # numeric escape sequences
