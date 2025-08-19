@@ -107,6 +107,37 @@ while (*p != 0)
 	p++; /* correct */
 ~~~
 
+# pointers and multi-dim array
+- multi-dimensional arrays are basically one dimensional arrays.
+
+~~~{.c .numberLines}
+int *p;
+/* ... */
+for (p = &a[0][0]; p <= &a[NUM_ROWS-1][NUM_COLS-1]; p++)
+	*p = 0;
+~~~
+
+Is the same as
+
+~~~{.c .numberLines}
+for (row = 0; row < NUM_ROWS; row++)
+	for (col = 0; col < NUM_COLS; col++)
+		a[row][col] = 0;
+~~~
+
+~~~{.c .numberLines}
+int (*p)[NUM_COLS]; // a pointer to an array rather than an array of pointers
+~~~
+
+# pointers in vlas
+- must be in the body of a function or in a function prototype.
+
+~~~{.c .numberLines}
+int a[m][n], (*p)[m];
+p = a;
+~~~
+
+[difference_between_pointers_and_arrays](difference_between_pointers_and_arrays___20250819_1121_35.pd)
 
 # tags
 [c](c___20250304_1142_20.pd)

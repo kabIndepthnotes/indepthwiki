@@ -1,0 +1,14 @@
+# difference_between_pointers_and_arrays
+
+- array parameters are interchangable with pointer parameters, but array variables aren't the same as [pointer](pointer___20240830_1618_20.pd) variables
+
+- the name of an array is strictly not a pointer variable, it is just treated as such.
+- The compiler converts it to a a pointer when necessary
+- To test, see that `sizeof(a)` is different to `sizeof(p)` see page 272 of [c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+[c_programming_a_modern_approach](c_programming_a_modern_approach___20250305_1200_46.pd)
+[c](c___20250304_1142_20.pd)

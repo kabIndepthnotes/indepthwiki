@@ -1,0 +1,22 @@
+# rowing_computer
+
+# functionality
+- bright screen to see when rowing in bright or dark weather.
+- force curve of the water
+- save to sdcard so that data can be analysed on land
+- watts and splits
+
+# built using
+- arduino
+- accelarometer
+- sd card read/write module
+- AA batteries
+- lcd display with backlight
+
+- less than 1kg in weight
+- battery should last at least 6 hours
+- must be waterproof
+- 
+
+# related
+
