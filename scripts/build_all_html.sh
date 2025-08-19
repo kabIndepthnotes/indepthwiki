@@ -10,7 +10,7 @@ do
 	${HOME}/docs/indepthwiki/scripts/backlinks.sh $file_pd
 	backlink_file=${HOME}/docs/indepthwiki/backlinks/${file}_backlink.pd
 	pandoc $file_pd $backlink_file metadata.yaml \
-		--lua-filter=${HOME}/docs/indepthwiki/filters/include-files.lua \
+		--lua-filter=${HOME}/docs/indepthwiki/filters/transclude.lua \
 		--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex+fenced_code_attributes+pipe_tables \
 		--verbose \
 		--output=${build_dir}html/$file.html \

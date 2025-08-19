@@ -13,7 +13,7 @@ backlink_file=${HOME}/docs/indepthwiki/backlinks/${file}_backlink.pd
 
 
 pandoc $filename $backlink_file metadata.yaml \
-	--lua-filter=filters/include-files.lua \
+	--lua-filter=${HOME}/docs/indepthwiki/filters/transclude.lua \
 	--from=markdown+tex_math_single_backslash+tex_math_dollars+raw_tex+fenced_code_attributes+pipe_tables \
 	--to=latex \
 	--verbose \

@@ -127,6 +127,7 @@ For embedded software positions, interviewers may ask non-software specific ques
 61) What is a common expression said when cutting anything to a specific length? (old expression for woodworking)
 
 62) Have you ever 3D printed anything? Have you ever created a 3D model for anything? List one or more 3D file extensions.
+.obj
 
 63) Do you know how to wire an AC wall outlet or ceiling light? Have you ever done either?
 
@@ -166,7 +167,20 @@ For embedded software positions, interviewers may ask non-software specific ques
 
 81) Describe how to multiply two 256-bit numbers using any 32-bit processor without FPU or special instructions. Two or more methods?
 
-I hit the 10K char limit.
+What is static?
+What is volatile?
+How does an interrupt work?
+What programming practices should typically be avoided in embedded systems, and why?
+Basic circuits questions: Ohms law. Voltage Dividers. Series and Parallel Resistors.
+Compare and contrast I2C, UART, and SPI
+How does an ADC work? How about a DAC?
+Compare and contrast Mutex and Semaphores
+Linked List algorithm questions
+String manipulation algorithm questions
+Bit manipulation algorithm questions
+Tell me about a hardware issue you debugged.
+Why would you use an RTOS?
+How does an OS manage memory?
 
 # standard
 [wood](wood___20250527_1447_59.pd)
