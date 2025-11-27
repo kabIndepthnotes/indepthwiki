@@ -1,0 +1,62 @@
+# embedded_programmer_roadmap
+- follow step by step
+
+# electronics
+- x basic math and calculus
+-  principles of electrical circuits
+-  electronics fundamentals
+-  digital design
+-  computer architecture
+
+- project: build an auto watering garden that is mainly an embedded project
+- https://www.youtube.com/watch?v=ojhrVsBs0nM
+
+# electronic test equipment
+-  multimeter
+-  Logic/Protocol analyser
+
+# programming languages
+-  learn C programming
+-  DSA
+-  Design patterns
+-  State machines
+-  memory management
+
+project: build a http server
+
+# building and testing
+-  Compilers
+-  Make
+-  Cmake
+-  Git
+-  Jtag debugging
+-  SWD debugging
+-  GDB
+-  TDD
+-  Unit testing
+
+# Microcontrollers
+-  RTOS basics
+-  GPIO
+-  ADC/DAC
+-  Timers/Counters
+-  PWM
+-  Watchdog
+-  Interrups
+-  DMA
+-  Clock Management
+
+project: make a hardware synth
+
+# Interfaces and Protocols
+-  UART
+-  I2C
+-  SPI
+
+project: make a dream journal, autosyncs to computer, timestamps which night we dreamed, e-ink display
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
