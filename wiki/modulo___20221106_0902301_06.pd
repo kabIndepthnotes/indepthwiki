@@ -1,27 +1,30 @@
 # modulo
+
 # congruence
-%%visits: 2
+<!-- visits: 2 -->
+
 ## introduction
+
 ## intuition
-modulo is an [[equivalence_relation]]
+modulo is an [equivalence_relation](equivalence_relation___20221106_090230_45.pd)
 
 The difference between a residue class and a congruence class is that residue class elements are numbers, but congruent classes are not numbers.
 
-Arithmetic of modulo
+## Arithmetic of modulo
+- $[a]_m + [b]_m = [a+b]_m$
+- $[a]_m [b]_m = [ab]_m$
+- $\mathbb{Z}_m$ is a ring
 
-$[a]_m + [b]_m = [a+b]_m$
-
-$[a]_m [b]_m = [ab]_m$ 
-
-$\mathbb{Z}_m$ is a ring 
 ## rigour
-modul `:=` Let $m$ be a non-zero integer, and let $a,b \in \mathbb{Z}$. We say that $a$ is *congruent to* $b$ modulo $m$, if $m|(a-b)$ We write this as $a\equiv b (mod m)$ where m is the modulus.
-congruence clas `:=` $\left[ a \right] _{m} = \left\{ b \in \mathbb{Z}: b \equiv a (mod ) \right\} $
-residue syste `:=` Let $m$ be a positive integer. A set $\left\{ x_1,x_2,\ldots x_r \right\}$ is called a *complete residue system modulo* m, if for ever integer y there is exactly one $x_i$ such that $y \equiv x_i (mod m)$
-set of congruence classe `:=` ring of integer `:=` For a positive integer m, we let $\mathbb{Z}_{m}$ denote the set of congruence classes modulo $m$, also called ring of integer modulo m. $\mathbb{Z}_{3} = \left\{ [0]_3 ,[1]_3 ,[2]_3 \right\}$ 
+
+ - modulo `:=` Let $m$ be a non-zero integer, and let $a,b \in \mathbb{Z}$. We say that $a$ is *congruent to* $b$ modulo $m$, if $m\|(a-b)$ We write this as $a\equiv b (mod m)$ where m is the modulus.
+- congruence class `:=` $\left[ a \right] _{m} = \left\{ b \in \mathbb{Z}: b \equiv a (mod ) \right\}$
+- residue system `:=` Let $m$ be a positive integer. A set $\left\{ x_1,x_2,\ldots x_r \right\}$ is called a *complete residue system modulo* m, if for ever integer y there is exactly one $x_i$ such that $y \equiv x_i (mod m)$
+- set of congruence classes `:=` ring of integer `:=` For a positive integer m, we let $\mathbb{Z}_{m}$ denote the set of congruence classes modulo $m$, also called ring of integer modulo m. $\mathbb{Z}_{3} = \left\{ [0]_3 ,[1]_3 ,[2]_3 \right\}$
+
 ## exam clinic
 $\left[ 2 \right] _{3} = \left\{ 3k+2, k \in \mathbb{Z} \right\} = \left\{ 2,5,-1,7 \ldots \right\}$ ==resources
-residue class for m=4 is $\left\{ 0,1,2,3 \right\} $ or $\left\{ 1,2,3,4 \right\} $ in fact any set of the form $\left\{ n,n+1,n+2,n+3 \right\}$ where $n \in \mathbb{Z}$
+residue class for m=4 is $\left\{ 0,1,2,3 \right\}$ or $\left\{ 1,2,3,4 \right\}$ in fact any set of the form $\left\{ n,n+1,n+2,n+3 \right\}$ where $n \in \mathbb{Z}$
 
 1. Solve $48x \equiv 71 mod 85$
 
@@ -41,7 +44,7 @@ Remark $[f]_m(x) = [a_0]_m + [a_1]_m x + \ldots + [a_n]_m x^{n}$
 
 2. Solve $x^2 + 1 \equiv 0$ mod 5, 
 
-Use $\mathbb{Z}_5 = \left\{ \left[ -2 \right] _{5} , \left[ -1 \right] _{5}, \left[ 0 \right] _{5} , \left[ 1 \right] _{5}, \left[ 2 \right] _{5}\right\} $ to take advantage of the squaring. of X
+Use $\mathbb{Z}_5 = \left\{ \left[ -2 \right] _{5} , \left[ -1 \right] _{5}, \left[ 0 \right] _{5} , \left[ 1 \right] _{5}, \left[ 2 \right] _{5}\right\}$ to take advantage of the squaring. of X
 
 1. Solve $x^2 \equiv 4$ mod 15
 
@@ -49,8 +52,7 @@ We know $x^2 \equiv 4$ mod 15 $\iff x^2 \equiv 4$ mod 3 and $x^2 \equiv 4$ mod 5
 
 This is $-1$ mod 3 or $-2$ mod 5. Which creates 4 different permutations
 
-# exam clinic
-arithmetic modulo n
+## arithmetic modulo n
 
 Let $a,b,m,n \in \mathbb{Z}, m,n \ge 1$. Prove that the system of congruences $$
 x \equiv a \text{ mod m}
@@ -59,5 +61,3 @@ $$
 has solutions $\iff \gcd (m,n) | a-b$  If a solution exists, h
 
 tags :math:introduction_to_number_theory:introduction_to_abstract_algebra:
-
-

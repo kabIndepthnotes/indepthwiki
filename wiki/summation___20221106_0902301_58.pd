@@ -1,6 +1,8 @@
-**Definitions**:
+# summation
 
-%%visits: 2
+<!-- %%visits: 2 -->
+
+# definitions
 
 # sum of first integers: $\sum _{i=1}^{n} i$
 $\sum _{i=1}^{n} i = \frac{1}{2} n (n+1)$
@@ -16,6 +18,43 @@ $$\sum\limits_{j=-k}^{n} f(j)= \sum\limits_{m=0} ^{n+k}f(m-k)$$
 $$\sum_{k=1}^{n} = n$$ and $$\sum_{k=1}^{n} k = \frac{1}{2} n (n+1)$$
 
 
+## distributive law
+$\left( \sum _{R(i)} a_i \right) \left( \sum _{S(j)} b_j \right) = \sum _{R(j)} \sum _{S(j)} a_i b_j$
+
+## change of variable
+$$\sum _{R(i)} a_i = \sum _{R(j)} a_j = \sum _{R(p(j)} a_{p(j)}$$
+
+$$\sum _{R(i)} a_i  = \sum _{R(p(j)} a_{p(j)}$$
+There must be exactly one integer satisfying $p\left( j \right) = i$, so this is a permutation.
+
+Usually this permuation function is $p(j) = c \pm j$
+
+$$\sum _{1 \le j \le n} a_j = \sum _{1 \le j - 1 \le n} a_{j-1} & \text{ change of base formula }$$
+
+$$ = \sum _{1 \le j - 1 \le n} a_{j-1}$$
+
+The permuation function cannot be done for all infinite sums.
+
+## interchanging order of summation
+$$\sum _{R(i)} \sum _{S(j)} a_{ij} =  \sum _{S(j)} \sum _{R(i)} a_{ij}$$
+
+~~~{.c .numberLines}
+for (int i = 1; i < N; i++) {
+	for (int j = 1; j < n; j++) {
+		sum += a[i][j];
+	}
+}
+
+/* Is the same as */
+
+for (int j = 1; j < n; j++) {
+	for (int i = j; i < N; i++) {
+		sum += a[i][j];
+	}
+}
+~~~
+
+## manipulating the domain
 
 
 **Intuitions/notes**:
@@ -33,12 +72,17 @@ $$\sum\limits_{j=-k}^{n} f(j)= f(-k)+f(-k+1)+f(-k+2) ... +f(n)$$
 
 $$\sum\limits_{m=0} ^{n+k}f(m-k) = f(-k) + f(-k+1) ... f(n +k-k)$$
 
-Double sum multiplication proof![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSpirituality%2FuyfpBRjd6p.png?alt=media&token=fad289e8-697b-4cd9-bfa1-c333761e55ad)
 
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FSpirituality%2FcgpohK_OPc.png?alt=media&token=c769fe57-3e82-4ac1-8ec2-24c058fe534b)
 
 any dummy variable symbol can be used, and also, the terms can be shifted when appropriate, as long as the dummy variable "counts" exactly as much as it should, and you take away as follows $$\sum_{n=1}^{k} k -1 = \sum_{n=0}^{k-1} k$$ but understand why it is $$k$$ and not $$k-2$$
 
+# intuition of distributive law
+
+$$\left( \sum _{i=1}^{2} a_i \right) \left( \sum _{j=1}^{3} b_j \right) = \left( a_1 + a_2 \right) \left( b_1 + b_2 +b_3\right)$$
+$$= \left( a_1b_1 + a_1b_2 + a_1b_3\right) \left( a_2b_1 + a_2b_2 + a_2b_3\right) $$
+$$= \left( a_1b_1 + a_1b_2 + a_1b_3\right) \left( a_2b_1 + a_2b_2 + a_2b_3\right) $$
+$$ \sum _{i=1}^{2} \left(\sum _{j=1}^{3} a_ib_j \right)$$
 
 **Releated Properties and Theorems**:
 
@@ -52,8 +96,10 @@ z
 
 **Examples**:
 
-**[[study [[journal]]]]** [[April 10th, 2021]] I don't think basics should be called basics, as it feels like it puts them down as beginner things, but the pros just practise the basics again, and again, so it is more core things. Here is a 2.Screw up story (lessons I learned), So I tried to figure out the answer to this $$\int \int | y - x| dx dy$$ by squaring it and doing a easy double sum, but I didn't do the basic double sum properly, which is page 2 or 3 in [[Linear Algebra and Geometry (LAG)]], ouch! Learn the core well, and keep drilling them!
-
-
 tags: :probability_and_statistics_2:linear_algebra_1:linear_algebra_2:
 
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related

@@ -1,0 +1,21 @@
+# voltage_divider_law
+$$V_{\mathrm {out} }={\frac {Z_{2}}{Z_{1}+Z_{2}}}\cdot V_{\mathrm {in} }$$
+
+It is used to find out what the voltage should be in a circuit.
+
+# proof
+$$V_{\mathrm {in} }=I\cdot (Z_{1}+Z_{2})
+  V_{\mathrm {out} }=I\cdot Z_{2}
+  I={\frac {V_{\mathrm {in} }}{Z_{1}+Z_{2}}}
+  V_{\mathrm {out} }=V_{\mathrm {in} }\cdot {\frac {Z_{2}}{Z_{1}+Z_{2}}}$$
+
+# usage
+Sometimes you need to set an analog voltage reference with a specific value, the voltage divider rule will help you achieve this target with ease.
+And it will also help you understand how potentiometers work as well.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
+- [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)

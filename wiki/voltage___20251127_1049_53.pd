@@ -1,0 +1,29 @@
+# voltage
+This is the energy per unit charge.
+
+\definecolor{c1}{RGB}{255, 0, 0}\definecolor{c2}{RGB}{0, 0, 255} \definecolor{c3}{RGB}{255, 165, 0} \definecolor{c4}{RGB}{75, 0, 130} \definecolor{c5}{RGB}{220, 220, 0} \definecolor{c6}{RGB}{238, 130, 238} \definecolor{c7}{RGB}{0, 128, 0} \definecolor{c8}{RGB}{100,100,100} \definecolor{c9}{RGB}{45,177,93} \definecolor{default}{RGB}{10,20,20} \color{default}
+
+$$\color{c1} V
+\color{default}=
+\frac{ \color{c3} W}
+{\color{c2} Q}$$
+
+\color{c1} Voltage is
+\color{c2} energy (work done)
+\color{c3} per unit charge
+
+# intuition
+- voltage is like the pressure of water along the water system. The pressure alone can create water flow.
+
+# rigour
+- particles tend to move to charge equilibrium, meaning positive charge moves to negative charge and so on. If they move against this tendency, they require energy ([work](work___20251127_1156_21.pd))
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [current](current___20251127_1033_32.pd)
+- [resistance](resistance___20251127_1140_18.pd)
+- [kirchoffs_voltage_law](kirchoffs_voltage_law___20251125_1134_04.pd)
+- [ohms_law](ohms_law___20251125_1128_43.pd)
+- [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)

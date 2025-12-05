@@ -10,3 +10,15 @@ This manipulates a strip of tape according to a table of rules.
 - It has a head that reads the current cell
 - dependant on the machines present state and the symbol read, the machine moves left or right, writes to the cell, or halts
 - There is a finite table that instructs the machine to make a move (move left or right, write to the cell, or halt)
+
+# rigour
+- $\Zeta$ is a finite, non-empty set of tape alphabet symbols
+- $\beta \in \Zeta$ is the blank symbol (the only symbol that can occur infinitely often at any step in the computation)
+- $\Sigma \subset \Zeta \setminus \{b\}$ `:=` set of input symbols, allowed to appear in inital tape contents
+- $Q$ `:=` finite non-empty set of states
+- $q_0 \in Q$ `:=` initial state
+- $F \subset Q$ `:=` the set of final states of accepting states. The initial tape contents is said to be accepted by $M$ if it eventually halts in a state from $F$
+- $\delta: \left( Q \setminus F \right) \times \Zeta \rightharpoonup Q \times \Zeta \times \{L,R\}$ `:=` a partion function called the transition function, where $L$ is left shift, $R$ is right shift. If the machine halts. `:~` which symbol to overwite the current symbol pointed by the head, and next head movement.
+
+# related
+- [computational_method](computational_method___20241013_1846_05.pd)

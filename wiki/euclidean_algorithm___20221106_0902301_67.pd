@@ -4,8 +4,9 @@
 
 ## introduction
 
-The euclidean algorithm helps find the [gcd](gcd___11_06_2022__090230_58.pd) in a way that is a lot easier than using other methods, like the factor tree method, or the common divisor method, it is also more "economical" that is to say, it doesn't require much computational power, for both humans and computers.
-The exact time-complexity, of the algorithm is actually unknown, see [big_o_notation_cs](big_o_notation_cs___20250313_1129_34.pd)
+This algorithm finds the [gcd](gcd___20221106_090230_58.pd).
+You find the remainder, $r = m mod n$ until $r = 0$.
+And to get there you set $m = n, n = r$.
 
 ## intuition
 
@@ -60,4 +61,4 @@ See "Find $gcd(132,84)$." in [[gcd]]
 tags :math:introduction_to_number_theory:introduction_to_abstract_algebra:taocp:
 
 [extended_euclidean_algorithm](extended_euclidean_algorithm___20250411_1107_33.pd)
-
+[effective_algorithm](effective_algorithm___20251029_1326_34.pd)

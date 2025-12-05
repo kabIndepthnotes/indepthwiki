@@ -1,0 +1,27 @@
+# setting_up_a_website_and_server_in_one_sitting_landchad
+
+# domain name
+
+# sshd
+- `/etc/ssh/sshd_config`
+- usePAM no
+- PasswordAuthentication no
+
+# /etc/nginx/sites-available/indepthnotes
+- `listen 80 ;` delete default server
+- `listen [::]: 80 ;` delete default server
+
+- `server_name indepthnotes.com www.indepthnotes.com`
+
+- `s reload nginx`
+
+# email
+useradd -G mail -m [name]
+
+useradd -d /var/spool/mlmmj/email-notif -r -s /usr/bin/false
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

@@ -8,4 +8,4 @@ $$x^{\bar{k}} `:=` x(x+1)\ldots (x + k -1) = \prod_{j=0}^{k-1} (x+j)$$
 [wood](wood___20250527_1447_59.pd)
 
 # related
-
+- [taocp](taocp___20250317_1141_16.pd)

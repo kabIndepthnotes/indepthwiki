@@ -19,3 +19,9 @@ Note, $\phi `:=` \frac{\left( 1+\sqrt{5}  \right)}{2}$, and so $\phi^2 = \frac{1
 
 Putting this in the equation before gives up $F_{n-1} + F_n \le \phi^{n-2} + \phi^{n-1} = \phi^{n-2} (1+\phi) = \phi^{n}$ which $P(n+1)$.
 
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [taocp](taocp___20250317_1141_16.pd)
+

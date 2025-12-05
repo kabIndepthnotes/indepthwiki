@@ -1,0 +1,33 @@
+# effective_algorithm
+
+# example
+
+## what is a+b
+
+Let $A = \{x,y\}$.
+let $a$ be encoded as $x^{a}$.
+Let $b$ be encoded as $y^{b}$.
+
+| j | θj      | φj      | a_j | b_j | Comment                                             |
+| - | ------- | ------- | --- | --- | --------------------------------------------------- |
+| 0 | `y`     | `x`     | 1   | 0   | If a `b` occurs, change it to `a` and repeat step 0 |
+| 1 | (empty) | (empty) | 1   | 1   | No `b`s remain → halt                               |
+
+Let's try $5+2$.
+$\theta = x^{5}y^{2}$.
+We start with $j = 0$.
+
+$f\left( \left( x^{5}y^{2}, 0 \right)  \right) = \left( x^{6}y, 0\right)$
+$\theta_j = y$ which is in $\theta = x^{5}y^{2}$.
+
+$f\left( \left( x^{6}y, 0 \right)  \right) = \left( x^{7}, 0\right)$
+$f\left( \left( x^{7}, 0 \right)  \right) = \left( x^{7}, 1\right)$
+
+## why is this effective?
+We have only used finite words for encoding.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

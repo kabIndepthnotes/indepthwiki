@@ -8,17 +8,19 @@
 - [complex_number](complex_number___20221106_090230_21.pd)
 
 ## rigour
-prim `:=` An integer $p>1$ is called a prime number or a prime if it has not positive divisors other than $1$ and $p$. An integer $n >1$ is called composite if it is not prime.
-Euclid's lemm `:=` Let $p$ be prime and $a,b \in \mathbb{Z}$. Suppose $p|ab$ then $p|a$ or $p|b$.
-Fundamental Theorem of Arithmeti `:=` Every integer $n>1$ can be expressed uniquely (up to reordering) as a product of primes.
+- prime `:=` An integer $p>1$ is called a prime number or a prime if it has not positive divisors other than $1$ and $p$. An integer $n >1$ is called composite if it is not prime.
+- Euclid's lemma `:=` Let $p$ be prime and $a,b \in \mathbb{Z}$. Suppose $p|ab$ then $p|a$ or $p|b$.
+- Fundamental Theorem of Arithmetic `:=` Every integer $n>1$ can be expressed uniquely (up to reordering) as a product of primes.
+
+Algebraic `:=` A number is algebraic if it is a root of a non-zero polynomial with rational coefficients.
+
+trancendental `:=` A number is trancendental if it is not algebraic
+
+# proof of fundamental theorem of arithmetic
 Proof of the Fundamental theorem of Arithmetic
 Case 1- if $p|a$, then we are done.
 Case 2- if p doesn't divide a, then $gcd(p,a) = 1$ and $\exists c \in \mathbb{Z} : ab=pc$ by the proposition.
-According to [[Bezouts_lemma]] $\exists u,v \in \mathbb{Z}, au + pv = 1 \implies (ba)u + p(bv) = b \implies p(cu) +p(bv) = b \implies p(cu+bv) = b$ hence p is a multiple of b, (in other words $p|b \square$)
-
-Algebrai `:=` A number is algebraic if it is a root of a non-zero polynomial with rational coefficients.
-
-trancendenta `:=` A number is trancendental if it is not algebraic
+According to [bezouts_lemma](bezouts_lemma___20221106_09023_03.pd) $\exists u,v \in \mathbb{Z}, au + pv = 1 \implies (ba)u + p(bv) = b \implies p(cu) +p(bv) = b \implies p(cu+bv) = b$ hence p is a multiple of b, (in other words $p|b \square$)
 
 ## exam clinic
 
@@ -27,3 +29,4 @@ trancendenta `:=` A number is trancendental if it is not algebraic
 tags :math:
 [math](math___20250311_0922_50.pd)
 [taocp](taocp___20250317_1141_16.pd)
+

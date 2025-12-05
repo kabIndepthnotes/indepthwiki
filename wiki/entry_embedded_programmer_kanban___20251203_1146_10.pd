@@ -1,7 +1,14 @@
 # embedded_programmer_roadmap
 - follow step by step
 
-# [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)
+- [entry_embedded_electronics_kanban](entry_embedded_electronics_kanban___20251203_1148_36.pd)
+- entry_embedded_electrical_testing_equipment_kanban
+- entry_embedded_programming_languags_kanban
+- entry_embedded_buildind_and_testing_kanban
+- entry_embedded_microcontrollers_kanban
+- entry_embedded_interfaces_and_protocols_kanban
+
+# electronics
 - x basic math and calculus
 -  principles of electrical circuits
 	- [current](current___20251127_1033_32.pd)
@@ -9,10 +16,13 @@
 	- [electric_power](electric_power___20251127_1427_24.pd)
 -  electronics fundamentals
 -  digital design
--  [computer_architecture](computer_architecture___20251203_1446_46.pd)
+-  computer architecture
 
 - project: build an auto watering garden that is mainly an embedded project
 - https://www.youtube.com/watch?v=ojhrVsBs0nM
+
+- [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)
+
 
 # electronic test equipment
 -  multimeter
@@ -57,10 +67,3 @@ project: make a hardware synth
 -  SPI
 
 project: make a dream journal, autosyncs to computer, timestamps which night we dreamed, e-ink display
-
-# standard
-[wood](wood___20250527_1447_59.pd)
-
-# related
-- [entry_embedded_programmer_kanban](entry_embedded_programmer_kanban___20251203_1146_10.pd)
-

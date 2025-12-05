@@ -1,0 +1,21 @@
+# lazygit
+- https://www.youtube.com/watch?v=CPLdltN7wgE
+
+# staging files quickly
+- arrow keys on unstaged files
+- space to stage
+
+- c	commit
+- arrow keys	move between staged files
+- space	stage
+- a	stage all files
+- enter ... space	stage individual lines with space
+- enter v space	stage a visual range
+- enter tab d	unstage lines
+- enter d	delete line
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [git](git___20221106_085555_44.pd)

@@ -1,0 +1,20 @@
+# logarithm
+- suppose we have $y$, can we find a real number $x$ such that $y = b^{x}$
+
+- $x = b^{\log_{b}\left(x\right)} = log_b\left(b^{x}\right)$
+- $\log_b\left(xy\right) = \log_b\left(x\right) + \log_b\left(y\right)$, if $x > 0$ and $y > 0$
+- $\log_b\left(c^{y}\right) = y\log_b\left(c\right)$ if $c > 0$
+- $\log_c\left(x\right) = \frac{\log_b x}{\log_b c}$
+
+- $\lg$ `:=` $\log_2$, is quite useful since most computers do binary arithmetic, and computer algorithms often make two-way branches.
+
+# natural logarithm
+- was the first logarithm discovered
+- derived from the integral of $\frac{1}{x}$
+- another way is $\lim_{n \to \infty}\left[ \left( 1 + \frac{x}{n} \right) ^{n} \right] = e^{x}$. $x$ is like an interest rate and we are compounding it to $\infty$
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [taocp](taocp___20250317_1141_16.pd)

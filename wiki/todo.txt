@@ -1,0 +1,10 @@
+autoo
+-autoindex off;
+
+
+# sshd config
+UsePAM no
+
+
+language
+lc all

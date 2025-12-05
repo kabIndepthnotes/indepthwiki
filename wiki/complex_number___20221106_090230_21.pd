@@ -6,30 +6,29 @@
 It was first created to support the fundamental theorem of calculus, since some quadratics, such as $x^2 +1 = 0$ do not have any roots, however they needed 2 (or 1 repeated root).
 Hence $i$ was created.
 
-$i^2 = -1$
+- $i$ `:=` A number which satisfies, $i^2 = -1$
 
-0 is an imaginary and real number
-
-if $Z = a + bi$ where i is the imaginary number then $\bar z$
+- $0$ is an imaginary and real number
 
 ## diary
 
 ## intuition
 Thing of the complex_numbers as a vector with a special multiplication defined to it, but to build the complex_numbers rigorously actually needs a lot of sophisticated ideas and such to it.
 
-complex_numbers:~ $\mathbb{C} = \mathbb{R}^2+ \text{field multiplication}$
+complex_numbers `:~` $\mathbb{C} = \mathbb{R}^2+ \text{field multiplication}$
+
 ## rigour
-polar form is  $z = r(cos(\theta)+ isin(\theta))$
-
-exponential form is  $z = e^{i\theta}$
-
-regular form = a +bi
+- polar form is  $z = r(cos(\theta)+ isin(\theta))$
+- exponential form is  $z = e^{i\theta}$
+- regular form = a +bi
 
 let $u_1,u_2,v_1,v_2 \in \mathbb{R}$, then the field multiplication for a complex_number in vector form is defined by $\begin{pmatrix} u_1\\ u_2 \end{pmatrix} \cdot \begin{pmatrix} v_1\\ v_2 \end{pmatrix} = \begin{pmatrix} u_1v_1 - u_2v_2 \\ u_1v_2 + v_1u_2 \end{pmatrix}$
+
+complex conjugate `:=` $x - i y$
 
 ## exam clinic
 
 ## resources
 k-ring
-tags [math](math___20250311_0922_50.pd)__linear_algebra_1:__linear_algebra_2:__calculus_1:__calculus_2:__introduction_to_number_theory:__introduction_to_abstract_algebra:__complex_analysis:__metric_spaces_and_topology:
+tags [math](math___20250311_0922_50.pd)
 

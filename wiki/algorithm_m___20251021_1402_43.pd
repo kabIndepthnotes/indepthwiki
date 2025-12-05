@@ -1,0 +1,21 @@
+# algorithm_m
+
+Algorithm M (Find the maximum).
+Given $n > 0$ elements $X[1], X[2], \dots, X[n]$ , we will find m and j such that $m = X[j] = \max_{1 \le i \le n} X[i]$ , where $j$ is the largest index that satisfies this relation.
+
+M1. [Initialize.] Set $j \leftarrow n, k \leftarrow n - 1, m \leftarrow X[n]$ .  (During this algorithm we will have $m = X[j] = \max_{k<i\leq n} X[i]$ .)
+
+M2. [All tested?] If $k = 0$, the algorithm terminates.
+
+M3.  [Compare.] If $X[k] \le m$, go to M5.
+
+M4. [Change m.] Set $j \leftarrow k, m \leftarrow X[k]$ .  (This value of m is a new current maximum.)
+
+M5. [Decrease k.] Decrease k by one and return to M2.
+
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

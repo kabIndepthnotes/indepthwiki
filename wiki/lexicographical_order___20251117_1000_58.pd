@@ -1,0 +1,17 @@
+# lexicographical_order
+(Lexicographic order.)
+Let $S$ be well-ordered by $\prec$, and for $n>0$ let $T_n$ be the set of all
+$n$-tuples $(x_1, x_2, \ldots, x_n)$ of elements $x_j$ in $S$.
+Define 
+\[
+(x_1, x_2, \ldots, x_n) \prec (y_1, y_2, \ldots, y_n)
+\]
+if there is some $k$, $1 \le k \le n$, such that $x_j = y_j$ for $1 \le j < k$,
+but $x_k \prec y_k$ in $S$.
+
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

@@ -1,0 +1,18 @@
+# well_ordering_principle
+- The idea is that we want to be able to order the members of a set
+- It is an abstraction of numbers being less than another, $1 < 2 < 3 < 4 \ldots $
+
+# rigour
+- Let $\prec$ be a relation on a set $S$, satisfying the following properties:
+ 	 - (transitive) Given $x,y,z \in S$, if $x \prec y$ and $y \prec z$ then $x \prec z$
+ 	 - (trichotomy or total) Given $x,y \in S$, exactly one of the following cases are true $x \prec y$, $y \prec x$ or $x = y$
+ 	 - (minimal element) If $A$ is any nonempty subset of $S$, there is an element $x \in A$ with
+      - $x \preceq y$ (that is, $x \prec y$ or $x = y$) for all $y \in A$.
+
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [taocp](taocp___20250317_1141_16.pd)
+- [lexicographical_order](lexicographical_order___20251117_1000_58.pd)

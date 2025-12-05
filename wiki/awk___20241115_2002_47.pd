@@ -4,3 +4,7 @@
 
 #  awk
 `-F` is the field seperator
+
+	awk '{print NR	$3 }' pomos.tab
+
+[how_the_awk_command_made_me_a_10x_engineer](how_the_awk_command_made_me_a_10x_engineer___20251022_1429_40.pd)

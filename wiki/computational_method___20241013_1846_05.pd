@@ -1,13 +1,12 @@
 # computational_method
-
 <!-- visits: 55 -->
-This is a rigourous definition of an algorithm using set theory.
+- This is a rigourous definition of an algorithm using set theory.
 
-computational method `:=` A quadruple, $\left( Q,I,\Omega, f \right)$ in which $Q$ is a set containing subsets $I$ and $\Omega$.
+- computational method `:=` A quadruple, $\left( Q,I,\Omega, f \right)$ in which $Q$ is a set containing subsets $I$ and $\Omega$.
 And f is a [function](function_math___20240724_1123_23.pd) $Q \to Q$.
 $f$ should leave $\Omega$ pointwise fixed ($f(q) = q \forall q \in \Omega$)
 
-computational method :~ the quadruple $(Q,I,\Omega, f)$ is intended to represent respectively the states of the computation ($Q$), the input ($I$), the output($\Omega$), and the computational rule ($f$).
+- computational method :~ the quadruple $(Q,I,\Omega, f)$ is intended to represent respectively the states of the computation ($Q$), the input ($I$), the output($\Omega$), and the computational rule ($f$).
 
 \definecolor{c1}{RGB}{255, 0, 0}
 \definecolor{c2}{RGB}{0, 0, 255}
@@ -40,7 +39,7 @@ $$
 \color{c4} \text{the computational rule.}<!--f-->
 \color{default}
 
-pointwise fixe `:=` $f(q)$ should equal $q$ for all $q \in \Omega$
+pointwise fixed `:=` $f(q)$ should equal $q$ for all $q \in \Omega$
 
 #  The set $I$
 Each $x \in I$ defines a computational sequence, $x_0,x_1,x_2,\ldots,$ with $x_0 = x$ and $f(x_k) = x_{k+1}$ for $k \ge 0$
@@ -62,20 +61,24 @@ Let $I$ be the subset of $Q$ with $j=0$ ($j = 0$ represents that this is the sta
 If $\theta$ and $\sigma$ are strings in $A^{*}$, we say that $\theta$ occurs in $\sigma$ if $\sigma$ has the form $\alpha \theta \omega$ for strings $\alpha$ and $\omega$. To reiterate, $\sigma = \alpha \theta \omega$.
 To complete our definition, let $f$ be a function of the following type, defined by the strings $\theta_j,\phi_j$ and the integers $a_j$, $b_j$ for $0 \le j \le N$:
 
-$f(\sigma,j) = \left( \sigma,a_j \right)$ if $\theta _j$ does not occur in $\sigma$;	:~ you carry the state of computation to another step number.
+$f((\sigma,j)) = \left(\left( \sigma,a_j \right)\right)$ if $\theta _j$ does not occur in $\sigma$;	:~ you carry the state of computation to another step number.
 
-$f(\sigma,j) = \left( \alpha \phi \omega ,b_j \right)$ if $\alpha$ is the shortest possible string for which $\sigma = \alpha \theta _j \omega$; $\theta_j$ does occur in $\sigma$
+$f((\sigma,j)) = \left(\left( \alpha \phi_j \omega ,b_j \right)\right)$ if $\alpha$ is the shortest possible string for which $\sigma = \alpha \theta _j \omega$; $\theta_j$ does occur in $\sigma$
 
-$f(\sigma,N) = (\sigma,N)$
+$f((\sigma,N)) = ((\sigma,N))$
 """
+
+## intuition of effectiveness
+- We perform a search and replace on the data. $\theta_j$ is what we search for and $\phi_j$ is what we replace with.
+- If we find the pattern, we go to $\beta_j$, if not we go to $\alpha_j$. $\beta_j$ and $\alpha_j$ are the step numbers. If it helps, it is like the line of code you execute.
 
 We need the states of computation to be ordered.
 
 #  examples
-[[the_euclidean_algorithm___11_06_2022__090230167#rigour]] TODO
+- [euclidean_algorithm](euclidean_algorithm___20221106_0902301_67.pd)
 
-tags
-[taocp](taocp___20250317_1141_16.pd)
-
-[algorithm](algorithm___20250317_1152_12.pd)
+# related
+- [taocp](taocp___20250317_1141_16.pd)
+- [algorithm](algorithm___20250317_1152_12.pd)
+- [turing_machine](turing_machine___20241212_1143_06.pd)
 

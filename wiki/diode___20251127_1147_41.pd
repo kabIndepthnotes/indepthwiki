@@ -1,0 +1,13 @@
+# diode
+- let's current flow in one direction only
+
+- forward bias `:=` direction in which current is allowed to flow (direction of conventional current)
+- usually a threshold voltage of about 0.6v before they will conduct
+- In the reverse bias, the resistance of the diode is very high and the current that flows is very tiny.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
+- [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)

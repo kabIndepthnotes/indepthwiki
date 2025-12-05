@@ -1,10 +1,24 @@
 # arduino
+- [avr_cpu](avr_cpu___20251126_1057_40.pd)
+- flash memory or [rom](rom___20251126_1059_33.pd)
+- sram or [ram](ram___20251126_1059_39.pd)
+- [eeprom](eeprom___20251126_1059_47.pd) a form of nvm `:=` non-volatile memory
+- adc
+- uart
+- spi
+- twi or i2c
+- ccp
+- wdt
 
-<!-- visits: 4 -->
+# arduino ide
+- [serial_plotter](serial_plotter___20251126_1106_10.pd)
 
-#  arduino
 
 #  safety
 - before any change in the electronics, make sure that you remove power
--
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
 

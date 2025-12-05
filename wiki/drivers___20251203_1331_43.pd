@@ -1,0 +1,13 @@
+# drivers
+- These do the stand between job between a micro controller and load device
+- When the microcontroller can't send the power needed to power the component, a driver is needed.
+
+# examples
+- basic example is a transistor
+- Audio power amps
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+- [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)
