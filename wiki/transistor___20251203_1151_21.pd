@@ -2,6 +2,10 @@
 - Electronic switches turned on/off with digital signal
 - transistors are useful as they can create logic gates
 
+# n-type transistor
+
+# b-type transistor
+
 # bjt `:=` bipolar junction transistor
 
 # mosfet `:=` Metal-Oxide field effect transistor
@@ -11,3 +15,4 @@
 
 # related
 - [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)
+- [logic_gates_with_transistors](logic_gates_with_transistors___20251205_1440_03.pd)

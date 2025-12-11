@@ -1,0 +1,10 @@
+# logic_gates_with_transistors
+- essentially, two transistors in series gives us an AND gate
+- 2 transistors in parallel give us an OR gate
+- A NOT gate is used leveraging a p-type transistor
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+

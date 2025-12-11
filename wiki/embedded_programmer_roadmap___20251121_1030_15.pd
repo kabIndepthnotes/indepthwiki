@@ -2,59 +2,60 @@
 - follow step by step
 
 # [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)
-- x basic math and calculus
--  principles of electrical circuits
+- (done) basic math and calculus
+- principles of electrical circuits
 	- [current](current___20251127_1033_32.pd)
 	- [diode](diode___20251127_1147_41.pd)
 	- [electric_power](electric_power___20251127_1427_24.pd)
--  electronics fundamentals
--  digital design
--  [computer_architecture](computer_architecture___20251203_1446_46.pd)
+- electronics fundamentals
+	- using an ammeter, using a voltmeter
+- digital design
+- [computer_architecture](computer_architecture___20251203_1446_46.pd)
 
 - project: build an auto watering garden that is mainly an embedded project
 - https://www.youtube.com/watch?v=ojhrVsBs0nM
 
 # electronic test equipment
--  multimeter
--  Logic/Protocol analyser
+- multimeter
+- Logic/Protocol analyser
 
 # programming languages
--  learn C programming
--  DSA
--  Design patterns
--  State machines
--  memory management
+- learn C programming
+- DSA
+- Design patterns
+- State machines
+- memory management
 
 project: build a http server
 
 # building and testing
--  Compilers
--  Make
--  Cmake
--  Git
--  Jtag debugging
--  SWD debugging
--  GDB
--  TDD
--  Unit testing
+- Compilers
+- Make
+- Cmake
+- Git
+- Jtag debugging
+- SWD debugging
+- GDB
+- TDD
+- Unit testing
 
 # Microcontrollers
--  RTOS basics
--  GPIO
--  ADC/DAC
--  Timers/Counters
--  PWM
--  Watchdog
--  Interrups
--  DMA
--  Clock Management
+- RTOS basics
+- GPIO
+- ADC/DAC
+- Timers/Counters
+- PWM
+- Watchdog
+- Interrups
+- DMA
+- Clock Management
 
 project: make a hardware synth
 
 # Interfaces and Protocols
--  UART
--  I2C
--  SPI
+- UART
+- I2C
+- SPI
 
 project: make a dream journal, autosyncs to computer, timestamps which night we dreamed, e-ink display
 

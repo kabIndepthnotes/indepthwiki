@@ -11,23 +11,32 @@ $$
 \color{default}
 $$
 
-$$\color{c1} \text{Voltage}$$
+\color{c1} \text{Voltage}
 
-\color{default}
+\color{default} is
 
-$$\color{c2} \text{Current}$$
+\color{c2} \text{Current}
 
-$$\color{c3} \text{Resistance}$$
+\color{default} times
 
-# usage
-for designing simple circuits for LED drivers, motor control with transistors, and other applications that require circuit design.
+\color{c3} \text{Resistance}
+
+# practical
+	For designing simple circuits for LED drivers, motor control with transistors, and other applications that require circuit design.
 credit: https://deepbluembedded.com/arduino-getting-started-beginners-guide/
 
+- some components need a specific current flowing through them.
+
+# review questions
+
+## an ohmic conductor has a potential difference of $1.8$ volts and $12$ amps are flowing through it. What is the resistance of this conductor?
+- plug in values and solve.
+- $\frac{1.8}{12}$
+= 1.8 / 12 = 0.15 amps
 
 # standard
 [wood](wood___20250527_1447_59.pd)
 
 # related
-[kirchoffs_voltage_law](kirchoffs_voltage_law___20251125_1134_04.pd)
-
+- [kirchoffs_voltage_law](kirchoffs_voltage_law___20251125_1134_04.pd)
 - [circuits_and_electronics_basics](circuits_and_electronics_basics___20251125_1128_31.pd)

@@ -2,9 +2,10 @@
 - follow step by step
 
 - [entry_embedded_electronics_kanban](entry_embedded_electronics_kanban___20251203_1148_36.pd)
+- [entry_embedded_computer_architecture_kanban](entry_embedded_computer_architecture_kanban___20251208_1155_46.pd)
 - entry_embedded_electrical_testing_equipment_kanban
-- entry_embedded_programming_languags_kanban
-- entry_embedded_buildind_and_testing_kanban
+- [entry_embedded_programming_languags_kanban](entry_embedded_programming_languags_kanban___20251209_1113_06.pd)
+- entry_embedded_building_and_testing_kanban
 - entry_embedded_microcontrollers_kanban
 - entry_embedded_interfaces_and_protocols_kanban
 
@@ -31,6 +32,12 @@
 # programming languages
 -  learn C programming
 -  DSA
+
+# dsa
+- searching:
+	- bubble sort
+	
+
 -  Design patterns
 -  State machines
 -  memory management

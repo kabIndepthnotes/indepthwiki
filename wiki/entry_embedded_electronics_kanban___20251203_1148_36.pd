@@ -1,10 +1,17 @@
 # entry_embedded_electronics_kanban
 
 # todo
-- computer architecture
+- digital design:
+	- kicad
 - module project: build an auto watering garden that is mainly an embedded project https://www.youtube.com/watch?v=ojhrVsBs0nM
 
 # doing
+- computer architecture
+	- computers from scratch https://www.youtube.com/playlist?list=PL9vTTBa7QaQOoMfpP3ztvgyQkPWDPfJez
+	- risc-v
+		- [risc_v_code_questions](risc_v_code_questions___20251205_1037_49.pd)
+	- arm
+		- [arm_assembly](arm_assembly___20251205_1041_20.pd)
 
 # to review and solidify
 - principles of electric circuits
@@ -18,4 +25,3 @@
 [wood](wood___20250527_1447_59.pd)
 
 # related
-
