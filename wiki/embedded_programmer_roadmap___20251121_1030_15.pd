@@ -21,6 +21,7 @@
 
 # programming languages
 - learn C programming
+- learn cpp programming
 - DSA
 - Design patterns
 - State machines
@@ -60,7 +61,7 @@ project: make a hardware synth
 project: make a dream journal, autosyncs to computer, timestamps which night we dreamed, e-ink display
 
 # standard
-[wood](wood___20250527_1447_59.pd)
+- [wood](wood___20250527_1447_59.pd)
 
 # related
 - [entry_embedded_programmer_kanban](entry_embedded_programmer_kanban___20251203_1146_10.pd)

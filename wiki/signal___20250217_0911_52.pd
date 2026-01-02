@@ -1,8 +1,9 @@
 # signal
 
-<!-- visits: 7 -->
 
 #  signal
+- the signal is emitted from the sender to the reciever
+- the sender is where you go to the node and press connect signal
 
 #  connecting a signal via code
 - call the `connect()` method
@@ -14,5 +15,6 @@ func _ready():
 	timer.timeout.connect(_on_timer_timeout)
 ~~~
 
+# connecting a 
 
-:__godot:
+godot

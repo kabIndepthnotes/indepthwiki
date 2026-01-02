@@ -1,4 +1,8 @@
 # godot
+
+- [replace_tilemaps_with_scenes](replace_tilemaps_with_scenes___20260101_1020_15.pd)
+- [signal](signal___20250217_0911_52.pd)
+
 tiling
     - How do I make a tilemap to make tiling a lot easier?
         - You can add them all to scenes and then select all to convert to a tileset. Then use the tilemap node.
@@ -10,6 +14,7 @@ They communicate using signals.
 #  signals 
 Nodes emit signals when some event occurs.
 This feature allows you to make nodes communicate without hard-wiring them in code.
+
 
 #  oop
 - We do not have to strictly adhere to the oop philosophy
@@ -23,6 +28,13 @@ This feature allows you to make nodes communicate without hard-wiring them in co
 
 # pros
 - Able to test a play separately to everything else.
+
+# how to stop pixel art being blurry
+- 
+
+# how to export game
+- forward+ does not work
+- zip file to itch.io
 
 #  tags 
 :__programming:__godot:

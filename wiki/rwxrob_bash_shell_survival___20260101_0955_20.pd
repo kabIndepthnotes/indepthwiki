@@ -1,0 +1,28 @@
+# rwxrob_bash_shell_survival
+- credit: <https://rwx.gg/lang/bash/>
+- ls `:=`List visible files and directories in the current directory.
+- ls -a `:=`List all files and directories in the current directory.
+- ls -l `:=`List the details of files and directories including permissions.
+- pwd `:=`Print the working directory (where you are).
+- clear `:=`Clear the screen. Do not use Control+L!
+- cd `:=`Change into the home directory from anywhere.
+- cd .. `:=`Change parent of current directory. The two dots .. mean parent.
+- cd - `:=`Change into the previous directory, which is nice for changing back and forth a lot.
+- cat <file> `:=`Shows the content of the file.
+- less <file> `:=`Shows the content of a long file that you can page through with Space. Remember q to quit.
+- type <this> `:=`Check if this command exists, what type of command it is (alias, function, binary executable), and where it lives.
+
+- file <file> `:=`Show what kind of file it is.
+- mkdir <dir> `:=`Make a new directory.
+- touch <file> `:=`Create a new empty file. (Or update the time stamp of the file.)
+- mv <old> <new> `:=`Rename a file or directory.
+- rm <file> `:=`Remove a file.
+- rmdir <dir> `:=`Remove an empty directory. (Use rm first for the files until it is empty.)
+- chmod u+x <file> `:=`Change a plain text file into an executable script command.
+- ./<script> `:=`Run a newly made command script in the current directory.
+
+# standard
+[wood](wood___20250527_1447_59.pd)
+
+# related
+
