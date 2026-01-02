@@ -1,0 +1,6 @@
+#!/bin/bash
+
+file=$1
+timestamp=$(date "+___%Y%m%d_%H%M_%S")
+
+$EDITOR "${file}${timestamp}.pd"
