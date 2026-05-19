@@ -1,0 +1,15 @@
+# scenes_as_a_tilemap
+credit: https://www.youtube.com/watch?v=5mGa2m_qCPQ
+
+- map placeholder tiles
+
+1. make tilemap layer with your tiles
+2. note the cell id, usually 0
+3. code
+
+~~~{.include}
+/home/kab/docs/game_dev/games/tutorials_and_snippets/tilemap_2_scenes/scripts/main.gd
+~~~
+
+# related
+- [tilemap](tilemap___20260316_1333_55.pd)

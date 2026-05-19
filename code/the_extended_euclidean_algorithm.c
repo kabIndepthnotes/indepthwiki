@@ -19,15 +19,16 @@ main(void)
 	c = m;
 	d = n;
 
-	printf("a'     a      b'     b      c      d      q      r\n");
+	/* printf("a'     a      b'     b      c      d      q      r\n"); */
 	for (;;) {
 		/* step 2 */
 		q = c / d;
 		r = c % d;
-		printf("a'm + b'n = c := (%d)%d + (%d)%d = %d =(!) %d\n", ap,m,bp,n,c,ap*m+bp*n);
+		printf("a'm + b'n = c := (%d)%d + (%d)%d = %d != gcd\n", ap,m,bp,n,c);
 
+		/* printf("a'm + b'n = c := (%d)%d + (%d)%d = %d != gcd\n", ap,m,bp,n,c,ap*m+bp*n); */
 
-		printf("%-6d %-6d %-6d %-6d %-6d %-6d %-6d %-6d\n",ap, a, bp, b, c, d, q, r);
+		/* printf("%-6d %-6d %-6d %-6d %-6d %-6d %-6d %-6d\n",ap, a, bp, b, c, d, q, r); */
 		/* step 3 */
 		if (r == 0) {
 			printf("(%d)%d + (%d)%d = %d, is are formula for am + bn = d\n", a,m,b,n,d);

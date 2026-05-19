@@ -30,7 +30,7 @@ This feature allows you to make nodes communicate without hard-wiring them in co
 - Able to test a play separately to everything else.
 
 # how to stop pixel art being blurry
-- 
+- default texture filter = nearest. project settings, textures.
 
 # how to export game
 - forward+ does not work

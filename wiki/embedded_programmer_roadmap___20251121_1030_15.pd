@@ -57,6 +57,8 @@ project: make a hardware synth
 - UART
 - I2C
 - SPI
+- Can
+- bluetooth
 
 project: make a dream journal, autosyncs to computer, timestamps which night we dreamed, e-ink display
 
@@ -66,3 +68,5 @@ project: make a dream journal, autosyncs to computer, timestamps which night we 
 # related
 - [entry_embedded_programmer_kanban](entry_embedded_programmer_kanban___20251203_1146_10.pd)
 
+- open source contribution to
+	- https://github.com/cpq/bare-metal-programming-guide

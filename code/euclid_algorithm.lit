@@ -1,0 +1,63 @@
+@code_type c .c
+@comment_type /* %s */
+@compiler gcc main.c
+
+@s The Euclidean Algorithm
+
+--- euclid_algorithm.c
+/* @{include_directives} */
+#include <stdio.h>
+@{define_directives}
+/* @{type_definitions} */
+/* @{external_variables} */
+/* @{function_prototypes} */
+int
+main(void)
+{
+	@{main}
+	return 0;
+}
+
+/* @{function_definitions} */
+---
+
+	(Euclid’s algorithm ). Given two positive integers m and n, ﬁnd
+	their greatest common divisor, that is, the largest positive integer that evenly
+	divides both m and n.
+
+This is given into the algorithm.
+--- define_directives
+#define M 1234
+#define N 45
+---
+
+E1. [Find remainder.] Divide m by n and let r be the remainder. (We will have 0 ≤ r < n.)
+--- step_1
+int m = M;
+int n = n;
+
+int r = m % n;
+---
+
+E2. [Is it zero?] If r = 0, the algorithm terminates; n is the answer.
+--- step_2
+if (r == 0) {
+	printf("%d\n", n);
+	return 0;
+}
+---
+
+E3. [Reduce.] Set m ← n, n ← r, and go back to step E1
+--- step_3
+m = n;
+n = r;
+---
+
+--- main
+for (;;) {
+	@{step_1}
+	@{step_2}
+	@{step_3}
+}
+---
+

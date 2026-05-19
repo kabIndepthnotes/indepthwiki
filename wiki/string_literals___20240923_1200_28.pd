@@ -2,6 +2,10 @@
 
 <!-- visits: 19 -->
 
+- c essentially treats string literals as characters to arays
+- the difference between an array of characters and strings is that strings cannot be modified
+- string literals are represented by pointers to memory
+
 # splicing
 
 ~~~{.c .numberLines}
@@ -38,7 +42,7 @@ char digit_to_hex_char(int digit)
 
 # warnings
 
-[c](c___20250728_1029_34.pd)c .numberLines}
+~~~{.c .numberLines}
 printf("\n"); // legal
 printf('\n'); // wrong!
 
@@ -46,9 +50,18 @@ char *p
 p[0] = 'a'; // wrong and undefined behavior, p is not initialised
 ~~~
 
+- the c libraries assume all strings are null terminated
+- `char date[8] = "June 14"` is equivalent to `"{"J", "u", "n", "e", " ", "1", "4"}"` and is *not* a string literal
+
 # what is the difference between a string literal and an array of characters?
 An array of charcters can be changed but a string literal is constant.
 
+# [c_idiom](c_idiom___20250305_1125_25.pd)
 
-[c](c___20250304_1142_20.pd)
+~~~{.c .numberLines}
+#define STR_LEN 80
 
+char str[STR_LEN+1]; /* factor in null char */
+~~~
+
+- [c](c___20250304_1142_20.pd)

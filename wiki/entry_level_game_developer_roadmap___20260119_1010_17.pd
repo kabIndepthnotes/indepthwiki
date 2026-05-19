@@ -1,0 +1,230 @@
+# entry_level_game_developer_roadmap
+- [copy_paste_of_role_requirements](copy_paste_of_role_requirements___20260119_1010_48.pd)
+
+- [unity_resources](unity_resources___20260119_1225_11.pd)
+
+# client side
+
+# mathematics for video games
+
+# game physics
+
+# game engines
+
+# 
+
+# Client Side (Game Development Learning Tree)
+
+## Learn the Basics
+
+## Mathematics for Video Games
+
+### Game Mathematics
+* Linear Algebra
+  * Vector
+  * Matrix
+* Geometry
+* Linear Transformation
+* Affine Space
+* Affine Transformation
+* Orientation
+  * Euler Angles
+  * Quaternions
+* Projection
+  * Perspective
+  * Orthogonal
+* Curves
+  * Spline
+    * Bezier
+    * Catmull–Rom
+    * Hermite
+
+## Programming Languages
+* Assembly
+* C / C++
+* C#
+* Python
+* Lua
+* Rust
+
+## Game Engines
+* Unity
+* Unreal
+* Godot
+* Native Engine Development
+
+## Game Physics #1
+
+### Dynamics #1
+* Linear Velocity
+* Angular Velocity
+* Force
+* Acceleration
+* Center of Mass
+* Moment of Inertia
+
+### Dynamics #2
+* Joints
+* Restitution
+* Friction
+* Buoyancy
+
+## Game Physics #2
+
+### Collision Detection
+* Bounding Volume
+  * AABB
+  * OBB
+* Broad Phase
+  * Spatial Partitioning
+    * BVH
+    * DBVT
+    * Sort and Sweep
+* Narrow Phase
+  * Intersection
+    * SAT
+    * GJK
+    * EPA
+* Convexity
+  * Convex
+    * Convex Hull
+  * Concave
+    * Convex Decomposition
+* CCD (Continuous Collision Detection)
+
+## Computer Graphics #1
+
+### Graphics Fundamentals
+
+* Graphics Pipeline
+* Rasterization
+* Ray Tracing
+* Sampling
+* Shader
+* Rendering Equation
+* Reflection
+  * Diffuse
+  * Specular
+
+### Mapping
+* Texture Mapping
+* Bump Mapping
+* Parallax Mapping
+* Horizon Mapping
+
+### Computer Animation
+* Color
+* Visual Perception
+* Tone Reproduction
+
+## Pathfinding
+* Dijkstra
+* A*
+* Jump Point Search
+
+## Game AI #1
+
+### Decision Making
+* Decision Tree
+* State Machine
+* Behavior Tree
+* Fuzzy Logic
+* Markov System
+* Goal-Oriented Behavior
+
+### Movement and Board Games
+* Minimax
+* Alpha–Beta Pruning
+* Monte Carlo Tree Search (MCTS)
+
+## Getting Deeper
+
+## Graphics API
+* DirectX
+  * HLSL
+* OpenGL
+  * GLSL
+* Vulkan
+  * SPIR-V
+* WebGL
+* OpenGL ES
+* Metal
+
+## Computer Graphics #2
+
+### Lighting and Shadow
+* Light Source
+  * Directional Light
+  * Point Light
+  * Spot Light
+  * Infinite Light
+* Shadow Mapping
+  * Shadow Map
+  * Cascaded Shadow Maps
+  * Stencil Shadow
+
+### Geometry
+* 2D
+* Cube
+* Polygon
+* Polyhedron
+
+### Visibility and Occlusion
+* Clipping
+* Frustum
+* Culling
+  * Light
+  * Shadow
+* Occluder
+* Fog
+
+## Advanced Rendering #1
+* Decals
+  * Spherical
+  * Cylindrical
+  * Polyboard
+* Billboard
+* Structure Buffer
+* Volumetric Effects
+  * Halo
+  * Shaft
+* Ambient Occlusion
+* Atmospheric Shadowing
+* Motion Blur
+* Isosurface Extraction
+  * Marching Cubes
+
+## Maximize Your Skills
+
+## Game AI #2
+
+### Learning
+* Decision Learning
+* Naive Bayes Classifier
+* Decision Tree Learning
+
+### Machine Learning
+* Reinforcement Learning
+* Artificial Neural Networks
+* Deep Learning
+
+## Advanced Rendering #2
+
+### Physically-Based Rendering (PBR)
+* Conservation of Energy
+* Metallicity
+* Microfacet / Microsurface Scattering
+* Translucency and Transparency
+
+### Real-Time Ray Tracing
+* DirectX Raytracing (DXR)
+* Vulkan Ray Tracing
+* OptiX
+
+## Start Building
+* Apply concepts in real projects
+* Build engines, tools, demos, and games
+
+
+# related
+
